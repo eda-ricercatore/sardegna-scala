@@ -305,6 +305,58 @@ Three primary goals of this endeavor are to:
 	- "Scala Programming: Learn Scala Programming FAST and EASY" 
 	
 
+## Books to Cover (In Order)
+
+
++ Horstmann2012a
+	- "Scala for the Impatient"
++ Layka2015
+	- "Beginning Scala"
+	- Also, see Pollak2009, "Beginning Scala"
++ Loverdos2010
+	- "Steps in Scala: An Introduction to Object-Functional Programming"
++ Odersky2010 & Odersky2008 (& Odersky2016)
+	- "Programming in Scala: A Comprehensive Step-by-Step Guide"
++ Raychaudhuri2013
+	- "Scala in Action"
++ Subramaniam2008
+	- "Programming Scala: Tackle Multi-Core Complexity on the JVM"
++ Suereth2012
+	- "Scala in Depth"
++ Swartz2015
+	- "Learning Scala: Practical Functional Programming for the JVM"
++ Tate2010
+	- "Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages"
++ Wampler2009 & Wampler2015
+	- "Programming Scala: Scalability = Functional Programming + Objects"
++ Prokopec2014
+	- "Learning Concurrent Programming in Scala: Learn the art of building intricate, modern, scalable concurrent applications using Scala"
++ Theron2016
+	- "Scala High Performance Programming: Write efficient, clean, and powerful Scala code and create high-performing applications that your users will love"
+
+
+
+
++ Chiusano2015
+	- "Functional Programming in Scala"
+
+
+## Books Not Covered Yet
+
++ Hunt2014
+	- "A Beginner's Guide to Scala, Object Orientation and Functional Programming"
++ Lewis2013a
+	- "Introduction to the Art of Programming Using Scala"
++ Subramaniam2015
+	- "Pragmatic Scala: Create Expressive, Concise, and Scalable Applications"
++ Khot2015
+	- "Scala Functional Programming Patterns: Grok and perform effective functional programming in Scala"
++ Sathyanarayanan2016
+	- "Reactive Programming with Scala and Akka: Harness reactive programming to build scalable and fault-tolerant distributed systems using Scala and Akka"
+
+
+
+
 
 
 
