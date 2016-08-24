@@ -90,6 +90,7 @@ Three primary goals of this endeavor are to:
 	- Parallel programming, or concurrent programming.
 	- Pattern matching.
 + Odersky2010 & Odersky2008 & Odersky2016
+	- "Programming in Scala: A Comprehensive Step-by-Step Guide"
 	- Functional programming.
 	- Object-oriented programming.
 	- Scala-based software development/engineering.
