@@ -307,7 +307,8 @@ Three primary goals of this endeavor are to:
 
 ## Books to Cover (In Order)
 
-
++ Tate2010
+	- "Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages"
 + Horstmann2012a
 	- "Scala for the Impatient"
 + Layka2015
@@ -315,7 +316,7 @@ Three primary goals of this endeavor are to:
 	- Also, see Pollak2009, "Beginning Scala"
 + Loverdos2010
 	- "Steps in Scala: An Introduction to Object-Functional Programming"
-+ Odersky2010 & Odersky2008 (& Odersky2016)
++ Odersky2010 & Odersky2008 [Missing Odersky2016]
 	- "Programming in Scala: A Comprehensive Step-by-Step Guide"
 + Raychaudhuri2013
 	- "Scala in Action"
@@ -325,20 +326,30 @@ Three primary goals of this endeavor are to:
 	- "Scala in Depth"
 + Swartz2015
 	- "Learning Scala: Practical Functional Programming for the JVM"
-+ Tate2010
-	- "Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages"
 + Wampler2009 & Wampler2015
 	- "Programming Scala: Scalability = Functional Programming + Objects"
 + Prokopec2014
 	- "Learning Concurrent Programming in Scala: Learn the art of building intricate, modern, scalable concurrent applications using Scala"
 + Theron2016
 	- "Scala High Performance Programming: Write efficient, clean, and powerful Scala code and create high-performing applications that your users will love"
-
-
-
-
++ Manivannan2015
+	- "Scala Data Analysis Cookbook: Navigate the world of data analysis, visualization, and machine learning with over 100 hands-on Scala recipes"
++ BevilacquaLinn2013
+	- "Functional Programming Patterns in Scala and Clojure: Write Lean Programs for the JVM"
++ Hinojosa2013
+	- "Testing in Scala: Scala Tools for Behavior-Driven Development"
++ Suereth2016
+	- "sbt in Action: The simple Scala build tool"
++ Bugnion2016
+	- "Scala for Data Science: Leverage the power of Scala to build scalable, robust, data science applications"
++ Nicolas2014
+	- "Scala for Machine Learning: Leverage Scala and Machine Learning to construct and study systems that can learn from data"
 + Chiusano2015
 	- "Functional Programming in Scala"
+
+
+
+
 
 
 ## Books Not Covered Yet
@@ -353,6 +364,23 @@ Three primary goals of this endeavor are to:
 	- "Scala Functional Programming Patterns: Grok and perform effective functional programming in Scala"
 + Sathyanarayanan2016
 	- "Reactive Programming with Scala and Akka: Harness reactive programming to build scalable and fault-tolerant distributed systems using Scala and Akka"
++ Alexander2013a
+	- "Scala Cookbook: Recipes for Object-Oriented and Functional Programming"
++ Bedrytski2016
+	- "Professional Scala"
++ Hunt2013a
+	- "Scala Design Patterns: Patterns for Practical Reuse and Design"
++ Nikolov2016
+	- "Scala Design Patterns: Write efficient, clean, and reusable code with Scala"
++ Jancauskas2016
+	- "Scientific Computing with Scala: Learn to solve scientific computing problems using Scala and its numerical computing, data processing, concurrency, and plotting libraries"
++ Alexandre2014
+	- "Scala for Java Developers: Build reactive, scalable applications and integrate Java code with the power of Scala"
++ Phillips2014a
+	- "Scala Puzzlers: The fun path to deeper understanding"
+
+
+
 
 
 
