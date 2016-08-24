@@ -352,6 +352,22 @@ Three primary goals of this endeavor are to:
 
 
 
+
+
+
+## Books Covered
+
++ BibTeX key
+	- Title of Book.
+
+
+
+
+
+
+
+
+
 ## Books Not Covered Yet
 
 + Hunt2014
