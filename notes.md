@@ -41,6 +41,26 @@
 
 
 
+#	Notes on Functional Programming
+
+Characteristics of a functional programming language
+	\cite[\S5.1, pp. 138]{Tate2010}:
++ Compose functional programs with functions.
++ "A function always returns a value."
++ For a given set of inputs, a function will return a given set of outputs.
+	When this is done repeatedly, the set of outputs is the same as that
+		of other repetitions.
+
+
+
+
+##	Pure Functional Programming Languages
+
+
+
+
+
+
 
 
 
