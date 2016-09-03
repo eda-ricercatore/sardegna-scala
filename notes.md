@@ -50,15 +50,22 @@ Characteristics of a functional programming language
 + For a given set of inputs, a function will return a given set of outputs.
 	When this is done repeatedly, the set of outputs is the same as that
 		of other repetitions.
++ In the functional programming paradigm, software developers avoid
+	changing the state of an executing program or modifying its data. 
 
 
 
+
+"*Scala* is not a pure functional programming language,"
+	since it allows values of variables to be modified
+	\cite[\S5.1, pp. 138]{Tate2010}.
 
 ##	Pure Functional Programming Languages
 
-
-
-
+"Pure functional programming languages allow" software developers to
+	use a programming style that has certain mathematical features
+	or characteristics
+	\cite[\S5.1, pp. 138]{Tate2010}.
 
 
 
