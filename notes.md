@@ -52,7 +52,10 @@ Characteristics of a functional programming language
 		of other repetitions.
 + In the functional programming paradigm, software developers avoid
 	changing the state of an executing program or modifying its data. 
-
+	- The use of assignments to modify the values of variables is discouraged
+		[Wikipedia contributors, 2016].
+	- The values of variables can be modified via recursive function calls
+		[Wikipedia contributors, 2016].
 
 
 
@@ -60,12 +63,28 @@ Characteristics of a functional programming language
 	since it allows values of variables to be modified
 	\cite[\S5.1, pp. 138]{Tate2010}.
 
+
+
+
+
+
+
+
+
+
+
+References:
++ [Wikipedia contributors, 2016]
+	Wikipedia contributors, ``Programming paradigm,'' in {\it Wikipedia, The Free Encyclopedia: Programming language classification}, Wikimedia Foundation, San Francisco, CA, August 31, 2016. Available online at: \url{https://en.wikipedia.org/wiki/Programming_paradigm}; last accessed on September 2, 2016.
+
+
+
 ##	Pure Functional Programming Languages
 
 "Pure functional programming languages allow" software developers to
 	use a programming style that has certain mathematical features
 	or characteristics
-	\cite[\S5.1, pp. 138]{Tate2010}.
+	\cite[\S5.1, pp. 138]{Tate2010} [Wikipedia contributors, 2016].
 
 
 
@@ -77,6 +96,14 @@ Characteristics of a functional programming language
 
 
 
+
+
+
+
+
+References:
++ [Wikipedia contributors, 2016]
+	Wikipedia contributors, ``Programming paradigm,'' in {\it Wikipedia, The Free Encyclopedia: Programming language classification}, Wikimedia Foundation, San Francisco, CA, August 31, 2016. Available online at: \url{https://en.wikipedia.org/wiki/Programming_paradigm}; last accessed on September 2, 2016.
 
 
 
