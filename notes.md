@@ -1,19 +1,34 @@
-
-
-
-
-
-
-
 #	Key Features of **Scala**
 
-##	In Comparison to **Java**
+##	In Comparison to **Java** 
 
+\cite{Tate2010}
 
-
-
-
-
++ Type inference \cite[\S5.1, pp. 136]{Tate2010}
+	- If possible, infer variable types.
+	- **Java** requires type declaration for each variable,
+		argument, or parameter
++ Functional concepts \cite[\S5.1, pp. 137]{Tate2010}
+	- Form new functions using existing functions in different ways,
+		beyond simple "syntactical sugar" (or what Dr. Anders Franz{\'{e}}n
+		calls, "syntactic sugar").
+		+ Code blocks
+		+ Higher-order functions
+		+ Collection library
+	- **Java** does not allow such formation/composition of new functions.
++ Immutable variables \cite[\S5.1, pp. 137]{Tate2010}
+	- Requires explicit indication of whether a variable is mutable.
+	- Concurrency can have unforeseen/unpredictable (/uncertain) effects
+		on mutable variables.
+		+ These effects may seem erratic.
+	- **Java** requires a (rarely used) modifier for variables to be
+		immutable.
++ Advanced programming constructs \cite[\S5.1, pp. 137]{Tate2010}
+	- Actors for concurrency
+	- Ruby-style collections with higher-order functions
+	- XML processing
++ Lightweight programming language \cite[\S5.1, pp. 138]{Tate2010}
++ Has strong support due to its type system \cite[\S5.1, pp. 138]{Tate2010}
 
 
 
