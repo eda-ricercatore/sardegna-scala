@@ -27,6 +27,10 @@
 		+ These effects may seem erratic.
 	- *Java* requires a (rarely used) modifier for variables to be
 		immutable.
+	- A mutable variable is a variable that can hold multiple values
+		after its initialization.
+		Any variable that is not mutable is an immutable variable
+		\cite[\S5.1, pp. 138]{Tate2010}.
 + Advanced programming constructs \cite[\S5.1, pp. 137]{Tate2010}
 	- Actors for concurrency.
 	- *Ruby*-style collections with higher-order functions.
@@ -56,7 +60,7 @@ Characteristics of a functional programming language
 		[Wikipedia contributors, 2016].
 	- The values of variables can be modified via recursive function calls
 		[Wikipedia contributors, 2016].
-	
+
 
 
 
