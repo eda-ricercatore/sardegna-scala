@@ -29,7 +29,7 @@
 		immutable.
 + Advanced programming constructs \cite[\S5.1, pp. 137]{Tate2010}
 	- Actors for concurrency.
-	- Ruby-style collections with higher-order functions.
+	- *Ruby*-style collections with higher-order functions.
 	- XML processing.
 + Lightweight programming language \cite[\S5.1, pp. 138]{Tate2010}
 
