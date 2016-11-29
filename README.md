@@ -1,4 +1,4 @@
-# salerno-scala
+# sardegna-scala
 
 A repository of Scala programs that I have developed to hone my skills
 	in functional programming.
