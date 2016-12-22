@@ -30,12 +30,17 @@ Features of of *Scala* (in comparison to *Java* \cite{Tate2010}):
 	- Concurrency can have unforeseen/unpredictable (/uncertain) effects
 		on mutable variables.
 		+ These effects may seem erratic.
+		+ When multiple threads can change the value of a variable
+			simultaneously, the resultant value of the variable
+			may leave the program in an invalid state.
+			This can be difficult to deterministically reproduce
+			during software testing \cite[\S5.1, pp. 139]{Tate2010}.
 	- *Java* requires a (rarely used) modifier for variables to be
 		immutable.
 	- A mutable variable is a variable that can hold multiple values
 		after its initialization.
 		Any variable that is not mutable is an immutable variable
-		\cite[\S5.1, pp. 138]{Tate2010}.
+		\cite[\S5.1, pp. 138-139]{Tate2010}.
 + Advanced programming constructs \cite[\S5.1, pp. 137]{Tate2010}
 	- Actors for concurrency.
 	- *Ruby*-style collections with higher-order functions.
@@ -134,7 +139,7 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 #	To-Do List
 
 Finish reading [Wikipedia contributors, 2016].
-
+Stop reading at: \cite[\S5.1, pp. 139]{Tate2010}.
 
 
 
