@@ -113,13 +113,22 @@ Determine the advantages of functional programming paradigm over
 
 
 
+#	Personal Notes from Developing *Scala* Software
+
+##	Build Process and Automation for *Scala* Software
+
+###	Compiling *Scala* Software
+
+Compile *Scala* software as follows:
+
+	scalac [*filename*].scala
 
 
+###	Executing *Scala* Software
 
+Execute *Scala* software as follows:
 
-
-
-
+	scala [*filename_of_Scala_object_with_main_method*]
 
 
 #	References
@@ -140,7 +149,7 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 Finish reading [Wikipedia contributors, 2016].
 Stop reading at: \cite[\S5.1, pp. 139]{Tate2010}.
-
+\5.2, pp. 139--153
 
 
 
