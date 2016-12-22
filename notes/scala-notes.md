@@ -2,8 +2,7 @@
 
 ##	In Comparison to *Java* 
 
-\cite{Tate2010}
-
+Features of of *Scala* (in comparison to *Java* \cite{Tate2010}):
 + Type inference \cite[\S5.1, pp. 136]{Tate2010}
 	- If possible, infer variable types.
 		+ Local type inference has limitations due to its 
@@ -22,6 +21,12 @@
 	- *Java* does not allow such formation/composition of new functions.
 + Immutable variables \cite[\S5.1, pp. 137]{Tate2010}
 	- Requires explicit indication of whether a variable is mutable.
+		+ A possible consequence of this is that a function called
+			with the same set of inputs may result in different
+			outputs. This is not always true
+			\cite[\S5.1, pp. 138]{Tate2010}.
+		+ If possible, use functional abstractions to avoid changing
+			the values of variables \cite[\S5.1, pp. 138]{Tate2010}.
 	- Concurrency can have unforeseen/unpredictable (/uncertain) effects
 		on mutable variables.
 		+ These effects may seem erratic.
@@ -36,7 +41,11 @@
 	- *Ruby*-style collections with higher-order functions.
 	- XML processing.
 + Lightweight programming language \cite[\S5.1, pp. 138]{Tate2010}
-
++ General purpose \cite[\S5.1, pp. 138]{Tate2010}
+	- *Scala* software can be used to:
+		+ Concurrent/Parallel software
+		+ Web applications dealing with *XML*.
+		+ Implementation of domain-specific languages. 
 
 
 
@@ -47,19 +56,24 @@
 
 #	Notes on Functional Programming
 
-Characteristics of a functional programming language
-	\cite[\S5.1, pp. 138]{Tate2010}:
-+ Compose functional programs with functions.
-+ "A function always returns a value."
-+ For a given set of inputs, a function will return a given set of outputs.
-	When this is done repeatedly, the set of outputs is the same as that
-		of other repetitions.
+Characteristics of a functional programming language:
++ Support programming style that is based on strong mathematical
+	foundations \cite[\S5.1, pp. 138]{Tate2010}.
++ Compose functional programs with functions
+	\cite[\S5.1, pp. 138]{Tate2010}.
++ "A function always returns a value"
+	\cite[\S5.1, pp. 138]{Tate2010}.
++ For a given set of inputs, a function will return a given set
+	of outputs.
+	When this is done repeatedly, the set of outputs is the same
+		as that of other repetitions.
 + In the functional programming paradigm, software developers avoid
-	changing the state of an executing program or modifying its data. 
-	- The use of assignments to modify the values of variables is discouraged
-		[Wikipedia contributors, 2016].
-	- The values of variables can be modified via recursive function calls
-		[Wikipedia contributors, 2016].
+	changing the state of an executing program or modifying its data
+	\cite[\S5.1, pp. 138]{Tate2010}. 
+	- The use of assignments to modify the values of variables is
+		discouraged [Wikipedia contributors, 2016].
+	- The values of variables can be modified via recursive function
+		calls [Wikipedia contributors, 2016].
 
 
 
@@ -117,9 +131,9 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 
 
+#	To-Do List
 
-
-
+Finish reading [Wikipedia contributors, 2016].
 
 
 
