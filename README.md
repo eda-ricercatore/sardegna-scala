@@ -172,7 +172,7 @@ Three primary goals of this endeavor are to:
 + Prokopec2014
 	- "Learning Concurrent Programming in Scala: Learn the art of building intricate, modern, scalable concurrent applications using Scala"
 	- Parallel programming, or concurrent programming.
-	- ![Source Code for Examples](https://github.com/concurrent-programming-in-scala/learning-examples)
+	- [Source Code for Examples](https://github.com/concurrent-programming-in-scala/learning-examples)
 + Sathyanarayanan2016
 	- "Reactive Programming with Scala and Akka: Harness reactive programming to build scalable and fault-tolerant distributed systems using Scala and Akka"
 	- Parallel programming, or concurrent programming.
