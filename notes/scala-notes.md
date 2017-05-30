@@ -113,6 +113,25 @@ Determine the advantages of functional programming paradigm over
 
 
 
+
+
+##	Comparison of Function Programming to Other Programming Paradigms 
+
+To be completed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #	Personal Notes from Developing *Scala* Software
 
 ##	Build Process and Automation for *Scala* Software
