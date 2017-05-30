@@ -257,7 +257,7 @@ Three primary goals of this endeavor are to:
 	- Interactive computing
 	- Parallel programming, and concurrent programming.
 	- Cluster computing
-	- ![Publisher's GitHub respository for the book on Scala](https://github.com/PacktPublishing/Scientific-Computing-with-Scala)
+	- [Publisher's GitHub respository for the book on Scala](https://github.com/PacktPublishing/Scientific-Computing-with-Scala)
 
 
 
