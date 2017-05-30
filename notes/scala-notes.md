@@ -159,7 +159,7 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 
 + [Wikipedia contributors, 2016]
-	Wikipedia contributors, "Programming paradigm," in {\it Wikipedia, The Free Encyclopedia: Programming language classification}, Wikimedia Foundation, San Francisco, CA, August 31, 2016. Available online at: \url{https://en.wikipedia.org/wiki/Programming_paradigm}; last accessed on September 2, 2016.
+	Wikipedia contributors, "Programming paradigm," in {\it Wikipedia, The Free Encyclopedia: Programming language classification}, Wikimedia Foundation, San Francisco, CA, August 31, 2016. [Available online](https://en.wikipedia.org/wiki/Programming_paradigm); last accessed on September 2, 2016.
 
 
 
