@@ -6,11 +6,13 @@ A repository of Scala programs that I have developed to hone my skills
 Three primary goals of this endeavor are to:
 + develop (quasi-) automated techniques for
 	compiler/parser development;
-+ to develop an automated framework for statistical analysis/computation
-	of experimental results; and
-+ to develop faster prototypes for design automation, including
++ develop an automated framework for statistical analysis/computation
+	of experimental results;
++ develop faster prototypes for design automation, including
 	microarchitecture synthesis, formal verification, and
-	decision procedures (or automated reasoning).
+	decision procedures (or automated reasoning); and
++ develop retargetable, parallel compilers for the RISC-V instruction
+	set architecture (ISA).
 
 # Scala Resources
 
