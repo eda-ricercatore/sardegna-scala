@@ -147,7 +147,7 @@ Compile *Scala* software as follows:
 
 Execute *Scala* software as follows:
 
-	scala [*filename_of_Scala_object_with_main_method*]
+	*scala [*filename_of_Scala_object_with_main_method*]*
 
 
 #	References
