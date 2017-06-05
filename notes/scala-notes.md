@@ -71,7 +71,7 @@ Characteristics of a functional programming language:
 + For a given set of inputs, a function will return a given set
 	of outputs.
 	When this is done repeatedly, the set of outputs is the same
-		as that of other repetitions.
+		as that of other repetitions. [Insert REFERENCE!!!]
 + In the functional programming paradigm, software developers avoid
 	changing the state of an executing program or modifying its data
 	\cite[\S5.1, pp. 138]{Tate2010}. 
