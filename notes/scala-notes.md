@@ -88,11 +88,18 @@ Characteristics of a functional programming language:
 	\cite[\S5.1, pp. 138]{Tate2010}.
 
 
+
+
+
+
+
+
+
+
 ###	IMPORTANT
 
 Determine the advantages of functional programming paradigm over
-	procedural??? programming paradigm.
-	Or is it structural??? Or, is it something else.
+	procedural and structural programming paradigms.
 
 
 
