@@ -89,6 +89,14 @@ Characteristics of a functional programming language:
 
 
 
+## Notes on Other Programming Paradigms
+
+
+A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
++ Declarative programming (contrast: Imperative programming) \cite{WikipediaContributors2017m}
++ Imperative programming (contrast: Declarative programming)
+	- Procedural programming: "[associates] code into functions"  
+
 
 
 
