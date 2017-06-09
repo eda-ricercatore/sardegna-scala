@@ -89,26 +89,6 @@ Characteristics of a functional programming language:
 
 
 
-## Notes on Other Programming Paradigms
-
-
-A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
-+ Declarative programming (contrast: Imperative programming) \cite{WikipediaContributors2017m}
-+ Imperative programming (contrast: Declarative programming)
-	- Procedural programming: "[associates] code into functions"  
-
-
-
-
-
-
-
-
-###	IMPORTANT
-
-Determine the advantages of functional programming paradigm over
-	procedural and structural programming paradigms.
-
 
 
 
@@ -133,6 +113,37 @@ Determine the advantages of functional programming paradigm over
 ##	Comparison of Function Programming to Other Programming Paradigms 
 
 To be completed.
+
+###	IMPORTANT
+
+Determine the advantages of functional programming paradigm over
+	procedural and structural programming paradigms.
+
+
+
+
+### Notes on Other Programming Paradigms
+
+
+A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
++ Concurrent programming
++ Declarative programming (contrast: Imperative programming) \cite{WikipediaContributors2017m}
+	- Constraint programming
+	- Dataflow programming
+		* Reactive programming
+	- Functional programming
+	- Logic programming
+		* Functional logic programming
++ Imperative programming (contrast: Declarative programming)
+	- Literate programming
+	- Procedural programming: "[associates] code into functions"
++ Non-structured programming (contrast: Structured programming)
++ Parallel computing
++ Structured programming (contrast: Non-structured programming)
+	- Object-oriented programming
+	- Recursive programming
+
+
 
 
 
