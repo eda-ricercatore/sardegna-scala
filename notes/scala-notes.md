@@ -76,9 +76,9 @@ Characteristics of a functional programming language:
 	changing the state of an executing program or modifying its data
 	\cite[\S5.1, pp. 138]{Tate2010}. 
 	- The use of assignments to modify the values of variables is
-		discouraged [Wikipedia contributors, 2016].
+		discouraged \cite{WikipediaContributors2017e}.
 	- The values of variables can be modified via recursive function
-		calls [Wikipedia contributors, 2016].
+		calls \cite{WikipediaContributors2017e}.
 
 
 
@@ -102,7 +102,7 @@ Characteristics of a functional programming language:
 "Pure functional programming languages allow" software developers to
 	use a programming style that has certain mathematical features
 	or characteristics
-	\cite[\S5.1, pp. 138]{Tate2010} [Wikipedia contributors, 2016].
+	\cite[\S5.1, pp. 138]{Tate2010} \cite{WikipediaContributors2017e}.
 
 
 
@@ -127,6 +127,8 @@ Determine the advantages of functional programming paradigm over
 
 A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 + Concurrent programming
++ Data-driven programming:
+	- Describe 
 + Declarative programming (contrast: Imperative programming) \cite{WikipediaContributors2017m}
 	- Constraint programming
 	- Dataflow programming
@@ -134,9 +136,11 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 	- Functional programming
 	- Logic programming
 		* Functional logic programming
++ Generic programming
 + Imperative programming (contrast: Declarative programming)
 	- Literate programming
 	- Procedural programming: "[associates] code into functions"
++ Metaprogramming
 + Non-structured programming (contrast: Structured programming)
 + Parallel computing
 + Structured programming (contrast: Non-structured programming)
@@ -184,7 +188,7 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 
 
-+ [Wikipedia contributors, 2016]
++ \cite{WikipediaContributors2017e}
 	Wikipedia contributors, "Programming paradigm," in {\it Wikipedia, The Free Encyclopedia: Programming language classification}, Wikimedia Foundation, San Francisco, CA, August 31, 2016. [Available online](https://en.wikipedia.org/wiki/Programming_paradigm); last accessed on September 2, 2016.
 
 
@@ -192,7 +196,7 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 #	To-Do List
 
-Finish reading [Wikipedia contributors, 2016].
+Finish reading \cite{WikipediaContributors2017e}.
 Stop reading at: \cite[\S5.1, pp. 139]{Tate2010}.
 \5.2, pp. 139--153
 
