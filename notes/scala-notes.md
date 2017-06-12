@@ -129,7 +129,7 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 + Concurrent programming
 + Data-driven programming:
 	- Describe 
-+ Declarative programming (contrast: Imperative programming) \cite{WikipediaContributors2017m}
++ Declarative programming (contrast: Imperative programming) \cite{WikipediaContributors2017m} -- A programming paradigm that specifies what tasks should a computer program do, rather than how the computer program carries out these tasks \cite{WikipediaContributors2017l}. 
 	- Constraint programming
 	- Dataflow programming
 		* Reactive programming
@@ -137,7 +137,7 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 	- Logic programming
 		* Functional logic programming
 + Generic programming \cite{WikipediaContributors2017q} -- For designing parameterized algorithms that have "to-be-specified-later" data types during (object) instantiation. These algorithms formalize abstracted concepts that are independent of how algorithms are implemented (i.e., concrete examples). 
-+ Imperative programming (contrast: Declarative programming)
++ Imperative programming (contrast: Declarative programming) \cite{WikipediaContributors2017l} -- A programming paradigm that changes the state of the computer program via a sequence of statements; that is, these statements have side effects, since they change the state of the program. These sequences of statements focus on how computer programs operate.
 	- Literate programming
 	- Procedural programming: "[associates] code into functions"
 + Metaprogramming \cite{WikipediaContributors2017p} -- For designing computer programs to synthesize, analyze, and transform other computer programs.
