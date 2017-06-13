@@ -136,14 +136,14 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 	- Functional programming
 	- Logic programming
 		* Functional logic programming
-+ Generic programming
++ Generic programming \cite{WikipediaContributors2017q} -- For designing parameterized algorithms that have "to-be-specified-later" data types during (object) instantiation.
 + Imperative programming (contrast: Declarative programming)
 	- Literate programming
 	- Procedural programming: "[associates] code into functions"
-+ Metaprogramming
++ Metaprogramming \cite{WikipediaContributors2017p} -- For designing computer programs to synthesize, analyze, and transform other computer programs.
 + Non-structured programming (contrast: Structured programming)
 + Parallel computing
-+ Probabilistic programming language
++ Probabilistic programming language \cite{WikipediaContributors2017o} -- For describing probabilistic models (i.e., probabilistic relational models, PRMs) and performing inference (i.e., probabilistic reasoning) on these models; they are more expressive and flexible than Bayesian networks and probabilistic graphical models (PDMs).
 + Structured programming (contrast: Non-structured programming)
 	- Object-oriented programming
 	- Recursive programming
