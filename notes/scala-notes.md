@@ -129,7 +129,7 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 + Concurrent programming
 + Data-driven programming:
 	- Describe 
-+ Declarative programming (contrast: Imperative programming) \cite{WikipediaContributors2017m} -- A programming paradigm that specifies what computation/tasks should a computer program do, rather than how the computer program carries out these computation/tasks (i.e., control flow) \cite{WikipediaContributors2017l}. 
++ Declarative programming (contrast: Imperative programming) \cite{WikipediaContributors2017m} -- A programming paradigm that specifies what computation/tasks should a computer program do, rather than how the computer program carries out these computation/tasks (i.e., control flow) \cite{WikipediaContributors2017l}. That is, declarative programming does not result in any side effects; or, declarative programming "is referentially transparent" \cite{WikipediaContributors2017m}. 
 	- Constraint programming
 	- Dataflow programming
 		* Reactive programming
