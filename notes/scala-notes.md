@@ -201,9 +201,12 @@ Finish reading \cite{WikipediaContributors2017e}.
 Stop reading at: \cite[\S5.1, pp. 139]{Tate2010}.
 \5.2, pp. 139--153
 
-
-
-
+Build *Scala*-based software:
++ SAT solver
++ SMT solver
++ model checker 
++ communication system with different crytographic schemes
++ unconditionally secure communication system 
 
 
 
