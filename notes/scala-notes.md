@@ -41,6 +41,9 @@ Features of of *Scala* (in comparison to *Java* \cite{Tate2010}):
 		after its initialization.
 		Any variable that is not mutable is an immutable variable
 		\cite[\S5.1, pp. 138-139]{Tate2010}.
+		A non-empty set of mutable variables describe the mutable
+		state of the software
+		\cite[\S5.1, pp. 139]{Tate2010}.
 + Advanced programming constructs \cite[\S5.1, pp. 137]{Tate2010}
 	- Actors for concurrency.
 	- *Ruby*-style collections with higher-order functions.
@@ -106,11 +109,53 @@ Characteristics of a functional programming language:
 
 
 
+##	Concurrency + Functional Programming
+
+Race conditions/hazards occur when multiple threads can modify any given mutable
+	variable at the same time.
+	[IMPORTANT:::Define race hazards.][###TO-DO]
+	When race conditions/hazards occur, these modifying operations do
+	not necessarily leave the mutable variable in a valid state.
+	Consequently, this makes it much more difficult to test the
+	concurrent software for correct functionality.
+	To ensure that concurrent threads will leave the mutable variable
+	in valid states, database users use transactions and locking to
+	avoid invalid states.
+	Similarly, software developers programming with object-oriented
+	programming languages use mutual exclusion (or mutexes),
+	semaphores, and monitors to control data access to shared
+	mutable variable
+	\cite[\S5.1, pp. 139]{Tate2010}.
+
+Functional programming languages allow software developers to avoid
+	problems associated with race conditions/hazards if they avoid
+	using, or cannot use, mutable variables.
+	\cite[\S5.1, pp. 139]{Tate2010}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 ##	Comparison of Function Programming to Other Programming Paradigms 
+
+Functional programming languages can better support concerrency by
+	discouraging the use of mutable states
+
 
 To be completed.
 
