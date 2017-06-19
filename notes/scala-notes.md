@@ -161,9 +161,9 @@ To be completed.
 
 ###	IMPORTANT
 
-Determine the advantages of functional programming paradigm over
+Find out about the advantages of functional programming paradigm over
 	procedural and structural programming paradigms.
-
+Also, determine its disadvantages.
 
 
 
@@ -178,11 +178,11 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 	- Constraint programming
 	- Dataflow programming
 		* Reactive programming
-	- Functional programming
+	- Functional programming (contrast: Imperative programming) does not allow side effects \cite{WikipediaContributors2017r}.
 	- Logic programming
 		* Functional logic programming
 + Generic programming \cite{WikipediaContributors2017q} -- For designing parameterized algorithms that have "to-be-specified-later" data types during (object) instantiation. These algorithms formalize abstracted concepts that are independent of how algorithms are implemented (i.e., concrete examples). 
-+ Imperative programming (contrast: Declarative programming) \cite{WikipediaContributors2017l} -- A programming paradigm that changes the state of the computer program via a sequence of statements; that is, these statements have side effects, since they change the state of the program. These sequences of statements focus on how computer programs operate.
++ Imperative programming (contrast: Declarative programming, and Functional programming) \cite{WikipediaContributors2017l} -- A programming paradigm that changes the state of the computer program via a sequence of statements; that is, these statements have side effects \cite{WikipediaContributors2017r}, since they change the state of the program. These sequences of statements focus on how computer programs operate.
 	- Literate programming
 	- Procedural programming: "[associates] code into functions" \cite{WikipediaContributors2017l}... In addition, "heavily-procedural programming is a form of structured programming".
 + Metaprogramming \cite{WikipediaContributors2017p} -- For designing computer programs to synthesize, analyze, and transform other computer programs.
@@ -255,9 +255,9 @@ Build *Scala*-based software:
 
 
 
-June 17,
-June 21 
-July 14,17,18
+June 19,20
+June 22 - July 12 
+July 15-16, 19-now
 
 
 
