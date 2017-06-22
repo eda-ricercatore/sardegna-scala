@@ -113,7 +113,7 @@ Characteristics of a functional programming language:
 
 Race conditions/hazards occur when multiple threads can modify any given mutable
 	variable at the same time.
-	[IMPORTANT:::Define race hazards.][###TO-DO]
+	[IMPORTANT:::Define race conditions.][###TO-DO]
 	When race conditions/hazards occur, these modifying operations do
 	not necessarily leave the mutable variable in a valid state.
 	Consequently, this makes it much more difficult to test the
@@ -174,7 +174,7 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 + Concurrent programming \cite{WikipediaContributors2017k}: FIX THIS
 + Data-driven programming:
 	- Describe 
-+ Declarative programming (contrast: Imperative programming) \cite{WikipediaContributors2017m} -- A programming paradigm that specifies what computation/tasks should a computer program do, rather than how the computer program carries out these computation/tasks (i.e., control flow) \cite{WikipediaContributors2017l}. That is, declarative programming does not result in any side effects; or, declarative programming "is referentially transparent" \cite{WikipediaContributors2017m}. 
++ Declarative programming (contrast: Imperative programming) \cite{WikipediaContributors2017m} -- A programming paradigm that specifies what computation/tasks should a computer program do, rather than how the computer program carries out these computation/tasks in order (i.e., control flow) \cite{WikipediaContributors2017l}. That is, declarative programming does not result in any side effects; or, declarative programming "is referentially transparent" \cite{WikipediaContributors2017m}. 
 	- Constraint programming
 	- Dataflow programming
 		* Reactive programming
