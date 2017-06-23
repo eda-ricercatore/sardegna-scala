@@ -111,8 +111,8 @@ Characteristics of a functional programming language:
 
 ##	Concurrency + Functional Programming
 
-Race conditions/hazards occur when multiple threads can modify any given mutable
-	variable at the same time.
+Race conditions/hazards occur when multiple threads can modify any
+	given mutable variable at the same time.
 	[IMPORTANT:::Define race conditions.][###TO-DO]
 	When race conditions/hazards occur, these modifying operations do
 	not necessarily leave the mutable variable in a valid state.
@@ -169,31 +169,73 @@ Also, determine its disadvantages.
 
 ### Notes on Other Programming Paradigms
 
+A programming paradign is a classification of programming languages
+	based on a shared set of (programming language) features
+	\cite{WikipediaContributors2017e}.
 
 A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
-+ Concurrent programming \cite{WikipediaContributors2017k}: FIX THIS
++ Concurrent programming (compare: parallel programming)
+	\cite{WikipediaContributors2017k}: FIX THIS
 + Data-driven programming:
 	- Describe 
-+ Declarative programming (contrast: Imperative programming) \cite{WikipediaContributors2017m} -- A programming paradigm that specifies what computation/tasks should a computer program do, rather than how the computer program carries out these computation/tasks in order (i.e., control flow) \cite{WikipediaContributors2017l}. That is, declarative programming does not result in any side effects; or, declarative programming "is referentially transparent" \cite{WikipediaContributors2017m}. 
++ Declarative programming (contrast: Imperative programming)
+	\cite{WikipediaContributors2017m} -- A programming paradigm that
+	specifies what computation/tasks should a computer program do,
+	rather than how the computer program carries out these
+	computation/tasks in order (i.e., control flow) (i.e., the order
+	in which these computation/tasks are executed
+	\cite{WikipediaContributors2017l}.
+	That is, declarative programming does not result in any side
+	effects; or, declarative programming "is referentially
+	transparent" \cite{WikipediaContributors2017m}. 
 	- Constraint programming
 	- Dataflow programming
 		* Reactive programming
-	- Functional programming (contrast: Imperative programming) does not allow side effects \cite{WikipediaContributors2017r}.
-	- Logic programming
+	- Functional programming (contrast: Imperative programming) does
+		not allow side effects \cite{WikipediaContributors2017r}.
+	- Logic programming -- The style of execution model is based on
+		formal logic (syntax/grammar) \cite{WikipediaContributors2017s}. 
 		* Functional logic programming
-+ Generic programming \cite{WikipediaContributors2017q} -- For designing parameterized algorithms that have "to-be-specified-later" data types during (object) instantiation. These algorithms formalize abstracted concepts that are independent of how algorithms are implemented (i.e., concrete examples). 
-+ Imperative programming (contrast: Declarative programming, and Functional programming) \cite{WikipediaContributors2017l} -- A programming paradigm that changes the state of the computer program via a sequence of statements; that is, these statements have side effects \cite{WikipediaContributors2017r}, since they change the state of the program. These sequences of statements focus on how computer programs operate.
++ Generic programming \cite{WikipediaContributors2017q} -- For
+	designing parameterized algorithms that have "to-be-specified-later"
+	data types during (object) instantiation.
+	These algorithms formalize abstracted concepts that are independent
+	of how algorithms are implemented (i.e., concrete examples). 
++ Imperative programming (contrast: Declarative programming, and
+	Functional programming) \cite{WikipediaContributors2017l} -- A
+	programming paradigm that changes the state of the computer program
+	via a sequence/order of statements; that is, these statements have side
+	effects \cite{WikipediaContributors2017r}, since they change the
+	state of the program; communication between units of code is
+	implicit.
+	These sequences of statements focus on how computer programs operate.
 	- Literate programming
-	- Procedural programming: "[associates] code into functions" \cite{WikipediaContributors2017l}... In addition, "heavily-procedural programming is a form of structured programming".
-+ Metaprogramming \cite{WikipediaContributors2017p} -- For designing computer programs to synthesize, analyze, and transform other computer programs.
+	- Procedural programming: "[associates] code into functions"
+		\cite{WikipediaContributors2017l}... In addition,
+		"heavily-procedural programming is a form of structured
+		programming".
++ Metaprogramming \cite{WikipediaContributors2017p} -- For designing
+	computer programs to synthesize, analyze, and transform other
+	computer programs.
 + Non-structured programming (contrast: Structured programming)
-+ Parallel computing
-+ Probabilistic programming language \cite{WikipediaContributors2017o} -- For describing probabilistic models (i.e., probabilistic relational models, PRMs) and performing inference (i.e., probabilistic reasoning) on these models; they are more expressive and flexible than Bayesian networks and probabilistic graphical models (PDMs).
++ Parallel computing (compare: concurrent programming)
++ Probabilistic programming language \cite{WikipediaContributors2017o}
+	-- For describing probabilistic models (i.e., probabilistic
+		relational models, PRMs) and performing inference (i.e.,
+		probabilistic reasoning) on these models; they are more
+		expressive and flexible than Bayesian networks and
+		probabilistic graphical models (PDMs).
 + Structured programming (contrast: Non-structured programming)
-	- Object-oriented programming
+	- Object-oriented programming (contrast: imperative programming)
+		-- Source code is organized into
+		classes according to the state that it changes.
+		The state of an object can only be modified by code asssociated
+		with object.
 	- Recursive programming
-
-WikipediaContributors2017q
++ Symbolic programming \cite{WikipediaContributors2017t} -- Programs
+	manipulate formulas and processes as data to form more complex
+	processes. Effectively, such programs resembles self-modifying
+	programs that can learn.
 
 
 
