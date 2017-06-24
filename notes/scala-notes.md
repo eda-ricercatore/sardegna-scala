@@ -170,8 +170,8 @@ Also, determine its disadvantages.
 ### Notes on Other Programming Paradigms
 
 A programming paradign is a classification of programming languages
-	based on a shared set of (programming language) features
-	\cite{WikipediaContributors2017e}.
+	based on a shared set of (enabled/forbidden) (programming language)
+	features \cite{WikipediaContributors2017e}.
 
 A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 + Concurrent programming (compare: parallel programming)
