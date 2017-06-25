@@ -193,11 +193,16 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 		* Reactive programming
 	- Functional programming (contrast: Imperative programming) does
 		not allow side effects; that is, it does not execute in a
-		sequence of states, and performs function evaluations
-		without affecting memory nor input/output operations
+		sequence of states, and performs function evaluations (like
+		mathematical functions) without affecting memory nor
+		input/output operations
 		\cite{WikipediaContributors2017r,WikipediaContributors2017f}.
+		This paradigm encourages the use of: recursion.
+		This paradigm discourages the use of: assignment statements.
 	- Logic programming -- The style of execution model is based on
-		formal logic (syntax/grammar) \cite{WikipediaContributors2017s}. 
+		formal logic (syntax/grammar), so that "automated reasoning
+		[is carried out on] a body of knowledge
+		\cite{WikipediaContributors2017s}. 
 		* Functional logic programming
 + Generic programming \cite{WikipediaContributors2017q} -- For
 	designing parameterized algorithms that have "to-be-specified-later"
