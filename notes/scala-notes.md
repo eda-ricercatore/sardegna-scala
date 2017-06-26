@@ -201,7 +201,8 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 		This paradigm discourages the use of: assignment statements.
 	- Logic programming -- The style of execution model is based on
 		formal logic (syntax/grammar), so that "automated reasoning
-		[is carried out on] a body of knowledge
+		(i.e., application of inference rules) [is carried out on] a
+		body of knowledge (expressed in mathematical logic)
 		\cite{WikipediaContributors2017s}. 
 		* Functional logic programming
 + Generic programming \cite{WikipediaContributors2017q} -- For
