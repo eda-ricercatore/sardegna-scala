@@ -92,12 +92,20 @@ Characteristics of a functional programming language:
 
 
 
+##	Concepts of Functional Programming
 
-
-
-
-
-
+Concepts of functional programming to explore
+	\cite{WikipediaContributors2017e}:
++ delegates
++ anonymous functions (function lietral or lambda abstraction)
+	- arguments passed to higher-order functions
+	- Output (i.e., return function) of a higher-order function
++ currying
++ pattern matching
++ algebraic data types
++ lazy evaluation
++ tail recursion
++ immutability
 
 
 ##	Pure Functional Programming Languages
