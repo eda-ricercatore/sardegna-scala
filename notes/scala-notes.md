@@ -100,6 +100,9 @@ Concepts of functional programming to explore
 + anonymous functions (function lietral or lambda abstraction)
 	- arguments passed to higher-order functions
 	- Output (i.e., return function) of a higher-order function
+	- first-class functions???
+	- Also, known as "lambda expressions" (reference lambda calculus)
+		in C# \cite{WikipediaContributors2017u}
 + currying
 + pattern matching
 + algebraic data types
