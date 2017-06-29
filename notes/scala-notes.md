@@ -191,11 +191,11 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 	- Describe 
 + Declarative programming (contrast: Imperative programming)
 	\cite{WikipediaContributors2017m} -- A programming paradigm that
-	specifies what computation/tasks should a computer program do,
-	rather than how the computer program carries out these
-	computation/tasks in order (i.e., control flow) (i.e., the order
-	in which these computation/tasks are executed
-	\cite{WikipediaContributors2017l}.
+	specifies what computation/tasks should a computer program do
+	(or program logic \cite{WikipediaContributors2017j}), rather than
+	how the computer program carries out these computation/tasks in
+	order (i.e., control flow) (i.e., the order in which these
+	computation/tasks are executed \cite{WikipediaContributors2017l}.
 	That is, declarative programming does not result in any side
 	effects; or, declarative programming "is referentially
 	transparent" \cite{WikipediaContributors2017m}. 
@@ -224,10 +224,10 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 + Imperative programming (contrast: Declarative programming, and
 	Functional programming) \cite{WikipediaContributors2017l} -- A
 	programming paradigm that changes the state of the computer program
-	via a sequence/order of statements; that is, these statements have side
-	effects \cite{WikipediaContributors2017r}, since they change the
-	state of the program; communication between units of code is
-	implicit.
+	\cite{WikipediaContributors2017j} via a sequence/order of
+	statements; that is, these statements have side effects
+	\cite{WikipediaContributors2017r}, since they change the state of
+	the program; communication between units of code is implicit.
 	These sequences of statements focus on how computer programs operate.
 	- Literate programming
 	- Procedural programming: "[associates] code into functions"

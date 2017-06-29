@@ -14,14 +14,14 @@ Three primary goals of this endeavor are to:
 + develop retargetable, parallel compilers for the RISC-V instruction
 	set architecture (ISA).
 
-# Scala Resources
+# *Scala* Resources
 
 *BibTeX* keys, from my *BibTeX* database, are used to identify
 	publications that I can use to learn and revise *Scala*.
 
 ## Books
 
-### Texbook-style Books for Learning Scala
+### Texbook-style Books for Learning *Scala*
 
 + Chiusano2015
 	- "Functional Programming in Scala"
@@ -157,7 +157,7 @@ Three primary goals of this endeavor are to:
 	- Parallel programming, or concurrent programming.
 
 
-### For Learning Scala: Functional Programming
+### For Learning *Scala*: Functional Programming
 
 + Khot2015
 	- "Scala Functional Programming Patterns: Grok and perform effective functional programming in Scala"
@@ -170,7 +170,7 @@ Three primary goals of this endeavor are to:
 
 
 
-### For Learning Scala: Parallel/Concurrent Programming
+### For Learning *Scala*: Parallel/Concurrent Programming
 + Prokopec2014
 	- "Learning Concurrent Programming in Scala: Learn the art of building intricate, modern, scalable concurrent applications using Scala"
 	- Parallel programming, or concurrent programming.
@@ -186,7 +186,7 @@ Three primary goals of this endeavor are to:
 
 
 
-### Compendium of Scala Solutions
+### Compendium of *Scala* Solutions
 
 + Alexander2013a
 	- "Scala Cookbook: Recipes for Object-Oriented and Functional Programming"
