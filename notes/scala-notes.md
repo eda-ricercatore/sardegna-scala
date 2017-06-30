@@ -192,7 +192,7 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 + Declarative programming (contrast: Imperative programming)
 	\cite{WikipediaContributors2017m} -- A programming paradigm that
 	specifies what computation/tasks should a computer program do
-	(or program logic \cite{WikipediaContributors2017j}), rather than
+	(or "program logic" \cite{WikipediaContributors2017j}), rather than
 	how the computer program carries out these computation/tasks in
 	order (i.e., control flow) (i.e., the order in which these
 	computation/tasks are executed \cite{WikipediaContributors2017l}.
@@ -205,7 +205,8 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 	- Functional programming (contrast: Imperative programming) does
 		not allow side effects; that is, it does not execute in a
 		sequence of states, and performs function evaluations (like
-		mathematical functions) without affecting memory nor
+		mathematical functions) without affecting memory ("program
+		state and mutable data" \cite{WikipediaContributors2017j}) nor
 		input/output operations
 		\cite{WikipediaContributors2017r,WikipediaContributors2017f}.
 		This paradigm encourages the use of: recursion.
