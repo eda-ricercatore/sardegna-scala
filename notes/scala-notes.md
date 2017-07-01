@@ -248,11 +248,11 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 		probabilistic graphical models (PDMs).
 + Structured programming (contrast: Non-structured programming)
 	- Object-oriented programming (contrast: imperative programming)
-		-- Source code is organized into
-		classes according to the state that it changes.
-		The state of an object can only be modified by code asssociated
-		with object.
-		These objects interact with each other.
+		-- Source code is organized into classes according to the
+			state that it changes.
+			The state of an object can only be modified by code
+			asssociated with object.
+			These objects interact with each other.
 	- Recursive programming
 + Symbolic programming \cite{WikipediaContributors2017t} -- Programs
 	manipulate formulas and processes as data to form more complex
