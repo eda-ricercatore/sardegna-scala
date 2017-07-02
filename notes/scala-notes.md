@@ -233,9 +233,14 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 	Functional programming) \cite{WikipediaContributors2017l} -- A
 	programming paradigm that changes the state of the computer program
 	\cite{WikipediaContributors2017j} via a sequence/order of
-	statements; that is, these statements have side effects
+	statements;
+	that is, these statements have side effects
 	\cite{WikipediaContributors2017r}, since they change the state of
-	the program; communication between units of code is implicit.
+	the program;
+	communication between units of code is implicit.
+	Assignment statements are used to change the state of the program,
+	and produce side effects (memory, or program state and mutable
+	data, and I/O operations) \cite{WikipediaContributors2017j}.
 	These sequences of statements focus on how computer programs operate.
 	- Literate programming
 	- Procedural programming: "[associates] code into functions"
