@@ -206,14 +206,18 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 	- Dataflow programming
 		* Reactive programming
 	- Functional programming (contrast: Imperative programming) does
-		not allow side effects; that is, it does not execute in a
-		sequence of states, and performs function evaluations (like
-		mathematical functions) without affecting memory ("program
-		state and mutable data" \cite{WikipediaContributors2017j}) nor
+		not allow side effects;
+		that is, it does not execute in a sequence of states;
+		instead, it performs function evaluations (like mathematical
+		functions) without using/affecting memory ("program state and
+		mutable data" \cite{WikipediaContributors2017j}) nor
 		input/output operations
 		\cite{WikipediaContributors2017r,WikipediaContributors2017f}.
 		This paradigm encourages the use of: recursion.
 		This paradigm discourages the use of: assignment statements.
+		Its characteristics are \cite{WikipediaContributors2017j}:
+		"Lambda calculus, compositionality, formula, recursion,
+		referential transparency, and no side effects"
 	- Logic programming -- The style of execution model is based on
 		formal logic (syntax/grammar), so that "automated reasoning
 		(i.e., application of inference rules) [is carried out on] a
@@ -224,6 +228,8 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 	flow of the program is determined by events (e.g., actions of user
 	during user interaction) or messages passed from/by other
 	threads/programs.
+	Its characteristics are: "main loop, event handlers, and
+	asynchronous processes."
 + Generic programming \cite{WikipediaContributors2017q} -- For
 	designing parameterized algorithms that have "to-be-specified-later"
 	data types during (object) instantiation.
@@ -238,15 +244,20 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 	\cite{WikipediaContributors2017r}, since they change the state of
 	the program;
 	communication between units of code is implicit.
-	Assignment statements are used to change the state of the program,
-	and produce side effects (memory, or program state and mutable
-	data, and I/O operations) \cite{WikipediaContributors2017j}.
+	Assignment statements are used to change the state (data fields
+	and global variables) of the program, and produce side effects
+	(memory, or program state and mutable data, and I/O operations)
+	\cite{WikipediaContributors2017j}.
 	These sequences of statements focus on how computer programs operate.
 	- Literate programming
 	- Procedural programming: "[associates] code into functions"
 		\cite{WikipediaContributors2017l}... In addition,
 		"heavily-procedural programming is a form of structured
 		programming".
+		Uses local variables with functions/operations in sequence,
+		selection, and iteration;
+		these local variables are stored using modularization
+		\cite{WikipediaContributors2017j}
 + Metaprogramming \cite{WikipediaContributors2017p} -- For designing
 	computer programs to synthesize, analyze, and transform other
 	computer programs.
@@ -259,6 +270,8 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 		expressive and flexible than Bayesian networks and
 		probabilistic graphical models (PDMs).
 + Structured programming (contrast: Non-structured programming)
+	\cite{WikipediaContributors2017j} -- Implies structure in the
+	logic of the computer program
 	- Object-oriented programming (contrast: imperative programming)
 		-- Source code is organized into classes according to the
 			state that it changes.
@@ -266,6 +279,10 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 			modified by code (i.e., functions/methods) asssociated
 			with the object \cite{WikipediaContributors2017j}.
 			These objects interact with each other.
+			Its characteristics are \cite{WikipediaContributors2017j}:
+			"objects, methods, message passing, information hiding,
+			data abstraction, encapsulation, polymorphism, inheritance,
+			[and] serialization-marshalling."
 	- Recursive programming
 + Symbolic programming \cite{WikipediaContributors2017t} -- Programs
 	manipulate formulas and processes as data to form more complex
