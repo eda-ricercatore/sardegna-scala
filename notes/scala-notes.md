@@ -291,7 +291,11 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 
 
 
-
+Note that when programming languages are design, or being refined,
+	they may include syntactic sugar, syntactic salt, syntactic
+	saccharin, and syntactic syrup to facilitate computer programming
+	in a, or a set of, given programming paradigm(s)
+	\cite{WikipediaContributors2017v}.
 
 
 
