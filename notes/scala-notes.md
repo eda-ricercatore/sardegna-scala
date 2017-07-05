@@ -34,16 +34,15 @@ Features of of *Scala* (in comparison to *Java* \cite{Tate2010}):
 			simultaneously, the resultant value of the variable
 			may leave the program in an invalid state.
 			This can be difficult to deterministically reproduce
-			during software testing \cite[\S5.1, pp. 139]{Tate2010}.
+				during software testing \cite[\S5.1, pp. 139]{Tate2010}.
 	- *Java* requires a (rarely used) modifier for variables to be
 		immutable.
 	- A mutable variable is a variable that can hold multiple values
 		after its initialization.
 		Any variable that is not mutable is an immutable variable
-		\cite[\S5.1, pp. 138-139]{Tate2010}.
+			\cite[\S5.1, pp. 138-139]{Tate2010}.
 		A non-empty set of mutable variables describe the mutable
-		state of the software
-		\cite[\S5.1, pp. 139]{Tate2010}.
+			state of the software \cite[\S5.1, pp. 139]{Tate2010}.
 + Advanced programming constructs \cite[\S5.1, pp. 137]{Tate2010}
 	- Actors for concurrency.
 	- *Ruby*-style collections with higher-order functions.
@@ -126,21 +125,20 @@ Race conditions/hazards occur when multiple threads can modify any
 	given mutable variable at the same time.
 	[IMPORTANT:::Define race conditions.][###TO-DO]
 	When race conditions/hazards occur, these modifying operations do
-	not necessarily leave the mutable variable in a valid state.
+		not necessarily leave the mutable variable in a valid state.
 	Consequently, this makes it much more difficult to test the
-	concurrent software for correct functionality.
+		concurrent software for correct functionality.
 	To ensure that concurrent threads will leave the mutable variable
-	in valid states, database users use transactions and locking to
-	avoid invalid states.
+		in valid states, database users use transactions and locking
+		to avoid invalid states.
 	Similarly, software developers programming with object-oriented
-	programming languages use mutual exclusion (or mutexes),
-	semaphores, and monitors to control data access to shared
-	mutable variable
-	\cite[\S5.1, pp. 139]{Tate2010}.
+		programming languages use mutual exclusion (or mutexes),
+		semaphores, and monitors to control data access to shared
+		mutable variable \cite[\S5.1, pp. 139]{Tate2010}.
 
 Functional programming languages allow software developers to avoid
 	problems associated with race conditions/hazards if they avoid
-	using, or cannot use, mutable variables.
+	using, or cannot use, mutable variables
 	\cite[\S5.1, pp. 139]{Tate2010}
 
 
@@ -200,8 +198,8 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 	order (i.e., control flow) (i.e., the order in which these
 	computation/tasks are executed \cite{WikipediaContributors2017l}.
 	That is, declarative programming does not result in any side
-	effects; or, declarative programming "is referentially
-	transparent" \cite{WikipediaContributors2017m}. 
+		effects; or, declarative programming "is referentially
+		transparent" \cite{WikipediaContributors2017m}. 
 	- Constraint programming
 	- Dataflow programming
 		* Reactive programming
@@ -209,15 +207,15 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 		not allow side effects;
 		that is, it does not execute in a sequence of states;
 		instead, it performs function evaluations (like mathematical
-		functions) without using/affecting memory ("program state and
-		mutable data" \cite{WikipediaContributors2017j}) nor
-		input/output operations
-		\cite{WikipediaContributors2017r,WikipediaContributors2017f}.
+			functions) without using/affecting memory ("program state
+			and mutable data" \cite{WikipediaContributors2017j}) nor
+			input/output operations
+			\cite{WikipediaContributors2017r,WikipediaContributors2017f}.
 		This paradigm encourages the use of: recursion.
 		This paradigm discourages the use of: assignment statements.
 		Its characteristics are \cite{WikipediaContributors2017j}:
 		"Lambda calculus, compositionality, formula, recursion,
-		referential transparency, and no side effects"
+			referential transparency, and no side effects"
 	- Logic programming -- The style of execution model is based on
 		formal logic (syntax/grammar), so that "automated reasoning
 		(i.e., application of inference rules) [is carried out on] a
@@ -229,25 +227,25 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 	during user interaction) or messages passed from/by other
 	threads/programs.
 	Its characteristics are: "main loop, event handlers, and
-	asynchronous processes."
+		asynchronous processes."
 + Generic programming \cite{WikipediaContributors2017q} -- For
 	designing parameterized algorithms that have "to-be-specified-later"
 	data types during (object) instantiation.
 	These algorithms formalize abstracted concepts that are independent
-	of how algorithms are implemented (i.e., concrete examples). 
+		of how algorithms are implemented (i.e., concrete examples). 
 + Imperative programming (contrast: Declarative programming, and
 	Functional programming) \cite{WikipediaContributors2017l} -- A
 	programming paradigm that changes the state of the computer program
 	\cite{WikipediaContributors2017j} via a sequence/order of
 	statements;
 	that is, these statements have side effects
-	\cite{WikipediaContributors2017r}, since they change the state of
-	the program;
+		\cite{WikipediaContributors2017r}, since they change the state
+		of the program;
 	communication between units of code is implicit.
 	Assignment statements are used to change the state (data fields
-	and global variables) of the program, and produce side effects
-	(memory, or program state and mutable data, and I/O operations)
-	\cite{WikipediaContributors2017j}.
+		and global variables) of the program, and produce side effects
+		(memory, or program state and mutable data, and I/O operations)
+		\cite{WikipediaContributors2017j}.
 	These sequences of statements focus on how computer programs operate.
 	- Literate programming
 	- Procedural programming: "[associates] code into functions"
@@ -255,9 +253,11 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 		"heavily-procedural programming is a form of structured
 		programming".
 		Uses local variables with functions/operations in sequence,
-		selection, and iteration;
-		these local variables are stored using modularization
-		\cite{WikipediaContributors2017j}
+			selection, and iteration;
+			these local variables are stored using modularization
+			\cite{WikipediaContributors2017j};
+		Specifies the steps to bring the program from an initial/given
+			state
 + Metaprogramming \cite{WikipediaContributors2017p} -- For designing
 	computer programs to synthesize, analyze, and transform other
 	computer programs.
@@ -276,18 +276,19 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 		-- Source code is organized into classes according to the
 			state that it changes.
 			The state (i.e., data fields) of an object can only be
-			modified by code (i.e., functions/methods) asssociated
-			with the object \cite{WikipediaContributors2017j}.
+				modified by code (i.e., functions/methods) asssociated
+				with the object \cite{WikipediaContributors2017j}.
 			These objects interact with each other.
 			Its characteristics are \cite{WikipediaContributors2017j}:
-			"objects, methods, message passing, information hiding,
-			data abstraction, encapsulation, polymorphism, inheritance,
-			[and] serialization-marshalling."
+				"objects, methods, message passing, information hiding,
+				data abstraction, encapsulation, polymorphism,
+				inheritance, [and] serialization-marshalling."
 	- Recursive programming
 + Symbolic programming \cite{WikipediaContributors2017t} -- Programs
 	manipulate formulas and processes as data to form more complex
-	processes. Effectively, such programs resembles self-modifying
-	programs that can learn.
+	processes.
+	Effectively, such programs resembles self-modifying
+		programs that can learn.
 
 
 
@@ -332,8 +333,6 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 
 
-+ \cite{WikipediaContributors2017e}
-	Wikipedia contributors, "Programming paradigm," in {\it Wikipedia, The Free Encyclopedia: Programming language classification}, Wikimedia Foundation, San Francisco, CA, August 31, 2016. [Available online](https://en.wikipedia.org/wiki/Programming_paradigm); last accessed on September 2, 2016.
 
 
 
