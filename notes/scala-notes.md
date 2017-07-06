@@ -185,7 +185,7 @@ A programming paradign is a classification of programming languages
 A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 + Automata-based programming \cite{WikipediaContributors2017j} -- A
 	computer program based on a finite state machine (FSM) model, or
-	another formal automata.
+	another formal automaton.
 + Concurrent programming (compare: parallel programming)
 	\cite{WikipediaContributors2017k}: FIX THIS
 + Data-driven programming:
@@ -224,8 +224,8 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 		* Functional logic programming
 + Event-driven programming \cite{WikipediaContributors2017j} -- Control
 	flow of the program is determined by events (e.g., actions of user
-	during user interaction) or messages passed from/by other
-	threads/programs.
+	during user interaction or sensor inputs) or messages passed
+	from/by other threads/programs.
 	Its characteristics are: "main loop, event handlers, and
 		asynchronous processes."
 + Generic programming \cite{WikipediaContributors2017q} -- For
@@ -257,7 +257,7 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 			these local variables are stored using modularization
 			\cite{WikipediaContributors2017j};
 		Specifies the steps to bring the program from an initial/given
-			state
+			state to a desired state \cite{WikipediaContributors2017j}.
 + Metaprogramming \cite{WikipediaContributors2017p} -- For designing
 	computer programs to synthesize, analyze, and transform other
 	computer programs.
@@ -278,7 +278,8 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 			The state (i.e., data fields) of an object can only be
 				modified by code (i.e., functions/methods) asssociated
 				with the object \cite{WikipediaContributors2017j}.
-			These objects interact with each other.
+			These objects interact with each other
+				\cite{WikipediaContributors2017j}.
 			Its characteristics are \cite{WikipediaContributors2017j}:
 				"objects, methods, message passing, information hiding,
 				data abstraction, encapsulation, polymorphism,
