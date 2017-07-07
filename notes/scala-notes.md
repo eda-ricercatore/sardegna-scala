@@ -224,8 +224,8 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 		* Functional logic programming
 + Event-driven programming \cite{WikipediaContributors2017j} -- Control
 	flow of the program is determined by events (e.g., actions of user
-	during user interaction or sensor inputs) or messages passed
-	from/by other threads/programs.
+	during user interaction, interrupts, or sensor inputs) or messages
+	passed from/by other threads/programs.
 	Its characteristics are: "main loop, event handlers, and
 		asynchronous processes."
 + Generic programming \cite{WikipediaContributors2017q} -- For
@@ -239,8 +239,9 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 	\cite{WikipediaContributors2017j} via a sequence/order of
 	statements;
 	that is, these statements have side effects
-		\cite{WikipediaContributors2017r}, since they change the state
-		of the program;
+		\cite{WikipediaContributors2017r}, since they directly change
+		the state (set of datafields) of the program
+		\cite{WikipediaContributors2017j};
 	communication between units of code is implicit.
 	Assignment statements are used to change the state (data fields
 		and global variables) of the program, and produce side effects
@@ -271,7 +272,7 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 		probabilistic graphical models (PDMs).
 + Structured programming (contrast: Non-structured programming)
 	\cite{WikipediaContributors2017j} -- Implies structure in the
-	logic of the computer program
+	logic of the computer program (i.e., logical program structure)
 	- Object-oriented programming (contrast: imperative programming)
 		-- Source code is organized into classes according to the
 			state that it changes.
