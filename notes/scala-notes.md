@@ -186,6 +186,9 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 + Automata-based programming \cite{WikipediaContributors2017j} -- A
 	computer program based on a finite state machine (FSM) model, or
 	another formal automaton.
+	Its characteristics are \cite{WikipediaContributors2017j}: "state
+		enumeration, control variable, state changes, isomorphism,
+		state transition table."
 + Concurrent programming (compare: parallel programming)
 	\cite{WikipediaContributors2017k}: FIX THIS
 + Data-driven programming:
@@ -195,8 +198,9 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 	specifies what computation/tasks should a computer program do
 	(or "program logic" \cite{WikipediaContributors2017j}), rather than
 	how the computer program carries out these computation/tasks in
-	order (i.e., control flow) (i.e., the order in which these
-	computation/tasks are executed \cite{WikipediaContributors2017l}.
+	order (i.e., control flow \cite{WikipediaContributors2017j})
+	(i.e., the order in which these computation/tasks are executed
+	\cite{WikipediaContributors2017l}.
 	That is, declarative programming does not result in any side
 		effects; or, declarative programming "is referentially
 		transparent" \cite{WikipediaContributors2017m}. 
@@ -296,9 +300,10 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 
 Note that when programming languages are design, or being refined,
 	they may include syntactic sugar, syntactic salt, syntactic
-	saccharin, and syntactic syrup to facilitate computer programming
-	in a, or a set of, given programming paradigm(s)
-	\cite{WikipediaContributors2017v}.
+	saccharin, and syntactic syrup (i.e., programming language
+	features) to facilitate computer programming in a, or a set of,
+	given programming paradigm(s) \cite{WikipediaContributors2017j,
+	WikipediaContributors2017v}.
 
 
 
