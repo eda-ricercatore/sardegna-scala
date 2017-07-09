@@ -164,7 +164,19 @@ Functional programming languages allow software developers to avoid
 
 Functional programming languages can better support concerrency by
 	discouraging the use of mutable states
+	[Reference needed!!!]
 
+For performance comparison, it is difficult to compare which
+	programming style would yield a performance advantage, due to the
+	number of factors/variables that should be considered, such as:
+	total instruction path length, usage of subroutines, propensity of
+	cache misses (and instruction fetch overhead) due to the likelihood
+	of referencing non-local physical instructions
+	\cite{WikipediaContributors2017j}.
+	Also, the extend of message passing (i.e., subroutine calls)
+		determines the extend of these overheads: "dynamic memory
+		allocation, parameter copying, and dynamic dispatch"
+		\cite{WikipediaContributors2017j}.
 
 To be completed.
 
@@ -359,7 +371,6 @@ Build *Scala*-based software:
 
 
 
-June 19,20
 June 22 - July 12 
 July 15-16, 19-now
 
