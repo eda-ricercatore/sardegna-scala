@@ -117,6 +117,18 @@ Concepts of functional programming to explore
 	or characteristics
 	\cite[\S5.1, pp. 138]{Tate2010} \cite{WikipediaContributors2017e}.
 
+The purely functional programming paradigm only performs computation
+	that evaluates mathematical functions, and cannot change the state
+	of the computer program via mutable datafields;
+	this implies that all functions would be solely dependent on their
+	input arguments, and are independent of the local or global state
+	of the computer program \cite{WikipediaContributors2017g}.
+
+Pure functional programs use persistent (purely functional) data
+	structures, so that the repreated evaluation of a function would
+	always return the same result for the same input arguments (of
+	that function) \cite{WikipediaContributors2017g}.  
+
 
 
 ##	Concurrency + Functional Programming
@@ -193,6 +205,8 @@ Also, determine its disadvantages.
 A programming paradign is a classification of programming languages
 	based on a shared set of (enabled/forbidden) (programming language)
 	features \cite{WikipediaContributors2017e}.
+A programming paradigm is a style of constructing a computer program's
+	structure and elements
 
 A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 + Automata-based programming \cite{WikipediaContributors2017j} -- A
@@ -202,9 +216,9 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 		enumeration, control variable, state changes, isomorphism,
 		state transition table."
 + Concurrent programming (compare: parallel programming)
-	\cite{WikipediaContributors2017k}: FIX THIS
+	\cite{WikipediaContributors2017k}: [FIX THIS]
 + Data-driven programming:
-	- Describe 
+	- [To be continued]
 + Declarative programming (contrast: Imperative programming)
 	\cite{WikipediaContributors2017m} -- A programming paradigm that
 	specifies what computation/tasks should a computer program do
