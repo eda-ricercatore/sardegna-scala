@@ -251,7 +251,11 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 		(i.e., application of inference rules) [is carried out on] a
 		body of knowledge (expressed in mathematical logic)
 		\cite{WikipediaContributors2017s}. 
-		* Functional logic programming
+		* Functional logic programming \cite{WikipediaContributors2017h}
+			-- synthesized combination of the "functional programming
+			[paradigm] (including higher-order programming) and logic
+			programming paradigm (including nondeterministic
+			programming and unification).			
 + Event-driven programming \cite{WikipediaContributors2017j} -- Control
 	flow of the program is determined by events (e.g., actions of user
 	during user interaction, interrupts, or sensor inputs) or messages
