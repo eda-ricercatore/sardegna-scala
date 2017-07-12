@@ -127,8 +127,12 @@ The purely functional programming paradigm only performs computation
 Pure functional programs use persistent (purely functional) data
 	structures, so that the repreated evaluation of a function would
 	always return the same result for the same input arguments (of
-	that function) \cite{WikipediaContributors2017g}.  
+	that function) \cite{WikipediaContributors2017g}.
 
+Purely functional programming makes it easier to develop parallel
+	programs, since the developers do not have to be concerned about
+	interacting evaluations of mathematical functions (purely
+	functional components) \cite{WikipediaContributors2017g}.
 
 
 ##	Concurrency + Functional Programming
