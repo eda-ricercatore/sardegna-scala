@@ -143,11 +143,12 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 + Metaprogramming
 + Non-structured programming (contrast: Structured programming)
 + Parallel computing
++ Probabilistic programming language
 + Structured programming (contrast: Non-structured programming)
 	- Object-oriented programming
 	- Recursive programming
 
-
+WikipediaContributors2017q
 
 
 
