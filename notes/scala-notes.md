@@ -302,6 +302,12 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 	computer programs.
 + Non-structured programming (contrast: Structured programming)
 + Parallel computing (compare: concurrent programming)
+	\cite{WikipediaContributors2017n} -- Parallel computing is defined
+	as the simultaneous execution of processes or
+	calculations/computation on a computer.
+	It is defined at the following levels of abstraction: bit-level
+		parallelism, instruction-level parallelism, data parallelism,
+		and task parallelism.
 + Probabilistic programming language \cite{WikipediaContributors2017o}
 	-- For describing probabilistic models (i.e., probabilistic
 		relational models, PRMs) and performing inference (i.e.,
@@ -332,13 +338,26 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 
 
 
-Note that when programming languages are design, or being refined,
-	they may include syntactic sugar, syntactic salt, syntactic
-	saccharin, and syntactic syrup (i.e., programming language
-	features) to facilitate computer programming in a, or a set of,
-	given programming paradigm(s) \cite{WikipediaContributors2017j,
+Notes:
++ When programming languages are designed, or being refined, they may
+	include syntactic sugar, syntactic salt, syntactic saccharin, and
+	syntactic syrup (i.e., programming language features) to
+	facilitate computer programming in a, or a set of, given
+	programming paradigm(s) \cite{WikipediaContributors2017j,
 	WikipediaContributors2017v}.
-
++ Parallel computing and concurrent computing are distinct concepts,
+	and paradigms, that tend to be conflated together.
+	Parallelism can exist without concurrency; e.g., bit-level
+	parallelism.
+	Concurrency can exist without parallelism; e.g., multitasking by
+	time-sharing on a single-core processor.
+	Parallel computing involves partitioning/decomposing a task into
+	multiple similar subtasks that can be processed independently,
+	such that the results of these subtasks can be merged/combined.
+	Concurrent programming involves processes that carry out
+	different/unrelated tasks/processes, which need coordination
+	during execution via inter-process communication (IPC)
+	\cite{WikipediaContributors2017n}
 
 
 
