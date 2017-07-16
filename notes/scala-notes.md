@@ -220,9 +220,15 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 		enumeration, control variable, state changes, isomorphism,
 		state transition table."
 + Concurrent programming (compare: parallel programming)
-	\cite{WikipediaContributors2017k}: [FIX THIS]
-+ Data-driven programming:
-	- [To be continued]
+	\cite{WikipediaContributors2017k} -- Concurrent computing
+	concurrently execute multiple computations during overlapping
+	time periods;
+	each computation/process has a separate execution point or thread
+	of control.
+	That is, in concurrent computing, a computation can advance
+		independently of other computations, which may be incomplete.
+	
++ Data-driven programming
 + Declarative programming (contrast: Imperative programming)
 	\cite{WikipediaContributors2017m} -- A programming paradigm that
 	specifies what computation/tasks should a computer program do
@@ -305,9 +311,20 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 	\cite{WikipediaContributors2017n} -- Parallel computing is defined
 	as the simultaneous execution of processes or
 	calculations/computation on a computer.
-	It is defined at the following levels of abstraction: bit-level
-		parallelism, instruction-level parallelism, data parallelism,
-		and task parallelism.
+	The types of parallel computing are: bit-level parallelism,
+		instruction-level parallelism, data parallelism, and task
+		parallelism.
+	Bit-level parallelism and instruction-level parallelism are
+		implicitly parallel.
+	Explicitly parallel algorithms, especially those that involve
+		concurrency, are more difficult to develop and test than
+		sequential algorithms;
+		concurrency in such algorithms can lead to race conditions,
+		and other types/classes of software bugs.
+	It is difficult to manage communication and synchronization
+		between subtasks, such that the parallel computation would
+		have a significant speed-up over the serial/sequential
+		implementation.
 + Probabilistic programming language \cite{WikipediaContributors2017o}
 	-- For describing probabilistic models (i.e., probabilistic
 		relational models, PRMs) and performing inference (i.e.,
