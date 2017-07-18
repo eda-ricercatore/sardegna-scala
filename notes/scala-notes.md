@@ -136,7 +136,7 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 	- Functional programming
 	- Logic programming
 		* Functional logic programming
-+ Generic programming \cite{WikipediaContributors2017q} -- For designing parameterized algorithms that have "to-be-specified-later" data types during (object) instantiation.
++ Generic programming \cite{WikipediaContributors2017q} -- For designing parameterized algorithms that have "to-be-specified-later" data types during (object) instantiation. These al
 + Imperative programming (contrast: Declarative programming)
 	- Literate programming
 	- Procedural programming: "[associates] code into functions"
