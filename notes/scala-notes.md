@@ -192,7 +192,10 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 	- Dataflow programming
 		* Reactive programming
 	- Functional programming (contrast: Imperative programming) does
-		not allow side effects \cite{WikipediaContributors2017r}.
+		not allow side effects; that is, it does not execute in a
+		sequence of states, and performs function evaluations
+		without affecting memory nor input/output operations
+		\cite{WikipediaContributors2017r,WikipediaContributors2017f}.
 	- Logic programming -- The style of execution model is based on
 		formal logic (syntax/grammar) \cite{WikipediaContributors2017s}. 
 		* Functional logic programming
@@ -231,6 +234,7 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 		classes according to the state that it changes.
 		The state of an object can only be modified by code asssociated
 		with object.
+		These objects interact with each other.
 	- Recursive programming
 + Symbolic programming \cite{WikipediaContributors2017t} -- Programs
 	manipulate formulas and processes as data to form more complex
