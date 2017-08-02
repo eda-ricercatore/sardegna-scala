@@ -185,6 +185,9 @@ A programming paradign is a classification of programming languages
 	features \cite{WikipediaContributors2017e}.
 
 A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
++ Automata-based programming \cite{WikipediaContributors2017j} -- A
+	computer program based on a finite state machine (FSM) model, or
+	another formal automata.
 + Concurrent programming (compare: parallel programming)
 	\cite{WikipediaContributors2017k}: FIX THIS
 + Data-driven programming:
@@ -217,6 +220,10 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 		body of knowledge (expressed in mathematical logic)
 		\cite{WikipediaContributors2017s}. 
 		* Functional logic programming
++ Event-driven programming \cite{WikipediaContributors2017j} -- Control
+	flow of the program is determined by events (e.g., actions of user
+	during user interaction) or messages passed from/by other
+	threads/programs.
 + Generic programming \cite{WikipediaContributors2017q} -- For
 	designing parameterized algorithms that have "to-be-specified-later"
 	data types during (object) instantiation.
@@ -250,8 +257,9 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 	- Object-oriented programming (contrast: imperative programming)
 		-- Source code is organized into classes according to the
 			state that it changes.
-			The state of an object can only be modified by code
-			asssociated with object.
+			The state (i.e., data fields) of an object can only be
+			modified by code (i.e., functions/methods) asssociated
+			with the object \cite{WikipediaContributors2017j}.
 			These objects interact with each other.
 	- Recursive programming
 + Symbolic programming \cite{WikipediaContributors2017t} -- Programs
