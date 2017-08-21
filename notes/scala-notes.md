@@ -56,6 +56,30 @@ Features of of *Scala* (in comparison to *Java* \cite{Tate2010}):
 
 
 
+##	*Scala* Runs on the Java Virtual Machine (JVM)
+
+Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
+	access *Java* libraries and the *Java* 
+	\cite[\S5.1, pp. 138]{Tate2010}.
++ E.g., the Java Core application programming interface (API)
+	\cite{OracleCorporationStaff20XYe,OracleCorporationStaff2016e} can be accessed from \cite{OracleCorporationStaff20XYd}.
+	- Standard documentation for *Java* can be found at
+		\cite{OracleCorporationStaff20XYc,OracleCorporationStaff20XYb,OracleCorporationStaff2016d,OracleCorporationStaff2016c,OracleCorporationStaff2017}
+
+
+
+
+
+
+
+
+
+\cite[\S5.1, pp. 138]{Tate2010}.
+pp. 140
+
+
+
+
 
 
 
