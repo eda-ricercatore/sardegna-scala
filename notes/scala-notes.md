@@ -9,6 +9,11 @@ Features of of *Scala* (in comparison to *Java* \cite{Tate2010}):
 			not-so-good constraint solver \cite[\S5.1, pp. 138]{Tate2010}.
 	- *Java* requires type declaration for each variable,
 		argument, or parameter.
+		"With some exceptions", "everything is an object in *Scala*"
+			\cite[\S5.2, pp. 140]{Tate2010}.
+		In comparison, most statically typed object-oriented languages
+			have primitives, such as *Java*
+			\cite[\S5.2, pp. 140]{Tate2010} and *C++*.
 	- Has strong support due to its type system
 		\cite[\S5.1, pp. 138]{Tate2010}.
 + Functional concepts \cite[\S5.1, pp. 137]{Tate2010}
@@ -59,12 +64,11 @@ Features of of *Scala* (in comparison to *Java* \cite{Tate2010}):
 ##	*Scala* Runs on the Java Virtual Machine (JVM)
 
 Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
-	access *Java* libraries and the *Java* 
-	\cite[\S5.1, pp. 138]{Tate2010}.
-+ E.g., the Java Core application programming interface (API)
+	access *Java* libraries and the *Java* core application programming
+	interface (API) \cite[\S5.1, pp. 138]{Tate2010}.
++ E.g., the *Java* Core API
 	\cite{OracleCorporationStaff20XYe,OracleCorporationStaff2016e} can be accessed from \cite{OracleCorporationStaff20XYd}.
-	- Standard documentation for *Java* can be found at
-		\cite{OracleCorporationStaff20XYc,OracleCorporationStaff20XYb,OracleCorporationStaff2016d,OracleCorporationStaff2016c,OracleCorporationStaff2017}
+	- Standard documentation for *Java* can be found at \cite{OracleCorporationStaff20XYc,OracleCorporationStaff20XYb,OracleCorporationStaff2016d,OracleCorporationStaff2016c,OracleCorporationStaff2017}
 
 
 
@@ -74,8 +78,7 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 
 
 
-\cite[\S5.1, pp. 138]{Tate2010}.
-pp. 140
+
 
 
 
@@ -105,7 +108,8 @@ Characteristics of a functional programming language:
 		discouraged \cite{WikipediaContributors2017e}.
 	- The values of variables can be modified via recursive function
 		calls \cite{WikipediaContributors2017e}.
-
+	- By avoiding state mutation, concurrent programming becomes
+		easier \cite[\S5.1, pp. 138]{Tate2010}. 
 
 
 
