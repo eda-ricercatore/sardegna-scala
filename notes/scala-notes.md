@@ -71,9 +71,11 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 	- Standard documentation for *Java* can be found at \cite{OracleCorporationStaff20XYc,OracleCorporationStaff20XYb,OracleCorporationStaff2016d,OracleCorporationStaff2016c,OracleCorporationStaff2017}
 
 
+##	Features of *Scala*
 
-
-
++ Examples of first-class objects \cite[\S5.2, pp. 140]{Tate2010}:
+	- string
+	- Int (or Integer)
 
 
 
