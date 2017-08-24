@@ -7,6 +7,8 @@ Features of of *Scala* (in comparison to *Java* \cite{Tate2010}):
 	- If possible, infer variable types.
 		+ Local type inference has limitations due to its 
 			not-so-good constraint solver \cite[\S5.1, pp. 138]{Tate2010}.
+	- At compile time, *Scala* uses syntactical clues to carry out
+		type checking \cite[\S5.2, pp. 140]{Tate2010}. 
 	- *Java* requires type declaration for each variable,
 		argument, or parameter.
 		"With some exceptions", "everything is an object in *Scala*"
@@ -76,7 +78,7 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 + Examples of first-class objects \cite[\S5.2, pp. 140]{Tate2010}:
 	- string
 	- Int (or Integer)
-
++ "*Scala* is strongly typed" \cite[\S5.2, pp. 141]{Tate2010}.
 
 
 
