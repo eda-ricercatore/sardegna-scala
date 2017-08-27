@@ -84,9 +84,11 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 	- string
 	- Int (or Integer)
 + "*Scala* is strongly typed" \cite[\S5.2, pp. 141]{Tate2010}.
-
-
-
++ Variable declaration \cite[\S5.2, pp. 142]{Tate2010}:
+	- Using the "**val**" keyword for *Scala* variable declaration of an
+		**immutable variable**. 
+	- Using the "**var**" keyword for *Scala* variable declaration of a
+		**mutable variable**.
 
 
 
