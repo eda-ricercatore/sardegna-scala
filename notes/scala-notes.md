@@ -139,6 +139,18 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 			\cite[\S5.2 pp. 147]{Tate2010}.
 		*Scala* software can also perform static type checking
 			\cite[\S5.2, pp. 147]{Tate2010}.. 
++ Simple *Scala* classes can be defined without methods nor constructors;
+	e.g., *class* Person(first_name: String, last_name: String) 
+	\cite[\S5.2, pp. 147]{Tate2010}.
+	No body specifications need to be found for a class definition
+		\cite[\S5.2, pp. 147]{Tate2010}.
++ Object-oriented classes in *Scala* contain data fields and behaviorial
+	specifications \cite[\S5.2, pp. 147]{Tate2010}.
+
+
+
+
+
 
 
 
