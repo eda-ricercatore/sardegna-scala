@@ -147,12 +147,16 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 + Object-oriented classes in *Scala* contain data fields (i.e., variables) and
 	behaviorial specifications (i.e., functions) \cite[\S5.2, pp. 147]{Tate2010}.
 	The constructor should define instance variables, not passed into the
-	constructor as arguments \cite[\S5.2, pp. 148]{Tate2010}.. 
-
-
-
-
-
+		constructor as arguments, and methods \cite[\S5.2, pp. 148]{Tate2010}. 
+	Each *Scala* method definition has a parameter types and names
+		\cite[\S5.2, pp. 148]{Tate2010}. 
+	The constructor of a *Scala* class should not be in a method definition, and
+		is listed as the initial block of code in a *Scala* class 
+		\cite[\S5.2, pp. 148]{Tate2010}.
+	In *Scala* class deifnitions, method definitions follow the constructor
+		\cite[\S5.2, pp. 149]{Tate2010}. 
+	For one-line method definitions, the braces around the method body can
+		be obmitted \cite[\S5.2, pp. 149]{Tate2010}. 
 
 
 
