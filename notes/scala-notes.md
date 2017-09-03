@@ -151,13 +151,16 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 	Each *Scala* method definition has a parameter types and names
 		\cite[\S5.2, pp. 148]{Tate2010}. 
 	The constructor of a *Scala* class should not be in a method definition, and
-		is listed as the initial block of code in a *Scala* class 
-		\cite[\S5.2, pp. 148]{Tate2010}.
-	In *Scala* class deifnitions, method definitions follow the constructor
+		is listed as the initial block of code in a *Scala* class;
+		basic/primary constructors are code blocks that intitializes classes
+		and methods \cite[\S5.2, pp. 148-149]{Tate2010}.
+	In *Scala* class definitions, method definitions follow the constructor
 		\cite[\S5.2, pp. 149]{Tate2010}. 
 	For one-line method definitions, the braces around the method body can
 		be obmitted \cite[\S5.2, pp. 149]{Tate2010}. 
-
+	Secondary/auxiliary constructors are defined like methods with the name
+		"*this*," and support a broad array of usage patterns
+		\cite[\S5.2, pp. 150]{Tate2010}.
 
 
 
