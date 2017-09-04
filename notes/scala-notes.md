@@ -132,7 +132,7 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 		is not limited to integers \cite[\S5.2, pp. 145, 145-146]{Tate2010}.
 	- *Scala* carries out implicit type conversions, such as during specifications
 		of a *for loop* \cite[\S5.2, pp. 146]{Tate2010}.
-	- *Scala* supports tuples, which are fixed-length sets of objects; these
+	- *Scala* supports tuples, which are "fixed-length sets of objects"; these
 		objects don't need to be of the same type; and tuples can be expressed
 		as objects and their attributes \cite[\S5.2, pp. 146]{Tate2010}.
 		Tuples can also be used for multivalue assignments
@@ -159,9 +159,18 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 	For one-line method definitions, the braces around the method body can
 		be obmitted \cite[\S5.2, pp. 149]{Tate2010}. 
 	Secondary/auxiliary constructors are defined like methods with the name
-		"*this*," and support a broad array of usage patterns
+		(method name)"*this*," and support "a broad array of usage patterns"
 		\cite[\S5.2, pp. 150]{Tate2010}.
-
+	*Scala* allow instance methods to be declared only in the class definitions,
+		with the keyword "class" instead of the keyword "object";
+		in *Scala,* an object definition can share the same name as a class
+		  	definition;
+		the *companion objects* strategy "creates class methods within the
+			singleton object declaration, and instance methods within the class
+			definition" \cite[\S5.2, pp. 150]{Tate2010}.
+	
+	
+	
 
 
 #	Notes on Functional Programming
