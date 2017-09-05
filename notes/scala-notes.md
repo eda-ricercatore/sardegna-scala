@@ -168,8 +168,9 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 		the *companion objects* strategy "creates class methods within the
 			singleton object declaration, and instance methods within the class
 			definition" \cite[\S5.2, pp. 150]{Tate2010}.
-	
-	
+	Regarding class inheritance, a child class shall overwrite method(s) in the
+		parent class, and uses the word "*extends*" to inherit from a parent
+		class  \cite[\S5.2, pp. 151]{Tate2010}.
 	
 
 
