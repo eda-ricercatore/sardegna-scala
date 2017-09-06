@@ -170,7 +170,12 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 			definition" \cite[\S5.2, pp. 150]{Tate2010}.
 	Regarding class inheritance, a child class shall overwrite method(s) in the
 		parent class, and uses the word "*extends*" to inherit from a parent
-		class  \cite[\S5.2, pp. 151]{Tate2010}.
+		class;
+		also, the keyword "*overwrite*" shall be mentioned preceding the
+			definition of an overwritten method;
+		when the parent class is mentioned, its "complete parameter list" shall
+			be specified (specification of the types of the parent class is
+			optional) \cite[\S5.2, pp. 151]{Tate2010}.
 	
 
 
