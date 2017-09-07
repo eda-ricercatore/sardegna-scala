@@ -176,7 +176,22 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 		when the parent class is mentioned, its "complete parameter list" shall
 			be specified (specification of the types of the parent class is
 			optional) \cite[\S5.2, pp. 151]{Tate2010}.
-	
+	*Scala* traits are comparable to *Ruby mixins* that are implemented with
+		modules, or *Java* interfaces with implementation, or multiple
+		inheritance in *C++*;
+		this allows *Scala* objects to be persistent, serializable shrubbery;
+		a *Scala* trait can be perceived to be a partial class implementation
+			\cite[\S5.2, pp. 151-152]{Tate2010}.
+
+
+
+
+
+
+
+
+
+
 
 
 #	Notes on Functional Programming
