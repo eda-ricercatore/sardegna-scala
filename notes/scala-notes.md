@@ -180,7 +180,8 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 		modules, or *Java* interfaces with implementation, or multiple
 		inheritance in *C++*;
 		this allows *Scala* objects to be persistent, serializable shrubbery;
-		a *Scala* trait can be perceived to be a partial class implementation
+		a *Scala* trait can be perceived to be a partial class implementation,
+			and is included in class definitions.
 			\cite[\S5.2, pp. 151-152]{Tate2010}.
 
 
