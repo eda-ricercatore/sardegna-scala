@@ -5,9 +5,10 @@
 Features of of *Scala* (in comparison to *Java* \cite{Tate2010}):
 + Type inference \cite[\S5.1, pp. 136]{Tate2010}
 	- If possible, infer variable types.
-		+ Local type inference has limitations due to its 
+		* Local type inference has limitations due to its 
 			not-so-good constraint solver 
 			\cite[\S5.1, pp. 138; \S5.2, pp. 142]{Tate2010}.
+		* Because of static typing \cite[\S5.2, pp. 152]{Tate2010}.
 	- At compile time:
 		* *Scala* uses syntactical clues to carry out type checking
 			\cite[\S5.2, pp. 140]{Tate2010}.
@@ -100,9 +101,12 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 		\cite[\S5.2, pp. 143]{Tate2010} \cite{Rachel2015}:
 		* With strong typing, the language determines if multiple/two
 			types are compatible, and throws an error if the types cannot be
-			coerced into one type. 
+			coerced (i.e., implicit type conversions \cite[\S5.2, pp. 152]{Tate2010})
+			into one type. 
 		* With static typing, polymorphism is enforced via the structure of the
 			types. Dynamic typing does not depend on such structures.
+		* Type inference is used with/by static typing, via syntactical clues
+			\cite[\S5.2, pp. 152]{Tate2010}. 
 + Variable declaration \cite[\S5.2, pp. 142]{Tate2010}:
 	- Using the "**val**" keyword for *Scala* variable declaration of an
 		**immutable variable**. 
