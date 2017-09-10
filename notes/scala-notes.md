@@ -107,6 +107,13 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 			types. Dynamic typing does not depend on such structures.
 		* Type inference is used with/by static typing, via syntactical clues
 			\cite[\S5.2, pp. 152]{Tate2010}. 
+	- Expressions in *Scala* tend to be stricter (in how they work) than other
+	programming languages \cite[\S5.2, pp. 153]{Tate2010}. 
+		* E.g., most conditionals require a boolean type, and would reject "*0*"
+		and "*Nil*"
+	- Advanced data types supported by *Scala* include: tuples (i.e., fixed-length
+		lists with heterogeneous types) and ranges (fixed, all-inclusive ordered
+		sequence of numbers) \cite[\S5.2, pp. 153]{Tate2010}. 
 + Variable declaration \cite[\S5.2, pp. 142]{Tate2010}:
 	- Using the "**val**" keyword for *Scala* variable declaration of an
 		**immutable variable**. 
@@ -190,6 +197,8 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 
 
 
+code blocks, collections, immutable variables, advanced built-in methods (e.g., foldLeft)
+\cite[\S5.2, pp. 153]{Tate2010}
 
 
 
@@ -568,8 +577,7 @@ Build *Scala*-based software:
 
 
 
-June 22 - July 12 
-July 15-16, 19-now
+
 
 
 
