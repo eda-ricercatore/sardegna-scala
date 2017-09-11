@@ -194,11 +194,30 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 		a *Scala* trait can be perceived to be a partial class implementation,
 			and is included in class definitions.
 			\cite[\S5.2, pp. 151-152]{Tate2010}.
-
++ *Scala* functions
+	- The "*def*" keyword is used to define functions (and methods) in *Scala*;
+		after the "*def*" keyword and the function name, its parameters and
+		their types are specified next;
+		if the return type is not optionally specified, it is inferred
+			\cite[\S5.3, pp. 154]{Tate2010}.
++ *Scala* application programming interface (API) \cite[\S5.2, pp. 153]{Tate2010}.
 
 
 code blocks, collections, immutable variables, advanced built-in methods (e.g., foldLeft)
 \cite[\S5.2, pp. 153]{Tate2010}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
