@@ -200,6 +200,8 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 		their types are specified next;
 		if the return type is not optionally specified, it is inferred
 			\cite[\S5.3, pp. 154]{Tate2010}.
+	- Invoke *Scala* functions using their name, and the argument list
+		encapsulated in parentheses \cite[\S5.3, pp. 154]{Tate2010}.  
 + *Scala* application programming interface (API) \cite[\S5.2, pp. 153]{Tate2010}.
 
 
