@@ -119,6 +119,9 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 		**immutable variable**. 
 	- Using the "**var**" keyword for *Scala* variable declaration of a
 		**mutable variable**.
+	- Be aware of the life cycle of each variable in functions/classes, in the
+		context of "the pure functional programming model"
+		\cite[\S5.3, pp. 154]{Tate2010}. 
 + By default, *Scala* treats variables and functions as *public*
 	\cite[\S5.2, pp. 144]{Tate2010}.
 + Define a method/function with "*def method_name*"
@@ -197,9 +200,11 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 + *Scala* functions
 	- The "*def*" keyword is used to define functions (and methods) in *Scala*;
 		after the "*def*" keyword and the function name, its parameters and
-		their types are specified next;
+		their types are specified next within parentheses (round brackets);
 		if the return type is not optionally specified, it is inferred
 			\cite[\S5.3, pp. 154]{Tate2010}.
+	- Include the mandatory "*=*" sign after the return type
+		\cite[\S5.3, pp. 154]{Tate2010}.  
 	- Invoke *Scala* functions using their name, and the argument list
 		encapsulated in parentheses \cite[\S5.3, pp. 154]{Tate2010}.  
 + *Scala* application programming interface (API) \cite[\S5.2, pp. 153]{Tate2010}.
