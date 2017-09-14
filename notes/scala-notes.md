@@ -72,6 +72,14 @@ Features of of *Scala* (in comparison to *Java* \cite{Tate2010}):
 
 
 
+
+
+
+
+
+
+
+
 ##	*Scala* Runs on the Java Virtual Machine (JVM)
 
 Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
@@ -116,12 +124,20 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 		sequence of numbers) \cite[\S5.2, pp. 153]{Tate2010}. 
 + Variable declaration \cite[\S5.2, pp. 142]{Tate2010}:
 	- Using the "**val**" keyword for *Scala* variable declaration of an
-		**immutable variable**. 
+		**immutable variable**;
+		 an immutable variable (**val**) can be redefined multiple times in the
+		 	console, but not outside of it (which generates errors)
+		 	\cite[\S5.3, pp. 155]{Tate2010}.
 	- Using the "**var**" keyword for *Scala* variable declaration of a
 		**mutable variable**.
 	- Be aware of the life cycle of each variable in functions/classes, in the
 		context of "the pure functional programming model"
-		\cite[\S5.3, pp. 154]{Tate2010}. 
+		\cite[\S5.3, pp. 154]{Tate2010}.
+	 - Mutable state is bad, since it can become a conflicting state;
+	 	using immutable variables (**val**) helps you avoid mutable states,
+	 		which facilitates concurrent programming;
+		 i.e., "mutable state limits concurrency"
+	 		\cite[\S5.3, pp. 155]{Tate2010}.
 + By default, *Scala* treats variables and functions as *public*
 	\cite[\S5.2, pp. 144]{Tate2010}.
 + Define a method/function with "*def method_name*"
