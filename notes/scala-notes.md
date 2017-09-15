@@ -176,29 +176,29 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 		\cite[\S5.2, pp. 147]{Tate2010}.
 + Object-oriented classes in *Scala* contain data fields (i.e., variables) and
 	behaviorial specifications (i.e., functions) \cite[\S5.2, pp. 147]{Tate2010}.
-	The constructor should define instance variables, not passed into the
+	- The constructor should define instance variables, not passed into the
 		constructor as arguments, and methods \cite[\S5.2, pp. 148]{Tate2010}. 
-	Each *Scala* method definition has a parameter types and names
+	- Each *Scala* method definition has a parameter types and names
 		\cite[\S5.2, pp. 148]{Tate2010}. 
-	The constructor of a *Scala* class should not be in a method definition, and
+	- The constructor of a *Scala* class should not be in a method definition, and
 		is listed as the initial block of code in a *Scala* class;
 		basic/primary constructors are code blocks that intitializes classes
 		and methods \cite[\S5.2, pp. 148-149]{Tate2010}.
-	In *Scala* class definitions, method definitions follow the constructor
+	- In *Scala* class definitions, method definitions follow the constructor
 		\cite[\S5.2, pp. 149]{Tate2010}. 
-	For one-line method definitions, the braces around the method body can
+	- For one-line method definitions, the braces around the method body can
 		be obmitted \cite[\S5.2, pp. 149]{Tate2010}. 
-	Secondary/auxiliary constructors are defined like methods with the name
+	- Secondary/auxiliary constructors are defined like methods with the name
 		(method name)"*this*," and support "a broad array of usage patterns"
 		\cite[\S5.2, pp. 150]{Tate2010}.
-	*Scala* allow instance methods to be declared only in the class definitions,
+	- *Scala* allow instance methods to be declared only in the class definitions,
 		with the keyword "class" instead of the keyword "object";
 		in *Scala,* an object definition can share the same name as a class
 		  	definition;
 		the *companion objects* strategy "creates class methods within the
 			singleton object declaration, and instance methods within the class
 			definition" \cite[\S5.2, pp. 150]{Tate2010}.
-	Regarding class inheritance, a child class shall overwrite method(s) in the
+	- Regarding class inheritance, a child class shall overwrite method(s) in the
 		parent class, and uses the word "*extends*" to inherit from a parent
 		class;
 		also, the keyword "*overwrite*" shall be mentioned preceding the
@@ -206,7 +206,7 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 		when the parent class is mentioned, its "complete parameter list" shall
 			be specified (specification of the types of the parent class is
 			optional) \cite[\S5.2, pp. 151]{Tate2010}.
-	*Scala* traits are comparable to *Ruby mixins* that are implemented with
+	- *Scala* traits are comparable to *Ruby mixins* that are implemented with
 		modules, or *Java* interfaces with implementation, or multiple
 		inheritance in *C++*;
 		this allows *Scala* objects to be persistent, serializable shrubbery;
