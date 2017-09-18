@@ -225,7 +225,11 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 		encapsulated in parentheses \cite[\S5.3, pp. 154]{Tate2010}.
 + Collections
 	- Primary data structures for *Scala*: lists, sets, and maps
-		 \cite[\S5.3, pp. 155-156]{Tate2010}. 
+		 \cite[\S5.3, pp. 155-156]{Tate2010}.
+	 - The list is the primary data structure for functional programming languages;
+	 	it is an ordered collection of things belonging to the same data type or
+			clique in the class hierarchy
+	 	 \cite[\S5.3, pp. 156]{Tate2010}.
 + *Scala* application programming interface (API) \cite[\S5.2, pp. 153]{Tate2010}.
 
 
