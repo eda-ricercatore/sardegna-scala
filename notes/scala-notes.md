@@ -238,10 +238,28 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 			"*Scala*'s index for lists starts with 0," and accessing elements/items
 				outside the range of the list with result in an exception being
 				thrown \cite[\S5.3, pp. 156]{Tate2010}.
+		* Accessing the list using a negative number will result in an exception
+			being thrown \cite[\S5.3, pp. 157]{Tate2010}.
+	- A set is an unordered data structure, which allows elements to be added
+		to or removed from the set, using the "*+*" and "*-*" operations
+		respectively; and
+		each set operation builds a new set, as opposed to modifying existing
+			sets \cite[\S5.3, pp. 157]{Tate2010}.
+		"By default, sets are immutable" \cite[\S5.3, pp. 157-158]{Tate2010}.
+		To perform set union and set difference operations on sets, use "*++*"
+			and "*--*" accordingly" \cite[\S5.3, pp. 158]{Tate2010}.
+		To performa set intersection operation between elements, try "*&*"
+			\cite[\S5.3, pp. 158]{Tate2010}.
+	- A map is a data structure for key-value pairs, or (key,value) pairs; and
+		use the "*->*" operator to access the value of a  (key,value) pair
+		\cite[\S5.3, pp. 158]{Tate2010}.
+		For assigning a (key,value) pair to the set, try
+			"*set_name += key --> value*" \cite[\S5.3, pp. 158-159]{Tate2010}.
+		When type constraints of the map are not adhered to
 + *Scala* application programming interface (API) \cite[\S5.2, pp. 153]{Tate2010}.
 
 
-code blocks, collections, immutable variables, advanced built-in methods (e.g., foldLeft)
+code blocks, advanced built-in methods (e.g., foldLeft)
 \cite[\S5.2, pp. 153]{Tate2010}
 
 
