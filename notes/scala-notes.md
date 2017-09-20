@@ -118,10 +118,12 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 	- Expressions in *Scala* tend to be stricter (in how they work) than other
 	programming languages \cite[\S5.2, pp. 153]{Tate2010}. 
 		* E.g., most conditionals require a boolean type, and would reject "*0*"
-		and "*Nil*"
+		and "*Nil*".
 	- Advanced data types supported by *Scala* include: tuples (i.e., fixed-length
 		lists with heterogeneous types) and ranges (fixed, all-inclusive ordered
-		sequence of numbers) \cite[\S5.2, pp. 153]{Tate2010}. 
+		sequence of numbers) \cite[\S5.2, pp. 153]{Tate2010}.
+		* "The data type *Any* ... is the catchall data type for *Scala*"
+			 \cite[\S5.3, pp. 156]{Tate2010}.
 + Variable declaration \cite[\S5.2, pp. 142]{Tate2010}:
 	- Using the "**val**" keyword for *Scala* variable declaration of an
 		**immutable variable**;
@@ -226,10 +228,16 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 + Collections
 	- Primary data structures for *Scala*: lists, sets, and maps
 		 \cite[\S5.3, pp. 155-156]{Tate2010}.
-	 - The list is the primary data structure for functional programming languages;
+	- The list is the primary data structure for functional programming languages;
 	 	it is an ordered collection of things belonging to the same data type or
-			clique in the class hierarchy
-	 	 \cite[\S5.3, pp. 156]{Tate2010}.
+			clique in the class hierarchy;
+		it uses the *Java* feature *generics* to type the items in the list
+			\cite[\S5.3, pp. 156]{Tate2010}.
+		* Since list access is a function, use the "*()*" operator to access an
+			element in the list;
+			"*Scala*'s index for lists starts with 0," and accessing elements/items
+				outside the range of the list with result in an exception being
+				thrown \cite[\S5.3, pp. 156]{Tate2010}.
 + *Scala* application programming interface (API) \cite[\S5.2, pp. 153]{Tate2010}.
 
 
