@@ -124,6 +124,9 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 		sequence of numbers) \cite[\S5.2, pp. 153]{Tate2010}.
 		* "The data type *Any* ... is the catchall data type for *Scala*"
 			 \cite[\S5.3, pp. 156]{Tate2010}.
+			 "In the *Scala* class hierarchy," "`*Any*' is the root class"
+			 \cite[\S5.3, pp. 159]{Tate2010}.
+		* "*Nothing*" is a subtype of every type \cite[\S5.3, pp. 159]{Tate2010}.
 + Variable declaration \cite[\S5.2, pp. 142]{Tate2010}:
 	- Using the "**val**" keyword for *Scala* variable declaration of an
 		**immutable variable**;
@@ -260,6 +263,8 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 + *Scala* application programming interface (API) \cite[\S5.2, pp. 153]{Tate2010}.
 
 
+
+anonymous functions \cite[\S5.3, pp. 159]{Tate2010}.
 code blocks, advanced built-in methods (e.g., foldLeft)
 \cite[\S5.2, pp. 153]{Tate2010}
 
