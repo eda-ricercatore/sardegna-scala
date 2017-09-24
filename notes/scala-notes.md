@@ -131,6 +131,13 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 			It can be used to return noting, while conforming to the return type
 				and value for the given function;
 				it inhertis from everything \cite[\S5.3, pp. 159]{Tate2010}.
+		* "*Null* is a trait; null is an instance of *Null* that works like Java's *null*,
+			meaning an empty value";
+			*Nil* refers to an empty collection;
+			"*Nothing* is a trait that is a subtype of everything," and "has no
+			instance" and cannot be dereferenced like *Null*;
+			*Nothing* can be a return type that "[means] no value at all"
+				\cite[\S5.3, pp. 159]{Tate2010}.
 + Variable declaration \cite[\S5.2, pp. 142]{Tate2010}:
 	- Using the "**val**" keyword for *Scala* variable declaration of an
 		**immutable variable**;
