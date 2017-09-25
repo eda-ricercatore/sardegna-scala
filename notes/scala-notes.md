@@ -137,7 +137,7 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 			"*Nothing* is a trait that is a subtype of everything," and "has no
 			instance" and cannot be dereferenced like *Null*;
 			*Nothing* can be a return type that "[means] no value at all"
-				\cite[\S5.3, pp. 159]{Tate2010}.
+				\cite[\S5.3, pp. 160]{Tate2010}.
 + Variable declaration \cite[\S5.2, pp. 142]{Tate2010}:
 	- Using the "**val**" keyword for *Scala* variable declaration of an
 		**immutable variable**;
@@ -272,7 +272,18 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 		When type constraints of the map are not adhered to, errors/exceptions
 			are thrown at compile time or run-time \cite[\S5.3, pp. 159]{Tate2010}.
 + *Scala* application programming interface (API) \cite[\S5.2, pp. 153]{Tate2010}.
-
++ "A higher-order function is [a function] that produces or consumes functions";
+	specifically, it accepts other functions via input parameters and/or returns
+	functions as output \cite[\S5.3, pp. 160-161]{Tate2010}.
+	- Functions can be passed into these higher-order functions
+		\cite[\S5.3, pp. 160]{Tate2010}.
+	- "Assign input functions to any variable or parameter, or pass them into
+		functions, and return them from functions"
+	- Advanced topics in higher-order functions include \cite[\S5.3, pp. 161]{Tate2010}:
+		* partially applied functions, or currying
+		* Code blocks, passing simple functions as parameters into collections
+		* Anonymous functions can be passed as input parameters to
+			higher-order functions on collections
 
 
 anonymous functions \cite[\S5.3, pp. 159]{Tate2010}.
