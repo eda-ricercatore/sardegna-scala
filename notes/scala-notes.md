@@ -281,14 +281,17 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 		functions, and return them from functions"
 	- Advanced topics in higher-order functions include \cite[\S5.3, pp. 161]{Tate2010}:
 		* partially applied functions, or currying
-		* Code blocks, passing simple functions as parameters into collections
+		* Code blocks, passing simple functions as parameters into collections;
+			the code block can be an anonymous function, or a function
+			without a name
 		* Anonymous functions can be passed as input parameters to
 			higher-order functions on collections
+	- The function/method "*foreach*" is performed on collections, and accepts
+		a code block as a parameter;
+		it iterates through the data structure, and performs functions (in the
+			code block) on it \cite[\S5.3, pp. 161]{Tate2010}.
 
 
-anonymous functions \cite[\S5.3, pp. 159]{Tate2010}.
-code blocks, advanced built-in methods (e.g., foldLeft)
-\cite[\S5.2, pp. 153]{Tate2010}
 
 
 
