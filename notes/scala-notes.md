@@ -296,8 +296,11 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 		* this other value is the initial value for the first invocation of the
 			"*foreach*" function/method
 		* or, this other value is the result from the code block for subsequent
-			invocations 
-			\cite[\S5.3, pp. 164-165]{Tate2010}.
+			invocations;
+			"currying transforms a function with multiple parameters [into]
+				several functions with their own parameter lists (a composition
+				of functions)
+				\cite[\S5.3, pp. 164-165]{Tate2010}.
 
 
 
