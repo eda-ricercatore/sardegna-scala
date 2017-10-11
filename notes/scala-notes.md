@@ -6,12 +6,13 @@ Features of of *Scala* (in comparison to *Java* \cite{Tate2010}):
 + Type inference \cite[\S5.1, pp. 136]{Tate2010}
 	- If possible, infer variable types.
 		+ Local type inference has limitations due to its 
-			not-so-good constraint solver \cite[\S5.1, pp. 138]{Tate2010}.
+			not-so-good constraint solver 
+			\cite[\S5.1, pp. 138; \S5.2, pp. 142]{Tate2010}.
 	- At compile time:
 		* *Scala* uses syntactical clues to carry out type checking
 			\cite[\S5.2, pp. 140]{Tate2010}.
 		* *Scala* does type binding, and type inference
-			\cite[\S5.2, pp. 142]{Tate2010}.
+			\cite[\S5.2, pp. 141-142]{Tate2010}.
 	- Where possible, *Scala* uses "simple *Java* types", such as
 		*java.lang.String* \cite[\S5.2, pp. 141]{Tate2010}.
 	- *Java* requires type declaration for each variable,
@@ -23,6 +24,8 @@ Features of of *Scala* (in comparison to *Java* \cite{Tate2010}):
 			\cite[\S5.2, pp. 140]{Tate2010} and *C++*.
 	- Has strong support due to its type system
 		\cite[\S5.1, pp. 138]{Tate2010}.
+	- Manages types across *Scala* and *Java* 
+		\cite[\S5.2, pp. 142]{Tate2010}.
 + Functional concepts \cite[\S5.1, pp. 137]{Tate2010}
 	- Form new functions using existing functions in different ways,
 		beyond simple "syntactical sugar" (or what Dr. Anders Franz{\'{e}}n
