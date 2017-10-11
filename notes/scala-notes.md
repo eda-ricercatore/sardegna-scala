@@ -86,11 +86,15 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 + Examples of first-class objects \cite[\S5.2, pp. 140]{Tate2010}:
 	- string
 	- Int (or Integer)
-+ "*Scala* is strongly typed" \cite[\S5.2, pp. 141]{Tate2010}.
++ "*Scala* is strongly typed" \cite[\S5.2, pp. 141-142]{Tate2010}.
 	- The type *Nil* is an empty list that cannot be tested in boolean
 		expressions \cite[\S5.2, pp. 142]{Tate2010}.
 	- "0" has the type *Int* that cannot be tested in boolean
 		expressions \cite[\S5.2, pp. 142]{Tate2010}.
+	- + *Scala*'s treatment/handling of \cite[\S5.2, pp. 142]{Tate2010}:
+		* *Nil*. Treated as a type object or empty list. Cannot test *Nil*. 
+		* *0*. Treated as an integer object. Cannot test *0*.
+		* Neither *Nil* nor *0* should be treated/used as boolean expressions.
 + Variable declaration \cite[\S5.2, pp. 142]{Tate2010}:
 	- Using the "**val**" keyword for *Scala* variable declaration of an
 		**immutable variable**. 
