@@ -108,11 +108,37 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 		**immutable variable**. 
 	- Using the "**var**" keyword for *Scala* variable declaration of a
 		**mutable variable**.
-
-
-
-
-
++ By default, *Scala* treats variables and functions as *public*
+	\cite[\S5.2, pp. 144]{Tate2010}.
++ Define a method/function with "*def method_name*"
+	\cite[\S5.2, pp. 144]{Tate2010}.
++ For the *for loop*, the expression includes a variable argument (e.g., i) followed
+	by the "*<-*" (assignment) operator, followed by a range (i.e., initial value until
+	ending value, such as "0 until args.length") \cite[\S5.2, pp. 144]{Tate2010}.
++ *args* refers to the list of "incoming command-line arguments"
+	\cite[\S5.2, pp. 144-145]{Tate2010}.
++ *Scala* provides good support for ranges \cite[\S5.2, pp. 145, 145-146]{Tate2010}.
+	- val range = 0 until 10
+	- range.start
+	- range.end
+	- range.step
+	- (0 to 10 by 2)
+	- The direction of the range can be specified to be in ascending/descending
+		order. However, it cannot be inferred \cite[\S5.2, pp. 146]{Tate2010}.
+	- A range can be specified to be inclusive; e.g., *val range = (0 to 10)*
+		\cite[\S5.2, pp. 145, 145-146]{Tate2010}.
+	- The default step size between elements in a range is: 1; this step size is
+		independent of the endpoints expressed for the range; and the step size
+		is not limited to integers \cite[\S5.2, pp. 145, 145-146]{Tate2010}.
+	- *Scala* carries out implicit type conversions, such as during specifications
+		of a *for loop* \cite[\S5.2, pp. 146]{Tate2010}.
+	- *Scala* supports tuples, which are fixed-length sets of objects; these
+		objects don't need to be of the same type; and tuples can be expressed
+		as objects and their attributes \cite[\S5.2, pp. 146]{Tate2010}.
+		Tuples can also be used for multivalue assignments
+			\cite[\S5.2 pp. 147]{Tate2010}.
+		*Scala* software can also perform static type checking
+			\cite[\S5.2, pp. 147]{Tate2010}.. 
 
 
 
