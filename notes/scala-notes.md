@@ -86,7 +86,8 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 + Examples of first-class objects \cite[\S5.2, pp. 140]{Tate2010}:
 	- string
 	- Int (or Integer)
-+ "*Scala* is strongly typed" \cite[\S5.2, pp. 141-142]{Tate2010}.
++ "*Scala* is strongly typed" \cite[\S5.2, pp. 141-142]{Tate2010}; it has a "strong,
+	static typing philosophy" \cite[\S5.2, pp. 142]{Tate2010}. 
 	- The type *Nil* is an empty list that cannot be tested in boolean
 		expressions \cite[\S5.2, pp. 142]{Tate2010}.
 	- "0" has the type *Int* that cannot be tested in boolean
@@ -95,6 +96,13 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 		* *Nil*. Treated as a type object or empty list. Cannot test *Nil*. 
 		* *0*. Treated as an integer object. Cannot test *0*.
 		* Neither *Nil* nor *0* should be treated/used as boolean expressions.
+	- Difference between strong typing and static typing
+		\cite[\S5.2, pp. 143]{Tate2010} \cite{Rachel2015}:
+		* With strong typing, the language determines if multiple/two
+			types are compatible, and throws an error if the types cannot be
+			coerced into one type. 
+		* With static typing, polymorphism is enforced via the structure of the
+			types. Dynamic typing does not depend on such structures.
 + Variable declaration \cite[\S5.2, pp. 142]{Tate2010}:
 	- Using the "**val**" keyword for *Scala* variable declaration of an
 		**immutable variable**. 
