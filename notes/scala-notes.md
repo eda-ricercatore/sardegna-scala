@@ -472,8 +472,8 @@ Also, determine its disadvantages.
 A programming paradign is a classification of programming languages
 	based on a shared set of (enabled/forbidden) (programming language)
 	features \cite{WikipediaContributors2017e}.
-A programming paradigm is a style of constructing a computer program's
-	structure and elements
+Any given programming language can support multiple programming paradigms,
+	or programming models \cite[\S2.2, pp. 29]{Tate2010}.
 
 A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 + Automata-based programming \cite{WikipediaContributors2017j} -- A
@@ -503,6 +503,8 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 	That is, declarative programming does not result in any side
 		effects; or, declarative programming "is referentially
 		transparent" \cite{WikipediaContributors2017m}. 
+	This programming paradigm is a style of constructing a computer program's
+		structure and elements \cite{WikipediaContributors2017m}.
 	- Constraint programming
 	- Dataflow programming
 		* Reactive programming
@@ -620,7 +622,8 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 
 Notes:
 + When programming languages are designed, or being refined, they may
-	include syntactic sugar, syntactic salt, syntactic saccharin, and
+	include syntactic sugar (features added for convenience
+	\cite[\S2.3, pp. 36]{Tate2010}), syntactic salt, syntactic saccharin, and
 	syntactic syrup (i.e., programming language features) to
 	facilitate computer programming in a, or a set of, given
 	programming paradigm(s) \cite{WikipediaContributors2017j,
