@@ -14,6 +14,26 @@ Three primary goals of this endeavor are to:
 + develop retargetable, parallel compilers for the RISC-V instruction
 	set architecture (ISA).
 
+
+Books
++ [Texbook-style Books for Learning Scala](https://github.com/eda-ricercatore/sardegna-scala#texbook-style-books-for-learning-scala)
++ [For Learning Scala: Functional Programming](https://github.com/eda-ricercatore/sardegna-scala#for-learning-scala-functional-programming)
++ [For Learning Scala: Parallel/Concurrent Programming](https://github.com/eda-ricercatore/sardegna-scala#for-learning-scala-parallelconcurrent-programming)
++ [Compendium of Scala Solutions](https://github.com/eda-ricercatore/sardegna-scala#compendium-of-scala-solutions)
++ [Scala-based software engineering](https://github.com/eda-ricercatore/sardegna-scala#scala-based-software-engineering)
++ [Scala-based Data Analytics](https://github.com/eda-ricercatore/sardegna-scala#scala-based-data-analytics)
++ [Computational Science, or Scientific Computing](https://github.com/eda-ricercatore/sardegna-scala#computational-science-or-scientific-computing)
++ [Advanced Books](https://github.com/eda-ricercatore/sardegna-scala#advanced-books)
++ [Collections of Puzzles](https://github.com/eda-ricercatore/sardegna-scala#collections-of-puzzles)
++ [Terrible Books](https://github.com/eda-ricercatore/sardegna-scala#terrible-books)
++ [Books to Cover (In Order)](https://github.com/eda-ricercatore/sardegna-scala#books-to-cover-in-order)
++ [Books Covered](https://github.com/eda-ricercatore/sardegna-scala#books-covered)
++ [Books Not Covered Yet](https://github.com/eda-ricercatore/sardegna-scala#books-not-covered-yet)
+
+
+
+
+
 # *Scala* Resources
 
 *BibTeX* keys, from my *BibTeX* database, are used to identify
