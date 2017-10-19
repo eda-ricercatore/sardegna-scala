@@ -649,8 +649,13 @@ Notes:
 	different/unrelated tasks/processes, which need coordination
 	during execution via inter-process communication (IPC)
 	\cite{WikipediaContributors2017n}
-
-
++ Concurrent improvement via threads and processes
+	\cite[\S6.1, pp. 182]{Tate2010}:
+	- A process can be composed of many threads, and has its own resource.
+	- A "thread [has its] own execution path, but [shares] resources with other
+		threads in the same process."
+	- Therefore, a thread usually does not use more resource than a process;
+		or, a thread uses less resource than a process.
 
 
 ###	Miscellaneous Information
@@ -696,6 +701,14 @@ We can use multiple computer languages in a software to exploit the advantages
 	Similarly, we can combine *Prolog* with *C++* in software applications that
 		require automated logical reasoning on a set of (recursive) rules
 		\cite[\S4.5, pp. 134]{Tate2010}.
+
+
+
+*Erlang* (or *Ericsson Language*) is a functional programming language that
+	supports scalable concurrency and reliability
+	\cite[\S6.1, pp. 181-182]{Tate2010}.
+
+
 
 
 
