@@ -677,7 +677,8 @@ Unification of nested subgoals is an important concept for logic programming in
 		however, the logical reasoning engine may "[have] to try many possible
 		combinations of variables to unify variables for an inference"
 		\cite[\S4.5, pp. 132]{Tate2010}.
-	Since *Prolog*
+	When exploring "all possible combinations" of variables for a given set of
+		rules, *Prolog* compilers tend to use depth-first search on a  
 
 
 
