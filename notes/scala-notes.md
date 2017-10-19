@@ -691,10 +691,11 @@ Unification of nested subgoals is an important concept for logic programming in
 
 We can use multiple computer languages in a software to exploit the advantages
 	of each computer language.
-	E.g., we can combine *Prolog* with *C++* in software applications that
-		require automated logical reasoning on a set of (recursive) rules.
-	Similarly, we can combine *SQL* and *Ruby*/*Java* in software applications 
-		that need/require a database \cite[\S4.5, pp. 134]{Tate2010}.
+	E.g., we can combine *SQL* and *Ruby*/*Java* in software applications that
+		need/require a database.
+	Similarly, we can combine *Prolog* with *C++* in software applications that
+		require automated logical reasoning on a set of (recursive) rules
+		\cite[\S4.5, pp. 134]{Tate2010}.
 
 
 
