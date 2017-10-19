@@ -686,8 +686,25 @@ Notes:
 	- Therefore, a thread usually does not use more resource than a process;
 		or, a thread uses less resource than a process.
 	- The fewer resource usage of threads (compared to processes) comes at
-		the expense of the need for locks to protect shared resources 
-	\cite[\S6.1, pp. 182]{Tate2010}.
+		the expense of the need for (operating system -level) locks and
+		semaphores to protect shared resources (or coordinate
+		access/modification control between multiple threads);
+		these locks lead to performance bottlenecks
+			\cite[\S6.1, pp. 182]{Tate2010}.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ###	Miscellaneous Information
 
@@ -738,6 +755,18 @@ We can use multiple computer languages in a software to exploit the advantages
 *Erlang* (or *Ericsson Language*) is a functional programming language that
 	supports scalable concurrency and reliability
 	\cite[\S6.1, pp. 181-182]{Tate2010}.
+*Erlang* uses distributed message passing and lightweight processes to avoid
+	performance bottlenecks concerning shared resources,
+	and improve concurrency \cite[\S6.1, pp. 182-183]{Tate2010}.
+	An actor represents each lightweight process, processes inbound messages
+		from the input queue, and uses pattern matching to determine how to
+		process the inbound messages \cite[\S6.1, pp. 183]{Tate2010}.
+*Erlang*'s "Let it crash" philosophy for fault tolerance leads to support for allowing
+	low-overhead processes to be monitored ("Is it alive?"), terminated, restarted,
+	and replaced during execution (i.e., "hot-swap code").
+	Since these processes are lightweight, resource management of constrained
+		resources would not be a major problem 
+	\cite[\S6.1, pp. 183]{Tate2010}.
 
 
 
