@@ -1,3 +1,32 @@
+#	Notes about *Scala*
+
+**Table of Content:**
++ [Key Features of *Scala*](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/scala-notes.md#key-features-of-scala)
+	- [In Comparison to *Java*](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/scala-notes.md#in-comparison-to-java)
+	- [*Scala* Runs on the *Java* Virtual Machine (JVM)](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/scala-notes.md#scala-runs-on-the-java-virtual-machine-jvm)
+	- [Features of *Scala*](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/scala-notes.md#features-of-scala)
++ [Notes on Functional Programming](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/scala-notes.md#notes-on-functional-programming)
+	-[Concepts of Functional Programming](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/scala-notes.md#concepts-of-functional-programming)
+	-[Pure Functional Programming Languages](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/scala-notes.md#pure-functional-programming-languages)
+	-[Concurrency + Functional Programming](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/scala-notes.md#concurrency--functional-programming)
+	-[Comparison of Function Programming to Other Programming Paradigms](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/scala-notes.md#comparison-of-function-programming-to-other-programming-paradigms)
+		* [Notes on Other Programming Paradigms](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/scala-notes.md#notes-on-other-programming-paradigms)
+		* [Miscellaneous Information](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/scala-notes.md#miscellaneous-information)
++ [Personal Notes from Developing *Scala* Software](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/scala-notes.md#personal-notes-from-developing-scala-software)
+	-[Build Process and Automation for Scala Software](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/scala-notes.md#build-process-and-automation-for-scala-software)
+		* [Compiling Scala Software](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/scala-notes.md#compiling-scala-software)
+		* [Executing Scala Software](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/scala-notes.md#executing-scala-software)
++ [To-Do List](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/scala-notes.md#to-do-list)
+
+
+
+
+
+
+
+
+
+
 #	Key Features of *Scala*
 
 ##	In Comparison to *Java* 
