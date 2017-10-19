@@ -769,6 +769,7 @@ We can use multiple computer languages in a software to exploit the advantages
 		resources would not be a major problem 
 	\cite[\S6.1, pp. 183]{Tate2010}.
 
+
 The "foundational principles in Erlang" are \cite[\S6.2, pp. 185]{Tate2010}:
 + code blocks
 + actors
