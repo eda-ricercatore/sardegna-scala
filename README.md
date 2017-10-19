@@ -15,7 +15,7 @@ Three primary goals of this endeavor are to:
 	set architecture (ISA).
 
 
-Books
+Books (Table of Content):
 + [Texbook-style Books for Learning Scala](https://github.com/eda-ricercatore/sardegna-scala#texbook-style-books-for-learning-scala)
 + [For Learning Scala: Functional Programming](https://github.com/eda-ricercatore/sardegna-scala#for-learning-scala-functional-programming)
 + [For Learning Scala: Parallel/Concurrent Programming](https://github.com/eda-ricercatore/sardegna-scala#for-learning-scala-parallelconcurrent-programming)
