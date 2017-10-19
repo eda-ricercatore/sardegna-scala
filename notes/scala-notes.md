@@ -761,17 +761,18 @@ We can use multiple computer languages in a software to exploit the advantages
 	An actor represents each lightweight process, processes inbound messages
 		from the input queue, and uses pattern matching to determine how to
 		process the inbound messages \cite[\S6.1, pp. 183]{Tate2010}.
-*Erlang*'s "Let it crash" philosophy for fault tolerance leads to support for allowing
+*Erlang*'s "Let it crash" philosophy for fault tolerance (and non-defensive
+	programming \cite[\S6.1, pp. 184]{Tate2010}) leads to support for allowing
 	low-overhead processes to be monitored ("Is it alive?"), terminated, restarted,
 	and replaced during execution (i.e., "hot-swap code").
 	Since these processes are lightweight, resource management of constrained
 		resources would not be a major problem 
 	\cite[\S6.1, pp. 183]{Tate2010}.
-
-
-
-
-
+The "foundational principles in Erlang" are \cite[\S6.2, pp. 185]{Tate2010}:
++ code blocks
++ actors
++ pattern matching
++ distributed message passing
 
 
 
