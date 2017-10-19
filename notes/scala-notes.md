@@ -370,6 +370,14 @@ Concepts of functional programming to explore
 + algebraic data types
 + lazy evaluation
 + tail recursion
+	- References:
+		* \cite[\S4.3 pp. 111]{Tate2010} discusses tail recursion optimization. 
+	- Declarative interpretation need not be restricted to recursive functions
+		(recursive application of logical rules, or recursive rule application).
+		It (reasoning on nested rules) can be replaced with goal proving and
+			subgoal satisfaction;
+			the logical reasoning engine has to perform goal proving and
+				subgoal satisfaction \cite[\S4.3 pp. 113]{Tate2010}.
 + immutability
 
 
@@ -641,6 +649,40 @@ Notes:
 	different/unrelated tasks/processes, which need coordination
 	during execution via inter-process communication (IPC)
 	\cite{WikipediaContributors2017n}
+
+
+
+
+###	Miscellaneous Information
+
+Logic/declarative programming languages, such as *Prolog*, can be used to
+	"[solve/analyze] systems with constraints" (or "constrained systems", or
+	"systems with constrained resources") \cite[\S4.4, pp. 120,126,133]{Tate2010};
+	*Prolog* can be used to solve constraint-based problems
+		\cite[\S4.4, pp. 131]{Tate2010}, by processing rules that are compositions
+		of (clauses of) goal compositions -- a rule is a composition of clauses,
+		and a clause is a composition of a series of goals 
+		\cite[\S4.5, pp. 132]{Tate2010}.
+
+Programming in *Prolog* involves these two steps \cite[\S4.5, pp. 132]{Tate2010}:
++ Use "logical facts and inferences about the problem domain" to "[build] up
+	[the] knowledge base. 
++ "Compile [the] knowledge base, and ask questions [(can be assertions)] about
+	the domain"
+
+Unification of nested subgoals is an important concept for logic programming in
+	*Prolog* \cite[\S4.3, pp. 119]{Tate2010}.
+	Unification matches variables on both sides of a system;
+		this is analogous to assignments in the imperative programming paradigm;
+		however, the logical reasoning engine may "[have] to try many possible
+		combinations of variables to unify variables for an inference"
+		\cite[\S4.5, pp. 132]{Tate2010}.
+	Since *Prolog*
+
+
+
+
+
 
 
 
