@@ -685,7 +685,9 @@ Notes:
 		threads in the same process."
 	- Therefore, a thread usually does not use more resource than a process;
 		or, a thread uses less resource than a process.
-
+	- The fewer resource usage of threads (compared to processes) comes at
+		the expense of the need for locks to protect shared resources 
+	\cite[\S6.1, pp. 182]{Tate2010}.
 
 ###	Miscellaneous Information
 
