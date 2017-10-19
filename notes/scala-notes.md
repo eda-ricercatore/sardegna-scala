@@ -303,7 +303,8 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 + *Scala* application programming interface (API) \cite[\S5.2, pp. 153]{Tate2010}.
 + "A higher-order function is [a function] that produces or consumes functions";
 	specifically, it accepts other functions via input parameters and/or returns
-	functions as output \cite[\S5.3, pp. 160-161]{Tate2010}.
+	functions as output \cite[\S5.3, pp. 160-161]{Tate2010}
+		\cite[\S6.3, pp. 198]{Tate2010}.
 	- Functions can be passed into these higher-order functions
 		\cite[\S5.3, pp. 160]{Tate2010}.
 	- "Assign input functions to any variable or parameter, or pass them into
@@ -330,12 +331,13 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 				several functions with their own parameter lists (a composition
 				of functions)
 				\cite[\S5.3, pp. 164-165]{Tate2010}.
-
+	- BLAH
+	- \cite[\S6.2, pp. 188]{Tate2010}
 
 
 
 Skimming through other chapters
-
+Stop at page 207.
 
 
 
@@ -364,7 +366,7 @@ Characteristics of a functional programming language:
 + For a given set of inputs, a function will return a given set
 	of outputs.
 	When this is done repeatedly, the set of outputs is the same
-		as that of other repetitions. [Insert REFERENCE!!!]
+		as that of other repetitions \cite[\S6.2, pp. 185]{Tate2010}.
 + In the functional programming paradigm, software developers avoid
 	changing the state of an executing program or modifying its data
 	\cite[\S5.1, pp. 138]{Tate2010}. 
@@ -418,11 +420,14 @@ Concepts of functional programming to explore
 	\cite[\S5.1, pp. 138]{Tate2010} \cite{WikipediaContributors2017e}.
 
 The purely functional programming paradigm only performs computation
-	that evaluates mathematical functions, and cannot change the state
-	of the computer program via mutable datafields;
+	that evaluates mathematical functions \cite[\S6.2, pp. 185]{Tate2010}, and
+	cannot change the state of the computer program via mutable datafields
+	\cite[\S6.2, pp. 186]{Tate2010};
 	this implies that all functions would be solely dependent on their
-	input arguments, and are independent of the local or global state
-	of the computer program \cite{WikipediaContributors2017g}.
+		input arguments, and are independent of the local or global state
+		of the computer program \cite{WikipediaContributors2017g};
+	that is, these functions have no side effects, and cannot modify the program
+		state (or state of the program) \cite[\S6.2, pp. 186]{Tate2010}.
 
 Pure functional programs use persistent (purely functional) data
 	structures, so that the repreated evaluation of a function would
@@ -433,6 +438,11 @@ Purely functional programming makes it easier to develop parallel
 	programs, since the developers do not have to be concerned about
 	interacting evaluations of mathematical functions (purely
 	functional components) \cite{WikipediaContributors2017g}.
+
+Each variable can only be assigned once \cite[\S6.2, pp. 186]{Tate2010}.
+
+
+
 
 
 ##	Concurrency + Functional Programming
@@ -770,11 +780,19 @@ We can use multiple computer languages in a software to exploit the advantages
 	\cite[\S6.1, pp. 183]{Tate2010}.
 
 
-The "foundational principles in Erlang" are \cite[\S6.2, pp. 185]{Tate2010}:
+The "foundational principles in *Erlang*" are \cite[\S6.2, pp. 185]{Tate2010}:
 + code blocks
 + actors
 + pattern matching
 + distributed message passing
+
+####	Questions about *Erlang*
+
+Questions about *Erlang*:
++ Can lists in *Erlang* be heterogeneous, and be comprised of elements of
+	multiple types? \cite[\S6.2, pp. 188]{Tate2010}
+
+
 
 
 
