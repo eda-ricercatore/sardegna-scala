@@ -678,14 +678,23 @@ Unification of nested subgoals is an important concept for logic programming in
 		combinations of variables to unify variables for an inference"
 		\cite[\S4.5, pp. 132]{Tate2010}.
 	When exploring "all possible combinations" of variables for a given set of
-		rules, *Prolog* compilers tend to use depth-first search on a  
+		rules, *Prolog* compilers tend to use depth-first search on a decision
+		tree \cite[\S4.5, pp. 134]{Tate2010};
+		for very large data sets, *Prolog* compilers have to run slow algorithms
+			(i.e., depth-first search) on very large decision trees;
+		 hence,  *Prolog* developers have to exploit features of *Prolog* to keep
+		 	the size of the data sets manageable for automated logical reasoning,
+		 	else automated logical reasoning would take too long
+			\cite[\S4.5, pp. 134]{Tate2010}.
+	Tail recursion optimization has to be exploited to keep the set of rules at
+		acceptable levels \cite[\S4.5, pp. 134]{Tate2010}.
 
-
-
-
-
-
-
+We can use multiple computer languages in a software to exploit the advantages
+	of each computer language.
+	E.g., we can combine *Prolog* with *C++* in software applications that
+		require automated logical reasoning on a set of (recursive) rules.
+	Similarly, we can combine *SQL* and *Ruby*/*Java* in software applications 
+		that need/require a database \cite[\S4.5, pp. 134]{Tate2010}.
 
 
 
