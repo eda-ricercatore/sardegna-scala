@@ -774,12 +774,14 @@ We can use multiple computer languages in a software to exploit the advantages
 *Erlang* (or *Ericsson Language*) is a functional programming language that
 	supports scalable concurrency and reliability
 	\cite[\S6.1, pp. 181-182]{Tate2010}.
+
 *Erlang* uses distributed message passing and lightweight processes to avoid
 	performance bottlenecks concerning shared resources,
 	and improve concurrency \cite[\S6.1, pp. 182-183]{Tate2010}.
 	An actor represents each lightweight process, processes inbound messages
 		from the input queue, and uses pattern matching to determine how to
 		process the inbound messages \cite[\S6.1, pp. 183]{Tate2010}.
+
 *Erlang*'s "Let it crash" philosophy for fault tolerance (and non-defensive
 	programming \cite[\S6.1, pp. 184]{Tate2010}) leads to support for allowing
 	low-overhead processes to be monitored ("Is it alive?"), terminated, restarted,
@@ -788,6 +790,13 @@ We can use multiple computer languages in a software to exploit the advantages
 		resources would not be a major problem 
 	\cite[\S6.1, pp. 183]{Tate2010}.
 
+*Erlang* supports the development of "robust concurrent systems," which do not
+	require significant error handling;
+	when a process dies, we just start its twin process
+		\cite[\S6.4, pp. 218]{Tate2010}.
+
+*Erlang* supports the 
+	\cite[\S6.4, pp. 218]{Tate2010}.
 
 The "foundational principles in *Erlang*" are \cite[\S6.2, pp. 185]{Tate2010}:
 + code blocks
