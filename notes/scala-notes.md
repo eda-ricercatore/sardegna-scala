@@ -718,6 +718,7 @@ Notes:
 
 ###	Miscellaneous Information
 
+####	Logic/Declarative Programming
 Logic/declarative programming languages, such as *Prolog*, can be used to
 	"[solve/analyze] systems with constraints" (or "constrained systems", or
 	"systems with constrained resources") \cite[\S4.4, pp. 120,126,133]{Tate2010};
@@ -726,12 +727,6 @@ Logic/declarative programming languages, such as *Prolog*, can be used to
 		of (clauses of) goal compositions -- a rule is a composition of clauses,
 		and a clause is a composition of a series of goals 
 		\cite[\S4.5, pp. 132]{Tate2010}.
-
-Programming in *Prolog* involves these two steps \cite[\S4.5, pp. 132]{Tate2010}:
-+ Use "logical facts and inferences about the problem domain" to "[build] up
-	[the] knowledge base. 
-+ "Compile [the] knowledge base, and ask questions [(can be assertions)] about
-	the domain"
 
 Unification of nested subgoals is an important concept for logic programming in
 	*Prolog* \cite[\S4.3, pp. 119]{Tate2010}.
@@ -752,6 +747,16 @@ Unification of nested subgoals is an important concept for logic programming in
 	Tail recursion optimization has to be exploited to keep the set of rules at
 		acceptable levels \cite[\S4.5, pp. 134]{Tate2010}.
 
+#####	*Prolog*
+
+Programming in *Prolog* involves these two steps \cite[\S4.5, pp. 132]{Tate2010}:
++ Use "logical facts and inferences about the problem domain" to "[build] up
+	[the] knowledge base. 
++ "Compile [the] knowledge base, and ask questions [(can be assertions)] about
+	the domain"
+
+####	Software Implemented in Multiple Computer Languages
+
 We can use multiple computer languages in a software to exploit the advantages
 	of each computer language.
 	E.g., we can combine *SQL* and *Ruby*/*Java* in software applications that
@@ -760,7 +765,7 @@ We can use multiple computer languages in a software to exploit the advantages
 		require automated logical reasoning on a set of (recursive) rules
 		\cite[\S4.5, pp. 134]{Tate2010}.
 
-
+####	*Erlang* (or *Ericsson Language*)
 
 *Erlang* (or *Ericsson Language*) is a functional programming language that
 	supports scalable concurrency and reliability
