@@ -816,7 +816,7 @@ To support reliability and fault tolerance, *Erlang* enables a pair of processes
 
 
 
-####	Questions about *Erlang*
+#####	Questions about *Erlang*
 
 Questions about *Erlang*:
 + Can lists in *Erlang* be heterogeneous, and be comprised of elements of
