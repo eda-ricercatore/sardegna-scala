@@ -796,7 +796,7 @@ We can use multiple computer languages in a software to exploit the advantages
 	when a process dies, we just start its twin process
 		\cite[\S6.4, pp. 218]{Tate2010}.
 
-*Erlang* supports simple implementations of "monitors that watch each other"  
+*Erlang* supports simple implementations of "monitors that watch each other"
 	\cite[\S6.4, pp. 218]{Tate2010}.
 
 The "foundational principles in *Erlang*" are \cite[\S6.2, pp. 185]{Tate2010}:
