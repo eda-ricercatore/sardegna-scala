@@ -332,12 +332,12 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 				of functions)
 				\cite[\S5.3, pp. 164-165]{Tate2010}.
 	- BLAH
-	- \cite[\S6.2, pp. 188]{Tate2010}
+	
 
 
 
 Skimming through other chapters
-Stop at page 207.
+
 
 
 
@@ -785,13 +785,39 @@ The "foundational principles in *Erlang*" are \cite[\S6.2, pp. 185]{Tate2010}:
 + actors
 + pattern matching
 + distributed message passing
+	- Messaging models can be asynchronous or synchronous 
+		\cite[\S6.4, pp. 210]{Tate2010}.
+	- Processes communicate with each other using message passing;
+		*Erlang* supports "message passing and encapsulation of behavior"
+			\cite[\S6.4, pp. 212]{Tate2010}.
+	- BLAH
+
+Higher-order functions in *Erlang* can "simulate" inheritance 
+	\cite[\S6.4, pp. 212]{Tate2010}.
+
+To support reliability and fault tolerance, *Erlang* enables a pair of processes to
+	be linked; 
+	the death of one of these two processes would send an exit signal to its
+		linked twin (process), so that its linked twin (process) can receive that
+		signal and react accordingly \cite[\S6.4, pp. 213]{Tate2010}.
+
+
+
+
+
+
+
+
+
+
 
 ####	Questions about *Erlang*
 
 Questions about *Erlang*:
 + Can lists in *Erlang* be heterogeneous, and be comprised of elements of
 	multiple types? \cite[\S6.2, pp. 188]{Tate2010}
-
++ Can more than two processes be linked together? If so, how?
+	\cite[\S6.4, pp. 213]{Tate2010}
 
 
 
