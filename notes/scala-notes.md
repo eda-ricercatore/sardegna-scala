@@ -70,9 +70,9 @@ Features of of *Scala* (in comparison to *Java* \cite{Tate2010}):
 	- *Java* does not allow such formation/composition of new functions.
 + Immutable variables \cite[\S5.1, pp. 137]{Tate2010}
 	- Requires explicit indication of whether a variable is mutable.
-		+ A possible consequence of this is that a function called
-			with the same set of inputs may result in different
-			outputs. This is not always true
+		+ A possible consequence of this (non-pure functional programming
+			language) is that a function called with the same set of inputs may
+			result in different outputs. This is not always true
 			\cite[\S5.1, pp. 138]{Tate2010}.
 		+ If possible, use functional abstractions to avoid changing
 			the values of variables \cite[\S5.1, pp. 138]{Tate2010}.
@@ -492,7 +492,7 @@ Functional programming languages allow software developers to avoid
 
 ##	Comparison of Function Programming to Other Programming Paradigms 
 
-Functional programming languages can better support concerrency by
+Functional programming languages can better support concurrency by
 	discouraging the use of mutable states
 	[Reference needed!!!]
 
