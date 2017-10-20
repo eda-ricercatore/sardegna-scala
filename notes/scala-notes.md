@@ -778,9 +778,10 @@ We can use multiple computer languages in a software to exploit the advantages
 *Erlang* uses distributed message passing and lightweight processes to avoid
 	performance bottlenecks concerning shared resources,
 	and improve concurrency \cite[\S6.1, pp. 182-183]{Tate2010}.
-	An actor represents each lightweight process, processes inbound messages
-		from the input queue, and uses pattern matching to determine how to
-		process the inbound messages \cite[\S6.1, pp. 183]{Tate2010}.
+	An actor represents each lightweight process;
+	processes inbound messages from the input queue, and uses pattern
+		matching to determine how to process the inbound messages
+		\cite[\S6.1, pp. 183]{Tate2010}.
 
 *Erlang*'s "Let it crash" philosophy for fault tolerance (and non-defensive
 	programming \cite[\S6.1, pp. 184]{Tate2010}) leads to support for allowing
