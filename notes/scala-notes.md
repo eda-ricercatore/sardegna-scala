@@ -691,7 +691,7 @@ Notes:
 	different/unrelated tasks/processes, which need coordination
 	during execution via inter-process communication (IPC)
 	\cite{WikipediaContributors2017n}
-+ Concurrent improvement via threads and processes
++ Concurrency improvement via threads and processes
 	\cite[\S6.1, pp. 182]{Tate2010}:
 	- A process can be composed of many threads, and has its own resource.
 	- A "thread [has its] own execution path, but [shares] resources with other
@@ -705,8 +705,8 @@ Notes:
 		these locks lead to performance bottlenecks
 			\cite[\S6.1, pp. 182]{Tate2010}.
 
-
-
++ Concurrency primitives: send, receive, and spawn
+	\cite[\S6.4, pp. 218]{Tate2010}.
 
 
 
@@ -795,7 +795,8 @@ We can use multiple computer languages in a software to exploit the advantages
 	when a process dies, we just start its twin process
 		\cite[\S6.4, pp. 218]{Tate2010}.
 
-*Erlang* supports simple implementations of "monitors that watch each other"
+*Erlang* supports simple implementations of "monitors that watch each other";
+	these monitors can be used to improve reliability
 	\cite[\S6.4, pp. 218]{Tate2010}.
 
 The "foundational principles in *Erlang*" are \cite[\S6.2, pp. 185]{Tate2010}:
@@ -808,7 +809,9 @@ The "foundational principles in *Erlang*" are \cite[\S6.2, pp. 185]{Tate2010}:
 	- Processes communicate with each other using message passing;
 		*Erlang* supports "message passing and encapsulation of behavior"
 			\cite[\S6.4, pp. 212]{Tate2010}.
+	- Distributed
 	- BLAH
+	- \cite[\S6.4, pp. 218]{Tate2010}.
 
 Higher-order functions in *Erlang* can "simulate" inheritance 
 	\cite[\S6.4, pp. 212]{Tate2010}.
