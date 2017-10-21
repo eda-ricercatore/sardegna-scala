@@ -809,9 +809,8 @@ The "foundational principles in *Erlang*" are \cite[\S6.2, pp. 185]{Tate2010}:
 	- Processes communicate with each other using message passing;
 		*Erlang* supports "message passing and encapsulation of behavior"
 			\cite[\S6.4, pp. 212]{Tate2010}.
-	- Distributed
-	- BLAH
-	- \cite[\S6.4, pp. 218]{Tate2010}.
+	- Distributed communication in *Erlang* that functions like "interprocess
+		communication" \cite[\S6.4, pp. 218]{Tate2010}.
 
 Higher-order functions in *Erlang* can "simulate" inheritance 
 	\cite[\S6.4, pp. 212]{Tate2010}.
