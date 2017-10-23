@@ -883,6 +883,26 @@ Characteristics of *Clojure* \cite[\S7, pp. 223]{Tate2010}:
 			behavior".
 		* For "a pure-functional implementation".
 		* To support programming in various programming paradigms.  
+	- Primary dialects of *Lisp*, which differ by how their namespaces work
+		\cite[\S7.1, pp. 224]{Tate2010}:
+		* *Common Lisp*
+		* *Scheme*
+	- *lisp-1* family of *Lisp* dialects \cite[\S7.1, pp. 224]{Tate2010}:
+		* *Scheme*.
+		* *Clojure*.
+		* Use the same namespace for functions and variables.
+	- *lisp-2* dialect of *Lisp* \cite[\S7.1, pp. 224]{Tate2010}.
+		* Use separate namespaces for functionsw and variables.
+	- *Clojure* software can access multiple *Java* libraries
+		\cite[\S7.1, pp. 225]{Tate2010}.
++ Dynamically typed \cite[\S7.1, pp. 225]{Tate2010}.
++ Expressive \cite[\S7.1, pp. 225]{Tate2010}.
+
+To provide safe and concurrent access to memory, so that the use of mutable
+	variables in *Clojure* is supported, use the transactional memory (in *Clojure*)
+	in the same way I would use transactional databases;
+	use agents to gain encapsulated access to mutable resources
+	\cite[\S7.1, pp. 225]{Tate2010}.
 
 
 
