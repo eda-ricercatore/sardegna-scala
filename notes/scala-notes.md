@@ -862,11 +862,20 @@ Questions about *Erlang*:
 Characteristics of *Clojure* \cite[\S7, pp. 223]{Tate2010}:
 + Complicated
 + Powerful
-+ "*Lisp* on the *JVM*"
-
-
-
-
++ "*Lisp* on the *JVM*"; or "yet another *Lisp* dialect";
+	it has similar language restrictions and strengths as *Lisp* (LISt Processing)
+		\cite[\S7.1, pp. 224]{Tate2010}, and has good support for
+		metaprogramming \cite[\S7.1, pp. 224]{Tate2010}.
+	- Language of lists
+		* When a function is called, the first element in the list is the function,
+			and the remaining elements in the lists are the arguments of the
+			function.
+	- "Use its own data structures to express code"; this strategy is known as
+		"data as code".
+	- Using the previously mentioned concepts/ideas, arrange *Lisp* code
+		\cite[\S7.1, pp. 224]{Tate2010}:
+		* "As named methods in a class"
+		* As objects connected in a tree-like class hierarchy (inheritance tree)
 
 
 
