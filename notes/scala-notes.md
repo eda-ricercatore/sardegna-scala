@@ -838,6 +838,9 @@ Characteristics of the *Erlang* libraries \cite[\S6.5, pp. 220]{Tate2010}:
 
 
 
+
+
+
 #####	Questions about *Erlang*
 
 Questions about *Erlang*:
@@ -845,6 +848,44 @@ Questions about *Erlang*:
 	multiple types? \cite[\S6.2, pp. 188]{Tate2010}
 + Can more than two processes be linked together? If so, how?
 	\cite[\S6.4, pp. 213]{Tate2010}
+
+
+
+
+
+
+
+
+####	*Clojure*
+
+
+Characteristics of *Clojure* \cite[\S7, pp. 223]{Tate2010}:
++ Complicated
++ Powerful
++ "*Lisp* on the *JVM*"
+
+
+
+
+
+
+
+
+
+
+
+
+####	*Haskell*
+
+
+
+
+
+
+
+
+
+
 
 
 
