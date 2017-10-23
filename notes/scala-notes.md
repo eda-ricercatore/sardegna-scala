@@ -874,10 +874,15 @@ Characteristics of *Clojure* \cite[\S7, pp. 223]{Tate2010}:
 		"data as code".
 	- Using the previously mentioned concepts/ideas, arrange *Lisp* code
 		\cite[\S7.1, pp. 224]{Tate2010}:
-		* "As named methods in a class"
-		* As objects connected in a tree-like class hierarchy (inheritance tree)
-
-
+		* "As named methods in a class".
+		* As objects connected in a tree-like class hierarchy (inheritance tree),
+			comparable to a class diagram in UML \cite{Stevens2000}
+			\cite{Rosenberg2007} \cite{Fowler2004} \cite{Rumbaugh2004}
+			\cite{Booch2005}.
+		* As "a prototype-based code organization with slots for data and
+			behavior".
+		* For "a pure-functional implementation".
+		* To support programming in various programming paradigms.  
 
 
 
