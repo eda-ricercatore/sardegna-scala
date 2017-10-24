@@ -870,6 +870,11 @@ Characteristics of *Clojure* \cite[\S7, pp. 223]{Tate2010}:
 		* When a function is called, the first element in the list is the function,
 			and the remaining elements in the lists are the arguments of the
 			function.
+		* Use Polish notation \cite{WikipediaContributors2017w}, or prefix
+			notation, to represent functions (such as mathematical operations)
+			and their arguments;
+			compare to the reverse Polish notation, or postfix notation
+				\cite{WikipediaContributors2017x}.
 	- "Use its own data structures to express code"; this strategy is known as
 		"data as code".
 	- Using the previously mentioned concepts/ideas, arrange *Lisp* code
@@ -900,12 +905,17 @@ Characteristics of *Clojure* \cite[\S7, pp. 223]{Tate2010}:
 
 To provide safe and concurrent access to memory, so that the use of mutable
 	variables in *Clojure* is supported, use the transactional memory (in *Clojure*)
-	in the same way I would use transactional databases;
+	in the same way I would use transactional databases (to minimize side effects);
 	use agents to gain encapsulated access to mutable resources
-	\cite[\S7.1, pp. 225]{Tate2010}.
+		\cite[\S7.1, pp. 225]{Tate2010}.
 
+Use \cite{Hagelberg2017} for build automation of *Clojure* programs/software.
 
-
+Use Polish notation \cite{WikipediaContributors2017w}, or prefix notation, to
+	represent functions (such as mathematical operations) and their arguments;
+	compare to the reverse Polish notation, or postfix notation
+		\cite{WikipediaContributors2017x};
+	this representation is like *Lisp*, hence "*Lisp* on the *JVM*".
 
 
 
