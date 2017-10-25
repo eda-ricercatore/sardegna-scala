@@ -901,7 +901,7 @@ Characteristics of *Clojure* \cite[\S7, pp. 223]{Tate2010}:
 	- *Clojure* software can access multiple *Java* libraries
 		\cite[\S7.1, pp. 225]{Tate2010}.
 + Dynamically typed \cite[\S7.1, pp. 225,228]{Tate2010}.
-	- "Supports strong, dynamic typing" \cite[\S7.1, pp. 228]{Tate2010}. 
+	- "Supports strong, dynamic typing" \cite[\S7.2, pp. 228]{Tate2010}. 
 + Expressive \cite[\S7.1, pp. 225]{Tate2010}.
 
 To provide safe and concurrent access to memory, so that the use of mutable
@@ -919,7 +919,7 @@ Use Polish notation \cite{WikipediaContributors2017w}, or prefix notation, to
 		\cite{WikipediaContributors2017x};
 	this representation is like *Lisp*, hence "*Lisp* on the *JVM*".
 
-(Basic) data types of *Clojure* \cite[\S7.1, pp. 227]{Tate2010}:  
+(Basic) data types of *Clojure* \cite[\S7.2, pp. 227]{Tate2010}:  
 + *ratio*. Enables delay of computation, an approximate numerical value of the
 	ratio, so that we can avoid numerical approximation and consequently a
 	"lost of precision". 
@@ -927,9 +927,13 @@ Use Polish notation \cite{WikipediaContributors2017w}, or prefix notation, to
 
 
 
-A *form* is a basic building block of *Clojure* \cite[\S7.1, pp. 228]{Tate2010}.
+A *form* is a basic building block of *Clojure* \cite[\S7.2, pp. 228]{Tate2010}.
+	During compilation/interpretation, after parsing, the compiler/interpreter for
+		*Clojure* would break the program into *forms*
+		\cite[\S7.2, pp. 228]{Tate2010};
+	examples of forms are \cite[\S7.2, pp. 228]{Tate2010}:
 
-
+		
 
 
 
