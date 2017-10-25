@@ -967,14 +967,21 @@ When performing pattern matching with vectors, use the head and tail of the
 
 Types of unordered collections (of elements) in *Clojure* \cite[\S7.2, pp. 232]{Tate2010}:
 + maps
+	- "A map is a key-value pair" \cite[\S7.2, pp. 233]{Tate2010}.
+	- Represent map with curly braces/parentheses \cite[\S7.2, pp. 233]{Tate2010}.
 + sets
 	- A set collection has a stable order that is implementation dependent;
 		hence we should not depend on such ordering \cite[\S7.2, pp. 232]{Tate2010}.
 	- Wrap/Surround a set with curly braces/parentheses, with a "#" (pound
-		symbol) prefix.
-	
-
-
+		symbol) prefix \cite[\S7.2, pp. 232]{Tate2010}.
+	- A sorted set is a set that orders elements according to a given/
+		ordering \cite[\S7.2, pp. 233]{Tate2010}.
+	- A set is a function, and allows membership testing of a given element/item.
+		\cite[\S7.2, pp. 233]{Tate2010}.
+	- Keywords and symbols are "two kinds of forms" for naming things
+		\cite[\S7.2, pp. 233]{Tate2010}.
+		A keyword points to itself and names domain entities, while a symbol
+			points to something else \cite[\S7.2, pp. 233-234]{Tate2010}. 
 
 
 ####	*Haskell*
