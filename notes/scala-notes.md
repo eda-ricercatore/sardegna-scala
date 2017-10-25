@@ -900,7 +900,7 @@ Characteristics of *Clojure* \cite[\S7, pp. 223]{Tate2010}:
 		* Use separate namespaces for functionsw and variables.
 	- *Clojure* software can access multiple *Java* libraries
 		\cite[\S7.1, pp. 225]{Tate2010}.
-+ Dynamically typed \cite[\S7.1, pp. 225,228]{Tate2010}.
++ Dynamically typed \cite[\S7.1, pp. 225; \S7.2, pp 228]{Tate2010}.
 	- "Supports strong, dynamic typing" \cite[\S7.2, pp. 228]{Tate2010}. 
 + Expressive \cite[\S7.1, pp. 225]{Tate2010}.
 
@@ -914,7 +914,7 @@ Use \cite{Hagelberg2017} for build automation of *Clojure* programs/software.
 
 Use Polish notation \cite{WikipediaContributors2017w}, or prefix notation, to
 	represent functions (such as mathematical operations) and their arguments
-		\cite[\S7.1, pp. 226-227]{Tate2010};
+		\cite[\S7.2, pp. 226-227]{Tate2010};
 	compare to the reverse Polish notation, or postfix notation
 		\cite{WikipediaContributors2017x};
 	this representation is like *Lisp*, hence "*Lisp* on the *JVM*".
