@@ -931,9 +931,14 @@ A *form* is a basic building block of *Clojure* \cite[\S7.2, pp. 228]{Tate2010}.
 	During compilation/interpretation, after parsing, the compiler/interpreter for
 		*Clojure* would break the program into *forms*
 		\cite[\S7.2, pp. 228]{Tate2010};
-	examples of forms are \cite[\S7.2, pp. 228]{Tate2010}:
 
-		
+Examples of forms are \cite[\S7.2, pp. 228]{Tate2010}:
++ booelans
++ characters
++ strings
++ sets
++ maps
++ vectors
 
 
 
