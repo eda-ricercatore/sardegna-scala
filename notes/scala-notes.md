@@ -949,19 +949,30 @@ The main data structures that *Clojure* software tend to use are
 	\cite[\S7.2,pp. 230]{Tate2010}
 + lists
 	However, in idiomatic *Clojure*, use \cite[\S7.2, pp. 231]{Tate2010}:
-	- code for lists
-	- vectors for data
+	- "lists for code" 
+	- "vectors for data"
+	A list is an ordered collection \cite[\S7.2, pp. 232]{Tate2010}.
 + maps
-+ vectors
++ vectors \cite[\S7.2, pp. 231]{Tate2010}:
+	"A vector is an ordered collection of elements" \cite[\S7.2, pp. 232]{Tate2010}.
+	"Vectors are optimized for random access."
+	A vector is a function that processes its index as an input argument
+		\cite[\S7.2, pp. 232]{Tate2010}. 
 
+Many collection-returning *Clojure* functions use the *Clojure* abstraction,
+	"sequence" \cite[\S7.2, pp. 232]{Tate2010}. 
 
+When performing pattern matching with vectors, use the head and tail of the
+	vector.
 
-
-
-
-
-
-
+Types of unordered collections (of elements) in *Clojure* \cite[\S7.2, pp. 232]{Tate2010}:
++ maps
++ sets
+	- A set collection has a stable order that is implementation dependent;
+		hence we should not depend on such ordering \cite[\S7.2, pp. 232]{Tate2010}.
+	- Wrap/Surround a set with curly braces/parentheses, with a "#" (pound
+		symbol) prefix.
+	
 
 
 
