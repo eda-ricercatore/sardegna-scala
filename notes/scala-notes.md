@@ -904,7 +904,8 @@ Characteristics of *Clojure* \cite[\S7, pp. 223]{Tate2010}:
 	- "Supports strong, dynamic typing" \cite[\S7.2, pp. 228--229]{Tate2010}.
 	- With dynamic typing, the type of a variable "[is] evaluated at run time"
 		\cite[\S7.2, pp. 229]{Tate2010}. 
-	- "*Clojure*'s types are unified with the underlying *Java* type system."
+	- "*Clojure*'s types are unified with the underlying *Java* type system"
+		\cite[\S7.2, pp. 229]{Tate2010}.
 + Expressive \cite[\S7.1, pp. 225]{Tate2010}.
 
 To provide safe and concurrent access to memory, so that the use of mutable
@@ -937,11 +938,30 @@ A *form* is a basic building block of *Clojure* \cite[\S7.2, pp. 228]{Tate2010}.
 
 Examples of forms are \cite[\S7.2, pp. 228]{Tate2010}:
 + booelans
+	- " `*0* and "" are *true,* but *nil* is not."
 + characters
 + strings
 + sets
 + maps
 + vectors
+
+The main data structures that *Clojure* software tend to use are
+	\cite[\S7.2,pp. 230]{Tate2010}
++ lists
+	However, in idiomatic *Clojure*, use \cite[\S7.2, pp. 231]{Tate2010}:
+	- code for lists
+	- vectors for data
++ maps
++ vectors
+
+
+
+
+
+
+
+
+
 
 
 
