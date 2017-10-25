@@ -901,7 +901,10 @@ Characteristics of *Clojure* \cite[\S7, pp. 223]{Tate2010}:
 	- *Clojure* software can access multiple *Java* libraries
 		\cite[\S7.1, pp. 225]{Tate2010}.
 + Dynamically typed \cite[\S7.1, pp. 225; \S7.2, pp 228]{Tate2010}.
-	- "Supports strong, dynamic typing" \cite[\S7.2, pp. 228]{Tate2010}. 
+	- "Supports strong, dynamic typing" \cite[\S7.2, pp. 228--229]{Tate2010}.
+	- With dynamic typing, the type of a variable "[is] evaluated at run time"
+		\cite[\S7.2, pp. 229]{Tate2010}. 
+	- "*Clojure*'s types are unified with the underlying *Java* type system."
 + Expressive \cite[\S7.1, pp. 225]{Tate2010}.
 
 To provide safe and concurrent access to memory, so that the use of mutable
