@@ -975,12 +975,16 @@ Types of unordered collections (of elements) in *Clojure* \cite[\S7.2, pp. 232]{
 			points to something else \cite[\S7.2, pp. 233-234]{Tate2010}.
 	- A map is a function \cite[\S7.2, pp. 234]{Tate2010}.
 	- A keyword is also a function \cite[\S7.2, pp. 234]{Tate2010}.
+	- For a "given association", use it to "create a new association with a new
+		key-value pair \cite[\S7.2, pp. 234]{Tate2010}.
+	- A sorted map is a map that orders key-value pairs according to a
+		given/default ordering \cite[\S7.2, pp. 234]{Tate2010}.
 + sets
 	- A set collection has a stable order that is implementation dependent;
 		hence we should not depend on such ordering \cite[\S7.2, pp. 232]{Tate2010}.
 	- Wrap/Surround a set with curly braces/parentheses, with a "#" (pound
 		symbol) prefix \cite[\S7.2, pp. 232]{Tate2010}.
-	- A sorted set is a set that orders elements according to a given/
+	- A sorted set is a set that orders elements according to a given/default
 		ordering \cite[\S7.2, pp. 233]{Tate2010}.
 	- A set is a function, and allows membership testing of a given element/item.
 		\cite[\S7.2, pp. 233]{Tate2010}.
