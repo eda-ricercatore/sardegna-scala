@@ -1024,9 +1024,12 @@ Types of unordered collections (of elements) in *Clojure* \cite[\S7.2, pp. 232]{
 + Combine data structures/types:
 	- maps and vectors \cite[\S7.2, pp. 237]{Tate2010}.
 + Anonymous functions, or unnamed functions, can be created from higher-order
-	functions
-	\cite[\S7.2, pp. 238]{Tate2010}.
-
+	functions \cite[\S7.2, pp. 238]{Tate2010};
+	higher-order functions without function names are anonymous functions, or
+		unnamed functions \cite[\S7.2, pp. 238]{Tate2010}.
+	these higher-order functions can be functions operating on collections
+		\cite[\S7.2, pp. 239]{Tate2010}.
++ 
 
 
 
