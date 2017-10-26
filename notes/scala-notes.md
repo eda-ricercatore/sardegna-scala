@@ -1041,9 +1041,21 @@ Applications of *Clojure*:
 + *Java* interop (i.e., Interoperability???), so that the *Clojure* software can work 
 	with software infrastructure frameworks, such as *Hadoop* and *Cascading*
 	\cite[\S7.2, pp. 240]{Tate2010}.
-+ By reducing the need for using parentheses, *Clojure* makes it easier for
+
+By reducing the need for using parentheses, *Clojure* makes it easier for
 	*Clojure* software developers to use macros, but "slighty harder for macro
 	writers" \cite[\S7.2, pp. 241]{Tate2010}. 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
