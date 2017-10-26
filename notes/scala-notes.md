@@ -1033,11 +1033,17 @@ Types of unordered collections (of elements) in *Clojure* \cite[\S7.2, pp. 232]{
 
 
 
-
-
-
-
-
+Applications of *Clojure*:
++ Create domain-specific languages (DSLs) \cite{Fowler2011}, "using the
+	syntactic abstraction of macros to make a DSL for the machine learning
+	and statistical inference bits
+	\cite[\S7.2, pp. 240]{Tate2010}.
++ *Java* interop (i.e., Interoperability???), so that the *Clojure* software can work 
+	with software infrastructure frameworks, such as *Hadoop* and *Cascading*
+	\cite[\S7.2, pp. 240]{Tate2010}.
++ By reducing the need for using parentheses, *Clojure* makes it easier for
+	*Clojure* software developers to use macros, but "slighty harder for macro
+	writers" \cite[\S7.2, pp. 241]{Tate2010}. 
 
 
 
