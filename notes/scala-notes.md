@@ -990,6 +990,43 @@ Types of unordered collections (of elements) in *Clojure* \cite[\S7.2, pp. 232]{
 		\cite[\S7.2, pp. 233]{Tate2010}.
 	
 
+*Clojure* functions:
++ The behavior of a *Clojure* program/software is defined by its function(s)
+	\cite[\S7.2, pp. 234]{Tate2010}.
++ Define a *Clojure* function with *func* \cite[\S7.2, pp. 234]{Tate2010}.
+	- E.g., (defn *name-of-function* *[parameters]* *body*)
+		\cite[\S7.2, pp. 235]{Tate2010}.
+	- To call the function, try: (*name-of-function*) \cite[\S7.2, pp. 235]{Tate2010}.
+	- An additional string can be used as documentation (like comments) in the
+		body of a function, between its name and its parameters
+		\cite[\S7.2, pp. 235]{Tate2010}.
++ *(doc *name-of-function*)* is used to print information (if any) about the function
+	that is specified in the documentation line \cite[\S7.2, pp. 235]{Tate2010}.
++ Binding is "the process of assigning parameters based on the inbound
+	arguments" \cite[\S7.2, pp. 236]{Tate2010}. 
+	- *Clojure* allows "any portion of any argument" to be accessed as a
+		parameter \cite[\S7.2, pp. 236]{Tate2010}.
+	- Destructuring allows us to decompose a data structure, and only access
+		relevant components of the data structure
+		\cite[\S7.2, pp. 236]{Tate2010}.
+		* "Destructuring is simply a form of pattern matching"
+			\cite[\S7.2, pp. 237]{Tate2010}.
+		* Carry out destructuring in the input/inbound argument list or in *let*
+			statements \cite[\S7.2, pp. 237]{Tate2010}.
+		* Destructure maps, ...
+	- Regarding the list of input/inbound parameters, use "*_*" idiomatically to
+		refer to parameters that can/should be ignored
+		\cite[\S7.2, pp. 236]{Tate2010};
+		this allows us to avoid using wildcard arguments in function calls
+			\cite[\S7.2, pp. 237]{Tate2010};
+		this allows us to concentrate on target arguments
+			\cite[\S7.2, pp. 237]{Tate2010}.
++ Combine data structures/types:
+	- maps and vectors \cite[\S7.2, pp. 237]{Tate2010}.
+
+
+
+
 
 
 
