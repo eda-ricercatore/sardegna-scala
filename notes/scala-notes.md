@@ -403,6 +403,11 @@ Concepts of functional programming to explore
 + pattern matching
 + algebraic data types
 + lazy evaluation
+	- To perform computation on an "infinite sequence", by lazily "computing
+		values only when [the values] are consumed"
+		\cite[\S7.3, pp. 247]{Tate2010}.
+	- Most sequences in *Clojure*'s sequence library use lazy evaluation
+		\cite[\S7.3, pp. 247]{Tate2010}.
 + tail recursion
 	- References:
 		* \cite[\S4.3 pp. 111]{Tate2010} discusses tail recursion optimization. 
@@ -1074,6 +1079,11 @@ Differences between *Clojure* and other *Lisp* dialects
 Concepts in *Clojure* \cite[\S7.3, pp. 243]{Tate2010}:
 + Abstraction layer unifies  *Clojure* collections and *Java* collections.
 + Lazy evaluation
+	- To perform computation on an "infinite sequence", by lazily "computing
+		values only when [the values] are consumed"
+		\cite[\S7.3, pp. 247]{Tate2010}.
+	- Most sequences in *Clojure*'s sequence library use lazy evaluation
+		\cite[\S7.3, pp. 247]{Tate2010}.
 + Just-in-time strategy
 + Use explicit recursion (using *loop* and *recur*) rather than iteration
 	- Implicit tail recursion optimization is not supported, due to limitations of
