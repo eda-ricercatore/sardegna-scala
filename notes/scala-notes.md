@@ -1034,6 +1034,14 @@ Types of unordered collections (of elements) in *Clojure* \cite[\S7.2, pp. 232]{
 
 
 
+
+
+
+
+
+
+
+
 Applications of *Clojure*:
 + Create domain-specific languages (DSLs) \cite{Fowler2011}, "using the
 	syntactic abstraction of macros to make a DSL for the machine learning
@@ -1091,6 +1099,26 @@ Random notes:
 	- *every?*
 	- *not-every?*
 	- *not-any?*
++ List comprehension combines multiple containers (e.g., lists and maps) and
+	filters \cite[\S7.3, pp. 246]{Tate2010}.
++ *reduce* in *Lisp* is the equivalent for \cite[\S7.3, pp. 246]{Tate2010}:
+	- foldl, in *Erlang*
+	- foldleft, in *Scala*
+	- inject, in *Ruby*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ####	*Haskell*
