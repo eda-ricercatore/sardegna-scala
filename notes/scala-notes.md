@@ -1127,8 +1127,10 @@ Random notes:
 		infinite sequence \cite[\S7.3, pp. 248]{Tate2010}.
 	- "*interleave*" enables elements from multiple infinite sequences to be
 		interspersed/interposed/interleaved \cite[\S7.3, pp. 248]{Tate2010}. 
-	- "*iterate*"
-		\cite[\S7.3, pp. 249]{Tate2010}.
+	- "*iterate*" is a function that performs a given function iteratively to create
+		a sequence (e.g., an infinite sequence) \cite[\S7.3, pp. 249]{Tate2010};
+		use the "*iterate*" function with lazy sequences to describe recursive
+			problems \cite[\S7.3, pp. 249]{Tate2010}.
 
 
 
@@ -1137,7 +1139,7 @@ Random notes:
 
 
 
-
+Theodora Chaspari
 
 
 ####	*Haskell*
