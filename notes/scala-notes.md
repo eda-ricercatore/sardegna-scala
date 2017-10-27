@@ -909,7 +909,8 @@ Characteristics of *Clojure* \cite[\S7, pp. 223]{Tate2010}:
 + Expressive \cite[\S7.1, pp. 225]{Tate2010}.
 
 To provide safe and concurrent access to memory, so that the use of mutable
-	variables in *Clojure* is supported, use the transactional memory (in *Clojure*)
+	variables in *Clojure* is supported ("*Clojure* allows limited side effects"
+	\cite[\S7.2, pp. 241]{Tate2010}), use the transactional memory (in *Clojure*)
 	in the same way I would use transactional databases (to minimize side effects);
 	use agents to gain encapsulated access to mutable resources
 		\cite[\S7.1, pp. 225]{Tate2010}.
@@ -1051,6 +1052,24 @@ By reducing the need for using parentheses, *Clojure* makes it easier for
 	understand" \cite[\S7.2, pp. 241]{Tate2010}.
 
 
+Differences between *Clojure* and other *Lisp* dialects
+	\cite[\S7.2, pp. 241-242]{Tate2010}:
++ Additional/Different syntax \cite[\S7.2, pp. 241-242]{Tate2010}
+	- "Use braces "{}" for maps"
+	- "Use brackets "[]" for vectors"
+	- "Use commas for whitespace"
+	- Exclude (leave out/omit) parentheses "()" in certain places
+
+
+
+
+Concepts in *Clojure* \cite[\S7.3, pp. 243]{Tate2010}:
++ Abstraction layer unifies  *Clojure* collections and *Java* collections.
++ Lazy evaluation
++ Just-in-time strategy
++ Use explicit recursion (using *loop* and *recur*) rather than iteration
+	- Implicit tail recursion optimization is not supported, due to limitations of
+		the JVM.  
 
 
 
@@ -1058,6 +1077,17 @@ By reducing the need for using parentheses, *Clojure* makes it easier for
 
 
 
+
+
+Random notes:
++ "Sometimes, the JVM is a double-edged sword. If you want the community,
+	you need to deal with the problems."
+	-- Bruce A. Tate, \cite[\S7.3, pp. 244]{Tate2010}.
++ *Clojure* sequences provide an abstraction for *Clojure* collections (e.g., sets,
+	maps, and vectors), file system structures (streams and directories), and
+	*Java* collections (e.g.,  containers, arrays, and strings)
+	Bruce A. Tate, \cite[\S7.3, pp. 244]{Tate2010};
+	it supports functions (*first*, *rest*, and *cons*).
 
 
 
