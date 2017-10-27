@@ -1119,8 +1119,16 @@ Random notes:
 + Regarding infinite sequences \cite[\S7.3, pp. 248-250]{Tate2010}:
 	- Sample a finite subset of the infinite sequence using the function *take*
 		\cite[\S7.3, pp. 248]{Tate2010}.
-	- 
-
+	- "*take*" allows the first *n* elements of a sequence to be sampled
+		\cite[\S7.3, pp. 248]{Tate2010}.
+	- "*drop*" allows the first *n* elements of a sequence to be excluded (or
+		omited/ignored) from sampling \cite[\S7.3, pp. 248]{Tate2010}.
+	- "*interpose*" enables the placement of separators between elements in an
+		infinite sequence \cite[\S7.3, pp. 248]{Tate2010}.
+	- "*interleave*" enables elements from multiple infinite sequences to be
+		interspersed/interposed/interleaved \cite[\S7.3, pp. 248]{Tate2010}. 
+	- "*iterate*"
+		\cite[\S7.3, pp. 249]{Tate2010}.
 
 
 
