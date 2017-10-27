@@ -1115,10 +1115,11 @@ Random notes:
 	- foldl, in *Erlang*
 	- foldleft, in *Scala*
 	- inject, in *Ruby*
-
-
-
-
++ Support ranges as functions \cite[\S7.3, pp. 247]{Tate2010}.
++ Regarding infinite sequences \cite[\S7.3, pp. 248-250]{Tate2010}:
+	- Sample a finite subset of the infinite sequence using the function *take*
+		\cite[\S7.3, pp. 248]{Tate2010}.
+	- 
 
 
 
