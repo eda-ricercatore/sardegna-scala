@@ -1085,10 +1085,12 @@ Random notes:
 	-- Bruce A. Tate, \cite[\S7.3, pp. 244]{Tate2010}.
 + *Clojure* sequences provide an abstraction for *Clojure* collections (e.g., sets,
 	maps, and vectors), file system structures (streams and directories), and
-	*Java* collections (e.g.,  containers, arrays, and strings)
-	Bruce A. Tate, \cite[\S7.3, pp. 244]{Tate2010};
-	it supports functions (*first*, *rest*, and *cons*).
-
+	*Java* collections (e.g.,  containers, arrays, and strings) \cite[\S7.3, pp. 244]{Tate2010};
+	it supports functions (*first*, *rest*, and *cons*) \cite[\S7.3, pp. 244]{Tate2010}.
++ Predicates are used to test sequences \cite[\S7.3, pp. 245]{Tate2010}.
+	- *every?*
+	- *not-every?*
+	- *not-any?*
 
 
 ####	*Haskell*
