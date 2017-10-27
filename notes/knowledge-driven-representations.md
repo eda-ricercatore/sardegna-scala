@@ -164,17 +164,17 @@ ROC curves, receiver operating characteristic curves
 
 
 
+child-robot interaction, versus child-child interaction
++ speech-controlled interactive game, camera and screen views
++ acoustic synchrony, from acoustic analysis
++ engagement score
 
+map robots behavior to child's behavior
+design, learn, translate and inform
 
-
-
-
-
-
-
-
-
-
+context-rich bio-behavioral representations
+cyber-analytics, risky behaviors & depression, construction health
+eye-tracking, mouse and keyboard interactions
 
 
 
