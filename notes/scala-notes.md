@@ -1046,7 +1046,9 @@ By reducing the need for using parentheses, *Clojure* makes it easier for
 	*Clojure* software developers to use macros, but "slighty harder for macro
 	writers" \cite[\S7.2, pp. 241]{Tate2010}. 
 
-
+*Clojure* source code tends to contain fewer parentheses "than older *LIsp*s";
+	hence, *Clojure* source code is "easier to scan, visually parse, and
+	understand" \cite[\S7.2, pp. 241]{Tate2010}.
 
 
 
