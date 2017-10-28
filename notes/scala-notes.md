@@ -1035,8 +1035,13 @@ Types of unordered collections (of elements) in *Clojure* \cite[\S7.2, pp. 232]{
 		unnamed functions \cite[\S7.2, pp. 238]{Tate2010}.
 	these higher-order functions can be functions operating on collections
 		\cite[\S7.2, pp. 239]{Tate2010}.
-+ 
-
++ "To build platform-fast open extensions by programming to abstractions, rather
+	than implementations", use *defrecord* for type operations and *protocol*
+	for "grouping functions together around a type"
+	\cite[\S7.3, pp. 250]{Tate2010}.
+	- A "protocol" in *Clojure* is a contract, and specifies a specific set of
+		functions, fields, and arguments that must be supported by its types
+		\cite[\S7.3, pp. 250-251]{Tate2010}.  
 
 
 
