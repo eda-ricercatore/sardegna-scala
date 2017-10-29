@@ -1055,10 +1055,15 @@ Types of unordered collections (of elements) in *Clojure* \cite[\S7.2, pp. 232]{
 			\cite[\S7.3, pp. 252-253]{Tate2010}.
 		* Defined JVM types can "interoperate with *Java* classes and interfaces"
 			\cite[\S7.3, pp. 253]{Tate2010}.
-
-
-
-
+		* *defrecord* and *protocol* enable *Clojure* code to run on the JVM,
+			without *Java*.
+			Such code "can interact with other [JVM] types, including *Java*
+				classes or interfaces", such as using them to "subclass *Java*
+				types or implement *Java* interfaces.
+			"*Java* classes can build on [these] *Clojure* types"
+				\cite[\S7.3, pp. 253]{Tate2010}. 
+		* This is an important subset of *Clojure/Java* interoperability
+			\cite[\S7.3, pp. 253]{Tate2010}.
 
 
 Applications of *Clojure*:
