@@ -1042,10 +1042,19 @@ Types of unordered collections (of elements) in *Clojure* \cite[\S7.2, pp. 232]{
 	- A "protocol" in *Clojure* is a contract, and specifies a specific set of
 		functions, fields, and arguments that must be supported by its types
 		\cite[\S7.3, pp. 250-251]{Tate2010}.  
-
-
-
-
+	- For "[defined] JVM types", access all fields as *Java* fields or in the type as
+		*Clojure* map keywords \cite[\S7.3, pp. 252]{Tate2010}.
+		* "[Since] these types function/work like maps," "prototype new types as
+			maps, and iteratively convert them to types as [the software] design
+			stabilizes" \cite[\S7.3, pp. 252]{Tate2010}.
+		* To use types as stubs or mocks, substitute types as maps in my test
+			suite \cite[\S7.3, pp. 252]{Tate2010}.
+		* Types support "[alternate] *Clojure* concurrency constructs", such as
+			maintaining transactional integrity (similar to relational databases)
+			with the use of mutable references of *Clojure* objects
+			\cite[\S7.3, pp. 252-253]{Tate2010}.
+		* Defined JVM types can "interoperate with *Java* classes and interfaces"
+			\cite[\S7.3, pp. 253]{Tate2010}.
 
 
 
