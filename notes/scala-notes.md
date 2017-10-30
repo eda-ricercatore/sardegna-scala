@@ -1142,7 +1142,26 @@ Concepts in *Clojure* \cite[\S7.3, pp. 243]{Tate2010}:
 	"using multiple versions" \cite[\S7.4, pp. 256]{Tate2010}. 
 + "Changes [to] the state of a reference" must be made "within the scope of a
 	transaction" \cite[\S7.4, pp. 256]{Tate2010}.
-+ 
++ Using versioning, instead of locks, for concurrency control and ensuring data
+	integrity shifts the burden of concurrency control away from the programmer
+	\cite[\S7.4, pp. 256]{Tate2010}.
++ In versioning, the database enables each transaction to keep a private copy of
+	its data, using multiple versions. If the transactions interfere with each other,
+	the affected transactions are rerun by the database
+	\cite[\S7.4, pp. 256]{Tate2010}. 
+- A reference is a wrapped data item, which data access has to comply with
+	specific rules that support STM, and can only be modified during a
+	transaction \cite[\S7.4, pp. 256]{Tate2010}.  
+
+
+
+
+
+
+
+
+
+
 
 
 Random notes:
