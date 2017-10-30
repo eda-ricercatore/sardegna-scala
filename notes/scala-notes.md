@@ -1133,6 +1133,27 @@ Concepts in *Clojure* \cite[\S7.3, pp. 243]{Tate2010}:
 		the JVM \cite[\S7.3, pp. 243,253]{Tate2010};
 		hence, *loop* and *recur* are used for working around the lack of
 			support for tail recursion \cite[\S7.3, pp. 243,253]{Tate2010}.  
++ Metadata can be associated (via a map) with a type, symbol, and collection.
+	\cite[\S7.4, pp. 262]{Tate2010}
++ *Java*/JVM integration \cite[\S7.4, pp. 262]{Tate2010}
++ Multimethods can be used to organize behavior and data in *Clojure* software,
+	by "[associating] a library of functions with a type" and "[implementing]
+	polymorphism (via multimethods) for method dispatch based on type,
+	metadata, arguments, and attributes \cite[\S7.4, pp. 262]{Tate2010}.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1188,6 +1209,23 @@ Concepts in *Clojure* \cite[\S7.3, pp. 243]{Tate2010}:
 		\cite[\S7.4, pp. 261]{Tate2010};
 	futures can be used to enable multiple long-running functions to execute in
 		parallel \cite[\S7.4, pp. 261]{Tate2010}.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
