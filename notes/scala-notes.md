@@ -1140,7 +1140,8 @@ Concepts in *Clojure* \cite[\S7.3, pp. 243]{Tate2010}:
 	by "[associating] a library of functions with a type" and "[implementing]
 	polymorphism (via multimethods) for method dispatch based on type,
 	metadata, arguments, and attributes \cite[\S7.4, pp. 262]{Tate2010}.
-
++ "vars" can be used to bind data to a variable "only for the current thread," so
+	that data can be stored "per thread instance" \cite[\S7.4, pp. 262]{Tate2010}.
 
 
 
