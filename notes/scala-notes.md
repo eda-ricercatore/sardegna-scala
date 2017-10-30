@@ -391,7 +391,8 @@ Characteristics of a functional programming language:
 	programming, procedural programming, structured programming, and
 	object-oriented programming is a shift from writing pseudocode**
 	\cite[\S1.1.1, pp. 5-6]{Goodrich2015} \cite[\S2.2.2, pp. 64]{Goodrich2013}
-	\cite[\S1.9.2, pp. 48]{Goodrich2010} \cite[\S1.7.2, pp. 54-55]{Goodrich2011}**,
+	\cite[\S1.9.2, pp. 48]{Goodrich2010} \cite[\S1.7.2, pp. 54-55]{Goodrich2011}
+	\cite[\S2.1, pp. 17,20-22]{Cormen2009}**,
 	for high-level analysis of an algorithm or a data structure (e.g., proving
 	algorithm correctness), to describing what functions should the program
 	perform.**
@@ -400,7 +401,8 @@ Performance analysis of algorithms can be carried out using:
 + **computational time complexity** \cite[\S1.1.3, pp. 8-9]{Goodrich2015}**,
 	via asymptotic notation** \cite[\S1.1.5, pp. 11-18]{Goodrich2015}
 	**(or asymptotic analysis** \cite[\S3.3, pp. 123-136]{Goodrich2013}
-	\cite[\S4.2, pp. 166-184]{Goodrich2010} \cite[\S.4.2, pp. 162-180]{Goodrich2011}**)**
+	\cite[\S4.2, pp. 166-184]{Goodrich2010} \cite[\S.4.2, pp. 162-180]{Goodrich2011}
+	\cite[\S2.2, pp. 23-29; \S3, pp. 43-64]{Cormen2009}**)**
 	- worst-case analysis
 	- average-case analysis
 + computational space complexity
@@ -1260,7 +1262,14 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 + [Tate2010]
 	- Tate, B. A. Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages. Pragmatic Bookshelf, Raleigh, NC, 2010.
 
-
+OracleCorporationStaff20XYe,
+OracleCorporationStaff20XYd
+OracleCorporationStaff20XYc
+OracleCorporationStaff20XYb
+OracleCorporationStaff2016c
+OracleCorporationStaff2016d
+OracleCorporationStaff2016e
+OracleCorporationStaff2017
 
 
 
