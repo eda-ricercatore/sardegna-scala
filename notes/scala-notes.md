@@ -397,10 +397,10 @@ Characteristics of a functional programming language:
 	perform.**
 
 Performance analysis of algorithms can be carried out using:
-+ *computational time complexity* \cite[\S1.1.3, pp. 8-9]{Goodrich2015},
-	*via asymptotic notation* \cite[\S1.1.5, pp. 11-18]{Goodrich2015}
-	*(or asymptotic analysis* \cite[\S3.3, pp. 123-136]{Goodrich2013}
-	\cite[\S4.2, pp. 166-184]{Goodrich2010} \cite[\S.4.2, pp. 162-180]{Goodrich2011}*)*
++ **computational time complexity** \cite[\S1.1.3, pp. 8-9]{Goodrich2015}**,
+	via asymptotic notation** \cite[\S1.1.5, pp. 11-18]{Goodrich2015}
+	**(or asymptotic analysis** \cite[\S3.3, pp. 123-136]{Goodrich2013}
+	\cite[\S4.2, pp. 166-184]{Goodrich2010} \cite[\S.4.2, pp. 162-180]{Goodrich2011}**)**
 	- worst-case analysis
 	- average-case analysis
 + computational space complexity
