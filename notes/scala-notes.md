@@ -1154,18 +1154,32 @@ Concepts in *Clojure* \cite[\S7.3, pp. 243]{Tate2010}:
 	transaction \cite[\S7.4, pp. 256]{Tate2010}.  
 + To modify a reference during a transaction, use a transforming function or use
 	*ref-set*; this prevents race conditions and deadlocks from happening
-	\cite[\S7.4, pp. 256]{Tate2010}.
+	\cite[\S7.4, pp. 257]{Tate2010}.
 + "A *Clojure* atom is an encapsulated bit of state;
 	an atom allow a single reference, which is uncoordinated with other activities,
 	to be modified "outside the context of a transaction" with thread safety
-	\cite[\S7.4, pp. 256]{Tate2010}.
-
-
-
-
-
-
-
+	\cite[\S7.4, pp. 258]{Tate2010}.
++ Use atoms and references to synchronously and safely access and modify
+	mutable states \cite[\S7.4, pp. 259]{Tate2010}.
++ "An agent is a wrapped piece of data," which state can only be exclusively
+	mutated by a function at a given instance \cite[\S7.4, pp. 260]{Tate2010};
+	an agent can be asynchronously modified via functions in a thread, and
+		updated in another thread \cite[\S7.4, pp. 260]{Tate2010};
+	"the state of a dereferenced agent will block until a value is available"
+		\cite[\S7.4, pp. 260]{Tate2010}.
++ Accessing values from references, atoms, or agents will not cause locks nor
+	blocks to occur \cite[\S7.4, pp. 260]{Tate2010};
+	 with the use of appropriate abstractions, such accesses should be fast
+	 	operations \cite[\S7.4, pp. 260]{Tate2010}. 
++ While functions *await* and *await-for* allow the latest value of an agent with
+	respect to its own thread to be accessed, these functions "block only until
+	actions from the aforementioned thread are dispatched" and does not
+	indicate actions performed on this agent by other theads
+	\cite[\S7.4, pp. 261]{Tate2010};
+	since these *Clojure* functions involve working with instantaneous values,
+		which can be out-of-date in the next instant, *Clojure* developers
+		should avoid working with "the latest value of something"
+		\cite[\S7.4, pp. 261]{Tate2010}.
 
 
 
