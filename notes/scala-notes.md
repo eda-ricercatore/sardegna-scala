@@ -216,7 +216,7 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 		Tuples can also be used for multivalue assignments
 			\cite[\S5.2 pp. 147]{Tate2010}.
 		*Scala* software can also perform static type checking
-			\cite[\S5.2, pp. 147]{Tate2010}.. 
+			\cite[\S5.2, pp. 147]{Tate2010}.
 + Simple *Scala* classes can be defined without methods nor constructors;
 	e.g., *class* Person(first_name: String, last_name: String) 
 	\cite[\S5.2, pp. 147]{Tate2010}.
@@ -306,8 +306,7 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 + *Scala* application programming interface (API) \cite[\S5.2, pp. 153]{Tate2010}.
 + "A higher-order function is [a function] that produces or consumes functions";
 	specifically, it accepts other functions via input parameters and/or returns
-	functions as output \cite[\S5.3, pp. 160-161]{Tate2010}
-		\cite[\S6.3, pp. 198]{Tate2010}.
+	functions as output \cite[\S5.3, pp. 160-161; \S6.3, pp. 198]{Tate2010}.
 	- Functions can be passed into these higher-order functions
 		\cite[\S5.3, pp. 160]{Tate2010}.
 	- "Assign input functions to any variable or parameter, or pass them into
@@ -803,8 +802,7 @@ We can use multiple computer languages in a software to exploit the advantages
 
 *Erlang* (or *Ericsson Language*) is a functional programming language that
 	supports scalable concurrency and reliability (or fault tolerance
-	\cite[\S6.5, pp. 219]{Tate2010})
-	\cite[\S6.1, pp. 181-182]{Tate2010}.
+	\cite[\S6.5, pp. 219; \S6.1, pp. 181-182]{Tate2010}.
 
 *Erlang* uses distributed message passing and lightweight processes to avoid
 	performance bottlenecks concerning shared resources,
@@ -1248,28 +1246,74 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 ## From Zhiyang Ong's *BibTeX* Database 
 
-
++ [Booch2005]
+	- Booch, G., Rumbaugh, J., and Jacobson, I. The Unified Modeling Language User Guide, second ed. Addison-Wesley Object Technology Series. Addison-Wesley, Reading, MA, 2005.
 + [Cormen2009]
 	- Cormen, T. H., Leiserson, C. E., Rivest, R. L., and Stein, C. Introduction to Algorithms, third ed. The MIT Press, Cambridge, MA, 2009.
++ [Fowler2004]
+	- Fowler, M. UML Distilled: A Brief Guide to the Standard Object Modeling Language, third ed. Addison-Wesley Object Technology Series. Addison-Wesley, Boston, MA, 2004.
++ [Fowler2011]
+	- Fowler, M., and Parsons, R. Domain-Specific Languages. Addison-Wesley Signature Series. Addison- Wesley, Boston, MA, 2011.
 + [Goodrich2015]
 	- Goodrich, M. T., and Tamassia, R. Algorithm Design and Applications. John Wiley & Sons, Hoboken, NJ, 2015.
-+ [Goodrich2010]
-	- Goodrich, M. T., and Tamassia, R. Data Structures and Algorithms in Java, fifth ed. John Wiley & Sons, Hoboken, NJ, 2010.
 + [Goodrich2013]
 	- Goodrich, M. T., Tamassia, R., and Goldwasser, M. H. Data Structures and Algorithms in Python. John Wiley & Sons, Hoboken, NJ, 2013.
 + [Goodrich2011]
 	- Goodrich, M. T., Tamassia, R., and Mount, D. M. Data Structures and Algorithms in C++, second ed. John Wiley & Sons, Hoboken, NJ, 2011.
++ [Goodrich2010]
+	- Goodrich, M. T., and Tamassia, R. Data Structures and Algorithms in Java, fifth ed. John Wiley & Sons, Hoboken, NJ, 2010.
++ [Lytovchenko2017]
+	- Dmytro Lytovchenko, Roberto Aloi, Anthony Molinaro, Lukas Larsson, Yoshihiro Tanaka, Andrea Leopardi, Anton N. Ryabkov, Greg Baraghimian, Amir Moulavi, and Juan Facorro, "The Erlang Runtime System", GitHub, Inc., San Francisco, CA, May 24, 2017. Available online from {\it {GitHub, Inc.}: Erik Stenman} at: \url{https://github.com/happi/theBeamBook/releases} and \url{https://github.com/happi/theBeamBook/tree/0.0.7}; October 31, 2017 was the last accessed date.
++ [OracleCorporationStaff20XYe](http://www.oracle.com/technetwork/java/api-141528.html)
++ [OracleCorporationStaff20XYd](http://www.oracle.com/technetwork/java/javase/documentation/api-jsp-136079.html)
++ [OracleCorporationStaff20XYc](http://www.oracle.com/technetwork/java/javase/documentation/index.html)
++ [OracleCorporationStaff20XYb](http://www.oracle.com/technetwork/java/javase/overview/index.html)
++ [OracleCorporationStaff2016e](http://docs.oracle.com/javase/8/docs/api/)
++ [OracleCorporationStaff2016d](http://docs.oracle.com/javase/8/docs/)
++ [OracleCorporationStaff2016c](http://docs.oracle.com/javase/8/)
++ [OracleCorporationStaff2017](http://docs.oracle.com/en/java/)
++ [Rachel2015]
+	- Rachel and Vaxquis Poponuro, "What is the difference between statically typed and dynamically typed languages?". Stack Exchange, Inc., New York, NY. September 10, 2015. Available online from {\it {Stack Exchange, Inc.}: Stack Overflow: Questions} at: \url{https://stackoverflow.com/questions/1517582/what-is-the-difference-between-statically-typed-and-dynamically-typed-languages}; October 12, 2017 was the last accessed date.
++ [Rosenberg2007]
+	- Rosenberg, D., and Stephens, M. Use Case Driven Object Modeling with UML: Theory and Practice. Springer-Verlag New York, New York, NY, 2007.
++ [Rumbaugh2004]
+	- Rumbaugh, J., Jacobson, I., and Booch, G. The Unified Modeling Language Reference Manual, second ed. Addison-Wesley Object Technology Series. Pearson Education, Reading, MA, 2004.
++ [Stevens2000]
+	- Stevens, P., and Pooley, R. Using UML: Software Engineering with Objects and Components. Addison-Wesley Object Technology Series. Addison-Wesley, Essex, England, U.K., 2000.
 + [Tate2010]
 	- Tate, B. A. Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages. Pragmatic Bookshelf, Raleigh, NC, 2010.
++ [WikipediaContributors2017e](https://en.wikipedia.org/wiki/Programming_paradigm)
++ [WikipediaContributors2017f](https://en.wikipedia.org/wiki/Functional_programming)
++ [WikipediaContributors2017g](https://en.wikipedia.org/wiki/Purely_functional_programming)
++ [WikipediaContributors2017h](https://en.wikipedia.org/wiki/Functional_logic_programming)
++ [WikipediaContributors2017j](https://en.wikipedia.org/wiki/Comparison_of_programming_paradigms)
++ [WikipediaContributors2017k](https://en.wikipedia.org/wiki/Concurrent_computing)
++ [WikipediaContributors2017l](https://en.wikipedia.org/wiki/Imperative_programming)
++ [WikipediaContributors2017m](https://en.wikipedia.org/wiki/Declarative_programming)
++ [WikipediaContributors2017n](https://en.wikipedia.org/wiki/Parallel_computing)
++ [WikipediaContributors2017o]()
++ [WikipediaContributors2017p]()
++ [WikipediaContributors2017q]()
++ [WikipediaContributors2017r]()
++ [WikipediaContributors2017s]()
++ [WikipediaContributors2017t]()
++ [WikipediaContributors2017u]()
++ [WikipediaContributors2017v]()
++ [WikipediaContributors2017w]()
++ [WikipediaContributors2017x]()
 
-OracleCorporationStaff20XYe,
-OracleCorporationStaff20XYd
-OracleCorporationStaff20XYc
-OracleCorporationStaff20XYb
-OracleCorporationStaff2016c
-OracleCorporationStaff2016d
-OracleCorporationStaff2016e
-OracleCorporationStaff2017
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
