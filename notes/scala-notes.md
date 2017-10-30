@@ -1319,6 +1319,20 @@ Random notes:
 
 
 
+Characteristics of *Haskell*:
++ pure functional programming \cite[\S8, pp. 268; \S8.1, pp. 268-269]{Tate2010}.
++ lazy processing \cite[\S8.1, pp. 269]{Tate2010}.
++ strong and static typing, just like *Scala* \cite[\S8.1, pp. 269]{Tate2010}.
+
+
+
+
+Random notes:
++ "*Haskell* represents purity and freedom for many functional programming purists. It's rich and powerful, but the power comes at a price. You can't eat just a couple of bites. *Haskell* will force you to eat the whole functional programming burrito."
+	\cite[\S8, pp. 268]{Tate2010}.
+
+
+
 
 
 
