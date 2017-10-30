@@ -1247,7 +1247,18 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 ## From Zhiyang Ong's *BibTeX* Database 
 
 
-
++ [Cormen2009]
+	- Cormen, T. H., Leiserson, C. E., Rivest, R. L., and Stein, C. Introduction to Algorithms, third ed. The MIT Press, Cambridge, MA, 2009.
++ [Goodrich2015]
+	- Goodrich, M. T., and Tamassia, R. Algorithm Design and Applications. John Wiley & Sons, Hoboken, NJ, 2015.
++ [Goodrich2010]
+	- Goodrich, M. T., and Tamassia, R. Data Structures and Algorithms in Java, fifth ed. John Wiley & Sons, Hoboken, NJ, 2010.
++ [Goodrich2013]
+	- Goodrich, M. T., Tamassia, R., and Goldwasser, M. H. Data Structures and Algorithms in Python. John Wiley & Sons, Hoboken, NJ, 2013.
++ [Goodrich2011]
+	- Goodrich, M. T., Tamassia, R., and Mount, D. M. Data Structures and Algorithms in C++, second ed. John Wiley & Sons, Hoboken, NJ, 2011.
++ [Tate2010]
+	- Tate, B. A. Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages. Pragmatic Bookshelf, Raleigh, NC, 2010.
 
 
 
