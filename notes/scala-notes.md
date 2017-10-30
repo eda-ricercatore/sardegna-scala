@@ -1118,9 +1118,11 @@ Concepts in *Clojure* \cite[\S7.3, pp. 243]{Tate2010}:
 
 
 
-
-
-
+*Clojure* software "[use] software transactional memory (STM)" 
+	(\cite[\S7.4, pp. 256]{Tate2010}) "to maintain consistency and [data] integrity",
+	"using multiple versions" \cite[\S7.4, pp. 256]{Tate2010}. 
++ "Changes [to] the state of a reference" must be made "within the scope of a
+	transaction" \cite[\S7.4, pp. 256]{Tate2010}.
 
 
 Random notes:
