@@ -475,11 +475,16 @@ Functional programming languages allow software developers to avoid
 	using, or cannot use, mutable variables
 	\cite[\S5.1, pp. 139]{Tate2010}
 
-
-
-
-
-
+To address mutable states in concurrent (object-oriented) software
+	\cite[\S7.4, pp. 256]{Tate2010}:
++ Develop *Scala* and/or *Io* software using the actor-based model, and
+	immutable constructs, so that usage of mutable variables can be avoided.
++ Develop *Erlang* software using the actor-based model, associate each
+	actor with lightweight processes, and use the *BEAM* (*Bogumil's/Bj{\"{o}}rn's
+	Abstract Machine*) virtual machine (*Erlang* Virtual Machine)
+	\cite{Lytovchenko2017} for reliable communication and monitoring.
++ *Clojure* software "[use] software transactional memory (STM)" "to share [state
+	(information)] across threaded applications."
 
 
 
