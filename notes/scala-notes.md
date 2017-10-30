@@ -1180,8 +1180,14 @@ Concepts in *Clojure* \cite[\S7.3, pp. 243]{Tate2010}:
 		which can be out-of-date in the next instant, *Clojure* developers
 		should avoid working with "the latest value of something"
 		\cite[\S7.4, pp. 261]{Tate2010}.
-
-
++ "A future is a concurrency construct that allows an asynchronous return before
+	computation is complete" \cite[\S7.4, pp. 261]{Tate2010};
+	a future processes a body of multiple expressions in another thread, and
+		returns the value of the last expression \cite[\S7.4, pp. 261]{Tate2010};
+	if a future is dereferenced, it will block until the value becomes available
+		\cite[\S7.4, pp. 261]{Tate2010};
+	futures can be used to enable multiple long-running functions to execute in
+		parallel \cite[\S7.4, pp. 261]{Tate2010}.
 
 
 
