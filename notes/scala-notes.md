@@ -1328,12 +1328,19 @@ Characteristics of *Haskell*:
 + lazy processing \cite[\S8.1, pp. 269]{Tate2010}.
 + lazy evaluation \cite[\S8.1, pp. 269]{Tate2010}.
 + list comprehensions \cite[\S8.1, pp. 269]{Tate2010}.
++ parameterized type system \cite[\S8.1, pp. 269]{Tate2010}.
 + strong and static typing, just like *Scala* \cite[\S8.1, pp. 269]{Tate2010}.
 	- Mostly inferred type model \cite[\S8.1, pp. 269]{Tate2010}.
 	- Supports polymorphism \cite[\S8.1, pp. 269]{Tate2010}.
 	- Supports clean software architectures \cite[\S8.1, pp. 269]{Tate2010}.
 + Supports pattern matching \cite[\S8.1, pp. 269]{Tate2010}.
 + Supports usage of guards \cite[\S8.1, pp. 269]{Tate2010}.
+
+
+
+
+
+
 
 
 Random notes:
