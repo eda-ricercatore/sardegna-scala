@@ -894,7 +894,8 @@ Characteristics of *Clojure* \cite[\S7, pp. 223]{Tate2010}:
 + "*Lisp* on the *JVM*"; or "yet another *Lisp* dialect";
 	it has similar language restrictions and strengths as *Lisp* (LISt Processing)
 		\cite[\S7.1, pp. 224]{Tate2010}, and has good support for
-		metaprogramming \cite[\S7.1, pp. 224]{Tate2010}.
+		metaprogramming \cite[\S7.1, pp. 224]{Tate2010} via higher-order
+		functions \cite[\S7.5, pp. 266]{Tate2010}.
 	- Language of lists
 		* When a function is called, the first element in the list is the function,
 			and the remaining elements in the lists are the arguments of the
@@ -1297,6 +1298,19 @@ Random notes:
 		express data as code, not just strings, since the code is in a higher-order
 		data structure \cite[\S7.3, pp. 253]{Tate2010}.
 	- "[Use] macros to add features to [*Clojure*]" \cite[\S7.3, pp. 255]{Tate2010}.
++ Learning Curve \cite[\S7.5, pp. 267]{Tate2010}.
+	- "*Clojure* is rich, and the learning curve is oppressive. You need to have an extremely talented and experienced team to make *Lisp* work. Lazy sequences, functional programming, macro expansion, transactional memory, and the sophistication of the approaches are all powerful concepts that take time to master."
+	
+
+
+
+
+
+
+
+
+
+
 
 
 
