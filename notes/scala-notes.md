@@ -405,7 +405,7 @@ Performance analysis of algorithms can be carried out using:
 	- worst-case analysis
 	- average-case analysis
 + computational space complexity
-
++ performance meaurement
 
 
 ##	Concepts of Functional Programming
@@ -541,8 +541,8 @@ To be completed.
 
 ###	IMPORTANT
 
-Find out about the advantages of functional programming paradigm over
-	procedural and structural programming paradigms.
+Find out about the advantages of functional programming paradigm
+	\cite{Graham2004} over procedural and structural programming paradigms.
 Also, determine its disadvantages.
 
 
@@ -905,7 +905,8 @@ Characteristics of *Clojure* \cite[\S7, pp. 223]{Tate2010}:
 			compare to the reverse Polish notation, or postfix notation
 				\cite{WikipediaContributors2017x}.
 	- "Use its own data structures to express code"; this strategy is known as
-		"data as code".
+		"data as code";
+		"Programs are lists" \cite[\S7.5, pp. 266]{Tate2010}.
 	- Using the previously mentioned concepts/ideas, arrange *Lisp* code
 		\cite[\S7.1, pp. 224]{Tate2010}:
 		* "As named methods in a class".
@@ -1124,9 +1125,15 @@ Concepts in *Clojure* \cite[\S7.3, pp. 243]{Tate2010}:
 + Lazy evaluation
 	- To perform computation on an "infinite sequence", by lazily "computing
 		values only when [the values] are consumed"
-		\cite[\S7.3, pp. 247]{Tate2010}.
+		\cite[\S7.3, pp. 247]{Tate2010};
+		significantly reduce computation overhead due to delayed execution
+			or execution that is prevented from occurring
+			\cite[\S7.5, pp. 265]{Tate2010}.
 	- Most sequences in *Clojure*'s sequence library use lazy evaluation
 		\cite[\S7.3, pp. 247]{Tate2010}.
+	- Simplify approach to solve problem \cite[\S7.5, pp. 265]{Tate2010}.
+	- Can be used instead of "recursion, iteration, or realized collections"
+		\cite[\S7.5, pp. 266]{Tate2010}.
 + Just-in-time strategy
 + Use explicit recursion (using *loop* and *recur*) rather than iteration
 	- Implicit tail recursion optimization is not supported, due to limitations of
@@ -1350,6 +1357,8 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 	- Goodrich, M. T., Tamassia, R., and Mount, D. M. Data Structures and Algorithms in C++, second ed. John Wiley & Sons, Hoboken, NJ, 2011.
 + [Goodrich2010]
 	- Goodrich, M. T., and Tamassia, R. Data Structures and Algorithms in Java, fifth ed. John Wiley & Sons, Hoboken, NJ, 2010.
++ [Graham2004]
+	- Graham, P. Hackers and Painters: Big Ideas from the Computer Age. O’Reilly Media, Sebastopol, CA, 2004.
 + [Lytovchenko2017]
 	- Dmytro Lytovchenko, Roberto Aloi, Anthony Molinaro, Lukas Larsson, Yoshihiro Tanaka, Andrea Leopardi, Anton N. Ryabkov, Greg Baraghimian, Amir Moulavi, and Juan Facorro, "The Erlang Runtime System", GitHub, Inc., San Francisco, CA, May 24, 2017. Available online from {\it {GitHub, Inc.}: Erik Stenman} at: \url{https://github.com/happi/theBeamBook/releases} and \url{https://github.com/happi/theBeamBook/tree/0.0.7}; October 31, 2017 was the last accessed date.
 + [OracleCorporationStaff20XYe](http://www.oracle.com/technetwork/java/api-141528.html)
