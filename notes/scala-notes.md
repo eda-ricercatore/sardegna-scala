@@ -537,13 +537,22 @@ For performance comparison, it is difficult to compare which
 		allocation, parameter copying, and dynamic dispatch"
 		\cite{WikipediaContributors2017j}.
 
+"Though programming paradigms change slowly, they do change. Like a
+	tornado's path, they can leave behind some devastation, taking the form of
+	broken careers and companies that invested poorly."
+	\cite[\S9.1, pp. 314]{Tate2010}.
+
 To be completed.
+
+
 
 ###	IMPORTANT
 
 Find out about the advantages of functional programming paradigm
 	\cite{Graham2004} over procedural and structural programming paradigms.
 Also, determine its disadvantages.
+
+
 
 
 
