@@ -1106,7 +1106,9 @@ Concepts in *Clojure* \cite[\S7.3, pp. 243]{Tate2010}:
 + Just-in-time strategy
 + Use explicit recursion (using *loop* and *recur*) rather than iteration
 	- Implicit tail recursion optimization is not supported, due to limitations of
-		the JVM.  
+		the JVM \cite[\S7.3, pp. 243,253]{Tate2010};
+		hence, *loop* and *recur* are used for working around the lack of
+			support for tail recursion \cite[\S7.3, pp. 243,253]{Tate2010}.  
 
 
 
@@ -1122,8 +1124,11 @@ Random notes:
 	-- Bruce A. Tate, \cite[\S7.3, pp. 244]{Tate2010}.
 + *Clojure* sequences provide an abstraction for *Clojure* collections (e.g., sets,
 	maps, and vectors), file system structures (streams and directories), and
-	*Java* collections (e.g.,  containers, arrays, and strings) \cite[\S7.3, pp. 244]{Tate2010};
-	it supports functions (*first*, *rest*, and *cons*) \cite[\S7.3, pp. 244]{Tate2010}.
+	*Java* collections (e.g.,  containers, arrays, and strings) \cite[\S7.3, pp. 244,255]{Tate2010};
+	it supports functions (*first*, *rest*, and *cons*) \cite[\S7.3, pp. 244]{Tate2010};
+	it can apply common strategies from a common library (JVM
+		compatible/compliant) to process collections (e.g., mutate, transform,
+		and search) \cite[\S7.3, pp. 255]{Tate2010}.
 + Predicates are used to test sequences \cite[\S7.3, pp. 245]{Tate2010}.
 	- *every?*
 	- *not-every?*
