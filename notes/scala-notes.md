@@ -387,11 +387,14 @@ Characteristics of a functional programming language:
 	\cite[\S5.1, pp. 138]{Tate2010}.
 
 
-Shift from writing pseudocode \cite[\S1.1.1, pp. 5-6]{Goodrich2015} 
-	\cite[\S2.2.2, pp. 64]{Goodrich2013} \cite[\S1.9.2, pp. 48]{Goodrich2010}
-	\cite[\S1.7.2, pp. 54-55]{Goodrich2011}, for high-level
-	analysis of an algorithm or a data structure (e.g., proving algorithm
-	correctness), to describing what functions should the program perform. 
+**Adopting the functional programming paradigm with a backgroun in imperative
+	programming, procedural programming, structured programming, and
+	object-oriented programming is a shift from writing pseudocode**
+	\cite[\S1.1.1, pp. 5-6]{Goodrich2015} \cite[\S2.2.2, pp. 64]{Goodrich2013}
+	\cite[\S1.9.2, pp. 48]{Goodrich2010} \cite[\S1.7.2, pp. 54-55]{Goodrich2011}**,
+	for high-level analysis of an algorithm or a data structure (e.g., proving
+	algorithm correctness), to describing what functions should the program
+	perform.**
 
 Performance analysis of algorithms can be carried out using:
 + computational time complexity \cite[\S1.1.3, pp. 8-9]{Goodrich2015},
