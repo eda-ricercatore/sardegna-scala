@@ -1149,10 +1149,12 @@ Concepts in *Clojure* \cite[\S7.3, pp. 243]{Tate2010}:
 	its data, using multiple versions. If the transactions interfere with each other,
 	the affected transactions are rerun by the database
 	\cite[\S7.4, pp. 256]{Tate2010}. 
-- A reference is a wrapped data item, which data access has to comply with
++ A reference is a wrapped data item, which data access has to comply with
 	specific rules that support STM, and can only be modified during a
 	transaction \cite[\S7.4, pp. 256]{Tate2010}.  
-
++ To modify a reference during a transaction, use a transforming function or use
+	*ref-set*; this prevents race conditions and deadlocks from happening
+	\cite[\S7.4, pp. 256]{Tate2010}.
 
 
 
