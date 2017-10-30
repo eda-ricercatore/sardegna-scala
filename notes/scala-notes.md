@@ -387,6 +387,22 @@ Characteristics of a functional programming language:
 	\cite[\S5.1, pp. 138]{Tate2010}.
 
 
+Shift from writing pseudocode \cite[\S1.1.1, pp. 5-6]{Goodrich2015} 
+	\cite[\S2.2.2, pp. 64]{Goodrich2013} \cite[\S1.9.2, pp. 48]{Goodrich2010}
+	\cite[\S1.7.2, pp. 54-55]{Goodrich2011}, for high-level
+	analysis of an algorithm or a data structure (e.g., proving algorithm
+	correctness), to describing what functions should the program perform. 
+
+Performance analysis of algorithms can be carried out using:
++ computational time complexity \cite[\S1.1.3, pp. 8-9]{Goodrich2015},
+	via asymptotic notation \cite[\S1.1.5, pp. 11-18]{Goodrich2015}
+	(or asymptotic analysis \cite[\S3.3, pp. 123-136]{Goodrich2013}
+	\cite[\S4.2, pp. 166-184]{Goodrich2010} \cite[\S.4.2, pp. 162-180]{Goodrich2011})
+	- worst-case analysis
+	- average-case analysis
++ computational space complexity
+
+
 
 ##	Concepts of Functional Programming
 
@@ -1123,6 +1139,7 @@ Concepts in *Clojure* \cite[\S7.3, pp. 243]{Tate2010}:
 	"using multiple versions" \cite[\S7.4, pp. 256]{Tate2010}. 
 + "Changes [to] the state of a reference" must be made "within the scope of a
 	transaction" \cite[\S7.4, pp. 256]{Tate2010}.
++ 
 
 
 Random notes:
@@ -1223,6 +1240,9 @@ Execute *Scala* software as follows:
 
 Citations/References that use the *LaTeX/BibTeX* notation are taken
 	from my *BibTeX* database (set of *BibTeX* entries).
+
+## From Zhiyang Ong's *BibTeX* Database 
+
 
 
 
