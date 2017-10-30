@@ -1155,6 +1155,14 @@ Concepts in *Clojure* \cite[\S7.3, pp. 243]{Tate2010}:
 + To modify a reference during a transaction, use a transforming function or use
 	*ref-set*; this prevents race conditions and deadlocks from happening
 	\cite[\S7.4, pp. 256]{Tate2010}.
++ "A *Clojure* atom is an encapsulated bit of state;
+	an atom allow a single reference, which is uncoordinated with other activities,
+	to be modified "outside the context of a transaction" with thread safety
+	\cite[\S7.4, pp. 256]{Tate2010}.
+
+
+
+
 
 
 
