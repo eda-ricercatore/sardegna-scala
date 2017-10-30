@@ -1321,10 +1321,19 @@ Random notes:
 
 Characteristics of *Haskell*:
 + pure functional programming \cite[\S8, pp. 268; \S8.1, pp. 268-269]{Tate2010}.
+	- *Haskell* software do not produce side effects \cite[\S8.1, pp. 269]{Tate2010};
+		however, *Haskell* functions can return side effects that are executed
+			later \cite[\S8.1, pp. 269]{Tate2010}.
+	- *Monads* can be used to preserve states \cite[\S8.1, pp. 269]{Tate2010}
 + lazy processing \cite[\S8.1, pp. 269]{Tate2010}.
++ lazy evaluation \cite[\S8.1, pp. 269]{Tate2010}.
++ list comprehensions \cite[\S8.1, pp. 269]{Tate2010}.
 + strong and static typing, just like *Scala* \cite[\S8.1, pp. 269]{Tate2010}.
-
-
+	- Mostly inferred type model \cite[\S8.1, pp. 269]{Tate2010}.
+	- Supports polymorphism \cite[\S8.1, pp. 269]{Tate2010}.
+	- Supports clean software architectures \cite[\S8.1, pp. 269]{Tate2010}.
++ Supports pattern matching \cite[\S8.1, pp. 269]{Tate2010}.
++ Supports usage of guards \cite[\S8.1, pp. 269]{Tate2010}.
 
 
 Random notes:
