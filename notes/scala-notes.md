@@ -1150,15 +1150,22 @@ Random notes:
 		a sequence (e.g., an infinite sequence) \cite[\S7.3, pp. 249]{Tate2010};
 		use the "*iterate*" function with lazy sequences to describe recursive
 			problems \cite[\S7.3, pp. 249]{Tate2010}.
++ *Clojure* programs execute in two stages \cite[\S7.3, pp. 253]{Tate2010}.
+	+ Macros in *Clojure* programs are translated into their expanded form, via  
+		macro expansion \cite[\S7.3, pp. 253]{Tate2010};
+		the command "*macroexpand*" can be used to view what is happening
+			\cite[\S7.3, pp. 253]{Tate2010};
+		a list of reader macros is provided in \cite[\S7.3, pp. 253]{Tate2010}.
+	+ Macro expansion allows code to be treated lke lists
+		\cite[\S7.3, pp. 254]{Tate2010}.;
+		quoted functions won't execute immediately
+			\cite[\S7.3, pp. 254]{Tate2010} -- a quote needs to be placed in
+			front of the expression \cite[\S7.3, pp. 253]{Tate2010}.
+	+ "Macro expansion is perhaps the most poweerful feature of Lisp";
+		express data as code, not just strings, since the code is in a higher-order
+		data structure \cite[\S7.3, pp. 253]{Tate2010}.
 
 
-
-
-
-
-
-
-Theodora Chaspari
 
 
 ####	*Haskell*
