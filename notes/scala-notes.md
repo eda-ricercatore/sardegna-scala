@@ -1383,6 +1383,24 @@ Random notes:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #	Personal Notes from Developing *Scala* Software
 
 ##	Build Process and Automation for *Scala* Software
