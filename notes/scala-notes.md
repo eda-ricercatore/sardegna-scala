@@ -1452,6 +1452,34 @@ Random notes:
 		the expressive type system, and template *Haskell* all support extending
 		the language in various ways."
 		\cite[\S8.2, pp. 283]{Tate2010}
++ "*Haskell* [supports] creating proofs for correctness far easier than imperative
+	counterparts" \cite[\S8.3, pp. 285]{Tate2010}.
++ Usage of higher-order functions, and their combinations via partially applied
+	functions and currying, allow *Haskell* software to be more predictable and
+	reliable \cite[\S8.3, pp. 285]{Tate2010}.
+
+
+
+Higher-order functions
++ anonymous functions \cite[\S8.3, pp. 285]{Tate2010}.
+	- "Anonymous functions are an important feature for list libraries"
+		\cite[\S8.3, pp. 285]{Tate2010}.
+	- The map function can apply an anonymous function (as a locally scoped
+		function) to each item in a list, and process the result
+		\cite[\S8.3, pp. 286]{Tate2010};
+		map can also be apply part of a function (i.e., a section of a function, or
+			partially applied function) \cite[\S8.3, pp. 286]{Tate2010}.
++ Use the feature "where" to bind functions or variables
+	\cite[\S8.3, pp. 286]{Tate2010}.
+
+
+
+
+
+
+
+
+
 
 Disadvantages of *Haskell*:
 + Regarding distributed computing, since *Haskell* carries out lazy evaluation by
