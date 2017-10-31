@@ -16,6 +16,8 @@
 				- [Prolog](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/scala-notes.md#prolog)
 			+ [Software Implemented in Multiple Computer Languages](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/scala-notes.md#software-implemented-in-multiple-computer-languages)
 			+ [Erlang (or Ericsson Language)](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/scala-notes.md#erlang-or-ericsson-language)
+			+ [Clojure](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/scala-notes.md#clojure)
+			+ [Haskell](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/scala-notes.md#haskell)
 + [Personal Notes from Developing *Scala* Software](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/scala-notes.md#personal-notes-from-developing-scala-software)
 	- [Build Process and Automation for Scala Software](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/scala-notes.md#build-process-and-automation-for-scala-software)
 		* [Compiling Scala Software](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/scala-notes.md#compiling-scala-software)
