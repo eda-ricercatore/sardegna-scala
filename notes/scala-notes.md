@@ -1310,7 +1310,12 @@ Random notes:
 		data structure \cite[\S7.3, pp. 253]{Tate2010}.
 	- "[Use] macros to add features to [*Clojure*]" \cite[\S7.3, pp. 255]{Tate2010}.
 + Learning Curve \cite[\S7.5, pp. 267]{Tate2010}.
-	- "*Clojure* is rich, and the learning curve is oppressive. You need to have an extremely talented and experienced team to make *Lisp* work. Lazy sequences, functional programming, macro expansion, transactional memory, and the sophistication of the approaches are all powerful concepts that take time to master."
+	- "*Clojure* is rich, and the learning curve is oppressive.
+		You need to have an extremely talented and experienced team to make
+			*Lisp* work.
+		Lazy sequences, functional programming, macro expansion,
+			transactional memory, and the sophistication of the approaches
+			are all powerful concepts that take time to master."
 	
 
 
@@ -1336,6 +1341,8 @@ Characteristics of *Haskell*:
 		however, *Haskell* functions can return side effects that are executed
 			later \cite[\S8.1, pp. 269]{Tate2010}.
 	- *Monads* can be used to preserve states \cite[\S8.1, pp. 269]{Tate2010}
+	- "A function with the same arguments will always produce the same result.
+		There are no side effects." \cite[\S8.2, pp. 284]{Tate2010}
 + lazy processing \cite[\S8.1, pp. 269]{Tate2010}.
 + lazy evaluation \cite[\S8.1, pp. 269]{Tate2010}.
 + list comprehensions \cite[\S8.1, pp. 269]{Tate2010}.
@@ -1355,7 +1362,11 @@ Characteristics of *Haskell*:
 
 
 Random notes:
-+ "*Haskell* represents purity and freedom for many functional programming purists. It's rich and powerful, but the power comes at a price. You can't eat just a couple of bites. *Haskell* will force you to eat the whole functional programming burrito."
++ "*Haskell* represents purity and freedom for many functional programming
+	purists.
+	It's rich and powerful, but the power comes at a price.
+	You can't eat just a couple of bites.
+	*Haskell* will force you to eat the whole functional programming burrito."
 	\cite[\S8, pp. 268]{Tate2010}.
 + Types in *Haskell* \cite[\S8.2, pp. 270-271]{Tate2010}:
 	- primitive
@@ -1430,11 +1441,23 @@ Random notes:
 			\cite[\S8.2, pp. 281]{Tate2010} 
 		* List comprehension can be combined with pattern matching to create
 			new lists \cite[\S8.2, pp. 281]{Tate2010}
++ "Type classes provide a simple form of generic programming. You define a data
+	type, and just by adding one keyword, derived, you can get routines to
+	compare values, to convert values to and from strings, and so on."
+	\cite[\S8.2, pp. 283]{Tate2010}
++ "Any good programming language really becomes a means of extending itself
+	to embed other programming languages specialized to the task at hand.
+	*Haskell* is particularly good as a tool for embedding other languages.
+	Laziness, lambda expressions, monad and arrow notation, type classes,
+		the expressive type system, and template *Haskell* all support extending
+		the language in various ways."
+		\cite[\S8.2, pp. 283]{Tate2010}
 
-
-
-
-
+Disadvantages of *Haskell*:
++ Regarding distributed computing, since *Haskell* carries out lazy evaluation by
+	default, it sends "a program (and the values of all the free variables of the
+	program) that can be evaluated to yield the value";
+	if eager evaluation was used, it can send "the value itself". 
 
 
 
