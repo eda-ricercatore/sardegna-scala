@@ -1406,7 +1406,22 @@ Random notes:
 				function calls \cite[\S8.2, pp. 279]{Tate2010}.
 		* List construction can be carried out, so that a subset of the original list
 			can be obtained (e.g., list of even/prime numbers).
-	- ranges (and composition) \cite[\S8.2, pp. 280-281]{Tate2010}
+	- ranges (and composition) \cite[\S8.2, pp. 280-281]{Tate2010};
+		a range can be indicated as "*[start-point..end-point]*", where the
+			two periods between the "*start-point*" and "*end-point*" indicate
+			the range, and the default increment is one
+			\cite[\S8.2, pp. 280-281]{Tate2010};
+		if no list exist between the "*start-point*" and "*end-point*" (e.g., the
+			"*start-point*" is larger than the "*end-point*"), an empty list is
+			returned \cite[\S8.2, pp. 280-281]{Tate2010};
+		the increment can be specified by indicating the next item in the list
+			"*[start-point, 2nd-item .. end-point]*", and this increment can be
+			a fraction \cite[\S8.2, pp. 281]{Tate2010};
+		a range must have a "*start-point*" or "*end-point*", but not necessarily
+			both, such that the sequences can be unbounded
+			\cite[\S8.2, pp. 281]{Tate2010};
+			**Question - Is the "*start-point*" mandatory, and the
+				"*end-point*" optional?**
 	- list comprehensions \cite[\S8.2, pp. 281-282]{Tate2010}
 
 
