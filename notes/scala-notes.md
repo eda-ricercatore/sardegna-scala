@@ -1355,13 +1355,23 @@ Characteristics of *Haskell*:
 Random notes:
 + "*Haskell* represents purity and freedom for many functional programming purists. It's rich and powerful, but the power comes at a price. You can't eat just a couple of bites. *Haskell* will force you to eat the whole functional programming burrito."
 	\cite[\S8, pp. 268]{Tate2010}.
-
-
-
-
-
-
-
++ Types in *Haskell* \cite[\S8.2, pp. 270-271]{Tate2010}:
+	- primitive
+		* numbers
+		* character data; use "++" to append strings instead of "+"
+		* booleans
+	- functions
+		* Specified in two parts: optional type specification/declaration, and the
+			function declaration (/implementation) \cite[\S8.2, pp. 272]{Tate2010}.
++ Indentation matters in *Haskell*; layouts "control indentation patterns"
+	\cite[\S8.2, pp. 271]{Tate2010}.
++ The "if" block is a function, rather than a control structure
+	\cite[\S8.2, pp. 271]{Tate2010}.
++ *Haskell* "[infers] types based on clues"; see *Haskell*'s type inference
+	\cite[\S8.2, pp. 272]{Tate2010}. 
++ "::" is used to indicate basic types, while ":t" represents type
+	conversion/inference \cite[\S8.2, pp. 272]{Tate2010}.
++ Use "let"
 
 
 
