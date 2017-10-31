@@ -1377,15 +1377,35 @@ Random notes:
 	\cite[\S8.2, pp. 273]{Tate2010}.
 + The "Main" module is the special top-level module
 	\cite[\S8.2, pp. 273]{Tate2010}.
-
-
-
-
-
-
-
-
-
++ During type inference, a function can return a value of a given type *\alpha*
+	\cite[\S8.2, pp. 274]{Tate2010};
+	pattern matching can also be performed \cite[\S8.2, pp. 274-275]{Tate2010};
+	replace pattern matching with the uage of guards
+		\cite[\S8.2, pp. 275]{Tate2010};
++ Use tail-recusion optimization to handle recursion
+	\cite[\S8.2, pp. 275]{Tate2010}.
++  Use tuples and composition of functions to transmit the results of computation
+	from one function to another \cite[\S8.2, pp. 277]{Tate2010}.
++ To traverse lists in *Haskell*, use the "*heal | tail*" constructs
+	\cite[\S8.2, pp. 278]{Tate2010}.
++ "The size of a list is 1 + the size of a tail" \cite[\S8.2, pp. 279]{Tate2010}.
++ The function *zip* can be used to combine items (e.g., strings) together
+	\cite[\S8.2, pp. 279]{Tate2010}; 
+	it can also combine lists together \cite[\S8.2, pp. 279]{Tate2010}.
++ Lists are homogeneous \cite[\S8.2, pp. 280]{Tate2010};
+	e.g., I "cannot add a list to a list of integers" \cite[\S8.2, pp. 280]{Tate2010};
+	however, a list can be added to a list of lists, or an empty list
+		\cite[\S8.2, pp. 280]{Tate2010}.
++ Advanced list functions for list generation include \cite[\S8.2, pp. 279]{Tate2010}:
+	- recursion \cite[\S8.2, pp. 279-280]{Tate2010}:
+		* Use the "*:*" operator to combine a head and a tail in list generation
+			(or list formation) \cite[\S8.2, pp. 279-280]{Tate2010};
+			it can be used in reverse, via pattern matching during recursive
+				function calls \cite[\S8.2, pp. 279]{Tate2010}.
+		* List construction can be carried out, so that a subset of the original list
+			can be obtained (e.g., list of even/prime numbers).
+	- ranges (and composition) \cite[\S8.2, pp. 280-281]{Tate2010}
+	- list comprehensions \cite[\S8.2, pp. 281-282]{Tate2010}
 
 
 
