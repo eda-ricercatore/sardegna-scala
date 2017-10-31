@@ -1371,8 +1371,12 @@ Random notes:
 	\cite[\S8.2, pp. 272]{Tate2010}. 
 + "::" is used to indicate basic types, while ":t" represents type
 	conversion/inference \cite[\S8.2, pp. 272]{Tate2010}.
-+ Use "let"
-
++ "Use the '*let*' function to bind values to implementations", or "[bind] a variable
+	to a function in a local scope" \cite[\S8.2, pp. 273]{Tate2010}.
++ Functions can be defined within the scope of modules
+	\cite[\S8.2, pp. 273]{Tate2010}.
++ The "Main" module is the special top-level module
+	\cite[\S8.2, pp. 273]{Tate2010}.
 
 
 
