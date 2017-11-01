@@ -1351,6 +1351,10 @@ Characteristics of *Haskell*:
 	- Mostly inferred type model \cite[\S8.1, pp. 269]{Tate2010}.
 	- Supports polymorphism \cite[\S8.1, pp. 269]{Tate2010}.
 	- Supports clean software architectures \cite[\S8.1, pp. 269]{Tate2010}.
+	- Supports static type checking, via program/software analysis (or static
+		code analysis) \cite[\S8.3, pp. 291]{Tate2010}.
+	- Expressive type system due to type classes and higher-kinded type
+		variables \cite[\S8.3, pp. 291]{Tate2010}. 
 + Supports pattern matching \cite[\S8.1, pp. 269]{Tate2010}.
 + Supports usage of guards \cite[\S8.1, pp. 269]{Tate2010}.
 
@@ -1485,7 +1489,9 @@ Random notes:
 + To use function composition, pass one function as an argument to another
 	function \cite[\S8.3, pp. 290]{Tate2010};
 	e.g., $f . g x = f(g x)$ \cite[\S8.3, pp. 290]{Tate2010}.
-
++ While functional programming in  *Haskell* allows us to solve hard problems
+	from a different perspective, it is harder to perform simple tasks regarding
+	I/O processing and error handling \cite[\S8.3, pp. 290]{Tate2010}..
 
 
 
