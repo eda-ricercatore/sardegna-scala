@@ -1353,7 +1353,7 @@ Characteristics of *Haskell*:
 		* Is polymorphic, so that different forms of the same type are treated
 			the same \cite[\S8.4, pp. 294]{Tate2010}.
 		* Supports the definition and usage of polymorphic data types
-			\cite[\S8.4, pp. 294]{Tate2010}.
+			\cite[\S8.4, pp. 297]{Tate2010}.
 	- Supports polymorphism \cite[\S8.1, pp. 269]{Tate2010}.
 	- Supports clean software architectures \cite[\S8.1, pp. 269]{Tate2010}.
 	- Supports static type checking (i.e., sanity check), via program/software
@@ -1363,6 +1363,18 @@ Characteristics of *Haskell*:
 		variables \cite[\S8.3, pp. 291]{Tate2010}.
 	- Flexible and rich type system that can infer the intent of the software
 		developers, without restricting them \cite[\S8.4, pp. 294]{Tate2010}.
+	- Supports user-defined types \cite[\S8.4, pp. 295]{Tate2010}.
+	- Supports "recursive types" ("types that are recursive")
+		\cite[\S8.4, pp. 298]{Tate2010}.
+	- Supports data-less class usage, which is not object-oriented since data
+		fields are not modeled, so that polymorphism and overloading can be
+		supported \cite[\S8.4, pp. 299]{Tate2010};
+		a *Haskell* class (similar to a *Clojure* protocol) defines the required
+			inputs for each given operations \cite[\S8.4, pp. 299]{Tate2010};
+		that is, "a class provides some function signatures"
+			\cite[\S8.4, pp. 299]{Tate2010};
+		if a type supports all function signatures of a class, it is an instance of
+			that class \cite[\S8.4, pp. 299]{Tate2010}.
 + Supports pattern matching \cite[\S8.1, pp. 269]{Tate2010}.
 + Supports usage of guards \cite[\S8.1, pp. 269]{Tate2010}.
 
