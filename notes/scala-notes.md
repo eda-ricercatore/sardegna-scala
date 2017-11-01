@@ -1375,7 +1375,9 @@ Characteristics of *Haskell*:
 			\cite[\S8.4, pp. 299]{Tate2010};
 		if a type supports all function signatures of a class, it is an instance of
 			that class \cite[\S8.4, pp. 299]{Tate2010};
-		supports class inheritance \cite[\S8.4, pp. 300]{Tate2010}.
+		supports class inheritance \cite[\S8.4, pp. 300]{Tate2010};
+		an instance of a class is a type, not a data object
+			\cite[\S8.4, pp. 300]{Tate2010}.
 + Supports pattern matching \cite[\S8.1, pp. 269]{Tate2010}.
 + Supports usage of guards \cite[\S8.1, pp. 269]{Tate2010}.
 
