@@ -1457,6 +1457,43 @@ Random notes:
 + Usage of higher-order functions, and their combinations via partially applied
 	functions and currying, allow *Haskell* software to be more predictable and
 	reliable \cite[\S8.3, pp. 285]{Tate2010}.
++ Function composition \cite[\S8.3, pp. 287]{Tate2010}.
++ Partial application allows a *Haskell* function with multiple arguments to be
+	split/decomposed into multiple functions of one argument each
+	\cite[\S8.3, pp. 287-288]{Tate2010};
+	that is, partial applications partitions a multi-argument function into a set
+		of single-argument functions \cite[\S8.3, pp. 287-288]{Tate2010};
+	partial application binds a proper/(non-empty) subset of the arguments of a
+		multi-argument function \cite[\S8.3, pp. 288]{Tate2010}.
++ Currying is the process of partial application and function composition, and
+	"leads to greater flexibility and simpler syntax" \cite[\S8.3, pp. 288]{Tate2010}.
++ Use lazy evaluation to design "functions that return infinite lists" 
+	\cite[\S8.3, pp. 288]{Tate2010};
+	list composition can also be used to create infinite lists
+		\cite[\S8.3, pp. 288]{Tate2010}.
++ When processing infinite lists/sequences with lazy evaluation, try to write code
+	so that *Haskell* will "[only compute the necessary part] to do the job"
+	\cite[\S8.3, pp. 290]{Tate2010};
+	if only a subset of the infinite list is needed for computation, *Haskell* uses
+		lazy evaluation to compute only that subset, rather than perform
+		computation on the infinite list \cite[\S8.3, pp. 290]{Tate2010};
+	lazy evaluation makes it possible for *Haskell* developers to perform
+		computations on combinations of infinite sequences
+		\cite[\S8.3, pp. 290]{Tate2010}.
+	we can use function composition, partially applied functions (or partial
+		application), and lazy evaluation together \cite[\S8.3, pp. 290]{Tate2010}. 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1469,10 +1506,12 @@ Higher-order functions
 		\cite[\S8.3, pp. 286]{Tate2010};
 		map can also be apply part of a function (i.e., a section of a function, or
 			partially applied function) \cite[\S8.3, pp. 286]{Tate2010}.
-+ Use the feature "where" to bind functions or variables
++ Use the function/feature "where" to bind functions or variables
 	\cite[\S8.3, pp. 286]{Tate2010}.
-
-
++ Use the function *filter* to apply a test to items in a list
+	\cite[\S8.3, pp. 286]{Tate2010}. 
++ In *Haskell*'s library of list functions, many of these functions use higher-order
+	functions \cite[\S8.3, pp. 287]{Tate2010}.
 
 
 
@@ -1493,6 +1532,10 @@ Disadvantages of *Haskell*:
 
 
 
+
+
+
+Tate2014
 
 
 #	Personal Notes from Developing *Scala* Software
