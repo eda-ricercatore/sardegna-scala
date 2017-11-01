@@ -1491,7 +1491,7 @@ Random notes:
 	e.g., $f . g x = f(g x)$ \cite[\S8.3, pp. 290]{Tate2010}.
 + While functional programming in  *Haskell* allows us to solve hard problems
 	from a different perspective, it is harder to perform simple tasks regarding
-	I/O processing and error handling \cite[\S8.3, pp. 290]{Tate2010}..
+	I/O processing and error handling \cite[\S8.3, pp. 292]{Tate2010}.
 
 
 
