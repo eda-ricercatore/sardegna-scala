@@ -1349,6 +1349,11 @@ Characteristics of *Haskell*:
 + parameterized type system \cite[\S8.1, pp. 269]{Tate2010}.
 + strong and static typing, just like *Scala* \cite[\S8.1, pp. 269]{Tate2010}.
 	- Mostly inferred type model \cite[\S8.1, pp. 269]{Tate2010}.
+		* Enables type inference \cite[\S8.4, pp. 294]{Tate2010}.
+		* Is polymorphic, so that different forms of the same type are treated
+			the same \cite[\S8.4, pp. 294]{Tate2010}.
+		* Supports the definition and usage of polymorphic data types
+			\cite[\S8.4, pp. 294]{Tate2010}.
 	- Supports polymorphism \cite[\S8.1, pp. 269]{Tate2010}.
 	- Supports clean software architectures \cite[\S8.1, pp. 269]{Tate2010}.
 	- Supports static type checking (i.e., sanity check), via program/software
