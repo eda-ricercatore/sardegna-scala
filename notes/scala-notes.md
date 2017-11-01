@@ -1482,7 +1482,9 @@ Random notes:
 		\cite[\S8.3, pp. 290]{Tate2010}.
 	we can use function composition, partially applied functions (or partial
 		application), and lazy evaluation together \cite[\S8.3, pp. 290]{Tate2010}. 
-
++ To use function composition, pass one function as an argument to another
+	function \cite[\S8.3, pp. 290]{Tate2010};
+	e.g., $f . g x = f(g x)$ \cite[\S8.3, pp. 290]{Tate2010}.
 
 
 
