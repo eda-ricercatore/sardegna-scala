@@ -1,3 +1,110 @@
+#	Lua
+
+\cite[\S1.1, pp. ???]{Tate2014}
+
+##	Characteristics of *Lua*
+
+##	Notes about *Lua*
+
+
+##	Advantages of *Lua*
+
+##	Disadvantages of *Lua*
+
+
+
+
+#	Factor
+
+##	Characteristics of *Factor*
+
+##	Notes about *Factor*
+
+
+##	Advantages of *Factor*
+
+##	Disadvantages of *Factor*
+
+
+
+#	Elm
+
+##	Characteristics of *Elm*
+
+##	Notes about *Elm*
+
+
+##	Advantages of *Elm*
+
+##	Disadvantages of *Elm*
+
+
+
+
+#	Elixir
+
+##	Characteristics of *Elixir*
+
+##	Notes about *Elixir*
+
+
+##	Advantages of *Elixir*
+
+##	Disadvantages of *Elixir*
+
+
+
+
+
+
+#	Julia
+
+##	Characteristics of *Julia*
+
+##	Notes about *Julia*
+
+
+##	Advantages of *Julia*
+
+##	Disadvantages of *Julia*
+
+
+
+
+
+
+
+
+#	miniKanren
+
+##	Characteristics of *miniKanren*
+
+##	Notes about *miniKanren*
+
+
+##	Advantages of *miniKanren*
+
+##	Disadvantages of *miniKanren*
+
+
+
+
+
+
+
+
+
+
+#	Idris
+
+##	Characteristics of *Idris*
+
+##	Notes about *Idris*
+
+
+##	Advantages of *Idris*
+
+##	Disadvantages of *Idris*
 
 
 
