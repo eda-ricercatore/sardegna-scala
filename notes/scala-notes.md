@@ -771,8 +771,8 @@ Notes:
 + Concurrency primitives: send, receive, and spawn
 	\cite[\S6.4, pp. 218]{Tate2010}.
 
-
-
+"Certain styles lend themselves to certain programming paradigms"
+	\cite[\S8.5, pp. 311]{Tate2010}.
 
 
 
@@ -1639,10 +1639,10 @@ Disadvantages of *Haskell*:
 
 
 
+See [notes about additional programming languages and programming paradigms]().
 
 
 
-Tate2014
 
 
 #	Personal Notes from Developing *Scala* Software
@@ -1708,6 +1708,8 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 	- Stevens, P., and Pooley, R. Using UML: Software Engineering with Objects and Components. Addison-Wesley Object Technology Series. Addison-Wesley, Essex, England, U.K., 2000.
 + [Tate2010]
 	- Tate, B. A. Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages. Pragmatic Bookshelf, Raleigh, NC, 2010.
++ [Tate2014]
+	- Tate, B. A., Daoud, F., Dees, I., and Moffitt, J. Seven More Languages in Seven Weeks: Languages That Are Shaping the Future, Version P2.0 ed. The Pragmatic Programmers, Raleigh, NC, 2014.
 + [WikipediaContributors2017e](https://en.wikipedia.org/wiki/Programming_paradigm)
 + [WikipediaContributors2017f](https://en.wikipedia.org/wiki/Functional_programming)
 + [WikipediaContributors2017g](https://en.wikipedia.org/wiki/Purely_functional_programming)
@@ -1747,8 +1749,6 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 #	To-Do List
 
 Finish reading \cite{WikipediaContributors2017e}.
-Stop reading at: \cite[\S5.1, pp. 139]{Tate2010}.
-\5.2, pp. 139--153
 
 Build *Scala*-based software:
 + SAT solver
