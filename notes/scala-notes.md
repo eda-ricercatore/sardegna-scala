@@ -410,6 +410,9 @@ Performance analysis of algorithms can be carried out using:
 + performance meaurement
 
 
+
+
+
 ##	Concepts of Functional Programming
 
 Concepts of functional programming to explore
@@ -470,6 +473,25 @@ Purely functional programming makes it easier to develop parallel
 	functional components) \cite{WikipediaContributors2017g}.
 
 Each variable can only be assigned once \cite[\S6.2, pp. 186]{Tate2010}.
+
+Software developed in pure functional programming languages are reliable and
+	dependent, since each function in such/this software will return the same
+	output values for the same set of input values.
+	This simplies software testing, verification, and validation, due to the
+		absence of side effects \cite[\S8.4, pp. 310]{Tate2010}.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1565,10 +1587,16 @@ Random notes:
 		* The order of nested bind functions should be equivalent to the
 			sequential order of calling them. 
 	- "[Each] monad has an associated computational strategy"
-		\cite[\S8.4, pp. 305]{Tate2010};
-		e.g., a list can be defined as a monad \cite[\S8.4, pp. 305]{Tate2010};
-		we can use monads instead of list comprehension or function
+		\cite[\S8.4, pp. 305]{Tate2010}.
+		* E.g., a list can be defined as a monad \cite[\S8.4, pp. 305]{Tate2010}.
+		* We can use monads instead of list comprehension or function
 			composition \cite[\S8.4, pp. 305-306]{Tate2010}.
+		* Types of computational strategy associated with monads: identity
+			monad, list monad, and maybe monad
+				\cite[\S8.4, pp. 306]{Tate2010}.
+	- The type *Just* can be used by nomads to represent *Nothing*
+		\cite[\S8.4, pp. 307]{Tate2010}.
+	
 
 
 
