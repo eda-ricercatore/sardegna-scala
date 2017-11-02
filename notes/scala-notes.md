@@ -1564,7 +1564,11 @@ Random notes:
 		* *Unwrap and/or wrap values without information loss.
 		* The order of nested bind functions should be equivalent to the
 			sequential order of calling them. 
-
+	- "[Each] monad has an associated computational strategy"
+		\cite[\S8.4, pp. 305]{Tate2010};
+		e.g., a list can be defined as a monad \cite[\S8.4, pp. 305]{Tate2010};
+		we can use monads instead of list comprehension or function
+			composition \cite[\S8.4, pp. 305-306]{Tate2010}.
 
 
 
