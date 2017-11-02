@@ -1530,14 +1530,19 @@ Random notes:
 	- Monads support error handling, which can't be addressed by *Haskell*
 		otherwise \cite[\S8.4, pp. 302]{Tate2010}.
 	- The components of a monad are \cite[\S8.4, pp. 302-303]{Tate2010}:
-		* A type contructor based on a type of **container**, which would be used
-			to hold a function \cite[\S8.4, pp. 302-303]{Tate2010};
+		* A type contructor based on a type of **container** (type container),
+			which would be used to hold a function
+			\cite[\S8.4, pp. 302-303]{Tate2010};
 			design decision about the functions/behavior of the monad would
 				determine the type of container selected
-				\cite[\S8.4, pp. 303]{Tate2010}.
+				\cite[\S8.4, pp. 303]{Tate2010};
+			the basic type defined is "based on an arbitrary type template"
+				\cite[\S8.4, pp. 304]{Tate2010};
 		* Use a ***return* function** to finish executing a given function, and place
 			the latter/given function in the container/monad (i.e., type
-			constructor) \cite[\S8.4, pp. 303]{Tate2010}.
+			constructor) \cite[\S8.4, pp. 303]{Tate2010};
+		it finishes executing a function as a value
+			\cite[\S8.4, pp. 304]{Tate2010}.
 		* A "*>>=*" **bind function** that unwraps a given function, and chain
 			functions together \cite[\S8.4, pp. 303]{Tate2010}.
 	- Rules that must be satisfied by monads \cite[\S8.4, pp. 303]{Tate2010}:
