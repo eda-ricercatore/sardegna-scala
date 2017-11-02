@@ -48,6 +48,13 @@
 
 #	Elm
 
+Reference the following points
++ functional reactive programming (FRP)
++ concurrency
++ GUI programming/development
++ Web development
+
+
 ##	Characteristics of *Elm*
 
 ##	Notes about *Elm*
