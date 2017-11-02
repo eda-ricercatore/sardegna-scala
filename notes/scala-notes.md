@@ -1541,10 +1541,13 @@ Random notes:
 		* Use a ***return* function** to finish executing a given function, and place
 			the latter/given function in the container/monad (i.e., type
 			constructor) \cite[\S8.4, pp. 303]{Tate2010};
-		it finishes executing a function as a value
-			\cite[\S8.4, pp. 304]{Tate2010}.
-		* A "*>>=*" **bind function** that unwraps a given function, and chain
-			functions together \cite[\S8.4, pp. 303]{Tate2010}.
+			it finishes executing a function as a value -- for simple monads, it is
+				equivalent to returning the value of the monad.
+				\cite[\S8.4, pp. 304]{Tate2010}.
+		* A "*>>=*" **bind function** that unwraps a given function (nesting???
+			\cite[\S8.4, pp. 304]{Tate2010}), and chain functions together
+			\cite[\S8.4, pp. 303]{Tate2010} as a composition
+				\cite[\S8.4, pp. 304]{Tate2010}.
 	- Rules that must be satisfied by monads \cite[\S8.4, pp. 303]{Tate2010}:
 		* "Use a type constructor to create a monad that" works with a
 			value-holding type.
