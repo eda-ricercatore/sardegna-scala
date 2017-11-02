@@ -1637,9 +1637,9 @@ Disadvantages of *Haskell*:
 
 
 
+####	Notes about Additional Programming Languages/Paradigms
 
-
-See [notes about additional programming languages and programming paradigms]().
+See [notes about additional programming languages and programming paradigms](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/tate2014-notes.md).
 
 
 
