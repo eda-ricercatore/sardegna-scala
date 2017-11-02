@@ -1,10 +1,24 @@
 #	Lua
 
-\cite[\S1.1, pp. ???]{Tate2014}
+
+\cite[\SAcknowledgments, pp. ???]{Tate2014} 
+\cite[\S???, pp. ???]{Tate2014}
 
 ##	Characteristics of *Lua*
 
++ Tables in *Lua* provide "a single, unifying abstraction" that is used to build
+	"object systems, custom data structures," ...
+	This supports clean implementations that are platform-independent, the
+		plug and play paradigm, and facilitates software extension and
+		maintenance \cite[\SAcknowledgments, pp. ???]{Tate2014}.
+	- http://proquest.safaribooksonline.com/book/programming/9781680500516/seven-more-languages-in-seven-wee-ks/f_0000_xhtml#X2ludGVybmFsX0h0bWxWaWV3P3htbGlkPTk3ODE2ODA1MDA1MTYlMkZmXzAwMDZfeGh0bWwmcXVlcnk9
+
+	
+
+\cite[\SAcknowledgments, pp. ???]{Tate2014}
+
 ##	Notes about *Lua*
+
 
 
 ##	Advantages of *Lua*
@@ -17,6 +31,11 @@
 #	Factor
 
 ##	Characteristics of *Factor*
+
++ "Concatenative programming model" in "a full-featured, practical environment"
+	\cite[\SAcknowledgments, pp. ???]{Tate2014}
+	- http://proquest.safaribooksonline.com/book/programming/9781680500516/seven-more-languages-in-seven-wee-ks/f_0000_xhtml#X2ludGVybmFsX0h0bWxWaWV3P3htbGlkPTk3ODE2ODA1MDA1MTYlMkZmXzAwMDZfeGh0bWwmcXVlcnk9
+
 
 ##	Notes about *Factor*
 
@@ -124,7 +143,9 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 + [Tate2014]
 	- Tate, B. A., Daoud, F., Dees, I., and Moffitt, J. Seven More Languages in Seven Weeks: Languages That Are Shaping the Future, Version P2.0 ed. The Pragmatic Programmers, Raleigh, NC, 2014.
-
+		* Note that there are no numbered sections in this book.
+		* When I reference/cite this work, I shall indicate the chapter and page
+			number (if possible).
 
 
 
