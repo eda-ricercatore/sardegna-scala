@@ -1526,11 +1526,15 @@ Random notes:
 	- Monads support I/O handling, since their output is input dependent
 		\cite[\S8.4, pp. 302]{Tate2010}.
 	- A monad supports the special "*do*" syntax to execute imperative *Haskell*
-		code \cite[\S8.4, pp. 302]{Tate2010};
-		the "*do*" notation provides syntactic sugar (e.g., for the function
-			declaration) regarding monads, so that the *Haskell* software/program
-			apprears/feels imperative (i.e., has states or stateful, and side
-			effects) \cite[\S8.4, pp. 304]{Tate2010}.
+		code \cite[\S8.4, pp. 302]{Tate2010}.
+		* The "*do*" notation provides syntactic sugar (e.g., for the function
+			declaration) regarding monads, for the management of stateful
+			interactions, so that the *Haskell* software/program
+			apprears/feels imperative (i.e., has states or stateful, has side
+			effects, or functions like imperative programs)
+				\cite[\S8.4, pp. 304-305]{Tate2010};
+		* Wrap the code for the do/let expressions with ":{" and "}:"
+			\cite[\S8.4, pp. 305]{Tate2010}.
 	- Monads support error handling, which can't be addressed by *Haskell*
 		otherwise \cite[\S8.4, pp. 302]{Tate2010}.
 	- The components of a monad are \cite[\S8.4, pp. 302-303]{Tate2010}:
@@ -1547,7 +1551,9 @@ Random notes:
 			constructor) \cite[\S8.4, pp. 303]{Tate2010};
 			it finishes executing a function as a value -- for simple monads, it is
 				equivalent to returning the value of the monad.
-				\cite[\S8.4, pp. 304]{Tate2010}.
+				\cite[\S8.4, pp. 304]{Tate2010};
+			it returns the value with an orderly appearance
+				\cite[\S8.4, pp. 305]{Tate2010}.
 		* A "*>>=*" **bind function** that unwraps a given function (nesting???
 			\cite[\S8.4, pp. 304]{Tate2010}), and chain functions together
 			\cite[\S8.4, pp. 303]{Tate2010} as a composition
