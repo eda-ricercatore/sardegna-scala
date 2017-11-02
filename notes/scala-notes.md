@@ -18,6 +18,7 @@
 			+ [Erlang (or Ericsson Language)](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/scala-notes.md#erlang-or-ericsson-language)
 			+ [Clojure](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/scala-notes.md#clojure)
 			+ [Haskell](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/scala-notes.md#haskell)
+			+ [Notes about Additional Programming Languages/Paradigms](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/scala-notes.md#notes-about-additional-programming-languagesparadigms)
 + [Personal Notes from Developing *Scala* Software](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/scala-notes.md#personal-notes-from-developing-scala-software)
 	- [Build Process and Automation for Scala Software](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/scala-notes.md#build-process-and-automation-for-scala-software)
 		* [Compiling Scala Software](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/scala-notes.md#compiling-scala-software)
