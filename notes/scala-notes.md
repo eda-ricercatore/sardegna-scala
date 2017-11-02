@@ -1515,10 +1515,26 @@ Random notes:
 + While functional programming in  *Haskell* allows us to solve hard problems
 	from a different perspective, it is harder to perform simple tasks regarding
 	I/O processing and error handling \cite[\S8.3, pp. 292]{Tate2010}.
-
-
-
-
++ Use a *let* expression to chain multiple functions (in a sequential order)
+	\cite[\S8.4, pp. 302]{Tate2010};
+	similarly, an *in* statement to sequentially chain *let* expressions
+		\cite[\S8.4, pp. 302]{Tate2010}.
++ A monad is a function composition that has specific properties
+	\cite[\S8.4, pp. 302]{Tate2010}.
+	- It translates $f(g(x))$ into $f(x) . g(x)$, where "*.*" represents function
+		composition \cite[\S8.4, pp. 302]{Tate2010}.
+	- Monads support I/O handling, since their output is input dependent
+		\cite[\S8.4, pp. 302]{Tate2010}.
+	- A monad supports the special "*do*" syntax to execute imperative *Haskell*
+		code \cite[\S8.4, pp. 302]{Tate2010}.
+	- Monads support error handling, which can't be addressed by *Haskell*
+		otherwise \cite[\S8.4, pp. 302]{Tate2010}.
+	- The components of a monad are:
+		* A type contructor based on a type of container, which would be used
+			to hold a function \cite[\S8.4, pp. 302-303]{Tate2010};
+			design decision about the functions/behavior of the monad would
+				determine the type of container selected.
+		* 
 
 
 
