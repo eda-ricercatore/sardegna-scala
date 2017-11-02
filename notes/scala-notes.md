@@ -478,7 +478,7 @@ Software developed in pure functional programming languages are reliable and
 	dependent, since each function in such/this software will return the same
 	output values for the same set of input values.
 	This simplies software testing, verification, and validation, due to the
-		absence of side effects \cite[\S8.4, pp. 310]{Tate2010}.
+		absence of side effects \cite[\S8.5, pp. 310]{Tate2010}.
 
 
 
@@ -1537,6 +1537,8 @@ Random notes:
 + While functional programming in  *Haskell* allows us to solve hard problems
 	from a different perspective, it is harder to perform simple tasks regarding
 	I/O processing and error handling \cite[\S8.3, pp. 292]{Tate2010}.
+	- "Though *Haskell* makes some hard things easy, it also makes some easy
+		things hard" \cite[\S8.5, pp. 311]{Tate2010}.
 + Use a *let* expression to chain multiple functions (in a sequential order)
 	\cite[\S8.4, pp. 302]{Tate2010};
 	similarly, an *in* statement to sequentially chain *let* expressions
