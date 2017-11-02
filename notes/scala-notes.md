@@ -1526,7 +1526,11 @@ Random notes:
 	- Monads support I/O handling, since their output is input dependent
 		\cite[\S8.4, pp. 302]{Tate2010}.
 	- A monad supports the special "*do*" syntax to execute imperative *Haskell*
-		code \cite[\S8.4, pp. 302]{Tate2010}.
+		code \cite[\S8.4, pp. 302]{Tate2010};
+		the "*do*" notation provides syntactic sugar (e.g., for the function
+			declaration) regarding monads, so that the *Haskell* software/program
+			apprears/feels imperative (i.e., has states, and side effects)
+			\cite[\S8.4, pp. 304]{Tate2010}.
 	- Monads support error handling, which can't be addressed by *Haskell*
 		otherwise \cite[\S8.4, pp. 302]{Tate2010}.
 	- The components of a monad are \cite[\S8.4, pp. 302-303]{Tate2010}:
