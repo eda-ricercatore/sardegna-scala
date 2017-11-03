@@ -301,6 +301,12 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 			+ list.isEmpty (returns boolean value indicating if the list is empty)
 			+ list.length (returns length of the list)
 			+ list.size (returns size of the list)
+			+ list.head (get the first element of the list)
+			+ list.tail (get the remainder of the list, which is the list excluding
+				the first element)
+			+ list.last (get the last element of the list)
+			+ list.init (get the remainder of the list, which is the list excluding
+				the last element)	
 	- A set is an unordered data structure, which allows elements to be added
 		to or removed from the set, using the "*+*" and "*-*" operations
 		respectively \cite[\S5.3, pp. 157]{Tate2010}.
