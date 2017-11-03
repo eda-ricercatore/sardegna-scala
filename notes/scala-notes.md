@@ -297,7 +297,7 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 				thrown \cite[\S5.3, pp. 156]{Tate2010}.
 		* Accessing the list using a negative number will result in an exception
 			being thrown \cite[\S5.3, pp. 157]{Tate2010}.
-		* Common methods used for lists \cite[\S5.3, pp. 162]{Tate2010}:
+		* Common methods used for lists \cite[\S5.3, pp. 162-163]{Tate2010}:
 			+ list.isEmpty (returns boolean value indicating if the list is empty)
 			+ list.length (returns length of the list)
 			+ list.size (returns size of the list)
@@ -306,7 +306,15 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 				the first element)
 			+ list.last (get the last element of the list)
 			+ list.init (get the remainder of the list, which is the list excluding
-				the last element)	
+				the last element)
+			+ list.reverse (returns the list in reverse/inverted order)
+			+ list.drop(*n*) (returns a copy of the original unmodified list, with
+				the first *n* elements removed from the list)
+		* List manipulation functions \cite[\S5.3, pp. 163-164]{Tate2010}:
+			+  
+TO BE COMPLETED
+
+
 	- A set is an unordered data structure, which allows elements to be added
 		to or removed from the set, using the "*+*" and "*-*" operations
 		respectively \cite[\S5.3, pp. 157]{Tate2010}.
