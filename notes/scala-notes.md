@@ -309,12 +309,13 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 			\cite[\S5.3, pp. 158]{Tate2010}.
 		* Since a set is unordered, "the equality "*==*" [operation] for sets and
 			lists is different" \cite[\S5.3, pp. 157-158]{Tate2010}.
-	- A map is a data structure for key-value pairs, or (key,value) pairs; and
-		use the "*->*" operator to access the value of a  (key,value) pair
+	- A map is a data structure for key-value pairs, or (key,value) pairs
 		\cite[\S5.3, pp. 158]{Tate2010}.
-		For assigning a (key,value) pair to the set, try
+		* Use the "*->*" operator to access the value of a  (key,value) pair
+			\cite[\S5.3, pp. 158]{Tate2010}.
+		* For assigning a (key,value) pair to the set, try
 			"*set_name += key --> value*" \cite[\S5.3, pp. 158-159]{Tate2010}.
-		When type constraints of the map are not adhered to, errors/exceptions
+		* When type constraints of the map are not adhered to, errors/exceptions
 			are thrown at compile time or run-time \cite[\S5.3, pp. 159]{Tate2010}.
 + *Scala* application programming interface (API) \cite[\S5.2, pp. 153]{Tate2010}.
 + "A higher-order function is [a function] that produces or consumes functions";
