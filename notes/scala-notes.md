@@ -227,8 +227,9 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 		\cite[\S5.2, pp. 147]{Tate2010}.
 + Object-oriented classes in *Scala* contain data fields (i.e., variables) and
 	behaviorial specifications (i.e., functions) \cite[\S5.2, pp. 147]{Tate2010}.
-	- The constructor should define instance variables, not passed into the
-		constructor as arguments, and methods \cite[\S5.2, pp. 148]{Tate2010}. 
+	- The constructor should define instance variables, especially instance
+		variables not passed into the constructor as arguments, and methods
+			\cite[\S5.2, pp. 148]{Tate2010}. 
 	- Each *Scala* method definition has a parameter types and names
 		\cite[\S5.2, pp. 148]{Tate2010}. 
 	- The constructor of a *Scala* class should not be in a method definition, and
@@ -241,7 +242,9 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 		be obmitted \cite[\S5.2, pp. 149]{Tate2010}. 
 	- Secondary/auxiliary constructors are defined like methods with the name
 		(method name)"*this*," and support "a broad array of usage patterns"
-		\cite[\S5.2, pp. 150]{Tate2010}.
+		\cite[\S5.2, pp. 150]{Tate2010};
+		secondary/auxiliary constructors are defined after the primary
+			constructor \cite[\S5.2, pp. 150]{Tate2010}.
 	- *Scala* allow instance methods to be declared only in the class definitions,
 		with the keyword "class" instead of the keyword "object";
 		in *Scala,* an object definition can share the same name as a class
