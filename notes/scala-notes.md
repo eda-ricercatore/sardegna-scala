@@ -286,8 +286,9 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 	- The list is the primary data structure for functional programming languages;
 	 	it is an ordered collection of things belonging to the same data type or
 			clique in the class hierarchy;
-		it uses the *Java* feature *generics* to type the items in the list
-			\cite[\S5.3, pp. 156]{Tate2010}.
+		it can also use the *Java* feature *generics* to type the items in the list,
+			so that each item in the list can have a different data type
+				\cite[\S5.3, pp. 156]{Tate2010}.
 		* Since list access is a function, use the "*()*" operator to access an
 			element in the list;
 			"*Scala*'s index for lists starts with 0," and accessing elements/items
