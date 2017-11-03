@@ -323,8 +323,8 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 	functions as output \cite[\S5.3, pp. 160-161; \S6.3, pp. 198]{Tate2010}.
 	- Functions can be passed into these higher-order functions
 		\cite[\S5.3, pp. 160]{Tate2010}.
-	- "Assign input functions to any variable or parameter, or pass them into
-		functions, and return them from functions"
+	- "Assign [input functions] to any variable or parameter, [or] pass them into
+		functions, and return them from functions" \cite[\S5.3, pp. 161]{Tate2010}.
 	- Advanced topics in higher-order functions include \cite[\S5.3, pp. 161]{Tate2010}:
 		* partially applied functions, or currying
 		* Code blocks, passing simple functions as parameters into collections;
@@ -354,7 +354,7 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 
 
 
-Skimming through other chapters
+
 
 
 
