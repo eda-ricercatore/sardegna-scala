@@ -298,13 +298,13 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 			being thrown \cite[\S5.3, pp. 157]{Tate2010}.
 	- A set is an unordered data structure, which allows elements to be added
 		to or removed from the set, using the "*+*" and "*-*" operations
-		respectively; and
-		each set operation builds a new set, as opposed to modifying existing
+		respectively \cite[\S5.3, pp. 157]{Tate2010}.
+		* Each set operation builds a new set, as opposed to modifying existing
 			sets \cite[\S5.3, pp. 157]{Tate2010}.
-		"By default, sets are immutable" \cite[\S5.3, pp. 157-158]{Tate2010}.
-		To perform set union and set difference operations on sets, use "*++*"
+		* "By default, sets are immutable" \cite[\S5.3, pp. 157-158]{Tate2010}.
+		* To perform set union and set difference operations on sets, use "*++*"
 			and "*--*" accordingly" \cite[\S5.3, pp. 158]{Tate2010}.
-		To performa set intersection operation between elements, try "*&*"
+		* To perform a set intersection operation between elements, try "*&*"
 			\cite[\S5.3, pp. 158]{Tate2010}.
 	- A map is a data structure for key-value pairs, or (key,value) pairs; and
 		use the "*->*" operator to access the value of a  (key,value) pair
