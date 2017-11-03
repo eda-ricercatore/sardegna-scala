@@ -311,8 +311,8 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 			lists is different" \cite[\S5.3, pp. 157-158]{Tate2010}.
 	- A map is a data structure for key-value pairs, or (key,value) pairs
 		\cite[\S5.3, pp. 158]{Tate2010}.
-		* Use the "*->*" operator to access the value of a  (key,value) pair
-			\cite[\S5.3, pp. 158]{Tate2010}.
+		* Use the "*->*" operator to specify each (key,value) pair during
+			initialization \cite[\S5.3, pp. 158]{Tate2010}.
 		* For assigning a (key,value) pair to the set, try
 			"*set_name += key --> value*" \cite[\S5.3, pp. 158-159]{Tate2010}.
 		* When type constraints of the map are not adhered to, errors/exceptions
