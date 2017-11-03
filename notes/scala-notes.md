@@ -338,17 +338,15 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 			code block) on it \cite[\S5.3, pp. 161]{Tate2010}.
 		* Functions can be passed into the "*foreach*" function
 			\cite[\S5.3, pp. 161]{Tate2010}.
-	- The function/method "*foreach*" has two versions, and accepts an initial
+	- The function/method "*foldLeft*" has two versions, and accepts an initial
 		value and a code block into its input parameters, passes each element
-		of the container (e.g., array) and another value:
-		* this other value is the initial value for the first invocation of the
-			"*foreach*" function/method
-		* or, this other value is the result from the code block for subsequent
-			invocations;
+		of the container (e.g., array) and another value to the code block
+			\cite[\S5.3, pp. 164-165]{Tate2010}:
+		* the (non-currying) fold back version
+		* or, the currying method/version;
 			"currying transforms a function with multiple parameters [into]
 				several functions with their own parameter lists (a composition
-				of functions)
-				\cite[\S5.3, pp. 164-165]{Tate2010}.
+				of functions).
 	- BLAH
 	
 
