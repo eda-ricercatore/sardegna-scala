@@ -283,10 +283,11 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 + Collections
 	- Primary data structures for *Scala*: lists, sets, and maps
 		 \cite[\S5.3, pp. 155-156]{Tate2010}.
-	- The list is the primary data structure for functional programming languages;
-	 	it is an ordered collection of things belonging to the same data type or
-			clique in the class hierarchy;
-		it can also use the *Java* feature *generics* to type the items in the list,
+	- The list is the primary data structure for functional programming languages
+		\cite[\S5.3, pp. 156]{Tate2010}.
+	 	* It is an ordered collection of things belonging to the same data type or
+			clique in the class hierarchy \cite[\S5.3, pp. 156]{Tate2010}.
+		* It can also use the *Java* feature *generics* to type the items in the list,
 			so that each item in the list can have a different data type
 				\cite[\S5.3, pp. 156]{Tate2010}.
 		* Since list access is a function, use the "*()*" operator to access an
@@ -306,6 +307,8 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 			and "*--*" accordingly" \cite[\S5.3, pp. 158]{Tate2010}.
 		* To perform a set intersection operation between elements, try "*&*"
 			\cite[\S5.3, pp. 158]{Tate2010}.
+		* Since a set is unordered, "the equality "*==*" [operation] for sets and
+			lists is different" \cite[\S5.3, pp. 157-158]{Tate2010}.
 	- A map is a data structure for key-value pairs, or (key,value) pairs; and
 		use the "*->*" operator to access the value of a  (key,value) pair
 		\cite[\S5.3, pp. 158]{Tate2010}.
