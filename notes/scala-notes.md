@@ -298,8 +298,9 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 		* Accessing the list using a negative number will result in an exception
 			being thrown \cite[\S5.3, pp. 157]{Tate2010}.
 		* Common methods used for lists \cite[\S5.3, pp. 162]{Tate2010}:
-			list.isEmpty (returns boolean value indicating if the list is empty),
-			list.length (returns length of the list), list.size (returns size of the list).
+			+ list.isEmpty (returns boolean value indicating if the list is empty)
+			+ list.length (returns length of the list)
+			+ list.size (returns size of the list)
 	- A set is an unordered data structure, which allows elements to be added
 		to or removed from the set, using the "*+*" and "*-*" operations
 		respectively \cite[\S5.3, pp. 157]{Tate2010}.
