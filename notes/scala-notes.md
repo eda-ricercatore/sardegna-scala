@@ -184,11 +184,14 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 	- Be aware of the life cycle of each variable in functions/classes, in the
 		context of "the pure functional programming model"
 		\cite[\S5.3, pp. 154]{Tate2010}.
-	 - Mutable state is bad, since it can become a conflicting state;
+	 - "Mutable state is bad," since it can become a conflicting state;
 	 	using immutable variables (**val**) helps you avoid mutable states,
 	 		which facilitates concurrent programming;
 		 i.e., "mutable state limits concurrency"
-	 		\cite[\S5.3, pp. 155]{Tate2010}.
+	 		\cite[\S5.3, pp. 155]{Tate2010};
+		this design philosophy is the main differentiator between functional
+			programming and object-oriented programming
+				\cite[\S5.3, pp. 155]{Tate2010}.
 + By default, *Scala* treats variables and functions as *public*
 	\cite[\S5.2, pp. 144]{Tate2010}.
 + Define a method/function with "*def method_name*"
@@ -263,8 +266,8 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 	- *Scala* traits are comparable to *Ruby mixins* that are implemented with
 		modules, or *Java* interfaces with implementation, or multiple
 		inheritance in *C++*;
-		this allows *Scala* objects to be persistent, serializable shrubbery;
-		a *Scala* trait can be perceived to be a partial class implementation,
+		this allows *Scala* objects to "be persistent, serializable shrubbery";
+		a *Scala* trait can be perceived to be a "partial class implementation",
 			and is included in class definitions.
 			\cite[\S5.2, pp. 151-152]{Tate2010}.
 + *Scala* functions
