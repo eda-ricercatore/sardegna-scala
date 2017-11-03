@@ -336,6 +336,8 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 		a code block as a parameter;
 		it iterates through the data structure, and performs functions (in the
 			code block) on it \cite[\S5.3, pp. 161]{Tate2010}.
+		* Functions can be passed into the "*foreach*" function
+			\cite[\S5.3, pp. 161]{Tate2010}.
 	- The function/method "*foreach*" has two versions, and accepts an initial
 		value and a code block into its input parameters, passes each element
 		of the container (e.g., array) and another value:
