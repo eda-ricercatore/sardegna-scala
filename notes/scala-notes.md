@@ -321,6 +321,8 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 				each element in the list)
 			+ exists (determines if the condition in the code block applies to
 				any element in the list)
+			+ [Code blocks can be used to generalize a feature, so that it can
+				perform more tasks.]
 TO BE COMPLETED
 
 
