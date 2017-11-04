@@ -311,9 +311,16 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 			+ list.drop(*n*) (returns a copy of the original unmodified list, with
 				the first *n* elements removed from the list)
 		* List manipulation functions \cite[\S5.3, pp. 163-164]{Tate2010}:
-			+ count
-			+ map
-			+ filter
+			+ count (determine number of elements in the list that meets a
+				boolean condition)
+			+ map (a higher-order function that applies a given function, or
+				procedural parameter, to each element in a list)
+			+ filter (applies a condition to each element of the list, to filter out
+				elements that don't meet that condition)
+			+ forall (determines if the condition in the code block applies to
+				each element in the list)
+			+ exists (determines if the condition in the code block applies to
+				any element in the list)
 TO BE COMPLETED
 
 
