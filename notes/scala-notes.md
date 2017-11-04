@@ -323,9 +323,6 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 				any element in the list)
 			+ [Code blocks can be used to generalize a feature, so that it can
 				perform more tasks.]
-TO BE COMPLETED
-
-
 	- A set is an unordered data structure, which allows elements to be added
 		to or removed from the set, using the "*+*" and "*-*" operations
 		respectively \cite[\S5.3, pp. 157]{Tate2010}.
@@ -378,7 +375,7 @@ TO BE COMPLETED
 				of functions).
 	- BLAH
 	
-
+TO BE COMPLETED
 
 
 
