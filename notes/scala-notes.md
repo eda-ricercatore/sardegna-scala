@@ -311,7 +311,9 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 			+ list.drop(*n*) (returns a copy of the original unmodified list, with
 				the first *n* elements removed from the list)
 		* List manipulation functions \cite[\S5.3, pp. 163-164]{Tate2010}:
-			+  count
+			+ count
+			+ map
+			+ filter
 TO BE COMPLETED
 
 
