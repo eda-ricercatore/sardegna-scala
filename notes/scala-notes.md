@@ -368,11 +368,16 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 		value and a code block into its input parameters, passes each element
 		of the container (e.g., array) and another value to the code block
 			\cite[\S5.3, pp. 164-165]{Tate2010}:
-		* the (non-currying) fold back version
-		* or, the currying method/version;
+		* The (non-currying) fold back version
+		* Or, the currying method/version;
 			"currying transforms a function with multiple parameters [into]
 				several functions with their own parameter lists (a composition
 				of functions).
+		* The second/other value depends on the number of times the code
+			block has been invoked:
+			+ "For the first invocation", it is an "initial value".
+			+ "For subsequent invocations", it depends on the result of 
+				previous invocation.
 	- BLAH
 	
 TO BE COMPLETED
