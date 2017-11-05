@@ -340,6 +340,8 @@ Three primary goals of this endeavor are to:
 	- "Steps in Scala: An Introduction to Object-Functional Programming"
 + Odersky2010 & Odersky2008 [Missing Odersky2016]
 	- "Programming in Scala: A Comprehensive Step-by-Step Guide"
++ Chiusano2015
+	- "Functional Programming in Scala"
 + Raychaudhuri2013
 	- "Scala in Action"
 + Subramaniam2008
@@ -366,9 +368,8 @@ Three primary goals of this endeavor are to:
 	- "Scala for Data Science: Leverage the power of Scala to build scalable, robust, data science applications"
 + Nicolas2014
 	- "Scala for Machine Learning: Leverage Scala and Machine Learning to construct and study systems that can learn from data"
-+ Chiusano2015
-	- "Functional Programming in Scala"
-
++ Khot2015
+	- "Scala Functional Programming Patterns: Grok and perform effective functional programming in Scala"
 
 
 
@@ -394,12 +395,11 @@ Three primary goals of this endeavor are to:
 
 + Hunt2014
 	- "A Beginner's Guide to Scala, Object Orientation and Functional Programming"
+	- **Go to link.springer.com to access the book.**
 + Lewis2013a
 	- "Introduction to the Art of Programming Using Scala"
 + Subramaniam2015
 	- "Pragmatic Scala: Create Expressive, Concise, and Scalable Applications"
-+ Khot2015
-	- "Scala Functional Programming Patterns: Grok and perform effective functional programming in Scala"
 + Sathyanarayanan2016
 	- "Reactive Programming with Scala and Akka: Harness reactive programming to build scalable and fault-tolerant distributed systems using Scala and Akka"
 + Alexander2013a
