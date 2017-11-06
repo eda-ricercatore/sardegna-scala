@@ -428,7 +428,20 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 				and perform appropriate text processing (and other required
 				functions).
 		* message passing
-
+	- In the definition of an actor \cite[\S5.4, pp. 171-172]{Tate2010}:
+		* Create a trivial singleton of an *Actor* by defining a *Scala* class that
+			extends *Actor*.
+		* Use the keyword "*react*" to receive messages from another actor,
+			and respond to the receipt of that message.
+	- Concurrency in *Scala* can be demonstrated by the different order in which
+		actions/reactions occur \cite[\S5.4, pp. 171-172]{Tate2010}.
+	- Use "*reactWithin*" to react to an incoming message within a specified
+		duration;
+		if this incoming message is not received before the duration ends, it will
+			not be processed \cite[\S5.4, pp. 172]{Tate2010}.
+	- Use "*receive*" to block a thread, and "*receiveWithin*" to block a thread
+		for/within??? [Clarify this!!!] a specified duration
+			\cite[\S5.4, pp. 172]{Tate2010}.
 
 
 
