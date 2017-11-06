@@ -427,7 +427,14 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 				message, it uses pattern matching to classify the message
 				and perform appropriate text processing (and other required
 				functions).
+			+ "[An actor is an object] built for concurrency"
+				\cite[\S5.4, pp. 175]{Tate2010}. 
+			+ An actor usually uses "a loop statement wrapped around *react*
+				or *receive* methods to process queued messages that are
+				received \cite[\S5.4, pp. 175]{Tate2010}.
 		* message passing
+			+ E.g., "distributed message passing with actors"
+				\cite[\S5.4, pp. 175]{Tate2010}:
 	- In the definition of an actor \cite[\S5.4, pp. 171-172]{Tate2010}:
 		* Create a trivial singleton of an *Actor* by defining a *Scala* class that
 			extends *Actor*.
@@ -447,7 +454,7 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 
 
 
-TO BE COMPLETED
+
 
 
 
