@@ -280,6 +280,11 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 		\cite[\S5.3, pp. 154]{Tate2010}.  
 	- Invoke *Scala* functions using their name, and the argument list
 		encapsulated in parentheses \cite[\S5.3, pp. 154]{Tate2010}.
+	- Function definitions in *Scala* have a flexible syntax
+		\cite[\S5.3, pp. 166]{Tate2010}:
+		* return type inference
+		* function body: "one-line form", or "code-block form"
+		* variable parameter list
 + Collections
 	- Primary data structures for *Scala*: lists, sets, and maps
 		 \cite[\S5.3, pp. 155-156]{Tate2010}.
