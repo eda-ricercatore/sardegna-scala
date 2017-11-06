@@ -449,10 +449,10 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 	- Use "*receive*" to block a thread, and "*receiveWithin*" to block a thread
 		for/within??? [Clarify this!!!] a specified duration
 			\cite[\S5.4, pp. 172]{Tate2010}.
-
-
-
-
++ currying \cite[\S5.5, pp. 176]{Tate2010}.
++ full closures \cite[\S5.5, pp. 176]{Tate2010}.
++ multiple parameter list \cite[\S5.5, pp. 176]{Tate2010}.
++ exception processing \cite[\S5.5, pp. 176]{Tate2010}.
 
 
 
