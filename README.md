@@ -370,6 +370,10 @@ Three primary goals of this endeavor are to:
 	- "Scala for Machine Learning: Leverage Scala and Machine Learning to construct and study systems that can learn from data"
 + Khot2015
 	- "Scala Functional Programming Patterns: Grok and perform effective functional programming in Scala"
++ Alexandre2014
+	- "Scala for Java Developers: Build reactive, scalable applications and integrate Java code with the power of Scala"
++ Nikolov2016
+	- "Scala Design Patterns: Write efficient, clean, and reusable code with Scala"
 
 
 
@@ -395,7 +399,6 @@ Three primary goals of this endeavor are to:
 
 + Hunt2014
 	- "A Beginner's Guide to Scala, Object Orientation and Functional Programming"
-	- **Go to link.springer.com to access the book.**
 + Lewis2013a
 	- "Introduction to the Art of Programming Using Scala"
 + Subramaniam2015
@@ -408,12 +411,8 @@ Three primary goals of this endeavor are to:
 	- "Professional Scala"
 + Hunt2013a
 	- "Scala Design Patterns: Patterns for Practical Reuse and Design"
-+ Nikolov2016
-	- "Scala Design Patterns: Write efficient, clean, and reusable code with Scala"
 + Jancauskas2016
 	- "Scientific Computing with Scala: Learn to solve scientific computing problems using Scala and its numerical computing, data processing, concurrency, and plotting libraries"
-+ Alexandre2014
-	- "Scala for Java Developers: Build reactive, scalable applications and integrate Java code with the power of Scala"
 + Phillips2014a
 	- "Scala Puzzlers: The fun path to deeper understanding"
 
