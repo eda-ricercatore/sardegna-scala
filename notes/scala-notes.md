@@ -420,7 +420,13 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 		\cite[\S5.4, pp. 171]{Tate2010}:
 		* actors
 			+ each actor has a pool of threads and a queue
-			+ Each incoming message [FIX THIS]
+			+ Each incoming message to an actor is sent using the "!" operator.
+			+ Each incoming message to an actor places an object on the
+				actor's queue.
+			+ When the actor is processing the object related to an incoming
+				message, it uses pattern matching to classify the message
+				and perform appropriate text processing (and other required
+				functions).
 		* message passing
 
 
