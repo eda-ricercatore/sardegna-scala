@@ -416,8 +416,12 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 			text processing, it resembles a "XQuery-like language" (or XML
 				Query-like language) \cite[\S5.4, pp. 171]{Tate2010}.
 + Concurrency \cite[\S5.4, pp. 171-175]{Tate2010}:
-
-
+	- Primary constructs in *Scala* for handling concurrency
+		\cite[\S5.4, pp. 171]{Tate2010}:
+		* actors
+			+ each actor has a pool of threads and a queue
+			+ Each incoming message [FIX THIS]
+		* message passing
 
 
 

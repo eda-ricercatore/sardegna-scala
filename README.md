@@ -187,7 +187,8 @@ Three primary goals of this endeavor are to:
 		+ Includes data structures for functional programming.
 		+ Parallel programming in *Scala*.
 		+ Parser development in *Scala*.
-
++ Torra2016
+	- "Scala: From a Functional Programming Perspective, An Introduction to the Programming Language"
 
 
 ### For Learning *Scala*: Parallel/Concurrent Programming
@@ -201,8 +202,9 @@ Three primary goals of this endeavor are to:
 + Theron2016
 	- "Scala High Performance Programming: Write efficient, clean, and powerful Scala code and create high-performing applications that your users will love" 
 	- Parallel programming, or concurrent programming.
-
-
++ Haller2011
+	- "Actors in Scala: Concurrent programming for the multi-core era"
+	- Concurrent programming.
 
 
 
@@ -374,6 +376,8 @@ Three primary goals of this endeavor are to:
 	- "Scala for Java Developers: Build reactive, scalable applications and integrate Java code with the power of Scala"
 + Nikolov2016
 	- "Scala Design Patterns: Write efficient, clean, and reusable code with Scala"
++ Haller2011
+	- "Actors in Scala: Concurrent programming for the multi-core era"
 
 
 
@@ -397,24 +401,26 @@ Three primary goals of this endeavor are to:
 
 ## Books Not Covered Yet
 
-+ Hunt2014
-	- "A Beginner's Guide to Scala, Object Orientation and Functional Programming"
-+ Lewis2013a
-	- "Introduction to the Art of Programming Using Scala"
-+ Subramaniam2015
-	- "Pragmatic Scala: Create Expressive, Concise, and Scalable Applications"
-+ Sathyanarayanan2016
-	- "Reactive Programming with Scala and Akka: Harness reactive programming to build scalable and fault-tolerant distributed systems using Scala and Akka"
 + Alexander2013a
 	- "Scala Cookbook: Recipes for Object-Oriented and Functional Programming"
 + Bedrytski2016
 	- "Professional Scala"
++ Hunt2014
+	- "A Beginner's Guide to Scala, Object Orientation and Functional Programming"
 + Hunt2013a
 	- "Scala Design Patterns: Patterns for Practical Reuse and Design"
 + Jancauskas2016
 	- "Scientific Computing with Scala: Learn to solve scientific computing problems using Scala and its numerical computing, data processing, concurrency, and plotting libraries"
++ Lewis2013a
+	- "Introduction to the Art of Programming Using Scala"
 + Phillips2014a
 	- "Scala Puzzlers: The fun path to deeper understanding"
++ Sathyanarayanan2016
+	- "Reactive Programming with Scala and Akka: Harness reactive programming to build scalable and fault-tolerant distributed systems using Scala and Akka"
++ Subramaniam2015
+	- "Pragmatic Scala: Create Expressive, Concise, and Scalable Applications"
++ Torra2016
+	- "Scala: From a Functional Programming Perspective, An Introduction to the Programming Language"
 
 
 
