@@ -396,9 +396,9 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 			*[search_attribute]* in the variable *[variable_name]*. 
 	- Pattern Matching \cite[\S5.4, pp. 168-169]{Tate2010}:
 		* Given some data, pattern matching allows code to be conditionally
-			executed \cite[\S5.4, pp. 168]{Tate2010}:.
+			executed \cite[\S5.4, pp. 168]{Tate2010}.
 		* Pattern matching is often used during text processing
-			\cite[\S5.4, pp. 168]{Tate2010}:;
+			\cite[\S5.4, pp. 168]{Tate2010};
 			 e.g., during parsing or communication (or message passing).
 		* It resembles a switch statement in *C++*/*Java*
 			\cite[\S5.4, pp. 169]{Tate2010}.
@@ -408,8 +408,13 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 				associated code block will be executed
 				\cite[\S5.4, pp. 169]{Tate2010}.
 		* The *.r* method placed at the end of a string translates that string into
-			a regular expression (regex).
-
+			a regular expression (regex) \cite[\S5.4, pp. 169]{Tate2010}.
+		* When processing text/strings, 'use the """ delimited form of a string,'
+			so that 'multiline string[s]' are allowed and evaluation of the double
+			quotes is avoided \cite[\S5.4, pp. 170]{Tate2010}.
+		* When *Scala*, pattern matching, and regular expressions are used for
+			text processing, it resembles a "XQuery-like language" (or XML
+				Query-like language) \cite[\S5.4, pp. 171]{Tate2010}.
 
 
 
