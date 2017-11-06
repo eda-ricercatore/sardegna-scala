@@ -383,7 +383,18 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 			+ "For the first invocation", it is an "initial value".
 			+ "For subsequent invocations", it depends on the result of 
 				previous invocation.
-	- BLAH
++ XML (Extensible Markup Language) support
+	- Data files in XML format are passed
+		* XML -based information can be parsed by *Scala* software into strings.
+		* *[variable_name].text* retrieves textual information in the XML-based
+			information.
+		* *[variable_name]\[search_key]* searches the XML-based information in
+			the variable *[variable_name]* for the search key *[search_key]*. 
+		* *[variable_name](n)* returns the *n*th element in the XML-based
+			information, which is stored in the variable *[variable_name]*.
+		* *[variable_name] \ "@[search_attribute]"* searches for the attribute
+			*[search_attribute]* in the variable *[variable_name]*. 
+
 	
 TO BE COMPLETED
 
