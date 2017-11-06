@@ -415,7 +415,7 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 		* When *Scala*, pattern matching, and regular expressions are used for
 			text processing, it resembles a "XQuery-like language" (or XML
 				Query-like language) \cite[\S5.4, pp. 171]{Tate2010}.
-
++ Concurrency \cite[\S5.4, pp. 171-175]{Tate2010}:
 
 
 
@@ -633,8 +633,8 @@ To address mutable states in concurrent (object-oriented) software
 ##	Comparison of Function Programming to Other Programming Paradigms 
 
 Functional programming languages can better support concurrency by
-	discouraging the use of mutable states
-	[Reference needed!!!]
+	discouraging the use of mutable states \cite[\S5.3, pp. 155]{Tate2010}
+	\cite[\S5.1, pp. 138]{Tate2010}
 
 For performance comparison, it is difficult to compare which
 	programming style would yield a performance advantage, due to the
