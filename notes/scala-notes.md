@@ -383,8 +383,8 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 			+ "For the first invocation", it is an "initial value".
 			+ "For subsequent invocations", it depends on the result of 
 				previous invocation.
-+ XML (Extensible Markup Language) support
-	- Data files in XML format are passed
++ XML (Extensible Markup Language) support \cite[\S5.4, pp. 167-171]{Tate2010}
+	- Data files in XML format are passed \cite[\S5.4, pp. 167-168]{Tate2010}:
 		* XML -based information can be parsed by *Scala* software into strings.
 		* *[variable_name].text* retrieves textual information in the XML-based
 			information.
@@ -394,8 +394,31 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 			information, which is stored in the variable *[variable_name]*.
 		* *[variable_name] \ "@[search_attribute]"* searches for the attribute
 			*[search_attribute]* in the variable *[variable_name]*. 
+	- Pattern Matching \cite[\S5.4, pp. 168-169]{Tate2010}:
+		* Given some data, pattern matching allows code to be conditionally
+			executed \cite[\S5.4, pp. 168]{Tate2010}:.
+		* Pattern matching is often used during text processing
+			\cite[\S5.4, pp. 168]{Tate2010}:;
+			 e.g., during parsing or communication (or message passing).
+		* It resembles a switch statement in *C++*/*Java*
+			\cite[\S5.4, pp. 169]{Tate2010}.
+		* A guard is a condition expressed next to a pattern/case in the pattern
+			matching definition, *match* statement, or "switch statement";
+			if the condition is satisfied for that *match* statement, the
+				associated code block will be executed
+				\cite[\S5.4, pp. 169]{Tate2010}.
+		* The *.r* method placed at the end of a string translates that string into
+			a regular expression (regex).
 
-	
+
+
+
+
+
+
+
+
+
 TO BE COMPLETED
 
 
