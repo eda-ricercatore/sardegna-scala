@@ -219,7 +219,9 @@ Reference the following points (Reference these!!!)
 
 
 
+#	Miscellaneous Information
 
++ comma-separated values (CSV) \cite[\S1, pp. 2]{Tate2014}
 
 
 
