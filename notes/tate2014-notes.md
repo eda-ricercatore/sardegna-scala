@@ -10,8 +10,7 @@
 	"object systems, custom data structures," ...
 	This supports clean implementations that are platform-independent, the
 		plug and play paradigm, and facilitates software extension and
-		maintenance \cite[\SAcknowledgments, pp. ???]{Tate2014}.
-	- http://proquest.safaribooksonline.com/book/programming/9781680500516/seven-more-languages-in-seven-wee-ks/f_0000_xhtml#X2ludGVybmFsX0h0bWxWaWV3P3htbGlkPTk3ODE2ODA1MDA1MTYlMkZmXzAwMDZfeGh0bWwmcXVlcnk9
+		maintenance \cite[\SAcknowledgments, pp. ix]{Tate2014}.
 
 	
 
@@ -33,11 +32,17 @@
 ##	Characteristics of *Factor*
 
 + "Concatenative programming model" in "a full-featured, practical environment"
-	\cite[\SAcknowledgments, pp. ???]{Tate2014}
-	- http://proquest.safaribooksonline.com/book/programming/9781680500516/seven-more-languages-in-seven-wee-ks/f_0000_xhtml#X2ludGVybmFsX0h0bWxWaWV3P3htbGlkPTk3ODE2ODA1MDA1MTYlMkZmXzAwMDZfeGh0bWwmcXVlcnk9
+	\cite[\SAcknowledgments, pp. x]{Tate2014}
+
+
+
+
 
 
 ##	Notes about *Factor*
+
++ Composition of functions \cite[\SIntroduction, pp. xv]{Tate2014}
+
 
 
 ##	Advantages of *Factor*
@@ -71,7 +76,23 @@ Reference the following points
 
 ##	Characteristics of *Elixir*
 
+
+
+
+
+
+
+
+
+
 ##	Notes about *Elixir*
+
++ Macros:
+	- Express code in templates, via metaprogramming
+		\cite[\SIntroduction, pp. xv]{Tate2014}
+
+
+
 
 
 ##	Advantages of *Elixir*
@@ -106,6 +127,12 @@ Reference the following points
 ##	Characteristics of *miniKanren*
 
 ##	Notes about *miniKanren*
+
++ Express rules, rather than express individual steps of a procedure
+	\cite[\SIntroduction, pp. xv]{Tate2014}
+
+
+
 
 
 ##	Advantages of *miniKanren*
