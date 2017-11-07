@@ -18,7 +18,7 @@
 	- Tables \cite[\S1, pp. 3]{Tate2014}.
 	- Can be combined with other computer languages, such as *C*
 		\cite[\S1, pp. 3]{Tate2014}.
-
++ Powerful and compact \cite[\S1, pp. 7]{Tate2014}
 
 
 
@@ -72,13 +72,24 @@
 		* *strings*
 		* *nil*, which represents "not found" or does not exist
 			\cite[\S1, pp. 6]{Tate2014}
++ Boolean expressions in *Lua* are subject to short-circuit evaluation
+	\cite[\S1, pp. 6]{Tate2014} \cite{WikipediaContributors2017z}.
++ Functions
+	-  Functions are first-class values \cite[\S1, pp. 7]{Tate2014}.
+	- "[Functions] can be treated just like any other value in *Lua*"
+		\cite[\S1, pp. 7]{Tate2014}.
+	- "[Functions] can be" \cite[\S1, pp. 7]{Tate2014}:
+		* "assigned to variables",
+		* "passed as parameters into other functions",
+		* "stored in data structures".
+	- "Treat code as data" \cite[\S1, pp. 7]{Tate2014}
+		* Important for contributing to *Lua*'s power and compactness.
 
 
 
 
-
-
-
+\cite[\S1, pp. 7]{Tate2014}
+TO BE COMPLETED...
 
 
 
@@ -315,6 +326,25 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 
 
+
+
+
+
+
+
+@misc{WikipediaContributors2017z,
+	Address = {San Francisco, {CA}},
+	Author = {{Wikipedia contributors}},
+	Date-Added = {2014-03-30 00:11:00 +0200},
+	Date-Modified = {2014-03-30 00:11:00 +0200},
+	Howpublished = {Available online from {\it Wikipedia, The Free Encyclopedia: Evaluation strategy} at: \url{https://en.wikipedia.org/wiki/Short-circuit_evaluation}; November 8, 2017 was the last accessed date},
+	Keywords = {programming language features, programming language theory, programming languages},
+	Month = {October 19},
+	Publisher = {Wikimedia Foundation},
+	School = {},
+	Title = {Short-circuit evaluation},
+	Url = {https://en.wikipedia.org/wiki/Short-circuit_evaluation},
+	Year = {2017}}
 
 @misc{WikipediaContributors2017y,
 	Address = {San Francisco, {CA}},
