@@ -112,8 +112,10 @@
 	- Built-in control flow constructs \cite[\S1, pp. 10]{Tate2014}
 		* *if* statement, including *else* clause and zero or more *elseif* clauses.
 		* *for* loop, which has two flavors:
-			+ Without step argument.
-			+ With optional step argument.
+			+ For a series of numbers:
+				- Without step argument.
+				- With optional step argument.
+			+ For items in a collection; see notes about tables.
 		* *while* loop.
 
 
