@@ -84,6 +84,34 @@
 		* "stored in data structures".
 	- "Treat code as data" \cite[\S1, pp. 7]{Tate2014}
 		* Important for contributing to *Lua*'s power and compactness.
+	- The function name is not required \cite[\S1, pp. 7]{Tate2014}.
+	- Flexible arguments \cite[\S1, pp. 8]{Tate2014}
+		* Assign the value of *nil* to all unused parameters.
+		* Ignore extra parameters.
+	- Variadic functions can be explicitly defined \cite[\S1, pp. 8]{Tate2014}.
+		* A variadic function that can accept "an arbitrary number of inputs".
+		* Specify the last parameter as an ellipsis "*...*". 
+	- Tail call optimization \cite[\S1, pp. 9]{Tate2014}
+		* For recursive functions that end with a recursive call to itself.
+		* **What is the difference between this and tail recursion
+			optimization???** 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
