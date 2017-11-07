@@ -419,7 +419,8 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 	- Primary constructs in *Scala* for handling concurrency
 		\cite[\S5.4, pp. 171]{Tate2010}:
 		* actors
-			+ each actor has a pool of threads and a queue
+			+ each actor has a pool of threads (or thread pool
+				\cite[\S5.5, pp. 177]{Tate2010}) and a queue
 			+ Each incoming message to an actor is sent using the "!" operator.
 			+ Each incoming message to an actor places an object on the
 				actor's queue.
