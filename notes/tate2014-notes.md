@@ -8,6 +8,8 @@
 	\cite[\SAcknowledgments, pp. xvii]{Tate2014}.
 + Embeddable prototype language for production systems
 	\cite[\SAcknowledgments, pp. xvii]{Tate2014}.
+	- The compiler can be built on "a particularly limited embedded platform"
+		\cite[\S1, pp. 4]{Tate2014}.
 + Flexible inputs and outputs of functions \cite[\S1, pp. 1]{Tate2014}.
 + "Rich syntax and proper semantics" \cite[\S1, pp. 1]{Tate2014}.
 + "Quick, portable little [scripting] language" \cite[\S1, pp. 1]{Tate2014}.
@@ -50,7 +52,8 @@
 		* Enables customization of each clone
 		* Philosophically simpler (i.e., "simpler feel") than object-oriented
 			programming paradigm 
-
++ "Supports an interactive read-eval-print loop (REPL)" \cite[\S1, pp. 4]{Tate2014}
+	- That is , it provides an interactive command-line interface (CLI). 
 
 		
 
