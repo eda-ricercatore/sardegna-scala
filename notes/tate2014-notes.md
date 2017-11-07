@@ -4,11 +4,6 @@
 
 ##	Characteristics of *Lua*
 
-+ Tables in *Lua* provide "a single, unifying abstraction" that is used to build
-	"object systems, custom data structures," ...
-	This supports clean implementations that are platform-independent, the
-		plug and play paradigm, and facilitates software extension and
-		maintenance \cite[\SAcknowledgments, pp. ix]{Tate2014}.
 + Fast, flexible programming/scripting language
 	\cite[\SAcknowledgments, pp. xvii]{Tate2014}.
 + Embeddable prototype language for production systems
@@ -16,9 +11,10 @@
 + Flexible inputs and outputs of functions \cite[\S1, pp. 1]{Tate2014}.
 + "Rich syntax and proper semantics" \cite[\S1, pp. 1]{Tate2014}.
 + "Quick, portable little [scripting] language" \cite[\S1, pp. 1]{Tate2014}.
-+ Expressive language \cite[\S1, pp. 3]{Tate2014}.
++ Expressive description language \cite[\S1, pp. 3]{Tate2014}.
 	- Tables \cite[\S1, pp. 3]{Tate2014}.
-
+	- Can be combined with other computer languages, such as *C*
+		\cite[\S1, pp. 3]{Tate2014}.
 
 
 
@@ -32,9 +28,31 @@
 
 ##	Notes about *Lua*
 
-+ Tables \cite[\S1, pp. 3]{Tate2014}.
-	- "Array-meets-dictionary object" \cite[\S1, pp. 3]{Tate2014}.
 
++ Tables in *Lua* provide "a single, unifying abstraction" that is used to build
+	"object systems, custom data structures,"
+		\cite[\SAcknowledgments, pp. ix]{Tate2014}.
+	- This supports clean implementations that are platform-independent, the
+		plug and play paradigm, and facilitates software extension and
+		maintenance \cite[\SAcknowledgments, pp. ix]{Tate2014}.
+	- "Array-meets-dictionary object" \cite[\S1, pp. 3]{Tate2014}.
+	- Table-based programming language that enables abstraction for
+		implementation of different programming paradigms
+			\cite[\S1, pp. 3]{Tate2014}:
+		* Procedural programming paradigm
+		* Object-oriented programming paradigm
+		* Event-driven programming paradigm
+	- Supports prototype style of object-oriented programming paradigm
+		\cite[\S1, pp. 3]{Tate2014}.
+		* Does not differentiate between *classes*/blueprints and
+			*instances*/objects (based on those *classes*/blueprints)
+		* Enables cloning of instances
+		* Enables customization of each clone
+		* Philosophically simpler (i.e., "simpler feel") than object-oriented
+			programming paradigm 
+
+
+		
 
 
 
