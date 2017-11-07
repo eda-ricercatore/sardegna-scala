@@ -67,9 +67,12 @@
 	- Variables in the source code are not specified with a type each.
 	- Run-time values of variables do have a type each. 
 	- Examples of types for run-time values:
-		* numbers
-		* Booleans
-		* strings
+		* *numbers*
+		* *Booleans*
+		* *strings*
+		* *nil*, which represents "not found" or does not exist
+			\cite[\S1, pp. 6]{Tate2014}
+
 
 
 
