@@ -31,6 +31,9 @@
 
 + "Concatenative programming model" in "a full-featured, practical environment"
 	\cite[\SAcknowledgments, pp. x]{Tate2014}
++ Concatenative, stack-based programming model
+	\cite[\SAcknowledgments, pp. xvii]{Tate2014}.
++ Full-featured library\cite[\SAcknowledgments, pp. xvii]{Tate2014}.
 
 
 
@@ -61,10 +64,15 @@ Reference the following points (Reference these!!!)
 ##	Characteristics of *Elm*
 
 + Supports reactive programming, by using data flows and functions to propagate
-	change.
+	change \cite[\SAcknowledgments, pp. xvii]{Tate2014}.
 	- Remove callbacks to simplify *JavaScript* applications, by "representing
 		user interactions as signals that map onto functions"
 			\cite[\SAcknowledgments, pp. xvii]{Tate2014}.
+
+
+
+
+
 
 
 ##	Notes about *Elm*
