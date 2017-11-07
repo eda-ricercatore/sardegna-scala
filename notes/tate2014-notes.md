@@ -117,7 +117,7 @@
 				- With optional step argument.
 			+ For items in a collection; see notes about tables.
 		* *while* loop.
-
+			+ Its cousin is the *repeat* loop.
 
 
 
