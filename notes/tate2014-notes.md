@@ -17,7 +17,7 @@
 + "Rich syntax and proper semantics" \cite[\S1, pp. 1]{Tate2014}.
 + "Quick, portable little [scripting] language" \cite[\S1, pp. 1]{Tate2014}.
 + Expressive language \cite[\S1, pp. 3]{Tate2014}.
-	+ Tables \cite[\S1, pp. 3]{Tate2014}.
+	- Tables \cite[\S1, pp. 3]{Tate2014}.
 
 
 
@@ -31,6 +31,10 @@
 
 
 ##	Notes about *Lua*
+
++ Tables \cite[\S1, pp. 3]{Tate2014}.
+	- "Array-meets-dictionary object" \cite[\S1, pp. 3]{Tate2014}.
+
 
 
 
