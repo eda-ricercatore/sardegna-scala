@@ -110,9 +110,11 @@
 			positional arguments are not keyword arguments.
 + Control flow 
 	- Built-in control flow constructs \cite[\S1, pp. 10]{Tate2014}
-		* *if* statement
-		* *for* loop, which has two flavors
-		* *while* loop
+		* *if* statement, including *else* clause and zero or more *elseif* clauses.
+		* *for* loop, which has two flavors:
+			+ Without step argument.
+			+ With optional step argument.
+		* *while* loop.
 
 
 
