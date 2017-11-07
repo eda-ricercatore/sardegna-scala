@@ -112,14 +112,15 @@
 	- Built-in control flow constructs \cite[\S1, pp. 10]{Tate2014}
 		* *if* statement, including *else* clause and zero or more *elseif* clauses.
 		* *for* loop, which has two flavors:
-			+ For a series of numbers:
+			+ For a series of numbers \cite[\S1, pp. 11]{Tate2014}:
 				- Without step argument.
 				- With optional step argument.
-			+ For items in a collection; see notes about tables.
+			+ For items in a collection; see notes about tables
+				\cite[\S1, pp. 11]{Tate2014}.
 		* *while* loop.
-			+ Its cousin is the *repeat* loop.
-
-
+			+ Its cousin is the *repeat* loop \cite[\S1, pp. 11]{Tate2014}.
++ Variables
+	- "Variables are global by default" \cite[\S1, pp. 12]{Tate2014}
 
 
 
