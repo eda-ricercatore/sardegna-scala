@@ -95,12 +95,21 @@
 		* For recursive functions that end with a recursive call to itself.
 		* **What is the difference between this and tail recursion
 			optimization???** 
-
-
-
-
-
-
+	- Multiple return values \cite[\S1, pp. 9-10]{Tate2014}
+		* A function can return multiple values;
+			these values can be used (e.g., in an assignment) or ignored
+				\cite[\S1, pp. 9-10]{Tate2014}.
+		* If the number of variables (assigned to the return values) is greater
+			than the number of return values, they are assigned the value of
+			*nil* \cite[\S1, pp. 10]{Tate2014}.
+	- To mimic keyword arguments, pass a table as a function argument;
+		that is, keyword arguments do not have a special syntax in *Lua*
+		\cite[\S1, pp. 10]{Tate2014}.
++ Control flow 
+	- Built-in control flow constructs \cite[\S1, pp. 10]{Tate2014}
+		* *if* statement
+		* *for* loop, which has two flavors
+		* *while* loop
 
 
 
@@ -343,7 +352,7 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 		* When I reference/cite this work, I shall indicate the chapter and page
 			number (if possible).
 + [WikipediaContributors2017y](https://en.wikipedia.org/wiki/Off-side_rule)
-
++ [WikipediaContributors2017z](https://en.wikipedia.org/wiki/Short-circuit_evaluation)
 
 
 
