@@ -9,8 +9,10 @@
 	This supports clean implementations that are platform-independent, the
 		plug and play paradigm, and facilitates software extension and
 		maintenance \cite[\SAcknowledgments, pp. ix]{Tate2014}.
-
-	
++ Fast, flexible programming/scripting language
+	\cite[\SAcknowledgments, pp. xvii]{Tate2014}.
++ Embeddable prototype language for production systems
+	\cite[\SAcknowledgments, pp. xvii]{Tate2014}.
 
 
 
@@ -30,11 +32,12 @@
 ##	Characteristics of *Factor*
 
 + "Concatenative programming model" in "a full-featured, practical environment"
-	\cite[\SAcknowledgments, pp. x]{Tate2014}
+	\cite[\SAcknowledgments, pp. x]{Tate2014}.
 + Concatenative, stack-based programming model
 	\cite[\SAcknowledgments, pp. xvii]{Tate2014}.
 + Full-featured library\cite[\SAcknowledgments, pp. xvii]{Tate2014}.
-
++ UI framework \cite[\SAcknowledgments, pp. xvii]{Tate2014}.
++ Web framework \cite[\SAcknowledgments, pp. xvii]{Tate2014}.
 
 
 
@@ -141,6 +144,24 @@ Reference the following points (Reference these!!!)
 
 ##	Characteristics of *miniKanren*
 
++ A domain-specific language (DSL), rather than a programming language, for
+	logic programming.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ##	Notes about *miniKanren*
 
 + Express rules, rather than express individual steps of a procedure
@@ -166,6 +187,14 @@ Reference the following points (Reference these!!!)
 #	Idris
 
 ##	Characteristics of *Idris*
+
++ Has dependent types \cite[\SAcknowledgments, pp. xviii]{Tate2014}
+
+
+
+
+
+
 
 ##	Notes about *Idris*
 
