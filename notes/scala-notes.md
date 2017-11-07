@@ -693,6 +693,31 @@ For performance comparison, it is difficult to compare which
 	broken careers and companies that invested poorly."
 	\cite[\S9.1, pp. 314]{Tate2010}.
 
+
+
+Hardware-oriented technology trends promotes the adoption of functional
+	programming to address challenges associated with developing parallel and
+	concurrent software for multi- and many-core processors
+		\cite[\SIntroduction, pp. xvi]{Tate2014}.
+
+In addition, cross-cutting challenges of software quality and software complexity
+	favor programming languages that support metaprogramming, and have good
+	typing models (to facilitate bug finding) \cite[\SIntroduction, pp. xvi]{Tate2014}.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 To be completed.
 
 
