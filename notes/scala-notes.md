@@ -450,6 +450,15 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 	- Use "*receive*" to block a thread, and "*receiveWithin*" to block a thread
 		for/within??? [Clarify this!!!] a specified duration
 			\cite[\S5.4, pp. 172]{Tate2010}.
++ Domain-Specific Languages \cite[\S5.5, pp. 178]{Tate2010}:
+	- "*Scala*'s flexible syntax and operator overloading make it an ideal
+		language for developing *Ruby*-style domain-specific languages. 
+	- "Operators are simply method declarations, and you can override them in
+		most cases."
+	- "Optional spaces, periods, and semicolons let the syntax take many
+		different forms."
+	- "Together with robust mixins, these are the tools that a DSL developer
+		seeks."
 + currying \cite[\S5.5, pp. 176]{Tate2010}.
 + full closures \cite[\S5.5, pp. 176]{Tate2010}.
 + multiple parameter list \cite[\S5.5, pp. 176]{Tate2010}.
@@ -694,8 +703,12 @@ Find out about the advantages of functional programming paradigm
 	\cite{Graham2004} over procedural and structural programming paradigms.
 Also, determine its disadvantages.
 
-
-
+"*Scala* applications will usually have a fraction of the total lines of code than an
+	equivalent *Java* app would have, and that's extremely important.
+	A better programming language should allow you to express more complex
+		ideas with fewer lines of code, with minimal overhead.
+	*Scala* delivers on this promise."
+		\cite[\S5.5, pp. 178]{Tate2010}.
 
 
 ### Notes on Other Programming Paradigms
