@@ -13,7 +13,9 @@
 	\cite[\SAcknowledgments, pp. xvii]{Tate2014}.
 + Embeddable prototype language for production systems
 	\cite[\SAcknowledgments, pp. xvii]{Tate2014}.
-
++ Flexible inputs and outputs of functions \cite[\S1, pp. 1]{Tate2014}.
++ "Rich syntax and proper semantics" \cite[\S1, pp. 1]{Tate2014}.
++ "Quick, portable little [scripting] language" \cite[\S1, pp. 1]{Tate2014}
 
 
 ##	Notes about *Lua*
@@ -126,7 +128,19 @@ Reference the following points (Reference these!!!)
 
 ##	Characteristics of *Julia*
 
++ For computing regarding statistics and multi-dimensional mathematics
+	\cite[\SIntroduction, pp. xviii]{Tate2014}
++ Designed for concurrent and parallel computing
+	\cite[\SIntroduction, pp. xviii]{Tate2014}
+
+
+
+
+
+
 ##	Notes about *Julia*
+
+
 
 
 ##	Advantages of *Julia*
@@ -145,10 +159,9 @@ Reference the following points (Reference these!!!)
 ##	Characteristics of *miniKanren*
 
 + A domain-specific language (DSL), rather than a programming language, for
-	logic programming.
-
-
-
+	logic programming \cite[\SIntroduction, pp. xviii]{Tate2014}.
++ Embedded logic DSL in general purpose programming languagexxx enables
+	miniKanren developers to use logic programming in real scenarios.ws  
 
 
 
