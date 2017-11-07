@@ -1,8 +1,6 @@
 #	Lua
 
 
-\cite[\SAcknowledgments, pp. ???]{Tate2014} 
-\cite[\S???, pp. ???]{Tate2014}
 
 ##	Characteristics of *Lua*
 
@@ -14,7 +12,7 @@
 
 	
 
-\cite[\SAcknowledgments, pp. ???]{Tate2014}
+
 
 ##	Notes about *Lua*
 
@@ -53,7 +51,7 @@
 
 #	Elm
 
-Reference the following points
+Reference the following points (Reference these!!!)
 + functional reactive programming (FRP)
 + concurrency
 + GUI programming/development
@@ -61,6 +59,13 @@ Reference the following points
 
 
 ##	Characteristics of *Elm*
+
++ Supports reactive programming, by using data flows and functions to propagate
+	change.
+	- Remove callbacks to simplify *JavaScript* applications, by "representing
+		user interactions as signals that map onto functions"
+			\cite[\SAcknowledgments, pp. xvii]{Tate2014}.
+
 
 ##	Notes about *Elm*
 
@@ -76,9 +81,11 @@ Reference the following points
 
 ##	Characteristics of *Elixir*
 
-
-
-
++ "Pure functional [programming] language"
+	\cite[\SIntroduction, pp. xvii]{Tate2014}:
+	- Runs "on the *Erlang* virtual machine"
+	- Has "a rich *Ruby*-like syntax"
+	- *Lisp*-style macros
 
 
 
