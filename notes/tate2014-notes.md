@@ -63,6 +63,20 @@
 		whitespace has no major significance in *Lua*, other than tokenization
 			that uses whitespace as delimiters;
 		line breaks are not required between statements. 
++ Dynamically typed scripting language \cite[\S1, pp. 5]{Tate2014}.
+	- Variables in the source code are not specified with a type each.
+	- Run-time values of variables do have a type each. 
+	- Examples of types for run-time values:
+		* numbers
+		* Booleans
+		* strings
+
+
+
+
+
+
+
 
 
 
