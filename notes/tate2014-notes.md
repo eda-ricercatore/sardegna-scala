@@ -58,8 +58,11 @@
 + Friendly, approachable syntax \cite[\S1, pp. 5]{Tate2014}.
 	- No semi-colons are not required to indicate the end of a statement.
 	- Does not use the off-side rule; not an off-side rule programming language;
-		contrast "with free-form languages, notably curly-bracket programming
-		languages" \cite{WikipediaContributors2017y}. 
+		it is an example of "free-form languages, notably curly-bracket
+		programming languages" \cite{WikipediaContributors2017y};
+		whitespace has no major significance in *Lua*, other than tokenization
+			that uses whitespace as delimiters;
+		line breaks are not required between statements. 
 
 
 
