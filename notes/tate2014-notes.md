@@ -160,8 +160,9 @@ Reference the following points (Reference these!!!)
 
 + A domain-specific language (DSL), rather than a programming language, for
 	logic programming \cite[\SIntroduction, pp. xviii]{Tate2014}.
-+ Embedded logic DSL in general purpose programming languagexxx enables
-	miniKanren developers to use logic programming in real scenarios.ws  
++ Embedded logic DSL in general purpose programming language enables
+	miniKanren developers to use logic programming in real world scenarios
+		\cite[\SIntroduction, pp. xviii]{Tate2014}.
 
 
 
