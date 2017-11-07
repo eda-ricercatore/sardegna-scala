@@ -105,6 +105,8 @@
 	- To mimic keyword arguments, pass a table as a function argument;
 		that is, keyword arguments do not have a special syntax in *Lua*
 		\cite[\S1, pp. 10]{Tate2014}.
+		* During function calls, positional arguments can be assigned to the
+			formal parameters of the function.
 + Control flow 
 	- Built-in control flow constructs \cite[\S1, pp. 10]{Tate2014}
 		* *if* statement
