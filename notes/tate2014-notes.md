@@ -12,6 +12,7 @@
 		\cite[\S1, pp. 4]{Tate2014}.
 + Flexible inputs and outputs of functions \cite[\S1, pp. 1]{Tate2014}.
 + "Rich syntax and proper semantics" \cite[\S1, pp. 1]{Tate2014}.
++ Friendly, approachable syntax \cite[\S1, pp. 5]{Tate2014}.
 + "Quick, portable little [scripting] language" \cite[\S1, pp. 1]{Tate2014}.
 + Expressive description language \cite[\S1, pp. 3]{Tate2014}.
 	- Tables \cite[\S1, pp. 3]{Tate2014}.
@@ -54,8 +55,11 @@
 			programming paradigm 
 + "Supports an interactive read-eval-print loop (REPL)" \cite[\S1, pp. 4]{Tate2014}
 	- That is , it provides an interactive command-line interface (CLI). 
-
-		
++ Friendly, approachable syntax \cite[\S1, pp. 5]{Tate2014}.
+	- No semi-colons are not required to indicate the end of a statement.
+	- Does not use the off-side rule; not an off-side rule programming language;
+		contrast "with free-form languages, notably curly-bracket programming
+		languages" \cite{WikipediaContributors2017y}. 
 
 
 
@@ -279,6 +283,46 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 		* Note that there are no numbered sections in this book.
 		* When I reference/cite this work, I shall indicate the chapter and page
 			number (if possible).
++ [WikipediaContributors2017y](https://en.wikipedia.org/wiki/Off-side_rule)
+
+
+
+
+
+
+
+
+
+
+
+
+@misc{WikipediaContributors2017y,
+	Address = {San Francisco, {CA}},
+	Author = {{Wikipedia contributors}},
+	Date-Added = {2014-03-30 00:11:00 +0200},
+	Date-Modified = {2014-03-30 00:11:00 +0200},
+	Howpublished = {Available online from {\it Wikipedia, The Free Encyclopedia: Programming language topics} at: \url{https://en.wikipedia.org/wiki/Off-side_rule}; November 8, 2017 was the last accessed date},
+	Keywords = {indent style conventions},
+	Month = {July 31},
+	Publisher = {Wikimedia Foundation},
+	School = {},
+	Title = {Off-side rule},
+	Url = {https://en.wikipedia.org/wiki/Off-side_rule},
+	Year = {2017}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
