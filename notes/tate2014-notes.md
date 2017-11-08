@@ -54,6 +54,16 @@
 		* Philosophically simpler (i.e., "simpler feel") than object-oriented
 			programming paradigm 
 	- Contributes to the expressiveness of *Lua* \cite[\S1, pp. 13]{Tate2014}
+	- A data structure that allows programmers to \cite[\S1, pp. 14]{Tate2014}:
+		* Store data that can be accessed by name.
+		* Store value in a particular order
+	- By explicitly supporting only the table as a data structure for *Lua*, it
+		allows *Lua* programmers to avoid the need to learn the API, syntax,
+		performance characteristics, and possibly other aspects, of data
+		structures, such as arrays, tuples, vectors, lists, and dictionaries. 
++ Coroutines
+	- Coroutines define the control flow of *Lua* programs
+		\cite[\S1, pp. 14]{Tate2014}. 
 + "Supports an interactive read-eval-print loop (REPL)" \cite[\S1, pp. 4]{Tate2014}
 	- That is , it provides an interactive command-line interface (CLI). 
 + Friendly, approachable syntax \cite[\S1, pp. 5]{Tate2014}.
