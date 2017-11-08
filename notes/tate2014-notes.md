@@ -68,26 +68,31 @@
 	- A table constructor can be expressed as within curly braces as follows
 		\cite[\S1, pp. 14]{Tate2014}:
 		e.g., *name_of_table* = { key1 = value1, key2 = value2, key3 = value3}.
-		* *name_of_table*.*key_name* allows the value of 
-			*name_of_table*.*key_name* to be read
-			\cite[\S1, pp. 14-15]{Tate2014};
-		* To modify *name_of_table*.*key_name*, assign
-			*name_of_table*.*key_name*  to a value \cite[\S1, pp. 15]{Tate2014}.
-		* *name_of_table*[*key_name*] allows keys with spaces or decimal
-			points to be read/accessed at runtime \cite[\S1, pp. 15]{Tate2014}.
-		* Assigning the special value of *nil* to an item in the table removes it
-			from the table;
-			e.g., *name_of_table*.*key_name* = nil \cite[\S1, pp. 15]{Tate2014}.
-		* Creating arrays using tables \cite[\S1, pp. 16]{Tate2014};
-			*name_of_array* = { value1, value2, value3};
-			array indices start from one; e.g., *name_of_array*[1]
+	- *name_of_table*.*key_name* allows the value of 
+		*name_of_table*.*key_name* to be read \cite[\S1, pp. 14-15]{Tate2014}.
+	- To modify *name_of_table*.*key_name*, assign *name_of_table*.*key_name*
+		to a value \cite[\S1, pp. 15]{Tate2014}.
+	- *name_of_table*[*key_name*] allows keys with spaces or decimal points to
+		be read/accessed at runtime \cite[\S1, pp. 15]{Tate2014}.
+	- Assigning the special value of *nil* to an item in the table removes it from
+		the table;
+		e.g., *name_of_table*.*key_name* = nil \cite[\S1, pp. 15]{Tate2014}.
+	- Creating arrays using tables \cite[\S1, pp. 16]{Tate2014};
+		*name_of_array* = { value1, value2, value3}.
+			+ array indices start from one; e.g., *name_of_array*[1]
 				\cite[\S1, pp. 16]{Tate2014}.
-		* Since arrays and dictionaries are not mutually exclusive, they can be
-			mixed in the same table, and *Lua* can determine how to store
-			information efficiently \cite[\S1, pp. 17]{Tate2014}.
-			+ A semi-colon can be used to separate the declaration of the
-				array and the table \cite[\S1, pp. 17]{Tate2014};
-				e.g., *combi* = {arr1,arr2,arr3; key1 = value1, key2 = value2}.
+	- Since arrays and dictionaries are not mutually exclusive, they can be mixed
+		in the same table, and *Lua* can determine how to store information
+		efficiently \cite[\S1, pp. 17]{Tate2014}.
+		* A semi-colon can be used to separate the declaration of the array and
+			the table \cite[\S1, pp. 17]{Tate2014};
+			e.g., *combi* = {arr1,arr2,arr3; key1 = value1, key2 = value2}.
+	- A metatable provides custom lookup logic \cite[\S1, pp. 17]{Tate2014}.
+	- 
+
+
+
+
 + Coroutines
 	- Coroutines define the control flow of *Lua* programs
 		\cite[\S1, pp. 14]{Tate2014}. 
