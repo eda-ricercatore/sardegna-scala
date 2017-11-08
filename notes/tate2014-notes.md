@@ -78,6 +78,10 @@
 		* Assigning the special value of *nil* to an item in the table removes it
 			from the table;
 			e.g., *name_of_table*.*key_name* = nil \cite[\S1, pp. 15]{Tate2014}.
+		* Creating arrays using tables \cite[\S1, pp. 16]{Tate2014};
+			*name_of_array* = { value1, value2, value3};
+			array indices start from one; e.g., *name_of_array*[1]
+				\cite[\S1, pp. 16]{Tate2014};.
 + Coroutines
 	- Coroutines define the control flow of *Lua* programs
 		\cite[\S1, pp. 14]{Tate2014}. 
