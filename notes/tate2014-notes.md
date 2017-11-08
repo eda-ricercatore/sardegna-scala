@@ -121,7 +121,8 @@
 			+ Its cousin is the *repeat* loop \cite[\S1, pp. 11]{Tate2014}.
 + Variables
 	- "Variables are global by default" \cite[\S1, pp. 12]{Tate2014}
-
+	- Placing the keyword "local" around them would make the scope of the
+		variables local. 
 
 
 
@@ -134,6 +135,8 @@
 
 
 \cite[\S1, pp. 7]{Tate2014}
+
+
 TO BE COMPLETED...
 
 
