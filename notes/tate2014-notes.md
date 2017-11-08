@@ -60,7 +60,8 @@
 	- By explicitly supporting only the table as a data structure for *Lua*, it
 		allows *Lua* programmers to avoid the need to learn the API, syntax,
 		performance characteristics, and possibly other aspects, of data
-		structures, such as arrays, tuples, vectors, lists, and dictionaries. 
+		structures, such as arrays, tuples, vectors, lists, and dictionaries
+			\cite[\S1, pp. 14]{Tate2014}. 
 + Coroutines
 	- Coroutines define the control flow of *Lua* programs
 		\cite[\S1, pp. 14]{Tate2014}. 
