@@ -61,7 +61,15 @@
 		allows *Lua* programmers to avoid the need to learn the API, syntax,
 		performance characteristics, and possibly other aspects, of data
 		structures, such as arrays, tuples, vectors, lists, and dictionaries
-			\cite[\S1, pp. 14]{Tate2014}. 
+			\cite[\S1, pp. 14]{Tate2014}.
+	- A *Lua* table is a collection of keys (names) and their associated values;
+		that is, it is a collection of (key,value) pairs, or key-value pairs
+			\cite[\S1, pp. 14]{Tate2014}.
+	- A table constructor can be expressed as within curly braces as follows
+		\cite[\S1, pp. 14]{Tate2014}:
+		E.g., *name_of_table* = { key1 = value1, key2 = value2, key3 = value3};
+		*name_of_table*.*key_name* allows the value of .*name_of_table*.*key_name*
+			to be read.
 + Coroutines
 	- Coroutines define the control flow of *Lua* programs
 		\cite[\S1, pp. 14]{Tate2014}. 
