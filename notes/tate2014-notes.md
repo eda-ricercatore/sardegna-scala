@@ -102,9 +102,10 @@
 			\cite[\S1, pp. 19]{Tate2014}.
 	- Functions for stricter access and modification of keys in tables can be 
 		designed and implemented as a table under the names *__index* and
-		*__newindex*, and set as the metatable for the data
+		*__newindex*, and set as the (private) metatable for the data
 			\cite[\S1, pp. 19]{Tate2014}.
-
+	- Use *Lua*-supported abstraction to design a custom object-oriented
+		programming language in *Lua* \cite[\S1, pp. 21]{Tate2014}.
 + Coroutines
 	- Coroutines define the control flow of *Lua* programs
 		\cite[\S1, pp. 14]{Tate2014}. 
