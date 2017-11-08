@@ -81,7 +81,13 @@
 		* Creating arrays using tables \cite[\S1, pp. 16]{Tate2014};
 			*name_of_array* = { value1, value2, value3};
 			array indices start from one; e.g., *name_of_array*[1]
-				\cite[\S1, pp. 16]{Tate2014};.
+				\cite[\S1, pp. 16]{Tate2014}.
+		* Since arrays and dictionaries are not mutually exclusive, they can be
+			mixed in the same table, and *Lua* can determine how to store
+			information efficiently \cite[\S1, pp. 17]{Tate2014}.
+			+ A semi-colon can be used to separate the declaration of the
+				array and the table \cite[\S1, pp. 17]{Tate2014};
+				e.g., *combi* = {arr1,arr2,arr3; key1 = value1, key2 = value2}.
 + Coroutines
 	- Coroutines define the control flow of *Lua* programs
 		\cite[\S1, pp. 14]{Tate2014}. 
