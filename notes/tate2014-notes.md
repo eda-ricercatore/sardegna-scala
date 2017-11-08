@@ -53,6 +53,7 @@
 		* Enables customization of each clone
 		* Philosophically simpler (i.e., "simpler feel") than object-oriented
 			programming paradigm 
+	- Contributes to the expressiveness of *Lua* \cite[\S1, pp. 13]{Tate2014}
 + "Supports an interactive read-eval-print loop (REPL)" \cite[\S1, pp. 4]{Tate2014}
 	- That is , it provides an interactive command-line interface (CLI). 
 + Friendly, approachable syntax \cite[\S1, pp. 5]{Tate2014}.
