@@ -73,6 +73,11 @@
 			\cite[\S1, pp. 14-15]{Tate2014};
 		* To modify *name_of_table*.*key_name*, assign
 			*name_of_table*.*key_name*  to a value \cite[\S1, pp. 15]{Tate2014}.
+		* *name_of_table*[*key_name*] allows keys with spaces or decimal
+			points to be read/accessed at runtime \cite[\S1, pp. 15]{Tate2014}.
+		* Assigning the special value of *nil* to an item in the table removes it
+			from the table;
+			e.g., *name_of_table*.*key_name* = nil \cite[\S1, pp. 15]{Tate2014}.
 + Coroutines
 	- Coroutines define the control flow of *Lua* programs
 		\cite[\S1, pp. 14]{Tate2014}. 
