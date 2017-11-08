@@ -96,9 +96,14 @@
 		* accessing/modifying keys
 		* iterating the metatable
 		* overloading operators
-		* this metatable is set to *nil*.
-	- 
-		\cite[\S1, pp. 18]{Tate2014}
+	- The metatable of most tables is set to *nil* \cite[\S1, pp. 18]{Tate2014}.
+	- Tables in *Lua* are designed to be fault tolerant \cite[\S1, pp. 19]{Tate2014};
+		when accessing a nonexistent key in a table, *nil* is returned 
+			\cite[\S1, pp. 19]{Tate2014}.
+	- Functions for stricter access and modification of keys in tables can be 
+		designed and implemented as a table under the names *__index* and
+		*__newindex*, and set as the metatable for the data
+			\cite[\S1, pp. 19]{Tate2014}.
 
 + Coroutines
 	- Coroutines define the control flow of *Lua* programs
