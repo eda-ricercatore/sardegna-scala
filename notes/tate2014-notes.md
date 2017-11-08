@@ -67,10 +67,11 @@
 			\cite[\S1, pp. 14]{Tate2014}.
 	- A table constructor can be expressed as within curly braces as follows
 		\cite[\S1, pp. 14]{Tate2014}:
-		E.g., *name_of_table* = { key1 = value1, key2 = value2, key3 = value3};
-		*name_of_table*.*key_name* allows the value of .*name_of_table*.*key_name*
-			to be read \cite[\S1, pp. 14-15]{Tate2014};
-		Assigning *name_of_table*.*key_name*  to a value allows
+		e.g., *name_of_table* = { key1 = value1, key2 = value2, key3 = value3}.
+		* *name_of_table*.*key_name* allows the value of 
+			*name_of_table*.*key_name* to be read
+			\cite[\S1, pp. 14-15]{Tate2014};
+		* Assigning *name_of_table*.*key_name*  to a value allows
 			*name_of_table*.*key_name* to be modified
 			\cite[\S1, pp. 15]{Tate2014}.
 + Coroutines
