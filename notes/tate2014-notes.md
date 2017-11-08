@@ -88,10 +88,17 @@
 			the table \cite[\S1, pp. 17]{Tate2014};
 			e.g., *combi* = {arr1,arr2,arr3; key1 = value1, key2 = value2}.
 	- A metatable provides custom lookup logic \cite[\S1, pp. 17]{Tate2014}.
+	- A metatable allows users to \cite[\S1, pp. 17]{Tate2014}:
+		* provide a non-*nil* default value for unrecogized keys
+		* log/record all accesses and modifications to a given table
+	- Each table has a corresponding metable that has functions for
+		\cite[\S1, pp. 18]{Tate2014}:
+		* accessing/modifying keys
+		* iterating the metatable
+		* overloading operators
+		* this metatable is set to *nil*.
 	- 
-
-
-
+		\cite[\S1, pp. 18]{Tate2014}
 
 + Coroutines
 	- Coroutines define the control flow of *Lua* programs
