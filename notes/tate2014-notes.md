@@ -69,7 +69,10 @@
 		\cite[\S1, pp. 14]{Tate2014}:
 		E.g., *name_of_table* = { key1 = value1, key2 = value2, key3 = value3};
 		*name_of_table*.*key_name* allows the value of .*name_of_table*.*key_name*
-			to be read.
+			to be read \cite[\S1, pp. 14-15]{Tate2014};
+		Assigning *name_of_table*.*key_name*  to a value allows
+			*name_of_table*.*key_name* to be modified
+			\cite[\S1, pp. 15]{Tate2014}.
 + Coroutines
 	- Coroutines define the control flow of *Lua* programs
 		\cite[\S1, pp. 14]{Tate2014}. 
