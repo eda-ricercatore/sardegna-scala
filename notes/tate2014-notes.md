@@ -246,8 +246,16 @@
 		is passed implicitly \cite[\S1, pp. 23]{Tate2014}.
 	- Enables simple and flexible data structures to be defined
 		\cite[\S1, pp. 24]{Tate2014}.
-
-
++ Hybrid software can exploit the expressiveness of *Lua*, and the performance
+	and the libraries of *C*/*C++* (*C*/*C++* libraries have a expressive API)
+		\cite[\S1, pp. 32-33]{Tate2014}.
+	- Hybrid software are developed in multiple programming/scripting languages.
+	- To link code in other programming/scripting languages, use *luaL_doFile()*
+		instead of *luaL_dostring()* to avoid recompiling programs in those
+		other programming/scripting languages each time modifications are
+		made only to the *Lua* code \cite[\S1, pp. 37]{Tate2014}.
++ "The [*Lua*] interpreter is designed to be lightweight" \cite[\S1, pp. 35]{Tate2014}.  
++
 
 
 
