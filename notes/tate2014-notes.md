@@ -148,7 +148,13 @@
 		quickly after completion of their tasks \cite[\S1, pp. 28]{Tate2014}.
 	- The scheduler for co-routines would busy wait till the (time) instance to
 		execute the next task \cite[\S1, pp. 28]{Tate2014}.
-
+	- Use *require()* to load *Lua* modules, rather than similar functions (such as
+		*dofile()*), since it also performs the following that similar functions don't
+		do \cite[\S1, pp. 29]{Tate2014}:
+		* "Checks to see if you've already loaded the module"
+		* "Searches multiple (configurable) library paths"
+		* "Safely namespaces the code in a local variable"
+		
 		TO BE COMPLETED!!!
 + "Supports an interactive read-eval-print loop (REPL)" \cite[\S1, pp. 4]{Tate2014}
 	- That is , it provides an interactive command-line interface (CLI). 
