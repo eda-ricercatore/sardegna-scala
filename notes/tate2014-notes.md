@@ -307,11 +307,18 @@
 			the stack provides input for words/functions, and pushes the results
 				of words/functions onto the stack, which can be operated on
 				by the next word/function.
+		* The stack is used "to communicate input and output values"
+			\cite[\S2, pp. 50]{Tate2014}.
 	- A function is also known as a *word* in *Factor*.
-
-
-
-
++ Concatenative programming languages, such as *Factor* concatenates
+	functions, and allows functions to be listed successively/consecutively
+		\cite[\S2, pp. 50]{Tate2014}.
+	- In contrast, applicative programming languages apply functions to values. 
+	- Successively/consecutively listed functions can be processed using
+		function composition (or composition of functions).
+	- Helps to (or facilitates) express programmer intent.
++ Pipelines of functions (or pipelining functions) enables the demonstration of
+	the strength of *Factor* \cite[\S2, pp. 50]{Tate2014}. 
 
 
 
