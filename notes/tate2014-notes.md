@@ -144,8 +144,10 @@
 		is ordered by their timestamps \cite[\S1, pp. 27]{Tate2014}.
 	- By making fjunctions local, name collisions can be avoided
 		\cite[\S1, pp. 27]{Tate2014}.
-
-
+	- Co-routines should be designed to be lightweight, and return or yield
+		quickly after completion of their tasks \cite[\S1, pp. 28]{Tate2014}.
+	- The scheduler for co-routines would busy wait till the (time) instance to
+		execute the next task \cite[\S1, pp. 28]{Tate2014}.
 
 		TO BE COMPLETED!!!
 + "Supports an interactive read-eval-print loop (REPL)" \cite[\S1, pp. 4]{Tate2014}
