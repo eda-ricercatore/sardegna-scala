@@ -132,15 +132,21 @@
 			of multiple processor cores,
 		* Multiple *Lua* interpreters per process can be spun up, and executed
 			on multiple processor cores.
-		* Co-routines can be \cite[\S1, pp. 25-26]{Tate2014}:
-			+ create
-			+ resume
-			+ yield
-		* Co-routines enable software to be responsive during:
-			+ network operations
-			+ long computation
-		* Co-routines waiting to be executed are placed in the pending array,
-			which is ordered by their timestamps.
+	- Co-routines can be \cite[\S1, pp. 25-26]{Tate2014}:
+		* create
+		* resume
+		* yield
+	- Co-routines enable software to be responsive during
+		\cite[\S1, pp. 26]{Tate2014}:
+		* network operations
+		* long computation
+	- Co-routines waiting to be executed are placed in the pending array, which
+		is ordered by their timestamps \cite[\S1, pp. 27]{Tate2014}.
+	- By making fjunctions local, name collisions can be avoided
+		\cite[\S1, pp. 27]{Tate2014}.
+
+
+
 		TO BE COMPLETED!!!
 + "Supports an interactive read-eval-print loop (REPL)" \cite[\S1, pp. 4]{Tate2014}
 	- That is , it provides an interactive command-line interface (CLI). 
