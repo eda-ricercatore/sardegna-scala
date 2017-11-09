@@ -263,9 +263,6 @@
 
 
 
-##	Advantages of *Lua*
-
-##	Disadvantages of *Lua*
 
 
 
@@ -288,9 +285,17 @@
 
 ##	Notes about *Factor*
 
-+ Composition of functions \cite[\SIntroduction, pp. xv]{Tate2014}
-
-
++ Composition of functions \cite[\SIntroduction, pp. xv]{Tate2014}, or function
+	composition \cite[\S2, pp. 49]{Tate2014}.
+	- A function can be passed as an input to another function.
+	- A function can be passed "through a series of functions", where the output
+		of a function can be passed as an input to another function, and "the
+		output of the last function [is] the final result".
+	- Keep "each function small and focused".
+	- "By creating and connecting blocks of code", *Lua* programs can be
+		developed to solve problems.
+	- "Function composition (or composition of functions) is the essence of
+		*Factor*"
 
 ##	Advantages of *Factor*
 
