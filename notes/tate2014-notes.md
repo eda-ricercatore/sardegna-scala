@@ -104,11 +104,35 @@
 		designed and implemented as a table under the names *__index* and
 		*__newindex*, and set as the (private) metatable for the data
 			\cite[\S1, pp. 19]{Tate2014}.
-	- Use *Lua*-supported abstraction to design a custom object-oriented
-		programming language in *Lua* \cite[\S1, pp. 21]{Tate2014}.
+	- Use *Lua*-supported abstraction to design a custom/homegrown
+		object-oriented programming language in *Lua*
+			\cite[\S1, pp. 21]{Tate2014}.
 + Coroutines
 	- Coroutines define the control flow of *Lua* programs
-		\cite[\S1, pp. 14]{Tate2014}. 
+		\cite[\S1, pp. 14]{Tate2014}.
+	- *Lua* does not support multi-threading, and does not have a threading API.
+		\cite[\S1, pp. 24]{Tate2014}.
+	- A co-routine is a simpler primitive for multi-tasking
+		\cite[\S1, pp. 24]{Tate2014}.
+	- Co-routines enable non-preemptive multi-tasking (or cooperative
+		multitasking [WikipediaContributors2017a1]), unlike preemptive threads
+		for multi-tasking \cite[\S1, pp. 25]{Tate2014}.
+	- Avoiding preemption by threads simplifies multi-task scheduling, and
+		hence avoid a "class of concurreny problems" \cite[\S1, pp. 25]{Tate2014}.
+		* This trade-offs the amount of effort spent coordinating multi-tasking
+			programs (i.e., more effort for preemptive threads versus less effort
+			for non-preemptive co-routines) for more/less control over
+			concurrency problems.
+		* It forces developers to choose between development effort (extra task
+			to coordinate co-routines) and control/freedom (of coordination).
+		* While co-routines allows software developers to avoid hard concurrency
+			problems, they do not inherently allow software developers to
+			exploit multi-core processing (i.e., parallel processing).
+		* Each *Lua* process with multiple co-routines would only run on one
+			of multiple processor cores,
+		* Multiple *Lua* interpreters per process can be spun up, and executed
+			on multiple processor cores.
+		TO BE COMPLETED!!!
 + "Supports an interactive read-eval-print loop (REPL)" \cite[\S1, pp. 4]{Tate2014}
 	- That is , it provides an interactive command-line interface (CLI). 
 + Friendly, approachable syntax \cite[\S1, pp. 5]{Tate2014}.
@@ -179,18 +203,26 @@
 	- "Variables are global by default" \cite[\S1, pp. 12]{Tate2014}
 	- Placing the keyword "local" around them would make the scope of the
 		variables local. 
++ A prototype object can be used when the object system can't find a key or
+	function in table \cite[\S1, pp. 22]{Tate2014}.
+	- The lines "setmetatable(obj, self)" and "self.__index = self" distinguishes
+		prototypes from metatables \cite[\S1, pp. 23]{Tate2014}.
+	- While "metatables [use] special functions for custom behavior", tables are
+		used instead in prototype objects for defining/specifying special
+		functions \cite[\S1, pp. 23]{Tate2014}.
+	- WIth "prototype-based object systems", "no special mechanism" is needed
+		for inheritance;
+		cloning prototypes would suffice for implementing inheritance
+			\cite[\S1, pp. 23]{Tate2014}.
++ Syntactic sugar 
+	- When *table_name:method_name()* is used rather than
+		*table_name.method_name(self)*, the *self* parameter is left out since it
+		is passed implicitly \cite[\S1, pp. 23]{Tate2014}.
+	- Enables simple and flexible data structures to be defined
+		\cite[\S1, pp. 24]{Tate2014}.
 
 
 
-
-
-
-
-
-
-
-
-\cite[\S1, pp. 7]{Tate2014}
 
 
 TO BE COMPLETED...
@@ -420,6 +452,7 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 			number (if possible).
 + [WikipediaContributors2017y](https://en.wikipedia.org/wiki/Off-side_rule)
 + [WikipediaContributors2017z](https://en.wikipedia.org/wiki/Short-circuit_evaluation)
++ [WikipediaContributors2017a1](https://en.wikipedia.org/wiki/Cooperative_multitasking)
 
 
 
@@ -436,33 +469,6 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 
 
-@misc{WikipediaContributors2017z,
-	Address = {San Francisco, {CA}},
-	Author = {{Wikipedia contributors}},
-	Date-Added = {2014-03-30 00:11:00 +0200},
-	Date-Modified = {2014-03-30 00:11:00 +0200},
-	Howpublished = {Available online from {\it Wikipedia, The Free Encyclopedia: Evaluation strategy} at: \url{https://en.wikipedia.org/wiki/Short-circuit_evaluation}; November 8, 2017 was the last accessed date},
-	Keywords = {programming language features, programming language theory, programming languages},
-	Month = {October 19},
-	Publisher = {Wikimedia Foundation},
-	School = {},
-	Title = {Short-circuit evaluation},
-	Url = {https://en.wikipedia.org/wiki/Short-circuit_evaluation},
-	Year = {2017}}
-
-@misc{WikipediaContributors2017y,
-	Address = {San Francisco, {CA}},
-	Author = {{Wikipedia contributors}},
-	Date-Added = {2014-03-30 00:11:00 +0200},
-	Date-Modified = {2014-03-30 00:11:00 +0200},
-	Howpublished = {Available online from {\it Wikipedia, The Free Encyclopedia: Programming language topics} at: \url{https://en.wikipedia.org/wiki/Off-side_rule}; November 8, 2017 was the last accessed date},
-	Keywords = {indent style conventions},
-	Month = {July 31},
-	Publisher = {Wikimedia Foundation},
-	School = {},
-	Title = {Off-side rule},
-	Url = {https://en.wikipedia.org/wiki/Off-side_rule},
-	Year = {2017}}
 
 
 
