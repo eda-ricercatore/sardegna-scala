@@ -303,12 +303,24 @@
 		* any other punctuation to indicate function composition
 	- It is assumed that the output of a function is available as an input to another
 		function.
-		* This is implemented via a stack;
+		* This is implemented via a (data \cite[\S2, pp. 52-53]{Tate2014}) stack;
 			the stack provides input for words/functions, and pushes the results
 				of words/functions onto the stack, which can be operated on
 				by the next word/function.
 		* The stack is used "to communicate input and output values"
 			\cite[\S2, pp. 50]{Tate2014}.
+		* Each word/function in [a] *Factor* [program receives] zero or more
+			values from the stack" (i.e., pop the stack), "and pushes zero or
+			more values onto the stack";
+			the next word in the *Factor* program works with the resulting
+				stack;
+			when a stack has more values than a word needs to receive (i.e.,
+				pop the stack), the remaining/excess/extra values remain
+				on the stack \cite[\S2, pp. 53]{Tate2014}.
+		* The period at the end of a line in *Factor* code pops a value from the
+			stack, and pretty-prints it \cite[\S2, pp. 53]{Tate2014}.
+		* Mathematical expressions in *Factor* is written in postfix notation
+			(Reverse Polish notation, RPN) \cite[\S2, pp. 54]{Tate2014}.
 	- A function is also known as a *word* in *Factor*.
 + Concatenative programming languages, such as *Factor* concatenates
 	functions, and allows functions to be listed successively/consecutively
@@ -319,6 +331,25 @@
 	- Helps to (or facilitates) express programmer intent.
 + Pipelines of functions (or pipelining functions) enables the demonstration of
 	the strength of *Factor* \cite[\S2, pp. 50]{Tate2014}. 
++ Comments in *Factor* code
+	- Comments begin with an exclamation mark \cite[\S2, pp. 53]{Tate2014}.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
