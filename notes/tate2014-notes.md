@@ -303,6 +303,10 @@
 		* any other punctuation to indicate function composition
 	- It is assumed that the output of a function is available as an input to another
 		function.
+		* This is implemented via a stack;
+			the stack provides input for words/functions, and pushes the results
+				of words/functions onto the stack, which can be operated on
+				by the next word/function.
 	- A function is also known as a *word* in *Factor*.
 
 
