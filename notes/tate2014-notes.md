@@ -19,7 +19,8 @@
 	- Can be combined with other computer languages, such as *C*
 		\cite[\S1, pp. 3]{Tate2014}.
 + Powerful and compact \cite[\S1, pp. 7]{Tate2014}
-
++ "Code is just data" philosophy allows functions to be created, stored, and
+	passed around in *Lua* programs \cite[\S1, pp. 48]{Tate2014}.
 
 
 
@@ -240,6 +241,7 @@
 		for inheritance;
 		cloning prototypes would suffice for implementing inheritance
 			\cite[\S1, pp. 23]{Tate2014}.
+	- *Lua* is a prototype system \cite[\S1, pp. 48]{Tate2014}.
 + Syntactic sugar 
 	- When *table_name:method_name()* is used rather than
 		*table_name.method_name(self)*, the *self* parameter is left out since it
@@ -255,11 +257,8 @@
 		other programming/scripting languages each time modifications are
 		made only to the *Lua* code \cite[\S1, pp. 37]{Tate2014}.
 + "The [*Lua*] interpreter is designed to be lightweight" \cite[\S1, pp. 35]{Tate2014}.  
-+
 
 
-
-TO BE COMPLETED...
 
 
 
