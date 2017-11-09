@@ -296,6 +296,26 @@
 		developed to solve problems.
 	- "Function composition (or composition of functions) is the essence of
 		*Factor*"
+	- Function composition in *Factor* does not involve:
+		* variable names
+		* parentheses
+		* dots
+		* any other punctuation to indicate function composition
+	- It is assumed that the output of a function is available as an input to another
+		function.
+	- A function is also known as a *word* in *Factor*.
+
+
+
+
+
+
+
+
+
+
+
+
 
 ##	Advantages of *Factor*
 
