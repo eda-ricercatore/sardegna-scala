@@ -333,8 +333,11 @@
 	the strength of *Factor* \cite[\S2, pp. 50]{Tate2014}. 
 + Comments in *Factor* code
 	- Comments begin with an exclamation mark \cite[\S2, pp. 53]{Tate2014}.
-
-
++ Data types in *Factor* code \cite[\S2, pp. 54]{Tate2014}:
+	- strings
+	- numbers
+	- Booleans
+	- sequences
 
 
 
