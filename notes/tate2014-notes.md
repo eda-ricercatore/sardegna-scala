@@ -31,7 +31,12 @@
 
 ##	Notes about *Lua*
 
-
++ Composable primitives of *Lua* \cite[\S1, pp. 30]{Tate2014}:
+	- Tables
+		* Can function as:
+			+ arrays
+			+ dictionaries
+	- Co-routines
 + Tables in *Lua* provide "a single, unifying abstraction" that is used to build
 	"object systems, custom data structures,"
 		\cite[\SAcknowledgments, pp. ix]{Tate2014}.
@@ -154,8 +159,6 @@
 		* "Checks to see if you've already loaded the module"
 		* "Searches multiple (configurable) library paths"
 		* "Safely namespaces the code in a local variable"
-		
-		TO BE COMPLETED!!!
 + "Supports an interactive read-eval-print loop (REPL)" \cite[\S1, pp. 4]{Tate2014}
 	- That is , it provides an interactive command-line interface (CLI). 
 + Friendly, approachable syntax \cite[\S1, pp. 5]{Tate2014}.
