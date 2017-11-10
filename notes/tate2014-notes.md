@@ -408,6 +408,9 @@
 		* code for the word
 		* (character) space
 		* semi-colon
+	- To load a set of vocabularies, try: "*USE: (name-of-vocabulary)*" for each
+		vocabulary, or try
+		"*USING: (name-of-vocabulary1) (name-of-vocabulary2) ... (name-of-vocabularyN) ;*" 
 + *Listener*, or *The Factor Listener*, *Factor* UI, GUI-based interactive console
 	\cite[\S2, pp. 51-52]{Tate2014}.
 	- Get documentation for a word/function via the *Listener*
