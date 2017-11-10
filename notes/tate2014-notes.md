@@ -335,6 +335,21 @@
 			+ pick
 		* Combinators are higher-order words (or higher-order functions) that
 			avoid excessive stack shuffling \cite[\S2, pp. 58]{Tate2014}.
+			+ "[Combinators] use quotations (i.e., anonymous functions) to
+				operate on values from the stack" \cite[\S2, pp. 58]{Tate2014}.
+			+ "*bi* applies two quotations to a value"
+				\cite[\S2, pp. 59]{Tate2014}.
+			+ "*bi@* applies one quotations to two values"
+				\cite[\S2, pp. 59]{Tate2014}.
+			+ "*bi\** applies one quotations to two values"
+				\cite[\S2, pp. 59]{Tate2014}.
+
+
+TO BE COMPLETED!!!
+
+
+
+
 	- A function is also known as a *word* in *Factor*.
 	- A quotation (i.e., anonymous function) is a word/function that is placed on
 		the stack and is used by other words as values
@@ -347,14 +362,6 @@
 		* *if* conditional
 		* *when* conditional
 		* *unless* conditional
-
-
-
-TO BE COMPLETED!!!
-
-
-
-
 + Concatenative programming languages, such as *Factor* concatenates
 	functions, and allows functions to be listed successively/consecutively
 		\cite[\S2, pp. 50]{Tate2014}.
