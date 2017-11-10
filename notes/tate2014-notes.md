@@ -405,13 +405,23 @@
 			+ To return multiple values with with a word/function, "declare
 				multiple names on the right-hand side of '--' in the word's
 				stack effect" \cite[\S2, pp. 62-63]{Tate2014}.
-		* code for the word 
+		* code for the word
 		* (character) space
 		* semi-colon
-
-
-
-
++ *Listener*, or *The Factor Listener*, *Factor* UI, GUI-based interactive console
+	\cite[\S2, pp. 51-52]{Tate2014}.
+	- Get documentation for a word/function via the *Listener*
+		\cite[\S2, pp. 63]{Tate2014}:
+		* Backslash
+		* (character) space
+		* (word) (or name of function)
+		* help
+		* Use *about* to get documentation about the vocabulary regarding the
+			searched item \cite[\S2, pp. 63]{Tate2014};
+			i.e., "(searched item)" *about* \cite[\S2, pp. 63]{Tate2014}.
+		* Use *apropos* to show vocabularies/modules, words/functions, and
+			articles containing the searched item \cite[\S2, pp. 63]{Tate2014};
+			i.e., "(searched item)" *apropos* \cite[\S2, pp. 63]{Tate2014}.
 
 
 
