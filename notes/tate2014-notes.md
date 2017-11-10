@@ -387,8 +387,8 @@
 				\cite[\S2, pp. 55]{Tate2014}
 				- Accessed via map and key (using *of* function), or key and
 					map (using *at* function).
-+ A vocabulary in *Factor* is a module of functions/words
-	\cite[\S2, pp. 61]{Tate2014}.
++ A vocabulary in *Factor* is a module (or package, or namespace
+	\cite[\S2, pp. 63]{Tate2014}) of functions/words \cite[\S2, pp. 61]{Tate2014}.
 	- We can execute vocabularies as standalone programs, and test them using
 		unit testing \cite[\S2, pp. 61]{Tate2014}. 
 	- A word/function can be (custom) defined as follows
