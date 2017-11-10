@@ -322,6 +322,22 @@
 		* Mathematical expressions in *Factor* is written in postfix notation
 			(Reverse Polish notation, RPN) \cite[\S2, pp. 54]{Tate2014}.
 	- A function is also known as a *word* in *Factor*.
+	- A quotation (i.e., anonymous function) is a word/function that is placed on
+		the stack and is used by other words as values
+			\cite[\S2, pp. 55]{Tate2014};
+		a quotation is delimited by square brackets \cite[\S2, pp. 55]{Tate2014}.
+	- A conditional (i.e., if statement) requires a value and two quotations (one for
+		a non-false value, and the other for a false value) as inputs
+			\cite[\S2, pp. 55]{Tate2014}.
+	
+
+
+
+TO BE COMPLETED!!!
+
+
+
+
 + Concatenative programming languages, such as *Factor* concatenates
 	functions, and allows functions to be listed successively/consecutively
 		\cite[\S2, pp. 50]{Tate2014}.
@@ -336,9 +352,18 @@
 + Data types in *Factor* code \cite[\S2, pp. 54]{Tate2014}:
 	- strings
 	- numbers
-	- Booleans
+	- Booleans \cite[\S2, pp. 54]{Tate2014}:
+		* "In Boolean contexts, any value other than *f* is considered as true,
+			including zero, empty strings, and empty sequences."
 	- sequences
-
+		* Includes container-based sequences of values
+			\cite[\S2, pp. 54]{Tate2014}:
+			+ lists; character space delimited between values, surrounded by
+				curly braces
+			+ maps; a list of two-value lists (i.e., key and value)
+				\cite[\S2, pp. 55]{Tate2014}
+				- Accessed via map and key (using *of* function), or key and
+					map (using *at* function).
 
 
 
