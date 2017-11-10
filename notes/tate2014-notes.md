@@ -324,6 +324,17 @@
 		* *Factor* tends to have less punctuation than other programming
 			languages, but the required presence or absence of whitespace is
 			significant \cite[\S2, pp. 56]{Tate2014}.
+		* Stack shuffling to reorder, duplicate, or eliminate values on the data
+			stack \cite[\S2, pp. 57]{Tate2014}:
+			+ dup ("duplicates a value")
+			+ drop ("drops the top value")
+			+ nip ("drops the second value")
+			+ swap ("swaps two values")
+			+ over ("duplicates the second value over to the top")
+			+ rot ("rotate [the] values")
+			+ pick
+		* Combinators are higher-order words (or higher-order functions) that
+			avoid excessive stack shuffling \cite[\S2, pp. 58]{Tate2014}.
 	- A function is also known as a *word* in *Factor*.
 	- A quotation (i.e., anonymous function) is a word/function that is placed on
 		the stack and is used by other words as values
