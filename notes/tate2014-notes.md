@@ -343,13 +343,9 @@
 				\cite[\S2, pp. 59]{Tate2014}.
 			+ "*bi\** applies one quotations to two values"
 				\cite[\S2, pp. 59]{Tate2014}.
-
-
-TO BE COMPLETED!!!
-
-
-
-
+			+ "*dip* applies a quotation to the second value on the stack, keeping the first value intact."
+			+ "*keep* applies a quotation to a value and puts the value back on top of the stack."
+			+ "*tri*, *tri@*, and *tri* correspond to their bi equivalents, with three values and three quotations."
 	- A function is also known as a *word* in *Factor*.
 	- A quotation (i.e., anonymous function) is a word/function that is placed on
 		the stack and is used by other words as values
