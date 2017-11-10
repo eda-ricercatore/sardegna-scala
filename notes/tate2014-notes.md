@@ -387,10 +387,24 @@
 				\cite[\S2, pp. 55]{Tate2014}
 				- Accessed via map and key (using *of* function), or key and
 					map (using *at* function).
-
-
-
-
++ A vocabulary in *Factor* is a module of functions/words
+	\cite[\S2, pp. 61]{Tate2014}.
+	- We can execute vocabularies as standalone programs, and test them using
+		unit testing \cite[\S2, pp. 61]{Tate2014}. 
+	- A word/function can be (custom) defined as follows
+		\cite[\S2, pp. 62]{Tate2014}:
+		* colon
+		* (character) space
+		* name of the word
+		* stack effect
+			+ E.g., "( x--y )" indicates "the number of values that the word" pops
+				from "and pushes back onto the stack, on the left and right side
+				of the '--', respectively"
+			+ Functions are allowed to pop nothing from the stack.
+			+ Functions are allowed to push nothing onto the stack.
+		* code for the word 
+		* (character) space
+		* semi-colon
 
 
 
