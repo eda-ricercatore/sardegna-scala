@@ -337,6 +337,8 @@
 			avoid excessive stack shuffling \cite[\S2, pp. 58]{Tate2014}.
 			+ "[Combinators] use quotations (i.e., anonymous functions) to
 				operate on values from the stack" \cite[\S2, pp. 58]{Tate2014}.
+			+ A higher-order function/word that takes in a code block in its
+				input parameter \cite[\S2, pp. 71]{Tate2014}.
 			+ "*bi* applies two quotations to a value"
 				\cite[\S2, pp. 59]{Tate2014}.
 			+ "*bi@* applies one quotations to two values"
@@ -420,7 +422,7 @@
 		* *(variable-name) on* sets the *(variable-name)* to be boolean *True*.
 		* *(variable-name) off* sets the *(variable-name)* to be boolean *False*.
 		* *(variable-name) toggle* toggles the boolean value of *(variable-name)*. 
-	
++ Unit testing in *Factor* \cite[\S2, pp. 68]{Tate2014}.
 	
 	
 	
