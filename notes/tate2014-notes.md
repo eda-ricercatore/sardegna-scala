@@ -402,6 +402,9 @@
 				of the '--', respectively"
 			+ Functions are allowed to pop nothing from the stack.
 			+ Functions are allowed to push nothing onto the stack.
+			+ To return multiple values with with a word/function, "declare
+				multiple names on the right-hand side of '--' in the word's
+				stack effect" \cite[\S2, pp. 62-63]{Tate2014}.
 		* code for the word 
 		* (character) space
 		* semi-colon
