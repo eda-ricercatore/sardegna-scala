@@ -411,9 +411,22 @@
 	- To load a set of vocabularies, try \cite[\S2, pp. 64-65]{Tate2014}:
 		* "*USE: (name-of-vocabulary)*" for each vocabulary
 		* "*USING: (name-of-vocabulary1) (name-of-vocabulary2) ... (name-of-vocabularyN) ;*"
+	- A symbol can store a value, and transfer information between vocabularies
+		\cite[\S2, pp. 65]{Tate2014}.
 	- To define a symbol, try \cite[\S2, pp. 65]{Tate2014}: *SYMBOL: (symbol-name)*.
 	- To assign a value to a symbol, try \cite[\S2, pp. 65]{Tate2014}:
 		*(value) (symbol-name) set*.
+	- For symbols with the type Boolean, try \cite[\S2, pp. 65]{Tate2014}:
+		* *(variable-name) on* sets the *(variable-name)* to be boolean *True*.
+		* *(variable-name) off* sets the *(variable-name)* to be boolean *False*.
+		* *(variable-name) toggle* toggles the boolean value of *(variable-name)*. 
+	
+	
+	
+	
+	
+	
+	
 + *Listener*, or *The Factor Listener*, *Factor* UI, GUI-based interactive console
 	\cite[\S2, pp. 51-52]{Tate2014}.
 	- Get documentation for a word/function via the *Listener*
