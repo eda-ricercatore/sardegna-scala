@@ -321,6 +321,9 @@
 			stack, and pretty-prints it \cite[\S2, pp. 53]{Tate2014}.
 		* Mathematical expressions in *Factor* is written in postfix notation
 			(Reverse Polish notation, RPN) \cite[\S2, pp. 54]{Tate2014}.
+		* *Factor* tends to have less punctuation than other programming
+			languages, but the required presence or absence of whitespace is
+			significant \cite[\S2, pp. 56]{Tate2014}.
 	- A function is also known as a *word* in *Factor*.
 	- A quotation (i.e., anonymous function) is a word/function that is placed on
 		the stack and is used by other words as values
@@ -329,7 +332,10 @@
 	- A conditional (i.e., if statement) requires a value and two quotations (one for
 		a non-false value, and the other for a false value) as inputs
 			\cite[\S2, pp. 55]{Tate2014}.
-	
+	- Types of conditionals \cite[\S2, pp. 56]{Tate2014}:
+		* *if* conditional
+		* *when* conditional
+		* *unless* conditional
 
 
 
