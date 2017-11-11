@@ -453,7 +453,25 @@
 			on the stack \cite[\S2, pp. 75]{Tate2014}. 
 		* We can pass a word defining some values to the *boa constructor*,
 			and require the caller (of the *boa constructor*)  to specify values
-			for the remaining (empty) slots.
+			for the remaining (empty) slots \cite[\S2, pp. 75]{Tate2014};
+			this allows the *boa constructor* to be defined with default values
+				for a subset of its slots \cite[\S2, pp. 75]{Tate2014}.
+		* A word/function can be defined to instantiate a class with default
+			values;
+			by convention, rather than a requirement from the compiler(s), this
+				definition is surrounded by angle brackets/chevrons
+					\cite[\S2, pp. 75]{Tate2014}.
+		* A tuple can also be defined as follows:
+			+ *<function-name> ( x -- y) Value1 Value2 class-name boa* ;
+			+ *<function-name> ( x -- y) T{ class-name { Variable1 Value1}
+				{ Variable2 Value2 } }* ;
+			+ *T{ class-name f Value1 Value2 }* ;
+
+
+
+
+
+
 
 
 
