@@ -777,6 +777,9 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 	- Constraint programming
 	- Dataflow programming
 		* Reactive programming
+			+ Reactive programming is a programming paradigm that is
+				centered on the flow of data, rather than the flow of events
+					\cite[\S3, pp. 89]{Tate2014}.
 	- Functional programming (contrast: Imperative programming) does
 		not allow side effects;
 		that is, it does not execute in a sequence of states;

@@ -483,31 +483,12 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-##	Advantages of *Factor*
-
-##	Disadvantages of *Factor*
-
-
-
 #	Elm
+
+
+
+
+
 
 Reference the following points (Reference these!!!)
 + functional reactive programming (FRP)
@@ -523,7 +504,8 @@ Reference the following points (Reference these!!!)
 	- Remove callbacks to simplify *JavaScript* applications, by "representing
 		user interactions as signals that map onto functions"
 			\cite[\SAcknowledgments, pp. xvii]{Tate2014}.
-
+	- Reactive programming is a programming paradigm that is centered on the
+		flow of data, rather than the flow of events \cite[\S3, pp. 89]{Tate2014}.
 
 
 
