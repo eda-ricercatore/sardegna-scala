@@ -423,12 +423,6 @@
 		* *(variable-name) off* sets the *(variable-name)* to be boolean *False*.
 		* *(variable-name) toggle* toggles the boolean value of *(variable-name)*. 
 + Unit testing in *Factor* \cite[\S2, pp. 68]{Tate2014}.
-	
-	
-	
-	
-	
-	
 + *Listener*, or *The Factor Listener*, *Factor* UI, GUI-based interactive console
 	\cite[\S2, pp. 51-52]{Tate2014}.
 	- Get documentation for a word/function via the *Listener*
@@ -443,16 +437,23 @@
 		* Use *apropos* to show vocabularies/modules, words/functions, and
 			articles containing the searched item \cite[\S2, pp. 63]{Tate2014};
 			i.e., "(searched item)" *apropos* \cite[\S2, pp. 63]{Tate2014}.
-
-
-
-
-
-
-
-
-
-
++ Data structures for *Factor*
+	- "Factor has an object system" \cite[\S2, pp. 74]{Tate2014}.
+	- tuples \cite[\S2, pp. 74]{Tate2014}:
+		* "[A tuple is a class] of objects for storing values into named slots."
+		* A class can be instantiated via the keyword *new* to create empty
+			slots for the instance of the class.
+		* Use "TUPLE:" to declare a tuple so that empty slots can be generated
+			for the instance of the class.
+		* E.g., "TUPLE: *[name-of-class] [name-of-slot1] ... [name-of-slotN]*".
+		* Each slot of a class represents a property/field of the class.
+		* Use the *boa constructor*, or *By Order of Arguments*
+			\cite[\S2, pp. 75]{Tate2014}.
+		* For each slot of the *boa constructor*, it is required to place its value
+			on the stack \cite[\S2, pp. 75]{Tate2014}. 
+		* We can pass a word defining some values to the *boa constructor*,
+			and require the caller (of the *boa constructor*)  to specify values
+			for the remaining (empty) slots.
 
 
 
