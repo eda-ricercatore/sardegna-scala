@@ -371,7 +371,18 @@
 		function composition (or composition of functions).
 	- Helps to (or facilitates) express programmer intent.
 + Pipelines of functions (or pipelining functions) enables the demonstration of
-	the strength of *Factor* \cite[\S2, pp. 50]{Tate2014}. 
+	the strength of *Factor* \cite[\S2, pp. 50]{Tate2014}.
+	- A pipeline of words/functions exploits the power of function composition
+		(composition of functions) \cite[\S2, pp. 77]{Tate2014}.
+	- A pipeline of words/functions can be known as "a higher-order word",
+		"an example of the strategy pattern", or a chain of words
+			\cite[\S2, pp. 78]{Tate2014}.
+	- The value returned from a word/function higher up the chain can be used
+		by a function down the chain, regardless of the number of functions
+		between them \cite[\S2, pp. 78]{Tate2014}.
+	- Decompose a problem into individual words/functions, and assemble the
+		words into a pipeline for a composed solution (to the problem)
+			\cite[\S2, pp. 82]{Tate2014}.
 + Comments in *Factor* code
 	- Comments begin with an exclamation mark \cite[\S2, pp. 53]{Tate2014}.
 + Data types in *Factor* code \cite[\S2, pp. 54]{Tate2014}:
