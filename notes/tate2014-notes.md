@@ -461,11 +461,24 @@
 			by convention, rather than a requirement from the compiler(s), this
 				definition is surrounded by angle brackets/chevrons
 					\cite[\S2, pp. 75]{Tate2014}.
-		* A tuple can also be defined as follows:
+		* A tuple can also be defined as follows \cite[\S2, pp. 75-76]{Tate2014}:
 			+ *<function-name> ( x -- y) Value1 Value2 class-name boa* ;
 			+ *<function-name> ( x -- y) T{ class-name { Variable1 Value1}
 				{ Variable2 Value2 } }* ;
 			+ *T{ class-name f Value1 Value2 }* ;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
