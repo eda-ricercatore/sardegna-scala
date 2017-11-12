@@ -512,13 +512,22 @@ Reference the following points (Reference these!!!)
 	- A functional programming language that compiles into *JavaScript*
 		\cite[\S3, pp. 89-90]{Tate2014}.
 + Strongly typed \cite[\S3, pp. 91]{Tate2014}.
-	- "Like the type systems in *Haskell* and *ML*, *Elm*'s type system is strong enough to represent complex data types but flexible enough to infer and coerce those types."
+	- "Like the type systems in *Haskell* and *ML*, *Elm*'s type system is strong
+		enough to represent complex data types but flexible enough to infer and
+		coerce those types" \cite[\S3, pp. 91]{Tate2014}.
 	- This avoids bugs due to weak typing, and helps make the software more
-		predictable, stable, and reliable.
-	- *Type classes* describe the hierarchy of *Elm* types.
-
-
-
+		predictable, stable, and reliable \cite[\S3, pp. 91]{Tate2014}.
+	- *Type classes* describe the hierarchy of *Elm* types, even though my own
+		instances cannot be built \cite[\S3, pp. 91]{Tate2014}.
+	- *List*s and *string*s are *appendable* types, and can be used with the *++*
+		operator \cite[\S3, pp. 91]{Tate2014}.
+	- Since the type system is type inferred, each argument or variable does not
+		need a declared type \cite[\S3, pp. 92]{Tate2014}.
+	- Since the type system is polymorphic, types that inheirt from the same
+		(parent) type can be treated equally \cite[\S3, pp. 92]{Tate2014}.
++ "*Elm* is a single-assignment language," but the interactive
+	*Read-Eval-Print Loop (REPL)* environment of *Elm* allows primitive values
+	to be redefined \cite[\S3, pp. 92]{Tate2014}.
 
 
 
@@ -527,6 +536,39 @@ Reference the following points (Reference these!!!)
 
 
 ##	Notes about *Elm*
+
++ Control structures of *Elm* \cite[\S3, pp. 92]{Tate2014}:
+	- *if* statements \cite[\S3, pp. 92]{Tate2014}:
+		* One-line *if* statements.
+		* Multi-line *if* statements.
+	- *case* statements, for pattern matching \cite[\S3, pp. 92]{Tate2014}.
++ The design of complex data types make the type system stronger
+	\cite[\S3, pp. 93]{Tate2014}.
++ A *type constructor* enables new instances of a type to be built
+	\cite[\S3, pp. 93]{Tate2014}.
+	- Use *Cons* (i.e., construct) at compile time to define types with head and
+		tail arguments \cite[\S3, pp. 93]{Tate2014}.
+		* Allows for "yet undefined abstract data type", with flexibility & power;
+			or parameteric type parameter.
+	- The head of a list can be combined with its tail (of the list)
+		\cite[\S3, pp. 94]{Tate2014}.
+	- "*Cons* [operates with] types at compile time" \cite[\S3, pp. 94]{Tate2014}.
+	- The run-time counterpart of the "Cons" operator works on data is "::"
+		\cite[\S3, pp. 94]{Tate2014}.
++ Algebraic data types??? \cite[\S3, pp. 93]{Tate2014}
++ Records \cite[\S3, pp. 94]{Tate2014}
+	- It is a set of named fields \cite[\S3, pp. 94]{Tate2014}.
+* A function is the most important building block in *Elm*
+	\cite[\S3, pp. 95]{Tate2014}.
+	- A function can be defined as follows: *name-of-function [list of input
+		arguments] = mathematical-expression-based-on-input-arguments*
+		\cite[\S3, pp. 95]{Tate2014}.
+	- Pipe operators, "|>" or "<|", can be used to pipeline operations. 
+
+
+
+
+
 
 
 ##	Advantages of *Elm*
