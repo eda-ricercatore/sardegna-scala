@@ -563,7 +563,12 @@ Reference the following points (Reference these!!!)
 	- A function can be defined as follows: *name-of-function [list of input
 		arguments] = mathematical-expression-based-on-input-arguments*
 		\cite[\S3, pp. 95]{Tate2014}.
-	- Pipe operators, "|>" or "<|", can be used to pipeline operations. 
+	- Anonymous functions can be defined as: *name-of-function = \x ->
+		mathematical-expression-based-on-input-arguments*
+		\cite[\S3, pp. 95]{Tate2014}.
+	- Pipe operators, "|>" or "<|", can be used to pipeline operations, from left to
+		right or right to left, respectively \cite[\S3, pp. 95-96]{Tate2014}.
+	- 
 
 
 
