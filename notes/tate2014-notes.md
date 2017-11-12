@@ -506,6 +506,20 @@ Reference the following points (Reference these!!!)
 			\cite[\SAcknowledgments, pp. xvii]{Tate2014}.
 	- Reactive programming is a programming paradigm that is centered on the
 		flow of data, rather than the flow of events \cite[\S3, pp. 89]{Tate2014}.
++ A higher level programming language that compiles into *JavaScript*, which is
+	a lower level programming language for Web browsers
+		\cite[\S3, pp. 89]{Tate2014}.
+	- A functional programming language that compiles into *JavaScript*
+		\cite[\S3, pp. 89-90]{Tate2014}.
++ Strongly typed \cite[\S3, pp. 91]{Tate2014}.
+	- "Like the type systems in *Haskell* and *ML*, *Elm*'s type system is strong enough to represent complex data types but flexible enough to infer and coerce those types."
+	- This avoids bugs due to weak typing, and helps make the software more
+		predictable, stable, and reliable.
+	- *Type classes* describe the hierarchy of *Elm* types.
+
+
+
+
 
 
 
