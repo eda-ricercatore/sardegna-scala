@@ -589,6 +589,22 @@ Reference the following points (Reference these!!!)
 	- The requirement of using callback functions in reactive programming
 		complicates the software architecture (or code base);
 		i.e., "callback hell" \cite[\S3, pp. 102]{Tate2014}.
+	- Callback functions in reactive programming trades off simplicity for better
+		responsiveness \cite[\S3, pp. 103]{Tate2014}.
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
