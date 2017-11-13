@@ -533,6 +533,13 @@ Reference the following points (Reference these!!!)
 
 
 
++ "I wanted to show that functional programming can be great for real problems. Many functional folks have a way of saying extremely interesting and useful things in a totally inaccessible and impractical way, and I wanted to fix this. I wanted to prove that functional programming actually helps you write nicer code. Elm’s focus on examples, quick visual feedback, and shockingly short code are all meant to prove that purely functional GUIs are a good idea."
+	- Evan Czaplicki, \cite[\S3, pp. 101]{Tate2014}.
++ "Elm is not about being theoretically better, it is about being demonstrably better."
+	- Evan Czaplicki, \cite[\S3, pp. 102]{Tate2014}.
+
+
+
 
 
 ##	Notes about *Elm*
@@ -558,7 +565,7 @@ Reference the following points (Reference these!!!)
 + Algebraic data types??? \cite[\S3, pp. 93]{Tate2014}
 + Records \cite[\S3, pp. 94]{Tate2014}
 	- It is a set of named fields \cite[\S3, pp. 94]{Tate2014}.
-* A function is the most important building block in *Elm*
++ A function is the most important building block in *Elm*
 	\cite[\S3, pp. 95]{Tate2014}.
 	- A function can be defined as follows: *name-of-function [list of input
 		arguments] = mathematical-expression-based-on-input-arguments*
@@ -568,10 +575,20 @@ Reference the following points (Reference these!!!)
 		\cite[\S3, pp. 95]{Tate2014}.
 	- Pipe operators, "|>" or "<|", can be used to pipeline operations, from left to
 		right or right to left, respectively \cite[\S3, pp. 95-96]{Tate2014}.
-	- 
-
-
-
+	- "Pattern matching [can] simplify function definitions"
+		\cite[\S3, pp. 97]{Tate2014}.
+	- Non-exhaustive pattern matching will lead to error conditions
+		\cite[\S3, pp. 97]{Tate2014}.
+	- Currying refers to the transformation of multi-argument functions into a
+		chain/composition of single-argument functions, via partially applied
+		functions (partial application) and function composition
+			\cite[\S3, pp. 97-98]{Tate2014}.
++ Input/Output (I/O) processing is the most diffcult concept of functional
+	programming, and is an important expect of user interaction/interface (UI)
+		\cite[\S3, pp. 100]{Tate2014}.
+	- The requirement of using callback functions in reactive programming
+		complicates the software architecture (or code base);
+		i.e., "callback hell" \cite[\S3, pp. 102]{Tate2014}.
 
 
 
