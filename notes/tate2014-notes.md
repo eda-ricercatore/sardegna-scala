@@ -590,8 +590,14 @@ Reference the following points (Reference these!!!)
 		complicates the software architecture (or code base);
 		i.e., "callback hell" \cite[\S3, pp. 102]{Tate2014}.
 	- Callback functions in reactive programming trades off simplicity for better
-		responsiveness \cite[\S3, pp. 103]{Tate2014}.
-	
+		responsiveness, via inversion of control \cite[\S3, pp. 103]{Tate2014}.
+	- A signal represents input/output characteristics as a time-varying value
+		\cite[\S3, pp. 103]{Tate2014}.
+	- Use signals, instead of inverion of control, to provide better responsiveness;
+		signal usage results in a straight composition of functions, instead of
+		callback functions and inversion of control, where the present value is
+		mapped whenever the signal changes.
+		
 
 
 
@@ -604,14 +610,6 @@ Reference the following points (Reference these!!!)
 
 
 
-
-
-
-
-
-##	Advantages of *Elm*
-
-##	Disadvantages of *Elm*
 
 
 
