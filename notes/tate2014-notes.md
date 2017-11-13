@@ -623,9 +623,13 @@ Reference the following points (Reference these!!!)
 	- Runs "on the *Erlang* virtual machine"
 	- Has "a rich *Ruby*-like syntax"
 	- *Lisp*-style macros
-
-
-
++ Distributed computing \cite[\S4, pp. 125]{Tate2014}:
+	- "extends *Erlang*'s message passing actor model"
++ Uses syntactic "sugar to eliminate tedious repetition"
+	\cite[\S4, pp. 125]{Tate2014}.
++ Supports metaprogramming \cite[\S4, pp. 125]{Tate2014}.
++ "Lisp-like, real macros without all the parentheses and prefix notation"
+	\cite[\S4, pp. 125]{Tate2014}.
 
 
 
