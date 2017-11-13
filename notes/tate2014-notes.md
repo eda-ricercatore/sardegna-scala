@@ -644,8 +644,11 @@ Reference the following points (Reference these!!!)
 	- "The base types are not objects, and the base types are immutable."
 	- "You can't change a list or a tuple after you've defined it the first time."
 + "Tuples are collections of fixed size" \cite[\S4, pp. 128]{Tate2014}. 
-
-
++ Destructuring allows complex data structures to be packed and unpacked
+	\cite[\S4, pp. 128-129]{Tate2014}.
++ Multiple assignment is forbidden \cite[\S4, pp. 129]{Tate2014}.
+	- Avoid problems associated with mutable state and state assignment
+		\cite[\S4, pp. 129]{Tate2014}.
 
 
 
