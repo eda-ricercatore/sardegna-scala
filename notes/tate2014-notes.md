@@ -643,6 +643,9 @@ Reference the following points (Reference these!!!)
 
 
 
+
+
+
 ##	Advantages of *Elixir*
 
 ##	Disadvantages of *Elixir*
@@ -657,12 +660,12 @@ Reference the following points (Reference these!!!)
 ##	Characteristics of *Julia*
 
 + For computing regarding statistics and multi-dimensional mathematics
-	\cite[\SIntroduction, pp. xviii]{Tate2014}
+	\cite[\SIntroduction, pp. xviii]{Tate2014}.
 + Designed for concurrent and parallel computing
-	\cite[\SIntroduction, pp. xviii]{Tate2014}
-
-
-
+	\cite[\SIntroduction, pp. xviii]{Tate2014}.
++ Has rich macro material \cite[\S4, pp. 126]{Tate2014}.
++ State machine representation via a macro \cite[\S4, pp. 126]{Tate2014}.
++ Concurrent, distributed application \cite[\S4, pp. 126]{Tate2014}.
 
 
 
