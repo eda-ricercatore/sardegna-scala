@@ -638,6 +638,28 @@ Reference the following points (Reference these!!!)
 + Macros:
 	- Express code in templates, via metaprogramming
 		\cite[\SIntroduction, pp. xv]{Tate2014}
++ Elixir allows for multiline representations called *heredocs*, and you'll find
+	*Ruby*-style sigils, a syntax for formatting literals.
++ "Elixir is a functional language" \cite[\S4, pp. 128]{Tate2014}.
+	- "The base types are not objects, and the base types are immutable."
+	- "You can't change a list or a tuple after you've defined it the first time."
++ "Tuples are collections of fixed size" \cite[\S4, pp. 128]{Tate2014}. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
