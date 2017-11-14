@@ -649,13 +649,18 @@ Reference the following points (Reference these!!!)
 + Multiple assignment is forbidden \cite[\S4, pp. 129]{Tate2014}.
 	- Avoid problems associated with mutable state and state assignment
 		\cite[\S4, pp. 129]{Tate2014}.
-
-
-
-
-
-
-
++ Higher order function can be imposed, via unnamed or annoymous functions
+	\cite[\S4, pp. 130]{Tate2014}.
+	- Include a "*.*" (period) character  between the function call and its
+		arguments \cite[\S4, pp. 130]{Tate2014}.
++ "Functional programming is about building functions
+	that work together" \cite[\S4, pp. 131]{Tate2014}.
+	- An "important composition is [to run] functions in sequence, matching up
+		inputs and outputs" \cite[\S4, pp. 131]{Tate2014}.
++ A module is composed of \cite[\S4, pp. 131]{Tate2014}:
+	- (named) functions
+	- macros
+	- other constructs
 
 
 
