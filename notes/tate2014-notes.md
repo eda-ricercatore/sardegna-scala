@@ -675,6 +675,19 @@ Reference the following points (Reference these!!!)
 		\cite[\S4, pp. 139]{Tate2014}.
 + "Each for comprehension has a generator step, a filter step, and a map step"
 	\cite[\S4, pp. 139]{Tate2014}.
++ "Metaprogramming uses programs to write more sophisticated programs"
+	\cite[\S4, pp. 144]{Tate2014}.
+	- "Sometimes, the best way to do metaprogramming is to build a simple tool
+		that implements the code you want your metaprogramming platform to
+		build."
+	- "If we want to build a generic state machine builder, we start by building a
+		single state machine."
+
+
+
+
+
+
 
 
 
