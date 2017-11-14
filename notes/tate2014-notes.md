@@ -661,17 +661,20 @@ Reference the following points (Reference these!!!)
 	- (named) functions
 	- macros
 	- other constructs
-
-
-
-
-
-
-
-
-
-
-
++ "*defmodule* is a macro that defines a module, and *def* is a macro that
+	defines functions" \cite[\S4, pp. 132]{Tate2014}.
++ "The API clearly expresses our intentions" \cite[\S4, pp. 132]{Tate2014}.
++ "Maps associate keys with values" \cite[\S4, pp. 135]{Tate2014}.
++ For efficient destructuring, use pattern matching with maps
+	\cite[\S4, pp. 135]{Tate2014}.
++ "Lists are the primary variable-length structure" \cite[\S4, pp. 136]{Tate2014}.
++ "Functions are fundamentally transformations.
+	It's not surprising that you'll often want to do multiple transformations at
+		once, such as a filter and a map.
+	*Elixir* has a tool to do just that: the for comprehension."
+		\cite[\S4, pp. 139]{Tate2014}.
++ "Each for comprehension has a generator step, a filter step, and a map step"
+	\cite[\S4, pp. 139]{Tate2014}.
 
 
 
