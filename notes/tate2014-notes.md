@@ -676,13 +676,14 @@ Reference the following points (Reference these!!!)
 + "Each for comprehension has a generator step, a filter step, and a map step"
 	\cite[\S4, pp. 139]{Tate2014}.
 + "Metaprogramming uses programs to write more sophisticated programs"
-	\cite[\S4, pp. 144]{Tate2014}.
+	\cite[\S4, pp. 143]{Tate2014}.
 	- "Sometimes, the best way to do metaprogramming is to build a simple tool
 		that implements the code you want your metaprogramming platform to
 		build."
 	- "If we want to build a generic state machine builder, we start by building a
 		single state machine."
-
++ "A struct is like a map with a fixed set of fields, with the ability to attach
+	behavior in the form of functions" \cite[\S4, pp. 144]{Tate2014}.
 
 
 
