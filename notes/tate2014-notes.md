@@ -684,10 +684,16 @@ Reference the following points (Reference these!!!)
 		single state machine."
 + "A struct is like a map with a fixed set of fields, with the ability to attach
 	behavior in the form of functions" \cite[\S4, pp. 144]{Tate2014}.
-
-
-
-
+	- "Structs are just maps--create, update, and pattern match using the map
+		syntax" \cite[\S4, pp. 145]{Tate2014}.
+	- "Define them in modules, and include the functions that work on them"
+		\cite[\S4, pp. 145]{Tate2014}.
++ Use macros as a function template to generate code for similar functions
+	\cite[\S4, pp. 152]{Tate2014}.
+	- Macros simplify the implementation of a finite state machine in *Elixir*
+		\cite[\S4, pp. 152]{Tate2014}.
+	- "Instead of using functions at runtime to do the work, we'll use macros at
+		compile time" \cite[\S4, pp. 152]{Tate2014}.
 
 
 
