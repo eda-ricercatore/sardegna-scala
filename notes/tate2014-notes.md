@@ -734,6 +734,10 @@ Reference the following points (Reference these!!!)
 + Collection types are multi-faceted \cite[\S5, pp. 182]{Tate2014}.
 	- When an array only has (a) concrete type, computation involving this array
 		is efficient \cite[\S5, pp. 182]{Tate2014}
+	- Strongly typed and dynamic typing can concurrent attributes of a
+		programming language \cite[\S5, pp. 182]{Tate2014}.
+	- Enables indexing and slices "to work in multiple dimensions"
+		\cite[\S5, pp. 182]{Tate2014}
 
 
 ##	Notes about *Julia*
@@ -748,8 +752,37 @@ Reference the following points (Reference these!!!)
 	same \cite[\S5, pp. 175]{Tate2014}.
 + In a dictionary, for each of its key-value pair, or (key, value) pair, the type of the
 	key must also be the type of the value \cite[\S5, pp. 175]{Tate2014}. 
++ Data types can be \cite[\S5, pp. 183]{Tate2014}:
+	- Abstract
+	- User-defined types. 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sss.
 ##	Advantages of *Julia*
 
 ##	Disadvantages of *Julia*
