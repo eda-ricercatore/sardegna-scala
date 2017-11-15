@@ -712,9 +712,6 @@ Reference the following points (Reference these!!!)
 
 
 
-##	Advantages of *Elixir*
-
-##	Disadvantages of *Elixir*
 
 
 
