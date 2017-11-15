@@ -758,7 +758,8 @@ Reference the following points (Reference these!!!)
 + Strong typing \cite[\S5, pp. 184]{Tate2014}:
 	- Boolean "expression[s] must evaluate to a boolean".
 	- "0,1, and empty collections [cannot be cast] to boolean values"  
-+ Variable names and expressions can be referenced \cite[\S5, pp. 184]{Tate2014}. 
++ Variable names (e.g., of numbers or collections) and expressions can be
+	referenced \cite[\S5, pp. 184]{Tate2014}.
 
 
 
