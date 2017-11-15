@@ -734,6 +734,11 @@ Reference the following points (Reference these!!!)
 
 ##	Notes about *Julia*
 
++ "Any is *Julia*'s universal type" \cite[\S5, pp. 174]{Tate2014}. 
++ "Tuples are fixed-size groups of other types. Their type is a tuple of the types
+	of their components" \cite[\S5, pp. 174]{Tate2014}.
++ "Numeric operations between different types of numbers auto-promote"
+	\cite[\S5, pp. 174]{Tate2014}.
 
 
 
