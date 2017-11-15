@@ -755,9 +755,10 @@ Reference the following points (Reference these!!!)
 + Data types can be \cite[\S5, pp. 183]{Tate2014}:
 	- Abstract
 	- User-defined types. 
-
-
-
++ Strong typing \cite[\S5, pp. 184]{Tate2014}:
+	- Boolean "expression[s] must evaluate to a boolean".
+	- "0,1, and empty collections [cannot be cast] to boolean values"  
++ 
 
 
 
