@@ -794,9 +794,14 @@ Reference the following points (Reference these!!!)
 			exist \cite[\S5, pp. 187]{Tate2014}.
 	- Using "*...*" in the argument list of a function definition gathers
 		arguments into a collection \cite[\S5, pp. 187]{Tate2014}.
+	- A function can be defined multiple times for different types
+		\cite[\S5, pp. 187]{Tate2014}. 
 + Mathematical operators are functions that can be specified in mathematical
 	expressions in the prefix notation \cite[\S5, pp. 187]{Tate2014}.  
-
++ Multiple dispatch selects a function based on the types of all its input
+	arguments \cite[\S5, pp. 187]{Tate2014}.
+	- "Each version of a function is called a method";
+		however, "the methods do not belong to [any] particular type" \cite[\S5, pp. 187]{Tate2014}.
 
 
 
