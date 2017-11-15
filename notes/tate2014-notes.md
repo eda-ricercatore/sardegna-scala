@@ -753,18 +753,28 @@ Reference the following points (Reference these!!!)
 + In a dictionary, for each of its key-value pair, or (key, value) pair, the type of the
 	key must also be the type of the value \cite[\S5, pp. 175]{Tate2014}. 
 + Data types can be \cite[\S5, pp. 183]{Tate2014}:
-	- Abstract
-	- User-defined types. 
+	- Abstract \cite[\S5, pp. 185]{Tate2014}
+		* An abstract type has no fields, and cannot be constructed.
+		* An abstract type groups multiple types together.
+		* An abstract type can be a field type specifier or typed array literal, but
+			it cannot be constructed.
+		* Defined subtypes of an abstract type as concrete types.
+	- User-defined types \cite[\S5, pp. 185]{Tate2014}.
 + Strong typing \cite[\S5, pp. 184]{Tate2014}:
 	- Boolean "expression[s] must evaluate to a boolean".
 	- "0,1, and empty collections [cannot be cast] to boolean values"  
 + Variable names (e.g., of numbers or collections) and expressions can be
 	referenced \cite[\S5, pp. 184]{Tate2014}.
-
-
-
-
-
++ A dictionary is a collection of tuples, where each tuple contains a key and a
+	value \cite[\S5, pp. 184]{Tate2014}.
++ "Multiple dispatch is [functionally embodied] by polymorphism"
+	\cite[\S5, pp. 185]{Tate2014} 
++ "In a type definition", use the "*::*" operator to contraint a field to a particular
+	type \cite[\S5, pp. 185]{Tate2014}.
++ A constructor allows values of a type to be created, as an instance variable or
+	constant;
+	its name is the same as the type, and each input argument of the constructor
+		has a type \cite[\S5, pp. 185]{Tate2014}.
 
 
 
