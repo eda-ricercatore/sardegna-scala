@@ -629,12 +629,14 @@ Reference the following points (Reference these!!!)
 	- *Lisp*-style macros
 + Distributed computing \cite[\S4, pp. 125]{Tate2014}:
 	- "extends *Erlang*'s message passing actor model"
+	- Concurrent, distributed application \cite[\S4, pp. 126]{Tate2014}.
 + Uses syntactic "sugar to eliminate tedious repetition"
 	\cite[\S4, pp. 125]{Tate2014}.
 + Supports metaprogramming \cite[\S4, pp. 125]{Tate2014}.
 + "Lisp-like, real macros without all the parentheses and prefix notation"
 	\cite[\S4, pp. 125]{Tate2014}.
-
++ Has rich macro material \cite[\S4, pp. 126]{Tate2014}.
++ State machine representation via a macro \cite[\S4, pp. 126]{Tate2014}.
 
 
 ##	Notes about *Elixir*
@@ -726,9 +728,7 @@ Reference the following points (Reference these!!!)
 	\cite[\SIntroduction, pp. xviii]{Tate2014}.
 + Designed for concurrent and parallel computing
 	\cite[\SIntroduction, pp. xviii]{Tate2014}.
-+ Has rich macro material \cite[\S4, pp. 126]{Tate2014}.
-+ State machine representation via a macro \cite[\S4, pp. 126]{Tate2014}.
-+ Concurrent, distributed application \cite[\S4, pp. 126]{Tate2014}.
++ Concurrent, distributed application \cite[\S5, pp. 172]{Tate2014}.
 
 
 
@@ -740,6 +740,16 @@ Reference the following points (Reference these!!!)
 ##	Advantages of *Julia*
 
 ##	Disadvantages of *Julia*
+
+
+
+
+##	*Julia* To-Dos
+
++ Plot different graphs with *Julia* 
++ Carry out machine learning with *Julia*
++ Carry out pattern recognition with *Julia*
++ Determine ease of file I/O processing.
 
 
 
