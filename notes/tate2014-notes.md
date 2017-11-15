@@ -811,13 +811,23 @@ Reference the following points (Reference these!!!)
 	computing \cite[\S5, pp. 189]{Tate2014}.
 + Processes in *Julia* communicate with each other via message passing, which
 	supports distributed computing \cite[\S5, pp. 189]{Tate2014}.
-	- ew
-		\cite[\S5, pp. 189]{Tate2014}.
+	- To enable distributed processing, use *addprocs(N)* to add *N* local
+		worker processes (also listed with IDs via workers()) and obtain their IDs;
+		the process with ID 1 is the REPL \cite[\S5, pp. 189]{Tate2014}.
 	- To start a REPL with a specific number of processes, N, try: *julia -p N*
 		\cite[\S5, pp. 189-190]{Tate2014}.
 		* This starts the REPL with *N+1* processes: one for the REPL shell, and
 			*N* spare processes for parallel processing
 				\cite[\S5, pp. 190]{Tate2014}.
+	- Use the following low-level primitives for parallel programming:
+		* *remotecall(ID,func,args)* to "send messages", by calling the function
+			*func* with the arguments *args* on the process with the ID *ID*;
+			"it returns a *RemoteRef* that can be used to obtain results of the
+			function call (on *func*)  
+		* *fetch(Rref)* to receive messages by using a RemoteRef *Rref* to
+			obtain results of the function call (on *func*);
+			if *func* has not finish executing, this will block and wait till it is
+				done 
 	- Try to use "higher-level parallel programming features" of *Julia*, instead of
 		directly using *remotecall* and *fetch* \cite[\S5, pp. 190]{Tate2014}.
 
