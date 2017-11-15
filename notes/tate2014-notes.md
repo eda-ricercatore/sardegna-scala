@@ -789,7 +789,13 @@ Reference the following points (Reference these!!!)
 	- If an argument is not specified during the invocation of a function, the
 		default values of default arguments would be used
 			\cite[\S5, pp. 186]{Tate2014}.
-
+	- Using "*...*" as the final argument (in a function invocation) creates a
+		collection to represent remaining arguments, if any remaining arguments
+			exist \cite[\S5, pp. 187]{Tate2014}.
+	- Using "*...*" in the argument list of a function definition gathers
+		arguments into a collection \cite[\S5, pp. 187]{Tate2014}.
++ Mathematical operators are functions that can be specified in mathematical
+	expressions in the prefix notation \cite[\S5, pp. 187]{Tate2014}.  
 
 
 
