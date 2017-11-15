@@ -729,7 +729,11 @@ Reference the following points (Reference these!!!)
 + Designed for concurrent and parallel computing
 	\cite[\SIntroduction, pp. xviii]{Tate2014}.
 + Concurrent, distributed application \cite[\S5, pp. 172]{Tate2014}.
-
++ *Julia* has *Java*-like strongly typed behavior, with dynamic typing
+	\cite[\S5, pp. 182]{Tate2014}.
++ Collection types are multi-faceted \cite[\S5, pp. 182]{Tate2014}.
+	- When an array only has (a) concrete type, computation involving this array
+		is efficient \cite[\S5, pp. 182]{Tate2014}
 
 
 ##	Notes about *Julia*
