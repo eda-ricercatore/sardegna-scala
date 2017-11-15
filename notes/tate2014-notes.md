@@ -759,6 +759,8 @@ Reference the following points (Reference these!!!)
 		* An abstract type can be a field type specifier or typed array literal, but
 			it cannot be constructed.
 		* Defined subtypes of an abstract type as concrete types.
+		* Define a subtype with a "*<:*" operator \cite[\S5, pp. 186]{Tate2014}.
+		* Multiple subtypes can coexist together \cite[\S5, pp. 186]{Tate2014}.
 	- User-defined types \cite[\S5, pp. 185]{Tate2014}.
 + Strong typing \cite[\S5, pp. 184]{Tate2014}:
 	- Boolean "expression[s] must evaluate to a boolean".
@@ -775,7 +777,8 @@ Reference the following points (Reference these!!!)
 	constant;
 	its name is the same as the type, and each input argument of the constructor
 		has a type \cite[\S5, pp. 185]{Tate2014}.
-
++ *Julia* allows the type hierarchy to be enumerated, so that the *supertype* and
+	the *subtype* can be found by introspection.
 
 
 
