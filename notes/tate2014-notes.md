@@ -616,6 +616,10 @@ Reference the following points (Reference these!!!)
 
 #	Elixir
 
+"To achieve a critical mass, a popular general-purpose functional language will
+	need to be able to insulate its users from tedious boilerplate"
+		\cite[\S4, pp. 167]{Tate2014}.
+
 ##	Characteristics of *Elixir*
 
 + "Pure functional [programming] language"
@@ -694,6 +698,15 @@ Reference the following points (Reference these!!!)
 		\cite[\S4, pp. 152]{Tate2014}.
 	- "Instead of using functions at runtime to do the work, we'll use macros at
 		compile time" \cite[\S4, pp. 152]{Tate2014}.
+
+
+
+
+
+
+
+
+
 
 
 
