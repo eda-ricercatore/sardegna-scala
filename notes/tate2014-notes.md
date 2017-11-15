@@ -784,6 +784,11 @@ Reference the following points (Reference these!!!)
 		\cite[\S5, pp. 186]{Tate2014}.
 + User-defined functions enable software developers to abstract over code
 	\cite[\S5, pp. 186]{Tate2014}.
+	- A function returns the last expression in its code block.
+	- A "return" statement enables the function to exit early.
+	- If an argument is not specified during the invocation of a function, the
+		default values of default arguments would be used
+			\cite[\S5, pp. 186]{Tate2014}.
 
 
 
