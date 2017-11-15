@@ -739,7 +739,11 @@ Reference the following points (Reference these!!!)
 	of their components" \cite[\S5, pp. 174]{Tate2014}.
 + "Numeric operations between different types of numbers auto-promote"
 	\cite[\S5, pp. 174]{Tate2014}.
-
++ Multiple variables can be concurrently assigned unique values, as long as the
+	structures on the left-hand side (LHS) and right-hand side (RHS) are the
+	same \cite[\S5, pp. 175]{Tate2014}.
++ In a dictionary, for each of its key-value pair, or (key, value) pair, the type of the
+	key must also be the type of the value \cite[\S5, pp. 175]{Tate2014}. 
 
 
 ##	Advantages of *Julia*
