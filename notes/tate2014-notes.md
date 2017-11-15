@@ -801,11 +801,25 @@ Reference the following points (Reference these!!!)
 + Multiple dispatch selects a function based on the types of all its input
 	arguments \cite[\S5, pp. 187]{Tate2014}.
 	- "Each version of a function is called a method";
-		however, "the methods do not belong to [any] particular type" \cite[\S5, pp. 187]{Tate2014}.
-
-
-
-
+		however, "the methods do not belong to [any] particular type"
+			\cite[\S5, pp. 187]{Tate2014}.
+	- Multiple dispatch allows open extension of software libraries without
+		modifiying those libraries;
+		this is forbidden in object-oriented programming languages
+			\cite[\S5, pp. 188-189]{Tate2014}.
++ Concurrency and distributed computing are required for high-performance
+	computing \cite[\S5, pp. 189]{Tate2014}.
++ Processes in *Julia* communicate with each other via message passing, which
+	supports distributed computing \cite[\S5, pp. 189]{Tate2014}.
+	- ew
+		\cite[\S5, pp. 189]{Tate2014}.
+	- To start a REPL with a specific number of processes, N, try: *julia -p N*
+		\cite[\S5, pp. 189-190]{Tate2014}.
+		* This starts the REPL with *N+1* processes: one for the REPL shell, and
+			*N* spare processes for parallel processing
+				\cite[\S5, pp. 190]{Tate2014}.
+	- Try to use "higher-level parallel programming features" of *Julia*, instead of
+		directly using *remotecall* and *fetch* \cite[\S5, pp. 190]{Tate2014}.
 
 
 
