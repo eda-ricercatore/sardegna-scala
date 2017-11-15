@@ -831,7 +831,8 @@ Reference the following points (Reference these!!!)
 	- Try to use "higher-level parallel programming features" of *Julia*, instead of
 		directly using *remotecall* and *fetch* \cite[\S5, pp. 190]{Tate2014}.
 + Use the *@time* macro for performance measurement of a function call; 
-	it determines the time taken (in seconds) \cite[\S5, pp. 191]{Tate2014}.
+	it determines the time taken (in seconds) and the memory usage (in terms of
+		the number of allocated bytes) \cite[\S5, pp. 191]{Tate2014}.
 + Use the *@parallel (+)* macro for parallel reduction, or to obtain a parallel
 	reducing version of a sequential algorithm;
 	the first argument *(+)* is the combing operator, so that the parallelized
