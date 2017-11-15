@@ -838,7 +838,7 @@ Reference the following points (Reference these!!!)
 	the first argument *(+)* is the combing operator, so that the parallelized
 		operation is commutative and allows scheduled processes to run in an
 		arbitrary order \cite[\S5, pp. 191]{Tate2014}
-
++ *Julia* simplifies 
 
 
 
