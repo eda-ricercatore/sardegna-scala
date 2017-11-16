@@ -882,8 +882,8 @@ Reference the following points (Reference these!!!)
 	manipulated by the code \cite[\S5, pp. 196]{Tate2014}
 	- Placing a colon in front of a variable or function invocation returns a
 		representation of the variable/function in the code's tree structure
-			\cite[\S5, pp. 196]{Tate2014}.  
-
+			\cite[\S5, pp. 196]{Tate2014}.
+- *Expr* is the type of an expression in *Julia* \cite[\S5, pp. 197]{Tate2014}. 
 
 
 
