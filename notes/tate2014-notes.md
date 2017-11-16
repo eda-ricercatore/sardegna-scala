@@ -889,6 +889,9 @@ Reference the following points (Reference these!!!)
 + Quoted expressions are evaluated at run-time \cite[\S5, pp. 197]{Tate2014}.
 + Interpolated expressions are evaluated immediately, when it is constructed
 	\cite[\S5, pp. 197]{Tate2014}.
++ Data compression finds compact representations of data by "[removing]
+	unimportant information or finding easier-to-represent approximations of it"
+		\cite[\S5, pp. 199]{Tate2014}.
 
 
 ##	Advantages of *Julia*
