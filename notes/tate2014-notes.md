@@ -896,10 +896,6 @@ Reference the following points (Reference these!!!)
 	\cite[\S5, pp. 199]{Tate2014}.
 
 
-##	Advantages of *Julia*
-
-##	Disadvantages of *Julia*
-
 
 
 
