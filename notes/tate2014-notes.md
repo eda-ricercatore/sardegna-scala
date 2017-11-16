@@ -873,10 +873,12 @@ Reference the following points (Reference these!!!)
 	- @everywhere
 	- *pmap*
 + *Julia*'s macros are based on macros of *Lisp* \cite[\S5, pp. 195]{Tate2014}.
-	- A *Julia* macro receives code as input, and produces a transformed
-		version as its output.
+	- A *Julia* macro receives (code) expressions as input, and produces a
+		transformed version as its output.
 	- A *Julia* macro operates "on the parsed tree structure of the language",
 		rather than strings.
+	- A *Julia* macro is defined like a *Julia* function
+		\cite[\S5, pp. 198]{Tate2014}..
 + Homoiconicity is the property of code being equivalent to its internal data
 	structure, such that the code is another data structure that can be
 	manipulated by the code \cite[\S5, pp. 196]{Tate2014}
@@ -884,8 +886,9 @@ Reference the following points (Reference these!!!)
 		representation of the variable/function in the code's tree structure
 			\cite[\S5, pp. 196]{Tate2014}.
 - *Expr* is the type of an expression in *Julia* \cite[\S5, pp. 197]{Tate2014}. 
-+ Quoted expressions are evaluated at run-time.
-+ Interpolated expressions are evaluated immediately, when it is constructed.
++ Quoted expressions are evaluated at run-time \cite[\S5, pp. 197]{Tate2014}.
++ Interpolated expressions are evaluated immediately, when it is constructed
+	\cite[\S5, pp. 197]{Tate2014}.
 
 
 ##	Advantages of *Julia*
