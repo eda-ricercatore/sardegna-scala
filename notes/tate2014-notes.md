@@ -933,7 +933,8 @@ Reference the following points (Reference these!!!)
 + Embedded logic DSL in general purpose programming language enables
 	miniKanren developers to use logic programming in real world scenarios
 		\cite[\SIntroduction, pp. xviii]{Tate2014}.
-
++ Focus on rules, constraints, and relations in logic programming
+	\cite[\S6, pp. 209]{Tate2014}.
 
 
 
