@@ -880,7 +880,9 @@ Reference the following points (Reference these!!!)
 + Homoiconicity is the property of code being equivalent to its internal data
 	structure, such that the code is another data structure that can be
 	manipulated by the code \cite[\S5, pp. 196]{Tate2014}
-
+	- Placing a colon in front of a variable or function invocation returns a
+		representation of the variable/function in the code's tree structure
+			\cite[\S5, pp. 196]{Tate2014}.  
 
 
 
