@@ -872,8 +872,14 @@ Reference the following points (Reference these!!!)
 	- @spawn
 	- @everywhere
 	- *pmap*
-
-
++ *Julia*'s macros are based on macros of *Lisp* \cite[\S5, pp. 195]{Tate2014}.
+	- A *Julia* macro receives code as input, and produces a transformed
+		version as its output.
+	- A *Julia* macro operates "on the parsed tree structure of the language",
+		rather than strings.
++ Homoiconicity is the property of code being equivalent to its internal data
+	structure, such that the code is another data structure that can be
+	manipulated by the code \cite[\S5, pp. 196]{Tate2014}
 
 
 
