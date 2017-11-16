@@ -892,6 +892,8 @@ Reference the following points (Reference these!!!)
 + Data compression finds compact representations of data by "[removing]
 	unimportant information or finding easier-to-represent approximations of it"
 		\cite[\S5, pp. 199]{Tate2014}.
++ Decompression is the reverse process of data compression
+	\cite[\S5, pp. 199]{Tate2014}.
 
 
 ##	Advantages of *Julia*
