@@ -1,3 +1,14 @@
+**Table of Content:**
++ [Lua](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/tate2014-notes.md#lua)
++ [Factor](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/tate2014-notes.md#factor)
++ [Elm](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/tate2014-notes.md#elm)
++ [Elixir](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/tate2014-notes.md#elixir)
++ [Julia](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/tate2014-notes.md#julia)
++ [miniKanren](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/tate2014-notes.md#minikanren)
++ [Idris](https://github.com/eda-ricercatore/sardegna-scala/blob/master/notes/tate2014-notes.md#idris)
+
+
+
 #	Lua
 
 
