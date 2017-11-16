@@ -884,7 +884,8 @@ Reference the following points (Reference these!!!)
 		representation of the variable/function in the code's tree structure
 			\cite[\S5, pp. 196]{Tate2014}.
 - *Expr* is the type of an expression in *Julia* \cite[\S5, pp. 197]{Tate2014}. 
-
++ Quoted expressions are evaluated at run-time.
++ Interpolated expressions are evaluated immediately, when it is constructed.
 
 
 ##	Advantages of *Julia*
