@@ -779,6 +779,8 @@ Reference the following points (Reference these!!!)
 		* Multiple subtypes can coexist together \cite[\S5, pp. 186]{Tate2014}.
 		* Multiple levels of subtype are forbidden \cite[\S5, pp. 186]{Tate2014}.
 	- User-defined types \cite[\S5, pp. 185]{Tate2014}.
+	- Abstract subtypes can be mixed with concrete subtypes
+		\cite[\S5, pp. 194]{Tate2014}.
 + Strong typing \cite[\S5, pp. 184]{Tate2014}:
 	- Boolean "expression[s] must evaluate to a boolean".
 	- "0,1, and empty collections [cannot be cast] to boolean values"  
@@ -823,6 +825,8 @@ Reference the following points (Reference these!!!)
 		modifiying those libraries;
 		this is forbidden in object-oriented programming languages
 			\cite[\S5, pp. 188-189]{Tate2014}.
+	- "Functions are built on multiple dispatch, which is a more powerful version
+		of overloading and dynamic dispatch" \cite[\S5, pp. 194]{Tate2014}.
 + Concurrency and distributed computing are required for high-performance
 	computing \cite[\S5, pp. 189]{Tate2014}.
 + Processes in *Julia* communicate with each other via message passing, which
@@ -864,7 +868,10 @@ Reference the following points (Reference these!!!)
 		\cite[\S5, pp. 192]{Tate2014}. 
 + Compiling *Julia* scripts to executables is not sufficiently convenient
 	\cite[\S5, pp. 194]{Tate2014}
-
++ Parallel computing aspects of *Julia* \cite[\S5, pp. 194]{Tate2014}:
+	- @spawn
+	- @everywhere
+	- *pmap*
 
 
 
