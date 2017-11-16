@@ -738,7 +738,7 @@ Reference the following points (Reference these!!!)
 		programming language \cite[\S5, pp. 182]{Tate2014}.
 	- Enables indexing and slices "to work in multiple dimensions"
 		\cite[\S5, pp. 182]{Tate2014}
-+ Dynamic progrmaming
++ Dynamic typed programming language \cite[\S5, pp. 193]{Tate2014}
 	- Improves productivity
 + Enables simple control of memory resources, and has high-performance library
 	\cite[\S5, pp. 193]{Tate2014}.
@@ -835,7 +835,8 @@ Reference the following points (Reference these!!!)
 		* This starts the REPL with *N+1* processes: one for the REPL shell, and
 			*N* spare processes for parallel processing
 				\cite[\S5, pp. 190]{Tate2014}.
-	- Use the following low-level primitives for parallel programming:
+	- Use the following low-level primitives for parallel programming 
+		\cite[\S5, pp. 189-190]{Tate2014}:
 		* *remotecall(ID,func,args)* to "send messages", by calling the function
 			*func* with the arguments *args* on the process with the ID *ID*;
 			"it returns a *RemoteRef* that can be used to obtain results of the
@@ -859,7 +860,8 @@ Reference the following points (Reference these!!!)
 + *Julia* improves the efficiency of (statistical) data analysis, in terms of
 	development/engineering effort and the speed of (statistical) data analysis;
 	effort spend scheduling processes and managing mutexes is shifted from
-		the developers/engineers to the *Julia* compiler and operating system. 
+		the developers/engineers to the *Julia* compiler and operating system
+		\cite[\S5, pp. 192]{Tate2014}. 
 + Compiling *Julia* scripts to executables is not sufficiently convenient
 	\cite[\S5, pp. 194]{Tate2014}
 
@@ -869,7 +871,7 @@ Reference the following points (Reference these!!!)
 
 
 
-sss.
+
 ##	Advantages of *Julia*
 
 ##	Disadvantages of *Julia*
