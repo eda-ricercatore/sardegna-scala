@@ -738,6 +738,22 @@ Reference the following points (Reference these!!!)
 		programming language \cite[\S5, pp. 182]{Tate2014}.
 	- Enables indexing and slices "to work in multiple dimensions"
 		\cite[\S5, pp. 182]{Tate2014}
++ Dynamic progrmaming
+	- Improves productivity
++ Enables simple control of memory resources, and has high-performance library
+	\cite[\S5, pp. 193]{Tate2014}.
++ Straightforward and transparent execution model \cite[\S5, pp. 193]{Tate2014}:
+	- Don't require lots of software implementation tricks to gain performance
+		speedup.
+	- Has control over memory usage and memory layout
+	- Enable easy interaction with other software in *C* or *Fortran*.
++ Multiple dispatch \cite[\S5, pp. 193]{Tate2014}
++ Polymorphic \cite[\S5, pp. 193]{Tate2014}
+
+
+
+
+
 
 
 ##	Notes about *Julia*
@@ -838,8 +854,14 @@ Reference the following points (Reference these!!!)
 	the first argument *(+)* is the combing operator, so that the parallelized
 		operation is commutative and allows scheduled processes to run in an
 		arbitrary order \cite[\S5, pp. 191]{Tate2014}
-+ *Julia* simplifies 
-
++ "The *->* notation is *Julia*'s lightweight anonymous function syntax"
+	\cite[\S5, pp. 192]{Tate2014}
++ *Julia* improves the efficiency of (statistical) data analysis, in terms of
+	development/engineering effort and the speed of (statistical) data analysis;
+	effort spend scheduling processes and managing mutexes is shifted from
+		the developers/engineers to the *Julia* compiler and operating system. 
++ Compiling *Julia* scripts to executables is not sufficiently convenient
+	\cite[\S5, pp. 194]{Tate2014}
 
 
 
