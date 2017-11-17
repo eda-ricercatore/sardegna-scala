@@ -951,6 +951,9 @@ Reference the following points (Reference these!!!)
 
 + Express rules, rather than express individual steps of a procedure
 	\cite[\SIntroduction, pp. xv]{Tate2014}
++ Logic programming involves specifying starting data and logical rules, and
+	letting the logical reasoning engine automatically solve the problem (return a
+	set of solutions) \cite[\S6, pp. 211]{Tate2014}. 
 
 
 
