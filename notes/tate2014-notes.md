@@ -946,7 +946,6 @@ Reference the following points (Reference these!!!)
 
 
 
-
 ##	Notes about *miniKanren*
 
 + Express rules, rather than express individual steps of a procedure
@@ -954,7 +953,8 @@ Reference the following points (Reference these!!!)
 + Logic programming involves specifying starting data and logical rules, and
 	letting the logical reasoning engine automatically solve the problem (return a
 	set of solutions) \cite[\S6, pp. 211]{Tate2014}. 
-
++ Use unification to unify a logic variable to a number, and use pattern matching
+	\cite[\S6, pp. 212]{Tate2014}.
 
 
 
