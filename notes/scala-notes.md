@@ -977,7 +977,7 @@ Unification of nested subgoals is an important concept for logic programming in
 "Databases of facts can help build up bases of knowledge for your logic
 	programs to reason over.
 	You can use them to make inferences and queries.
-	Databases can be combined and extended with new relations."
+	Databases can be combined and extended with new relations"
 		\cite[\S6, pp. 218]{Tate2014}.
 
 
