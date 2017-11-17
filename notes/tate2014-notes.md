@@ -972,8 +972,6 @@ Reference the following points (Reference these!!!)
 
 
 
-
-
 ##	Advantages of *miniKanren*
 
 ##	Disadvantages of *miniKanren*

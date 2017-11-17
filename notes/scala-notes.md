@@ -802,7 +802,8 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 			-- synthesized combination of the "functional programming
 			[paradigm] (including higher-order programming) and logic
 			programming paradigm (including nondeterministic
-			programming and unification).			
+			programming and unification).
+			E.g., *miniKanren* \cite[\S6, pp. 220]{Tate2014}.
 + Event-driven programming \cite{WikipediaContributors2017j} -- Control
 	flow of the program is determined by events (e.g., actions of user
 	during user interaction, interrupts, or sensor inputs) or messages
@@ -971,6 +972,23 @@ Unification of nested subgoals is an important concept for logic programming in
 			\cite[\S4.5, pp. 134]{Tate2010}.
 	Tail recursion optimization has to be exploited to keep the set of rules at
 		acceptable levels \cite[\S4.5, pp. 134]{Tate2010}.
+
+
+"Databases of facts can help build up bases of knowledge for your logic
+	programs to reason over.
+	You can use them to make inferences and queries.
+	Databases can be combined and extended with new relations."
+		\cite[\S6, pp. 218]{Tate2014}.
+
+
+
+
+
+
+
+
+
+
 
 #####	*Prolog*
 
