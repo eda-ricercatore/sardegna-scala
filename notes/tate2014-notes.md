@@ -973,7 +973,8 @@ Reference the following points (Reference these!!!)
 			\cite[\S6, pp. 232]{Tate2014};
 		linear logic also allows the specification of required resources
 			\cite[\S6, pp. 232]{Tate2014}.
-
+	- *Clojure* has a library of functions for data processing, which *miniKanren*
+		software can use/exploit \cite[\S6, pp. 232]{Tate2014}.
 
 
 
