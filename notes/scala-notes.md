@@ -804,6 +804,8 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 			programming paradigm (including nondeterministic
 			programming and unification).
 			E.g., *miniKanren* \cite[\S6, pp. 220]{Tate2014}.
+		* The backend of logic programming engines use directed search
+			algorithms \cite[\S6, pp. 227]{Tate2014}.
 + Event-driven programming \cite{WikipediaContributors2017j} -- Control
 	flow of the program is determined by events (e.g., actions of user
 	during user interaction, interrupts, or sensor inputs) or messages

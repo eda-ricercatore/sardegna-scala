@@ -935,11 +935,7 @@ Reference the following points (Reference these!!!)
 		\cite[\SIntroduction, pp. xviii]{Tate2014}.
 + Focus on rules, constraints, and relations in logic programming
 	\cite[\S6, pp. 209]{Tate2014}.
-+ Maps, hash tables, or dictionaries, are well-supported by *miniKanren* due to
-	the *Lisp* heritage of Clojure, which the domain specific language
-	*miniKanren* is based on (core.logic) \cite[\S6, pp. 222]{Tate2014}.
-	Maps and partial maps can help software developed in the logic programming 
-		paradigm become more clear \cite[\S6, pp. 223]{Tate2014}.
+
 
 
 
@@ -962,7 +958,21 @@ Reference the following points (Reference these!!!)
 		\cite[\S6, pp. 221]{Tate2014}.
 	- Function patterns involves function definitions that contain pattern
 		matching blocks or pattern macros \cite[\S6, pp. 221]{Tate2014}.
-
+	- Maps, hash tables, or dictionaries, are well-supported by *miniKanren* due
+		to the *Lisp* heritage of Clojure, which the domain specific language
+		*miniKanren* is based on (core.logic) \cite[\S6, pp. 222]{Tate2014}.
+		* Maps and partial maps can help software developed in the logic
+			programming paradigm become more clear
+				\cite[\S6, pp. 223]{Tate2014}.
+		* Partial maps with constraints are also supported
+			\cite[\S6, pp. 228]{Tate2014}.
+	- Mix functional programming with constraint logic programming
+		\cite[\S6, pp. 227]{Tate2014}.
+	- Linear logic, which is an extension of propositional logic, specifies how
+		to use, manipulate, consume, and produce resources
+			\cite[\S6, pp. 232]{Tate2014};
+		linear logic also allows the specification of required resources
+			\cite[\S6, pp. 232]{Tate2014}.
 
 
 
