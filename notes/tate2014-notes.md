@@ -935,10 +935,11 @@ Reference the following points (Reference these!!!)
 		\cite[\SIntroduction, pp. xviii]{Tate2014}.
 + Focus on rules, constraints, and relations in logic programming
 	\cite[\S6, pp. 209]{Tate2014}.
-
-
-
-
++ Maps, hash tables, or dictionaries, are well-supported by *miniKanren* due to
+	the *Lisp* heritage of Clojure, which the domain specific language
+	*miniKanren* is based on (core.logic) \cite[\S6, pp. 222]{Tate2014}.
+	Maps and partial maps can help software developed in the logic programming 
+		paradigm become more clear \cite[\S6, pp. 223]{Tate2014}.
 
 
 
@@ -957,8 +958,10 @@ Reference the following points (Reference these!!!)
 	\cite[\S6, pp. 212]{Tate2014}.
 + Mixes functional programming with logic programming
 	\cite[\S6, pp. 220]{Tate2014}:
-	- Perform pattern matching
-
+	- Perform pattern matching on (complex) patterns
+		\cite[\S6, pp. 221]{Tate2014}.
+	- Function patterns involves function definitions that contain pattern
+		matching blocks or pattern macros \cite[\S6, pp. 221]{Tate2014}.
 
 
 
