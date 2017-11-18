@@ -955,8 +955,9 @@ Reference the following points (Reference these!!!)
 	set of solutions) \cite[\S6, pp. 211]{Tate2014}. 
 + Use unification to unify a logic variable to a number, and use pattern matching
 	\cite[\S6, pp. 212]{Tate2014}.
-
-
++ Mixes functional programming with logic programming
+	\cite[\S6, pp. 220]{Tate2014}:
+	- Perform pattern matching
 
 
 
