@@ -972,25 +972,21 @@ Reference the following points (Reference these!!!)
 		to use, manipulate, consume, and produce resources
 			\cite[\S6, pp. 232]{Tate2014};
 		linear logic also allows the specification of required resources
-			\cite[\S6, pp. 232]{Tate2014}.
+			\cite[\S6, pp. 232]{Tate2014};
+		we can say that "*A* implies *B*" is equivalent to "*A* consumes *Z*
+			and produces *B*, where *Z* is some particular resource"
+				\cite[\S6, pp. 232]{Tate2014}.
 	- *Clojure* has a library of functions for data processing, which *miniKanren*
-		software can use/exploit \cite[\S6, pp. 232]{Tate2014}.
-
-
-
-
-
-
-
-
-
-
-
-
-##	Advantages of *miniKanren*
-
-##	Disadvantages of *miniKanren*
-
+		software can use/exploit \cite[\S6, pp. 237,240]{Tate2014}.
+	- Use linear logic and recursive functions with data processing functions in
+		*Clojure*'s library to craft solutions logic problems
+			\cite[\S6, pp. 238-239]{Tate2014}.
++ Use program synthesis to create programs that solve problems, without
+	developing those programs on our own \cite[\S6, pp. 240]{Tate2014}.
++ Use declarative programming to solve problems in \cite[\S6, pp. 240]{Tate2014}:
+	- constraint solving
+	- scheduling
+	- path finding
 
 
 
