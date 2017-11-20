@@ -1017,8 +1017,10 @@ Programming with *dependently typed languages* \cite[\S7, pp. 243]{Tate2014}
 + Expressing types in greater detail (i.e., richer types) than other programming
 	paradigms
 
-
-
+Use dependent types for the following \cite[\S7, pp. 244]{Tate2014}:
++ advanced editor completion
++ proofs
++ improving programs/software
 
 
 
