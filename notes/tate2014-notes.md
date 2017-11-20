@@ -1022,7 +1022,8 @@ Use dependent types for the following \cite[\S7, pp. 244]{Tate2014}:
 + proofs
 + improving programs/software
 
-
+Parameterized data types, which can represent binary tree
+	\cite[\S7, pp. 253]{Tate2014}.
 
 
 ##	Characteristics of *Idris*
@@ -1048,8 +1049,11 @@ Use dependent types for the following \cite[\S7, pp. 244]{Tate2014}:
 + "Type classes allow parameterized polymorphism" \cite[\S7, pp. 252]{Tate2014}.
  + A strongly typed, pure functional programming language based on *Haskell*
 	\cite[\S7, pp. 252]{Tate2014}.
-
-
++ With independently typed languages, "types and values are independent".
+	However, "types [(e.g., string or integer)] describe values" but are
+		independent of values \cite[\S7, pp. 254]{Tate2014}.
++ With dependently typed languages, types describe values and depend on
+	values \cite[\S7, pp. 254]{Tate2014}.
 
 
 
