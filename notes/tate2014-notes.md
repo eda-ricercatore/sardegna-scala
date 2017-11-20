@@ -1057,8 +1057,11 @@ Parameterized data types, which can represent binary tree
 + The more information provided during type declaration, the less likely bugs
 	associated with the declared variables would avoid detection
 		\cite[\S7, pp. 254]{Tate2014}.
-
-
++ "Haskell has rich type compatibility information" \cite[\S7, pp. 254]{Tate2014}.
++ Dependent typing enables advanced text editors, or integrated development
+	environments (IDEs), to carry out code completion.
+	Text editors, or IDEs, can have built-in proof engines to prove or disprove
+		assertions, based on the type model \cite[\S7, pp. 254]{Tate2014}.
 
 
 
