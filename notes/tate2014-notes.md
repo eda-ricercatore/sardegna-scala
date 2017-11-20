@@ -998,6 +998,31 @@ Reference the following points (Reference these!!!)
 
 #	Idris
 
+Type models; "static and dynamic type systems"; type theory
+	\cite[\S7, pp. 243]{Tate2014}.
+
+*Dependently typed languages* extends the limits of static typing
+	\cite[\S7, pp. 243]{Tate2014}.
+
+*Dependently typed languages* enable \cite[\S7, pp. 243-244]{Tate2014}:
++ more errors to be found at compile time
++ enable components of the software-under-development, such as input
+	parameter checking, to be proven to be correct, or disproved. 
++ enable autocomplete (or word completion)
+
+Programming with *dependently typed languages* \cite[\S7, pp. 243]{Tate2014}
+	will require the followng for software development productivity
+		\cite[\S7, pp. 244]{Tate2014}:
++ "More up-front thinking about... types"
++ Expressing types in greater detail (i.e., richer types) than other programming
+	paradigms
+
+
+
+
+
+
+
 ##	Characteristics of *Idris*
 
 + Has dependent types \cite[\SAcknowledgments, pp. xviii]{Tate2014}
