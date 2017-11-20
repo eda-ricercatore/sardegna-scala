@@ -1054,7 +1054,9 @@ Parameterized data types, which can represent binary tree
 		independent of values \cite[\S7, pp. 254]{Tate2014}.
 + With dependently typed languages, types describe values and depend on
 	values \cite[\S7, pp. 254]{Tate2014}.
-
++ The more information provided during type declaration, the less likely bugs
+	associated with the declared variables would avoid detection
+		\cite[\S7, pp. 254]{Tate2014}.
 
 
 
