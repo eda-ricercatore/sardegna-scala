@@ -1027,7 +1027,7 @@ Use dependent types for the following \cite[\S7, pp. 244]{Tate2014}:
 
 ##	Characteristics of *Idris*
 
-+ Has dependent types \cite[\SAcknowledgments, pp. xviii]{Tate2014}
++ Has dependent types \cite[\SAcknowledgments, pp. xviii]{Tate2014}.
 
 
 
@@ -1036,6 +1036,25 @@ Use dependent types for the following \cite[\S7, pp. 244]{Tate2014}:
 
 
 ##	Notes about *Idris*
+
++ Allows definition of "parameterized types" \cite[\S7, pp. 250]{Tate2014}.
++ Supports polymorphic types \cite[\S7, pp. 250]{Tate2014}.
+	- Type polymorphism "allows any function to use all compatible types"
+		\cite[\S7, pp. 251-252]{Tate2014}.
+	- Allows *Idris* functions to use generic types, instead of specific types
+		\cite[\S7, pp. 251-252]{Tate2014}.
++ "Type classes allow the representation of increasingly specialized types"
+	\cite[\S7, pp. 251]{Tate2014}.
++ "Type classes allow parameterized polymorphism" \cite[\S7, pp. 252]{Tate2014}.
+ + A strongly typed, pure functional programming language based on *Haskell*
+	\cite[\S7, pp. 252]{Tate2014}.
+
+
+
+
+
+
+
 
 
 ##	Advantages of *Idris*
