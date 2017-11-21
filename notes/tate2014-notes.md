@@ -1068,6 +1068,7 @@ Parameterized data types, which can represent binary tree
 		structure.
 	- "Parameterized by" implies that the entire data structure contains only one
 		element type.
++ OTT (Observational Type Theory) \cite[\S7, pp. 260]{Tate2014}.
 
 
 
@@ -1076,10 +1077,6 @@ Parameterized data types, which can represent binary tree
 
 
 
-
-##	Advantages of *Idris*
-
-##	Disadvantages of *Idris*
 
 
 
@@ -1090,7 +1087,10 @@ Parameterized data types, which can represent binary tree
 	- Makes it harder to modify entries in CSV, without the "support [for]
 		collections and constraints"
 
-
+"Some will try to tell you that this journey is worthless, that you can't truly learn a
+	language in seven days any more than you can learn Italian by eating at the
+	Olive Garden once a week."
+- Bruce Tate \cite[\S8, pp. 277]{Tate2014}
 
 
 
