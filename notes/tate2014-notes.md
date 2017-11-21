@@ -1090,7 +1090,7 @@ Parameterized data types, which can represent binary tree
 "Some will try to tell you that this journey is worthless, that you can't truly learn a
 	language in seven days any more than you can learn Italian by eating at the
 	Olive Garden once a week."
-- Bruce Tate \cite[\S8, pp. 277]{Tate2014}
+~ Bruce Tate \cite[\S8, pp. 277]{Tate2014}
 
 
 
