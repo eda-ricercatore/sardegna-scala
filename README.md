@@ -331,8 +331,6 @@ Three primary goals of this endeavor are to:
 
 ## Books to Cover (In Order)
 
-+ Tate2010
-	- "Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages"
 + Horstmann2012a
 	- "Scala for the Impatient"
 + Layka2015
@@ -392,6 +390,8 @@ Three primary goals of this endeavor are to:
 	- Title of Book.
 
 
++ Tate2010
+	- "Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages"
 
 
 
@@ -405,6 +405,8 @@ Three primary goals of this endeavor are to:
 	- "Scala Cookbook: Recipes for Object-Oriented and Functional Programming"
 + Bedrytski2016
 	- "Professional Scala"
++ Horstmann2017
+	- "Scala for the Impatient"
 + Hunt2014
 	- "A Beginner's Guide to Scala, Object Orientation and Functional Programming"
 + Hunt2013a
