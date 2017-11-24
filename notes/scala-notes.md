@@ -1842,6 +1842,44 @@ Execute *Scala* software as follows:
 	scala [filename_of_Scala_object_with_main_method]
 
 
+
+
+
+
+
+
+
+
+
+
+
+#	To-Do List
+
+Finish reading \cite{WikipediaContributors2017e}.
+
+Build *Scala*-based software:
++ SAT solver
++ SMT solver
++ model checker 
++ communication system with different crytographic schemes
++ unconditionally secure communication system 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #	References
 
 Citations/References that use the *LaTeX/BibTeX* notation are taken
@@ -1916,25 +1954,6 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 
 
-
-
-
-
-
-
-
-
-
-#	To-Do List
-
-Finish reading \cite{WikipediaContributors2017e}.
-
-Build *Scala*-based software:
-+ SAT solver
-+ SMT solver
-+ model checker 
-+ communication system with different crytographic schemes
-+ unconditionally secure communication system 
 
 
 
