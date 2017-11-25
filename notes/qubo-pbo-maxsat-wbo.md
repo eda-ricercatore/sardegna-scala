@@ -3,13 +3,29 @@
 References for quadratic unconstrained binary optimization (QUBO):
 + \cite{Florescu2016}
 + \cite{Wittek2014}
++ \cite{Anjos2012}
++ \cite{Dattorro2017}
++ \cite{HammerIvanescu1968}
++ \cite{Crama2011}
++ \cite{Crama2010}
++ \cite{Hoos2005}
++ \cite{Lezoray2012}
++ \cite{Adamatzky2017}
++ \cite{Rieffel2011}
++ \cite{Voss1999}
++ \cite{}
++ \cite{}
++ \cite{}
 
 
 
-
-
-
-
+\cite{Tandon2017}
+\cite{Fernholz2002}
+\cite{McGeoch2014}
+\cite{Garey1979}
+\cite{Maniezzo2010}
+\cite{Resende2016}
+\cite{Aaronson2013}
 
 
 
@@ -23,8 +39,70 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 ## From Zhiyang Ong's *BibTeX* Database 
 
+
+
+
+
+
+
+[Adamatzky2017]
+	Andrew Adamatzky. *Advances in Unconventional Computing: Volume 1: Theory*, Emergence, Complexity and Computation, Vol. 22. Springer International Publishing Switzerland, Cham, Switzerland, 2017.
+
+
+[Anjos2012]
+	Miguel F. Anjos and Jean B. Lasserre. *Handbook on Semidefinite, Conic and Polynomial Optimization*, International Series in Operations Research {\rm \&}\ Management Science, Vol. 166. Springer Science+Business Media, LCC, New York, NY, 2012.
+
+[Crama2011]
+	Crama, Y., and Hammer, P. L. Boolean Functions: Theory, Algorithms, and Applications, vol. 142 of Encyclopedia of Mathematics and its Applications. Cambridge University Press, New York, NY, 2011.
+
+[Crama2010]
+	Crama, Y., and Hammer, P. L. Boolean Models and Methods in Mathematics, Computer Science, and Engineering, vol. 134 of Encyclopedia of Mathematics and its Applications. Cambridge University Press, New York, NY, 2010.
+
+[Dattorro2017]
+	Jon Dattorro. *Convex Optimization and Euclidean Distance Geometry*, Second edition. Meboo Publishing USA, Palo Alto, CA, 2017.
+
 [Florescu2016]
 	Ionut Florescu and Maria C. Mariani and H. Eugene Stanley and Frederi G. Viens. *Handbook of High-Frequency Trading and Modeling in Finance*, Wiley Handbooks in Financial Engineering and Econometrics. John Wiley & Sons, Hoboken, NJ, 2016.
+
+[HammerIvanescu1968]
+	Peter L. {Hammer (Iv{\v{a}}nescu)} and Sergiu Rudeanu. *Boolean Methods in Operations Research and Related Areas*, Okonometrie und Unternehmensforschung / Econometrics and Operations Research, Vol. 7. Springer-Verlag New York, New York, NY, 1968. 
+
+[Hoos2005]
+	Holger H. Hoos and Thomas Stutzle. *Stochastic Local Search: Foundations and Applications*, The Morgan Kaufmann Series in Artificial Intelligence, Elsevier Inc., San Francisco, CA, 2005.
+
+
+
+
+@book{Kreher1999,
+	Address = {Boca Raton, {FL}},
+	Author = {Donald L. Kreher and Douglas R. Stinson},
+	Date-Added = {2014-03-30 00:11:00 +0200},
+	Date-Modified = {2014-03-30 00:11:00 +0200},
+	Doi = {},
+	Edition = {},
+	Keywords = {combinatorial algorithms, algorithms, algorithm analysis},
+	Month = {},
+	Publisher = {{CRC} Press},
+	Series = {},
+	Title = {Combinatorial Algorithms: Generation, Enumeration, and Search},
+	Volume = {},
+	Year = {1999}}
+
+
+
+
+[Lezoray2012]
+	Olivier Lezoray and Leo Grady. *Image Processing and Analysis with Graphs: Theory and Practice*, Digital Imaging and Computer Vision. CRC Press, Boca Raton, FL, 2012.
+
+
+
+[Rieffel2011]
+	Eleanor G. Rieffel and Wolfgang H. Polak. *Quantum Computing: A Gentle Introduction*. The MIT Press, Cambridge, MA, 2011.
+
+[Voss1999]
+	Stefan Voss and Silvano Martello and Ibrahim H. Osman and Catherine Roucairol. *Meta-Heuristics: Advances and Trends in Local Search Paradigms for Optimization*. Kluwer Academic Publishers, Norwell, MA, 1999.
+
+
 
 [Wittek2014]
 	Peter Wittek. *Quantum Machine Learning: What Quantum Computing Means to Data Mining*, Elsevier Insights. Academic Press, San Diego, CA, 2014.
