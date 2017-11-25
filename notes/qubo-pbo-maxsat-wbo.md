@@ -13,15 +13,30 @@ References for quadratic unconstrained binary optimization (QUBO):
 + \cite{Adamatzky2017}
 + \cite{Rieffel2011}
 + \cite{Voss1999}
++ \cite{Bezdek2013}
++ \cite{Tandon2017}
++ \cite{Nielsen2010}
++ \cite{Pino2014a}
++ \cite{McGeoch2014}
++ \cite{Meglicki2008}
++ \cite{Glover1997}
++ \cite{Aaronson2013}
++ \cite{Vidick2016}
++ \cite{}
++ \cite{}
++ \cite{}
++ \cite{}
++ \cite{}
++ \cite{}
 + \cite{}
 + \cite{}
 + \cite{}
 
 
 
-\cite{Tandon2017}
+
+
 \cite{Fernholz2002}
-\cite{McGeoch2014}
 \cite{Garey1979}
 \cite{Maniezzo2010}
 \cite{Resende2016}
@@ -43,6 +58,8 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 
 
+[Aaronson2013]
+	Scott Aaronson. *Quantum Computing Since Democritus*. Cambridge University Press, Cambridge, U.K., 2013.
 
 
 [Adamatzky2017]
@@ -51,6 +68,11 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 [Anjos2012]
 	Miguel F. Anjos and Jean B. Lasserre. *Handbook on Semidefinite, Conic and Polynomial Optimization*, International Series in Operations Research {\rm \&}\ Management Science, Vol. 166. Springer Science+Business Media, LCC, New York, NY, 2012.
+
+
+[Bezdek2013]
+	Karoly Bezdek and Antoine Deza and Yinyu Ye, *Discrete Geometry and Optimization*, Fields Institute Communications, Vol. 69. Springer International Publishing Switzerland, Cham, Switzerland, 2013.
+
 
 [Crama2011]
 	Crama, Y., and Hammer, P. L. Boolean Functions: Theory, Algorithms, and Applications, vol. 142 of Encyclopedia of Mathematics and its Applications. Cambridge University Press, New York, NY, 2011.
@@ -64,6 +86,21 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 [Florescu2016]
 	Ionut Florescu and Maria C. Mariani and H. Eugene Stanley and Frederi G. Viens. *Handbook of High-Frequency Trading and Modeling in Finance*, Wiley Handbooks in Financial Engineering and Econometrics. John Wiley & Sons, Hoboken, NJ, 2016.
 
+
+
+
+
+[Glover1997]
+	Fred Glover and Manuel Laguna. *Tabu Search*. Kluwer Academic Publishers, New York, NY, 1997.
+
+
+
+
+
+
+
+
+
 [HammerIvanescu1968]
 	Peter L. {Hammer (Iv{\v{a}}nescu)} and Sergiu Rudeanu. *Boolean Methods in Operations Research and Related Areas*, Okonometrie und Unternehmensforschung / Econometrics and Operations Research, Vol. 7. Springer-Verlag New York, New York, NY, 1968. 
 
@@ -73,20 +110,9 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 
 
-@book{Kreher1999,
-	Address = {Boca Raton, {FL}},
-	Author = {Donald L. Kreher and Douglas R. Stinson},
-	Date-Added = {2014-03-30 00:11:00 +0200},
-	Date-Modified = {2014-03-30 00:11:00 +0200},
-	Doi = {},
-	Edition = {},
-	Keywords = {combinatorial algorithms, algorithms, algorithm analysis},
-	Month = {},
-	Publisher = {{CRC} Press},
-	Series = {},
-	Title = {Combinatorial Algorithms: Generation, Enumeration, and Search},
-	Volume = {},
-	Year = {1999}}
+[Kreher1999]
+	Donald L. Kreher and Douglas R. Stinson. *Combinatorial Algorithms: Generation, Enumeration, and Search*. CRC Press, Boca Raton, FL, 1999.
+	
 
 
 
@@ -96,8 +122,67 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 
 
+
+[McGeoch2014]
+	Catherine C. McGeoch. *Adiabatic Quantum Computation and Quantum Annealing: Theory and Practice*, Synthesis Lectures on Quantum Computing, Vol. 8. Morgan & Claypool Publishers, San Rafael, CA, 2014.
+
+
+
+
+[Meglicki2008]
+	Zdzislaw Meglicki. *Quantum Computing Without Magic: Devices*, Scientific and Engineering Computation. The {MIT} Press, Cambridge, MA, 2008.
+
+
+
+
+
+
+
+[Nielsen2010]
+	Michael A. Nielsen and Isaac L. Chuang. *Quantum Computation and Quantum Information*, $10^{th}$ Anniversary Edition. Cambridge University Press, New York, NY, 2010.
+
+
+
+
+
+
+
+[Pino2014a]
+	Robinson E. Pino and Alexander Kott and Michael Shevenell. *Cybersecurity Systems for Human Cognition Augmentation*, Advances in Information Security, Vol. 61. Springer International Publishing Switzerland, Cham, Switzerland, 2014.
+
+
+
+
+
+
+
+
+
 [Rieffel2011]
 	Eleanor G. Rieffel and Wolfgang H. Polak. *Quantum Computing: A Gentle Introduction*. The MIT Press, Cambridge, MA, 2011.
+
+
+
+
+[Tandon2017]
+	Prateek Tandon and Stanley Lam and Ben Shih and Tanay Mehta and Alex Mitev and Zhiyang Ong. *Quantum Robotics: A Primer on Current Science and Future Perspectives*, Synthesis Lectures on Quantum Computing. Morgan & Claypool Publishers, San Rafael, CA, January 2017.
+	
+
+
+@article{Vidick2016,
+	Address = {Delft, {The Netherlands}},
+	Thomas Vidick and John Watrous.
+	Journal = {Foundations and Trends$^{\textregistered}$\ in Theoretical Computer Science},
+	Number = {1--2},
+	Pages = {1--215},
+	Publisher = {Now Publishers},
+	Title = {Quantum Proofs},
+	Volume = {11},
+	Year = {2016}}
+
+
+
+
 
 [Voss1999]
 	Stefan Voss and Silvano Martello and Ibrahim H. Osman and Catherine Roucairol. *Meta-Heuristics: Advances and Trends in Local Search Paradigms for Optimization*. Kluwer Academic Publishers, Norwell, MA, 1999.
