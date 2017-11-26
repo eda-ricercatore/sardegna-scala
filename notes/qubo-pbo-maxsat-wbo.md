@@ -169,16 +169,8 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 	
 
 
-@article{Vidick2016,
-	Address = {Delft, {The Netherlands}},
-	Thomas Vidick and John Watrous.
-	Journal = {Foundations and Trends$^{\textregistered}$\ in Theoretical Computer Science},
-	Number = {1--2},
-	Pages = {1--215},
-	Publisher = {Now Publishers},
-	Title = {Quantum Proofs},
-	Volume = {11},
-	Year = {2016}}
+[Vidick2016]
+	Thomas Vidick and John Watrous. *Quantum Proofs*, in Foundations and Trends$^{\textregistered}$\ in Theoretical Computer Science, Vol. 11, No. 1-2, pp. 1-215. Now Publishers, Delft, The Netherlands, 2016.
 
 
 
