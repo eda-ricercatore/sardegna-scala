@@ -22,7 +22,7 @@ References for quadratic unconstrained binary optimization (QUBO):
 + \cite{Glover1997}
 + \cite{Aaronson2013}
 + \cite{Vidick2016}
-+ \cite{}
++ \cite{Ghallab2004}
 + \cite{}
 + \cite{}
 + \cite{}
@@ -85,6 +85,13 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 [Florescu2016]
 	Ionut Florescu and Maria C. Mariani and H. Eugene Stanley and Frederi G. Viens. *Handbook of High-Frequency Trading and Modeling in Finance*, Wiley Handbooks in Financial Engineering and Econometrics. John Wiley & Sons, Hoboken, NJ, 2016.
+
+
+
+
+
+[Ghallab2004]
+	Malik Ghallab and Dana Nau and Paolo Traverso. *Automated Planning: Theory and Practice*, in The Morgan Kaufmann Series in Artificial Intelligence. Morgan Kaufmann, San Francisco, CA, 2004.
 
 
 
@@ -159,7 +166,7 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 
 [Rieffel2011]
-	Eleanor G. Rieffel and Wolfgang H. Polak. *Quantum Computing: A Gentle Introduction*. The MIT Press, Cambridge, MA, 2011.
+	Eleanor G. Rieffel and Wolfgang H. Polak. *Quantum Computing: A Gentle Introduction*, in Scientific and Engineering Computation. The MIT Press, Cambridge, MA, 2011.
 
 
 
