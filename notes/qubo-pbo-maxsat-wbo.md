@@ -63,19 +63,19 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 
 [Adamatzky2017]
-	Andrew Adamatzky. *Advances in Unconventional Computing: Volume 1: Theory*, Emergence, Complexity and Computation, Vol. 22. Springer International Publishing Switzerland, Cham, Switzerland, 2017.
+	Andrew Adamatzky. *Advances in Unconventional Computing: Volume 1: Theory*, in Emergence, Complexity and Computation, Vol. 22. Springer International Publishing Switzerland, Cham, Switzerland, 2017.
 
 
 [Anjos2012]
-	Miguel F. Anjos and Jean B. Lasserre. *Handbook on Semidefinite, Conic and Polynomial Optimization*, International Series in Operations Research {\rm \&}\ Management Science, Vol. 166. Springer Science+Business Media, LCC, New York, NY, 2012.
+	Miguel F. Anjos and Jean B. Lasserre. *Handbook on Semidefinite, Conic and Polynomial Optimization*, in International Series in Operations Research {\rm \&}\ Management Science, Vol. 166. Springer Science+Business Media, LCC, New York, NY, 2012.
 
 
 [Bezdek2013]
-	Karoly Bezdek and Antoine Deza and Yinyu Ye, *Discrete Geometry and Optimization*, Fields Institute Communications, Vol. 69. Springer International Publishing Switzerland, Cham, Switzerland, 2013.
+	Karoly Bezdek and Antoine Deza and Yinyu Ye, *Discrete Geometry and Optimization*, in Fields Institute Communications, Vol. 69. Springer International Publishing Switzerland, Cham, Switzerland, 2013.
 
 
 [Crama2011]
-	Crama, Y., and Hammer, P. L. Boolean Functions: Theory, Algorithms, and Applications, vol. 142 of Encyclopedia of Mathematics and its Applications. Cambridge University Press, New York, NY, 2011.
+	Crama, Y., and Hammer, P. L. *Boolean Functions: Theory, Algorithms, and Applications*, vol. 142 of Encyclopedia of Mathematics and its Applications. Cambridge University Press, New York, NY, 2011.
 
 [Crama2010]
 	Crama, Y., and Hammer, P. L. Boolean Models and Methods in Mathematics, Computer Science, and Engineering, vol. 134 of Encyclopedia of Mathematics and its Applications. Cambridge University Press, New York, NY, 2010.
@@ -84,7 +84,7 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 	Jon Dattorro. *Convex Optimization and Euclidean Distance Geometry*, Second edition. Meboo Publishing USA, Palo Alto, CA, 2017.
 
 [Florescu2016]
-	Ionut Florescu and Maria C. Mariani and H. Eugene Stanley and Frederi G. Viens. *Handbook of High-Frequency Trading and Modeling in Finance*, Wiley Handbooks in Financial Engineering and Econometrics. John Wiley & Sons, Hoboken, NJ, 2016.
+	Ionut Florescu and Maria C. Mariani and H. Eugene Stanley and Frederi G. Viens. *Handbook of High-Frequency Trading and Modeling in Finance*, in Wiley Handbooks in Financial Engineering and Econometrics. John Wiley & Sons, Hoboken, NJ, 2016.
 
 
 
@@ -109,10 +109,10 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 
 [HammerIvanescu1968]
-	Peter L. {Hammer (Iv{\v{a}}nescu)} and Sergiu Rudeanu. *Boolean Methods in Operations Research and Related Areas*, Okonometrie und Unternehmensforschung / Econometrics and Operations Research, Vol. 7. Springer-Verlag New York, New York, NY, 1968. 
+	Peter L. {Hammer (Iv{\v{a}}nescu)} and Sergiu Rudeanu. *Boolean Methods in Operations Research and Related Areas*, in Okonometrie und Unternehmensforschung / Econometrics and Operations Research, Vol. 7. Springer-Verlag New York, New York, NY, 1968. 
 
 [Hoos2005]
-	Holger H. Hoos and Thomas Stutzle. *Stochastic Local Search: Foundations and Applications*, The Morgan Kaufmann Series in Artificial Intelligence, Elsevier Inc., San Francisco, CA, 2005.
+	Holger H. Hoos and Thomas Stutzle. *Stochastic Local Search: Foundations and Applications*, in The Morgan Kaufmann Series in Artificial Intelligence, Elsevier Inc., San Francisco, CA, 2005.
 
 
 
@@ -125,19 +125,19 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 
 [Lezoray2012]
-	Olivier Lezoray and Leo Grady. *Image Processing and Analysis with Graphs: Theory and Practice*, Digital Imaging and Computer Vision. CRC Press, Boca Raton, FL, 2012.
+	Olivier Lezoray and Leo Grady. *Image Processing and Analysis with Graphs: Theory and Practice*, in Digital Imaging and Computer Vision. CRC Press, Boca Raton, FL, 2012.
 
 
 
 
 [McGeoch2014]
-	Catherine C. McGeoch. *Adiabatic Quantum Computation and Quantum Annealing: Theory and Practice*, Synthesis Lectures on Quantum Computing, Vol. 8. Morgan & Claypool Publishers, San Rafael, CA, 2014.
+	Catherine C. McGeoch. *Adiabatic Quantum Computation and Quantum Annealing: Theory and Practice*, in Synthesis Lectures on Quantum Computing, Vol. 8. Morgan & Claypool Publishers, San Rafael, CA, 2014.
 
 
 
 
 [Meglicki2008]
-	Zdzislaw Meglicki. *Quantum Computing Without Magic: Devices*, Scientific and Engineering Computation. The {MIT} Press, Cambridge, MA, 2008.
+	Zdzislaw Meglicki. *Quantum Computing Without Magic: Devices*, in Scientific and Engineering Computation. The {MIT} Press, Cambridge, MA, 2008.
 
 
 
@@ -155,7 +155,7 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 
 [Pino2014a]
-	Robinson E. Pino and Alexander Kott and Michael Shevenell. *Cybersecurity Systems for Human Cognition Augmentation*, Advances in Information Security, Vol. 61. Springer International Publishing Switzerland, Cham, Switzerland, 2014.
+	Robinson E. Pino and Alexander Kott and Michael Shevenell. *Cybersecurity Systems for Human Cognition Augmentation*, in Advances in Information Security, Vol. 61. Springer International Publishing Switzerland, Cham, Switzerland, 2014.
 
 
 
@@ -172,7 +172,7 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 
 [Tandon2017]
-	Prateek Tandon and Stanley Lam and Ben Shih and Tanay Mehta and Alex Mitev and Zhiyang Ong. *Quantum Robotics: A Primer on Current Science and Future Perspectives*, Synthesis Lectures on Quantum Computing. Morgan & Claypool Publishers, San Rafael, CA, January 2017.
+	Prateek Tandon and Stanley Lam and Ben Shih and Tanay Mehta and Alex Mitev and Zhiyang Ong. *Quantum Robotics: A Primer on Current Science and Future Perspectives*, in Synthesis Lectures on Quantum Computing. Morgan & Claypool Publishers, San Rafael, CA, January 2017.
 	
 
 
@@ -189,7 +189,7 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 
 [Wittek2014]
-	Peter Wittek. *Quantum Machine Learning: What Quantum Computing Means to Data Mining*, Elsevier Insights. Academic Press, San Diego, CA, 2014.
+	Peter Wittek. *Quantum Machine Learning: What Quantum Computing Means to Data Mining*, in Elsevier Insights. Academic Press, San Diego, CA, 2014.
 
 
 
