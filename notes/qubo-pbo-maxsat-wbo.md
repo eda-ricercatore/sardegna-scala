@@ -26,7 +26,7 @@ References for quadratic unconstrained binary optimization (QUBO):
 + \cite{Dowling2013}
 + \cite{Resende2016}
 + \cite{Padberg1999}
-+ \cite{}
++ \cite{Maniezzo2010}
 + \cite{}
 + \cite{}
 + \cite{}
@@ -133,6 +133,16 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 [Lezoray2012]
 	Olivier Lezoray and Leo Grady. *Image Processing and Analysis with Graphs: Theory and Practice*, in Digital Imaging and Computer Vision. CRC Press, Boca Raton, FL, 2012.
+
+
+
+
+
+
+[Maniezzo2010]
+	Vittorio Maniezzo and Thomas Stutzle and Stefan Voss. *Matheuristics: Hybridizing Metaheuristics and Mathematical Programming*, in Annals of Information Systems, Vol. 10. Springer Science+Business Media, LCC, New York, NY, 2010
+
+
 
 
 
