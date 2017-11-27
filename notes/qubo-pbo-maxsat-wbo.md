@@ -23,9 +23,9 @@ References for quadratic unconstrained binary optimization (QUBO):
 + \cite{Aaronson2013}
 + \cite{Vidick2016}
 + \cite{Ghallab2004}
-+ \cite{}
-+ \cite{}
-+ \cite{}
++ \cite{Dowling2013}
++ \cite{Resende2016}
++ \cite{Padberg1999}
 + \cite{}
 + \cite{}
 + \cite{}
@@ -82,6 +82,13 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 [Dattorro2017]
 	Jon Dattorro. *Convex Optimization and Euclidean Distance Geometry*, Second edition. Meboo Publishing USA, Palo Alto, CA, 2017.
+
+
+
+[Dowling2013]
+	Jonathan P. Dowling. *Schr{\"{o}}dinger's Killer App: Race to Build the World's First Quantum Computer*. Taylor & Francis, Boca Raton, FL, 2013.
+
+
 
 [Florescu2016]
 	Ionut Florescu and Maria C. Mariani and H. Eugene Stanley and Frederi G. Viens. *Handbook of High-Frequency Trading and Modeling in Finance*, in Wiley Handbooks in Financial Engineering and Econometrics. John Wiley & Sons, Hoboken, NJ, 2016.
@@ -151,12 +158,28 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 
 
+[Padberg1999]
+	Manfred Padberg. *Linear Optimization and Extensions*, Second (Revised and Expanded) edition, in Algorithms and Combinatorics. Springer-Verlag Berlin Heidelberg New York, New York, NY, 1999.
+	
+	
+	
+	Volume = {12},
+	Year = {1999}}
+
+
+
 
 
 
 [Pino2014a]
 	Robinson E. Pino and Alexander Kott and Michael Shevenell. *Cybersecurity Systems for Human Cognition Augmentation*, in Advances in Information Security, Vol. 61. Springer International Publishing Switzerland, Cham, Switzerland, 2014.
 
+
+
+
+
+[Resende2016]
+	Mauricio G. C. Resende and Celso C. Ribeiro. *Optimization by GRASP: Greedy Randomized Adaptive Search Procedures*. Springer Science+Business Media New York, New York, NY, 2016.
 
 
 
