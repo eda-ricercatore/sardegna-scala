@@ -159,12 +159,8 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 
 [Padberg1999]
-	Manfred Padberg. *Linear Optimization and Extensions*, Second (Revised and Expanded) edition, in Algorithms and Combinatorics. Springer-Verlag Berlin Heidelberg New York, New York, NY, 1999.
-	
-	
-	
-	Volume = {12},
-	Year = {1999}}
+	Manfred Padberg. *Linear Optimization and Extensions*, Second (Revised and Expanded) edition, in Algorithms and Combinatorics, Vol. 12. Springer-Verlag Berlin Heidelberg New York, New York, NY, 1999.
+
 
 
 
