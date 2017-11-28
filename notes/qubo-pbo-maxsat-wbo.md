@@ -1,3 +1,14 @@
+#	Author's Note
+
+References are provided for the following categories in sequential order:
++ quadratic unconstrained binary optimization (QUBO)
++ pseudo-boolean optimization (PBO)
++ maximum satisfiability (Max-SAT)
++ weighted boolean optimization (WBO)
++ PBO, WBO, Max-SAT equivalence
++ PBO to QUBO approximation
+
+
 #	Quadratic Unconstrained Binary Optimization (QUBO)
 
 References for quadratic unconstrained binary optimization (QUBO):
