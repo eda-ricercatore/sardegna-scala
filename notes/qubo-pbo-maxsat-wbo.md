@@ -27,8 +27,8 @@ References for quadratic unconstrained binary optimization (QUBO):
 + \cite{Resende2016}
 + \cite{Padberg1999}
 + \cite{Maniezzo2010}
-+ \cite{}
-+ \cite{}
++ \cite{Mezard2009}
++ \cite{Aarts2003}
 + \cite{}
 + \cite{}
 
@@ -62,12 +62,39 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 	Scott Aaronson. *Quantum Computing Since Democritus*. Cambridge University Press, Cambridge, U.K., 2013.
 
 
+
+
+[Aarts2003]
+	Emile Aarts and Jan Karel Lenstra. *Local Search in Combinatorial Optimization*. Princeton University Press, Princeton, NJ, 2003.
+
+
+
+
+
 [Adamatzky2017]
 	Andrew Adamatzky. *Advances in Unconventional Computing: Volume 1: Theory*, in Emergence, Complexity and Computation, Vol. 22. Springer International Publishing Switzerland, Cham, Switzerland, 2017.
 
 
 [Anjos2012]
 	Miguel F. Anjos and Jean B. Lasserre. *Handbook on Semidefinite, Conic and Polynomial Optimization*, in International Series in Operations Research {\rm \&}\ Management Science, Vol. 166. Springer Science+Business Media, LCC, New York, NY, 2012.
+
+
+
+[BenTal2001]
+	Address = {Philadelphia, {PA}},
+	Author = {Aharon {Ben-Tal} and Arkadi Nemirovski},
+	Date-Added = {2014-03-30 00:11:00 +0200},
+	Date-Modified = {2014-03-30 00:11:00 +0200},
+	Doi = {https://dx.doi.org/10.1137/1.9780898718829},
+	Edition = {},
+	Keywords = {convex optimization, convex programming, mathematical programming, mathematical optimization, linear programming, conic programming, quadratic programming, conic quadratic programming, semidefinite programming, SDP, computational tractability, interior-point methods},
+	Month = {},
+	Publisher = {Society for Industrial and Applied Mathematics},
+	Series = {{MPS-SIAM} Series on Optimization},
+	Title = {Lectures on Modern Convex Optimization: Analysis, Algorithms, and Engineering Applications},
+	Volume = {},
+	Year = {2001}}
+
 
 
 [Bezdek2013]
@@ -155,6 +182,18 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 [Meglicki2008]
 	Zdzislaw Meglicki. *Quantum Computing Without Magic: Devices*, in Scientific and Engineering Computation. The {MIT} Press, Cambridge, MA, 2008.
+
+
+
+
+
+
+
+[Mezard2009]
+	Marc Mezard and Andrea Montanari. *Information, Physics, and Computation*. Oxford University Press, New York, NY, 2009. 
+
+
+
 
 
 
