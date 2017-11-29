@@ -40,6 +40,11 @@ References for quadratic unconstrained binary optimization (QUBO):
 + \cite{Maniezzo2010}
 + \cite{Mezard2009}
 + \cite{Aarts2003}
++ \cite{BenTal2001}
++ \cite{}
++ \cite{}
++ \cite{}
++ \cite{}
 + \cite{}
 + \cite{}
 
@@ -47,11 +52,7 @@ References for quadratic unconstrained binary optimization (QUBO):
 
 
 
-\cite{Fernholz2002}
-\cite{Garey1979}
-\cite{Maniezzo2010}
-\cite{Resende2016}
-\cite{Aaronson2013}
+
 
 
 
@@ -92,19 +93,7 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 
 [BenTal2001]
-	Address = {Philadelphia, {PA}},
-	Author = {Aharon {Ben-Tal} and Arkadi Nemirovski},
-	Date-Added = {2014-03-30 00:11:00 +0200},
-	Date-Modified = {2014-03-30 00:11:00 +0200},
-	Doi = {https://dx.doi.org/10.1137/1.9780898718829},
-	Edition = {},
-	Keywords = {convex optimization, convex programming, mathematical programming, mathematical optimization, linear programming, conic programming, quadratic programming, conic quadratic programming, semidefinite programming, SDP, computational tractability, interior-point methods},
-	Month = {},
-	Publisher = {Society for Industrial and Applied Mathematics},
-	Series = {{MPS-SIAM} Series on Optimization},
-	Title = {Lectures on Modern Convex Optimization: Analysis, Algorithms, and Engineering Applications},
-	Volume = {},
-	Year = {2001}}
+	Aharon Ben-Tal and Arkadi Nemirovski. *Lectures on Modern Convex Optimization: Analysis, Algorithms, and Engineering Applications*, in MPS-SIAM Series on Optimization. Society for Industrial and Applied Mathematics, Philadelphia, PA, 2001.
 
 
 
