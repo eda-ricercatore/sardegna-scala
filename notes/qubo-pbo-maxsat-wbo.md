@@ -56,12 +56,45 @@ References for quadratic unconstrained binary optimization (QUBO):
 
 
 
+#	Pseudo-Boolean Optimization (PBO)
+
+References for pseudo-boolean optimization (PBO):
+
+#	Maximum Satisfiability (Max-SAT)
+
+References for maximum satisfiability (Max-SAT): 
++ \cite{Khatri2011}
++ \cite{Vazirani2003}
++ \cite{Aarts2003,Aarts1997}
+
+
+
+#	Weighted Boolean Optimization (WBO)
+
+References for weighted boolean optimization (WBO):
++ \cite{Biere2009}
++ \cite{Hoos2005}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #	References
 
 Citations/References that use the *LaTeX/BibTeX* notation are taken
 	from my *BibTeX* database (set of *BibTeX* entries).
+
 
 
 ## From Zhiyang Ong's *BibTeX* Database 
@@ -78,6 +111,10 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 [Aarts2003]
 	Emile Aarts and Jan Karel Lenstra. *Local Search in Combinatorial Optimization*. Princeton University Press, Princeton, NJ, 2003.
+
+
+[Aarts1997]
+	Emile Aarts and Jan Karel Lenstra. *Local Search in Combinatorial Optimization*. John Wiley & Sons, New York, NY, 2003.
 
 
 
@@ -99,6 +136,16 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 [Bezdek2013]
 	Karoly Bezdek and Antoine Deza and Yinyu Ye, *Discrete Geometry and Optimization*, in Fields Institute Communications, Vol. 69. Springer International Publishing Switzerland, Cham, Switzerland, 2013.
+
+
+
+[Biere2009]
+	Biere, A., Heule, M., van Maaren, H., and Walsh, T. *Handbook of Satisfiability*, vol. 185 of Frontiers in Artificial Intelligence and Applications. IOS Press, Amsterdam, The Netherlands, 2009.
+
+
+
+
+
 
 
 [Crama2011]
@@ -147,6 +194,16 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 [Hoos2005]
 	Holger H. Hoos and Thomas Stutzle. *Stochastic Local Search: Foundations and Applications*, in The Morgan Kaufmann Series in Artificial Intelligence, Elsevier Inc., San Francisco, CA, 2005.
+
+
+
+
+
+
+[Khatri2011]
+	Khatri, S. P., and Gulati, K. *Advanced Techniques in Logic Synthesis, Optimizations and Applications*. Springer Science+Business Media, LCC, New York, NY, 2011.
+
+
 
 
 
@@ -241,7 +298,24 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 [Tandon2017]
 	Prateek Tandon and Stanley Lam and Ben Shih and Tanay Mehta and Alex Mitev and Zhiyang Ong. *Quantum Robotics: A Primer on Current Science and Future Perspectives*, in Synthesis Lectures on Quantum Computing. Morgan & Claypool Publishers, San Rafael, CA, January 2017.
-	
+
+
+
+
+
+
+
+[Vazirani2003]
+	Vazirani, V. V. *Approximation Algorithms*. Springer-Verlag Berlin Heidelberg, Heidelberg, Germany, 2003.
+
+
+
+
+
+
+
+
+
 
 
 [Vidick2016]
