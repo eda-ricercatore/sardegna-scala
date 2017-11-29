@@ -60,12 +60,32 @@ References for quadratic unconstrained binary optimization (QUBO):
 
 References for pseudo-boolean optimization (PBO):
 
+
+
+
+
+
+
+
+
+
 #	Maximum Satisfiability (Max-SAT)
 
 References for maximum satisfiability (Max-SAT): 
 + \cite{Khatri2011}
 + \cite{Vazirani2003}
 + \cite{Aarts2003,Aarts1997}
++ \cite{Du1996}
++ \cite{Biere2009}
++ \cite{Hoos2005}
++ \cite{Williamson2011}
++ \cite{Du1998}
+
+
+
+
+
+
 
 
 
@@ -161,6 +181,38 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 [Dowling2013]
 	Jonathan P. Dowling. *Schr{\"{o}}dinger's Killer App: Race to Build the World's First Quantum Computer*. Taylor & Francis, Boca Raton, FL, 2013.
+
+
+
+
+
+[Du1996]
+	Dingzhu Du and Jun Gu and Panos M. Pardalos. *Proceedings of the DIMACS Workshop on the Satisfiability Problem: Theory and Applications*, in DIMACS: Series in Discrete Mathematics and Theoretical Computer Science, Vol. 35. American Mathematical Society, Piscataway, NJ, March 11--13, 1996.
+
+
+[Du1998]
+	Ding-Zhu Du and Panos M. Pardalos. Handbook of Combinatorial Optimization, Vol. 1-3. Kluwer Academic Publishers, Dordrecht, The Netherlands, 1998.
+
+[Du1999]
+	Ding-Zhu Du and Panos M. Pardalos. *Handbook of Combinatorial Optimization: Supplement Volume A*, Vol. A. Kluwer Academic Publishers, Dordrecht, The Netherlands, 1999.
+
+[Du2005]
+	Ding-Zhu Du and Panos M. Pardalos. *Handbook of Combinatorial Optimization: Supplement Volume B*, Vol. B. Springer Science+Business Media, Inc., Boston, MA, 2005.
+
+
+[Pardalos2013a]
+	Panos M. Pardalos and Ding-Zhu Du and Ronald L. Graham. *Handbook of Combinatorial Optimization*, in SpringerReference, Second edition. Springer Science+Business Media New York, New York, NY, 2013.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -327,6 +379,16 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 [Voss1999]
 	Stefan Voss and Silvano Martello and Ibrahim H. Osman and Catherine Roucairol. *Meta-Heuristics: Advances and Trends in Local Search Paradigms for Optimization*. Kluwer Academic Publishers, Norwell, MA, 1999.
+
+
+
+
+[Williamson2011]
+	Williamson, D. P., and Shmoys, D. B. *The Design of Approximation Algorithms*. Cambridge University Press, New York, NY, 2011.
+
+
+
+
 
 
 
