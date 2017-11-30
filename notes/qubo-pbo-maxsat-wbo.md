@@ -96,9 +96,8 @@ References for maximum satisfiability (Max-SAT):
 + \cite{Johnson1993a}
 + \cite{Floudas2001}
 + \cite{Cygan2015}
-+ \cite{Pinto2013}
-+ \cite{}
-+ \cite{}
++ \cite{Pinto2013}, which is part of \cite{Alba2013}
++ \cite{Mundici1999}, which is part of \cite{Dubois1999}
 + \cite{}
 + \cite{}
 + \cite{}
