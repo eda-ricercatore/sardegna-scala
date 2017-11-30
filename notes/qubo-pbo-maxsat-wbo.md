@@ -59,6 +59,18 @@ References for quadratic unconstrained binary optimization (QUBO):
 #	Pseudo-Boolean Optimization (PBO)
 
 References for pseudo-boolean optimization (PBO):
++ \cite{}
++ \cite{}
++ \cite{}
++ \cite{}
++ \cite{}
++ \cite{}
++ \cite{}
++ \cite{}
++ \cite{}
++ \cite{}
++ \cite{}
++ \cite{}
 
 
 
@@ -80,7 +92,19 @@ References for maximum satisfiability (Max-SAT):
 + \cite{Hoos2005}
 + \cite{Williamson2011}
 + \cite{Du1998}
-
++ \cite{Luque2011}
++ \cite{Johnson1993a}
++ \cite{Floudas2001}
++ \cite{Cygan2015}
++ \cite{Pinto2013}
++ \cite{}
++ \cite{}
++ \cite{}
++ \cite{}
++ \cite{}
++ \cite{}
++ \cite{}
++ \cite{}
 
 
 
@@ -174,6 +198,17 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 [Crama2010]
 	Crama, Y., and Hammer, P. L. Boolean Models and Methods in Mathematics, Computer Science, and Engineering, vol. 134 of Encyclopedia of Mathematics and its Applications. Cambridge University Press, New York, NY, 2010.
 
+
+
+
+[Cygan2015]
+	Marek Cygan and Fedor V. Fomin and Lukasz Kowalik and Daniel Lokshtanov and Daniel Marx and Marcin Pilipczuk and Michal Pilipczuk and Saket Saurabh. *Parameterized Algorithms*. Springer International Publishing Switzerland, Cham, Switzerland, 2015.
+
+
+
+
+
+
 [Dattorro2017]
 	Jon Dattorro. *Convex Optimization and Euclidean Distance Geometry*, Second edition. Meboo Publishing USA, Palo Alto, CA, 2017.
 
@@ -200,9 +235,6 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 	Ding-Zhu Du and Panos M. Pardalos. *Handbook of Combinatorial Optimization: Supplement Volume B*, Vol. B. Springer Science+Business Media, Inc., Boston, MA, 2005.
 
 
-[Pardalos2013a]
-	Panos M. Pardalos and Ding-Zhu Du and Ronald L. Graham. *Handbook of Combinatorial Optimization*, in SpringerReference, Second edition. Springer Science+Business Media New York, New York, NY, 2013.
-
 
 
 
@@ -219,6 +251,12 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 [Florescu2016]
 	Ionut Florescu and Maria C. Mariani and H. Eugene Stanley and Frederi G. Viens. *Handbook of High-Frequency Trading and Modeling in Finance*, in Wiley Handbooks in Financial Engineering and Econometrics. John Wiley & Sons, Hoboken, NJ, 2016.
 
+
+
+
+
+[Floudas2001]
+	Christodoulos A. Floudas and Panos M. Pardalos. *Encyclopedia of Optimization*. Kluwer Academic Publishers, Dordrecht, The Netherlands, 2001.
 
 
 
@@ -252,6 +290,18 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 
 
+
+[Johnson1993a,]
+	David S. Johnson and Michael A. Trick. *Proceedings of the Second DIMACS Implementation Challenge on Cliques, Coloring, and Satisfiability*, in DIMACS: Series in Discrete Mathematics and Theoretical Computer Science, Vol. 26. American Mathematical Society, Piscataway, NJ, October 11-13, 1993.
+
+
+
+
+
+
+
+
+
 [Khatri2011]
 	Khatri, S. P., and Gulati, K. *Advanced Techniques in Logic Synthesis, Optimizations and Applications*. Springer Science+Business Media, LCC, New York, NY, 2011.
 
@@ -271,6 +321,8 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 	Olivier Lezoray and Leo Grady. *Image Processing and Analysis with Graphs: Theory and Practice*, in Digital Imaging and Computer Vision. CRC Press, Boca Raton, FL, 2012.
 
 
+[Luque2011]
+	Gabriel Luque and Enrique Alba. *Parallel Genetic Algorithms: Theory and Real World Applications*, in Studies in Computational Intelligence, Vol. 367. Springer-Verlag Berlin Heidelberg, Heidelberg, Germany, 2011.
 
 
 
@@ -316,6 +368,14 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 
 
+
+
+[Pardalos2013a]
+	Panos M. Pardalos and Ding-Zhu Du and Ronald L. Graham. *Handbook of Combinatorial Optimization*, in SpringerReference, Second edition. Springer Science+Business Media New York, New York, NY, 2013.
+
+
+
+
 [Padberg1999]
 	Manfred Padberg. *Linear Optimization and Extensions*, Second (Revised and Expanded) edition, in Algorithms and Combinatorics, Vol. 12. Springer-Verlag Berlin Heidelberg New York, New York, NY, 1999.
 
@@ -327,6 +387,19 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 [Pino2014a]
 	Robinson E. Pino and Alexander Kott and Michael Shevenell. *Cybersecurity Systems for Human Cognition Augmentation*, in Advances in Information Security, Vol. 61. Springer International Publishing Switzerland, Cham, Switzerland, 2014.
+
+
+
+
+
+
+
+
+
+
+[Pinto2013]
+	Pedro C. Pinto and Thomas A. Runkler and Joao M. C. Sousa. *Insect Swarm Algorithms for Dynamic MAX-SAT Problems*, Chapter 15 in Metaheuristics for Dynamic Optimization, pp. 341--369, Vol. 433 of Studies in Computational Intelligence. Springer-Verlag Berlin Heidelberg, Heidelberg, Germany, 2013.
+
 
 
 
