@@ -98,7 +98,7 @@ References for maximum satisfiability (Max-SAT):
 + \cite{Cygan2015}
 + \cite{Pinto2013}, which is part of \cite{Alba2013}
 + \cite{Mundici1999}, which is part of \cite{Dubois1999}
-+ \cite{}
++ \cite{Pinto2007}, which is part of \cite{Dressler2007}
 + \cite{}
 + \cite{}
 + \cite{}
@@ -204,6 +204,9 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 	Marek Cygan and Fedor V. Fomin and Lukasz Kowalik and Daniel Lokshtanov and Daniel Marx and Marcin Pilipczuk and Michal Pilipczuk and Saket Saurabh. *Parameterized Algorithms*. Springer International Publishing Switzerland, Cham, Switzerland, 2015.
 
 
+
+[Chinneck2008a]
+	John W. Chinneck. *A Brief Tour of Constraint Programming*, Chapter 4 of Feasibility and Infeasibility in Optimization: Algorithms and Computational Methods, pp. 45--50, in International Series in Operations Research & Management Science, Vol. 118. Springer Science+Business Media, LCC, New York, NY, 2008.
 
 
 
@@ -398,6 +401,40 @@ Citations/References that use the *LaTeX/BibTeX* notation are taken
 
 [Pinto2013]
 	Pedro C. Pinto and Thomas A. Runkler and Joao M. C. Sousa. *Insect Swarm Algorithms for Dynamic MAX-SAT Problems*, Chapter 15 in Metaheuristics for Dynamic Optimization, pp. 341--369, Vol. 433 of Studies in Computational Intelligence. Springer-Verlag Berlin Heidelberg, Heidelberg, Germany, 2013.
+
+
+
+
+
+
+
+@incollection{Pinto2007,
+	Address = {Heidelberg, Germany},
+	Author = {Pedro C. Pinto and Thomas A. Runkler and Jo{\~{a}}o M. C. Sousa},
+	Booktitle = {Advances in Biologically Inspired Information Systems: Models, Methods, and Tools},
+	Chapter = {},
+	Date-Added = {2014-03-30 00:11:00 +0200},
+	Date-Modified = {2014-03-30 00:11:00 +0200},
+	Doi = {https://dx.doi.org/10.1007/978-3-540-72693-7_15},
+	Edition = {},
+	Keywords = {Max-SAT, maximum satisfiability, dynamic Max-SAT, ant colony optimization, ACO},
+	Pages = {283--302},
+	Publisher = {Springer-Verlag Berlin Heidelberg},
+	Series = {Studies in Computational Intelligence},
+	Title = {Ant Colony Optimization and its Application to Regular and Dynamic {MAX-SAT} Problems},
+	Url = {https://dx.doi.org/10.1007/978-3-540-72693-7_15},
+	Volume = {69},
+	Year = {2007}}
+
+
+
+
+
+
+
+
+
+
 
 
 
