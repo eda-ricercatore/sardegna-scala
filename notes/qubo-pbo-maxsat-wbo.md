@@ -99,7 +99,7 @@ References for maximum satisfiability (Max-SAT):
 + \cite{Pinto2013}, which is part of \cite{Alba2013}
 + \cite{Mundici1999}, which is part of \cite{Dubois1999}
 + \cite{Pinto2007}, which is part of \cite{Dressler2007}
-+ \cite{}
++ \cite{Chinneck2008a}, which is part of \cite{Chinneck2008}
 + \cite{}
 + \cite{}
 + \cite{}
@@ -122,6 +122,14 @@ References for weighted boolean optimization (WBO):
 
 
 
+
+#	Addenda
+
+
+\cite{Posthoff2004} and \cite{Steinbach2009} provide information that forms a
+	significant subset of \cite{Steinbach2016}.
+
+\cite{Amaru2017} and \url{Amaru2015}
 
 
 
