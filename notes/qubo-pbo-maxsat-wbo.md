@@ -51,6 +51,32 @@ References for quadratic unconstrained binary optimization (QUBO):
 
 
 
+##	Mapping Integer Programming to QUBO
+
+\cite{Calude2017} formulated the Broadcast Time Problem as an integer
+	programming problem, which was transformed into a QUBO problem via
+	transformations to binary integer programming and linear binary integer
+	programming.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -128,6 +154,7 @@ References for weighted boolean optimization (WBO):
 
 \cite{Posthoff2004} and \cite{Steinbach2009} provide information that forms a
 	significant subset of \cite{Steinbach2016}.
+	Also, see \cite{Steinbach2017}
 
 \cite{Amaru2017} and \url{Amaru2015}
 
