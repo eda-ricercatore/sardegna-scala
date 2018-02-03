@@ -58,7 +58,7 @@ References for quadratic unconstrained binary optimization (QUBO):
 	transformations to binary integer programming and linear binary integer
 	programming.
 
-	That is, integer programming --> binary integer programming --> linear binary integer programming --> QUBO problem.
+	i.e., integer programming --> binary integer programming --> linear binary integer programming --> QUBO
 
 
 
