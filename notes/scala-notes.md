@@ -725,7 +725,7 @@ To be completed.
 ###	IMPORTANT
 
 Find out about the advantages of functional programming paradigm
-	\cite{Graham2004} over procedural and structural programming paradigms.
+	\cite[pp. 66]{Graham2004} over procedural and structural programming paradigms.
 Also, determine its disadvantages.
 
 "*Scala* applications will usually have a fraction of the total lines of code than an
@@ -734,6 +734,15 @@ Also, determine its disadvantages.
 		ideas with fewer lines of code, with minimal overhead.
 	*Scala* delivers on this promise."
 		\cite[\S5.5, pp. 178]{Tate2010}.
+
+
+Software developed using the declarative programming paradigm tend to be
+	more compact, in terms of the amount of source code written, and tend to
+	execute faster (have better performance)
+	\cite[Chapter 6, section on "Declarative Programming," pp. 111]{Beazley2009}.
+
+
+
 
 
 ### Notes on Other Programming Paradigms
