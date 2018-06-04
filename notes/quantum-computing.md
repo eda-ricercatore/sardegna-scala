@@ -12,9 +12,10 @@ The main reference for this is \cite{Tandon2017}.
 Exploit the special properties fo quantum mechanics
 + superposition
 + entanglement
-	- Composite states cannot be written as a tensor product
-	- No statistical independence
-	- There exists state correlation
+	- Composite states cannot be written as a tensor product.
+	- No statistical independence; however, for tensor products, there exists
+		statistical independence. 
+	- There exists state correlation.
 
 
 
