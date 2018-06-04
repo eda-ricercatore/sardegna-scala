@@ -93,7 +93,7 @@ Three primary goals of this endeavor are to:
 	- Pattern matching.
 	- Parallel programming, or concurrent programming.
 	- Scalable software development/engineering.
-+ Lewis2013a
++ Lewis2013a, Lewis2017
 	- "Introduction to the Art of Programming Using Scala"
 	- Functional programming
 	- Parser development.
@@ -376,10 +376,12 @@ Three primary goals of this endeavor are to:
 	- "Scala Design Patterns: Write efficient, clean, and reusable code with Scala"
 + Haller2011
 	- "Actors in Scala: Concurrent programming for the multi-core era"
-
-
-
-
++ Alexander2013a
+	- "Scala Cookbook: Recipes for Object-Oriented and Functional Programming"
++ Hunt2013a
+	- "Scala Design Patterns: Patterns for Practical Reuse and Design"
++ Lewis2017
+	- "Introduction to Programming and Problem-Solving Using Scala"
 
 
 
@@ -401,20 +403,15 @@ Three primary goals of this endeavor are to:
 
 ## Books Not Covered Yet
 
-+ Alexander2013a
-	- "Scala Cookbook: Recipes for Object-Oriented and Functional Programming"
+
 + Bedrytski2016
 	- "Professional Scala"
 + Horstmann2017
 	- "Scala for the Impatient"
 + Hunt2014
 	- "A Beginner's Guide to Scala, Object Orientation and Functional Programming"
-+ Hunt2013a
-	- "Scala Design Patterns: Patterns for Practical Reuse and Design"
 + Jancauskas2016
 	- "Scientific Computing with Scala: Learn to solve scientific computing problems using Scala and its numerical computing, data processing, concurrency, and plotting libraries"
-+ Lewis2013a
-	- "Introduction to the Art of Programming Using Scala"
 + Phillips2014a
 	- "Scala Puzzlers: The fun path to deeper understanding"
 + Sathyanarayanan2016
