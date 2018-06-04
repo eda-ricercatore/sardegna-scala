@@ -825,7 +825,11 @@ A taxonomy of programming paradigms \cite{WikipediaContributors2017e}:
 	designing parameterized algorithms that have "to-be-specified-later"
 	data types during (object) instantiation.
 	These algorithms formalize abstracted concepts that are independent
-		of how algorithms are implemented (i.e., concrete examples). 
+		of how algorithms are implemented (i.e., concrete examples).
+	- Generic programming has a performance advantage over object-oriented
+		programming, since templates carry-out known parameterization at
+		compile time while object-oriented programming leaves the
+		parameterization till run time \cite[\S8.9.5, pp. 432]{Langtangen2009}.
 + Imperative programming (contrast: Declarative programming, and
 	Functional programming) \cite{WikipediaContributors2017l} -- A
 	programming paradigm that changes the state of the computer program

@@ -338,7 +338,7 @@ Three primary goals of this endeavor are to:
 	- Also, see Pollak2009, "Beginning Scala"
 + Loverdos2010
 	- "Steps in Scala: An Introduction to Object-Functional Programming"
-+ Odersky2010 & Odersky2008 [Missing Odersky2016]
++ Odersky2010 & Odersky2008 & Odersky2016
 	- "Programming in Scala: A Comprehensive Step-by-Step Guide"
 + Chiusano2015
 	- "Functional Programming in Scala"
