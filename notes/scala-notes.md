@@ -515,7 +515,7 @@ Characteristics of a functional programming language:
 	\cite[\S5.1, pp. 138]{Tate2010}.
 
 
-**Adopting the functional programming paradigm with a backgroun in imperative
+**Adopting the functional programming paradigm with a background in imperative
 	programming, procedural programming, structured programming, and
 	object-oriented programming is a shift from writing pseudocode**
 	\cite[\S1.1.1, pp. 5-6]{Goodrich2015} \cite[\S2.2.2, pp. 64]{Goodrich2013}
