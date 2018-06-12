@@ -45,35 +45,41 @@ Three primary goals of this endeavor are to:
 
 + Alexander2018
 	- "Hello, Scala: A swift introduction to a scalable language"
++ **Alexandre2014**
+	- "Scala for Java Developers: Build reactive, scalable applications and integrate Java code with the power of Scala"
+	- **Advanced book** on shipping enterprise software, software for
+		"Big Data," or software for web services. 
 + Chiusano2015
 	- "Functional Programming in Scala"
 	- Good textbook for learning *Scala*.
-		+ Includes data structures for functional programming.
-		+ Parallel programming in *Scala*.
-		+ Parser development in *Scala*.
-+ Davis2016b
+		* Includes data structures for functional programming.
+		* Parallel programming in *Scala*.
+		* Parser development in *Scala*.
++ *Davis2016b*
 	- "Modern Programming Made Easy: Using Java, Scala, Groovy, and JavaScript"
 + Horstmann2012a
 	- "Scala for the Impatient" 
 	- Very good introductory textbook for learning *Scala*.
-		+ Includes going through all important aspects of
+		* Includes going through all important aspects of
 			object-oriented functional programming.
-		+ Object-oriented functional programming with classes,
+		* Object-oriented functional programming with classes,
 			objects, inheritance, traits, and annotations.
-		+ Data structures/types, such as: maps; and tuples.
+		* Data structures/types, such as: maps; and tuples.
 			Also, see: collections, type parameters, advanced types. 
-		+ Use of packages and import statements.
-		+ File operations.
-		+ Regular expressions.
-		+ Operators.
-		+ Higher-order functions.
-		+ Pattern matching.
-		+ Case studies (souped up switch statements)
-		+ XML processing.
-		+ Parsing.
-		+ Actors.
-		+ Implicits.
-		+ Delimited continuations.
+		* Use of packages and import statements.
+		* File operations.
+		* Regular expressions.
+		* Operators.
+		* Higher-order functions.
+		* Pattern matching.
+		* Case studies (souped up switch statements)
+		* XML processing.
+		* Parsing.
+		* Actors.
+		* Implicits.
+		* Delimited continuations.
++ Horstmann2017
+	- "Scala for the Impatient: Covers Scala 2.12"
 + Hunt2014
 	- "A Beginner's Guide to Scala, Object Orientation and Functional Programming"
 	- Object-oriented programming.
@@ -170,6 +176,8 @@ Three primary goals of this endeavor are to:
 + Tate2010
 	- "Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages"
 	- Simple and short tutorial.
++ Torra2016
+	- "Scala: From a Functional Programming Perspective, An Introduction to the Programming Language"
 + Wampler2009 & Wampler2015
 	- "Programming Scala: Scalability = Functional Programming + Objects"
 	- Object-oriented programming.
@@ -181,7 +189,7 @@ Three primary goals of this endeavor are to:
 	- *Scala* solutions for "Big Data," data science, data engineering, 
 		data analytics, and data visualization.
 	- Parallel programming, or concurrent programming.
-+ Weston2018
++ **Weston2018**
 	- "Scala for Java Developers: A Practical Primer"
 
 
@@ -199,9 +207,9 @@ Three primary goals of this endeavor are to:
 + Chiusano2015
 	- "Functional Programming in Scala"
 	- Good textbook for learning *Scala*.
-		+ Includes data structures for functional programming.
-		+ Parallel programming in *Scala*.
-		+ Parser development in *Scala*.
+		* Includes data structures for functional programming.
+		* Parallel programming in *Scala*.
+		* Parser development in *Scala*.
 + Torra2016
 	- "Scala: From a Functional Programming Perspective, An Introduction to the Programming Language"
 
@@ -313,7 +321,7 @@ Three primary goals of this endeavor are to:
 
 ### Advanced Books
 
-+ Alexandre2014
++ **Alexandre2014**
 	- "Scala for Java Developers: Build reactive, scalable applications and integrate Java code with the power of Scala"
 	- Advanced book on shipping enterprise software, software for
 		"Big Data," or software for web services. 
