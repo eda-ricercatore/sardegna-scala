@@ -43,12 +43,16 @@ Three primary goals of this endeavor are to:
 
 ### Texbook-style Books for Learning *Scala*
 
++ Alexander2018
+	- "Hello, Scala: A swift introduction to a scalable language"
 + Chiusano2015
 	- "Functional Programming in Scala"
 	- Good textbook for learning *Scala*.
 		+ Includes data structures for functional programming.
 		+ Parallel programming in *Scala*.
 		+ Parser development in *Scala*.
++ Davis2016b
+	- "Modern Programming Made Easy: Using Java, Scala, Groovy, and JavaScript"
 + Horstmann2012a
 	- "Scala for the Impatient" 
 	- Very good introductory textbook for learning *Scala*.
@@ -79,6 +83,8 @@ Three primary goals of this endeavor are to:
 	- Software testing.
 	- GUI development.
 	- Java and Scala interoperability.
++ Hunt2018
+	- "A Beginner's Guide to Scala, Object Orientation and Functional Programming"
 + Layka2015
 	- "Beginning Scala"
 	- Functional programming.
@@ -175,6 +181,15 @@ Three primary goals of this endeavor are to:
 	- *Scala* solutions for "Big Data," data science, data engineering, 
 		data analytics, and data visualization.
 	- Parallel programming, or concurrent programming.
++ Weston2018
+	- "Scala for Java Developers: A Practical Primer"
+
+
+
+
+
+
+
 
 
 ### For Learning *Scala*: Functional Programming
@@ -253,6 +268,8 @@ Three primary goals of this endeavor are to:
 	- "Scala for Data Science: Leverage the power of Scala to build scalable, robust, data science applications"
 	- Shows readers how to combine *Scala* software with
 		monolithic/distributed databases.
++ Kozlov2016
+	- "Mastering Scala Machine Learning: Advance your skills in efficient data analysis and data processing using the powerful tools of Scala, Spark, and Hadoop"
 + Manivannan2015
 	- "Scala Data Analysis Cookbook: Navigate the world of data analysis, visualization, and machine learning with over 100 hands-on Scala recipes"
 	- *Scala* solutions for "Big Data," data science, data engineering, 
@@ -306,6 +323,11 @@ Three primary goals of this endeavor are to:
 	- "Play for Scala: Covers Play 2"
 	- About the Play Framework for building web applications
 		with Java and Scala.
++ Riti2018
+	- "Practical Scala DSLs: Real-World Applications Using Domain Specific Languages"
+	- For working with domain-specific languages.
++ Sood2016
+	- "Scala Test-Driven Development: Build robust Scala applications by implementing the fundamentals of test-driven development in your workflow"
 + Vernon2016
 	- "Reactive Messaging Patterns with the Actor Model: Applications and Integration in Scala and Akka"
 
