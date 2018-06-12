@@ -98,13 +98,6 @@ Three primary goals of this endeavor are to:
 	- Pattern matching.
 	- Parallel programming, or concurrent programming.
 	- Scalable software development/engineering.
-+ Pollak2009
-	- "Beginning Scala".
-	- Functional programming.
-	- Parser development.
-	- Pattern matching.
-	- Parallel programming, or concurrent programming.
-	- Scalable software development/engineering.
 + Lewis2013a, Lewis2017
 	- "Introduction to the Art of Programming Using Scala"
 	- Functional programming
@@ -134,6 +127,13 @@ Three primary goals of this endeavor are to:
 	- GUI development. 
 	- Data analytics.
 	- Scripting on UNIX-like OSes.
++ Pollak2009
+	- "Beginning Scala".
+	- Functional programming.
+	- Parser development.
+	- Pattern matching.
+	- Parallel programming, or concurrent programming.
+	- Scalable software development/engineering.
 + Raychaudhuri2013
 	- "Scala in Action"
 	- Object-oriented programming.

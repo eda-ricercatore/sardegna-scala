@@ -4,7 +4,7 @@
  *	http://www.scala-lang.org/
  */
 
-    object HelloWorld {
+    object Tester {
       def main(args: Array[String]): Unit = {
         println("Hello, world!")
       }
