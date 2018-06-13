@@ -255,6 +255,9 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 		the *companion objects* strategy "creates class methods within the
 			singleton object declaration, and instance methods within the class
 			definition" \cite[\S5.2, pp. 150]{Tate2010}.
+	- The **uniform access principle** allows the replacement of a field by a
+		custom getter/setter, without any modification of a class's client
+		\cite{Horstmann2012a}.
 	- Regarding class inheritance, a child class shall overwrite method(s) in the
 		parent class, and uses the word "*extends*" to inherit from a parent
 		class;
@@ -270,7 +273,7 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 		a *Scala* trait can be perceived to be a "partial class implementation",
 			and is included in class definitions.
 			\cite[\S5.2, pp. 151-152]{Tate2010}.
-+ *Scala* functions
++ *Scala* functions/methods
 	- The "*def*" keyword is used to define functions (and methods) in *Scala*;
 		after the "*def*" keyword and the function name, its parameters and
 		their types are specified next within parentheses (round brackets);
@@ -285,6 +288,10 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 		* return type inference
 		* function body: "one-line form", or "code-block form"
 		* variable parameter list
+	- Mutator methods are defined with "()" \cite[\S5.1, pp. 133]{Horstmann2012a}.
+	- Accessor methods are defined without "()" \cite[\S5.1, pp. 133]{Horstmann2012a}.
+	- Access specifiers/modifiers:
+		* public (**by default** \cite[\S5.1, pp. 132]{Horstmann2012a})
 + Collections
 	- Primary data structures for *Scala*: lists, sets, and maps
 		 \cite[\S5.3, pp. 155-156]{Tate2010}.
@@ -477,6 +484,20 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 
 
 
+
+
+
+
+
+
+#	*Scala* Style Guide
+
+
+The authoritative source of *Scala* style guides is: \cite[\S*Scala* Style Guide]{ScalaCenterMembers2018a}. 
+
+Some topics in *Scala* style guides are:
++ Naming conventions
+	- \cite[\S*Scala* Style Guide: Naming Conventions]{ScalaCenterMembers2018a}.
 
 
 

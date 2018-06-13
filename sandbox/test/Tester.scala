@@ -3,6 +3,9 @@
  *	provide access to standard output/error stream, and file
  *	input/output (I/O) operations.
  *
+ * test package: A test suite that contains test cases for each class
+ *	in each module of the boilerplate-code library.
+ *
  * The MIT License (MIT)
  *
  * Copyright	(C)	<2014>	<Zhiyang Ong>
