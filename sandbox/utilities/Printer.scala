@@ -106,4 +106,15 @@ class Printer {
 			println(textMessage)			
 	}
 
+	/**
+	 * Method to print to standard error stream.
+	 * @param errorMessage - Message to print to standard error
+	 *							stream.
+	 * @return - Nothing.
+	 */
+	def printToStdError(errorMessage: String) {
+		if(toStdErrorEnable)
+			println(errorMessage)			
+	}
+
 }
