@@ -49,6 +49,28 @@ class Printer {
 	// Indicator of permission to print to standard error stream.
 	private var toStdErrorEnable = false;
 
+	// ----------------------------------------------------------
+
+	// Accessor methods
+
+	/**
+	 * Method to get indicator to print to standard output stream.
+	 * @param - Nothing.
+	 * @return toStdOutputEnable.
+	 */
+	def getIndicatorPrintToStdOutput = toStdOutputEnable
+
+	/**
+	 * Method to get indicator to print to standard error stream.
+	 * @param - Nothing.
+	 * @return toStdErrorEnable.
+	 */
+	def getIndicatorPrintToStdError = toStdErrorEnable
+
+	// ----------------------------------------------------------
+
+	// Mutator methods
+
 	/**
 	 * Method to set indicator to print to standard output stream.
 	 * @param indicatorOutput - Indicates the new value of
@@ -69,23 +91,19 @@ class Printer {
 		toStdErrorEnable = indicatorError;
 	}
 
-	/**
-	 * Method to get indicator to print to standard output stream.
-	 * @param - Nothing.
-	 * @return toStdOutputEnable.
-	 */
-	def getIndicatorPrintToStdOutput {
-		toStdOutputEnable
-	}
+	// ----------------------------------------------------------
+
+	// Other methods
 
 	/**
-	 * Method to get indicator to print to standard error stream.
-	 * @param - Nothing.
-	 * @return toStdErrorEnable.
+	 * Method to print to standard output stream.
+	 * @param textMessage - Message to print to standard output
+	 *							stream.
+	 * @return - Nothing.
 	 */
-	def getIndicatorPrintToStdError {
-		toStdErrorEnable
+	def printToStdOutput(textMessage: String) {
+		if(toStdOutputEnable)
+			println(textMessage)			
 	}
 
-	
 }
