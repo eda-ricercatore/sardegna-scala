@@ -19,9 +19,10 @@
 # Definition of macro flags...
 
 #	Accessing the source code from the "bin"/bianaries directory.
-TEST=		../test/
-FRONTEND=	../front_end/
-UTILITIES=	../utilities/
+PARENTDIR=	../
+TEST=		test/
+FRONTEND=	front_end/
+UTILITIES=	utilities/
 #	Location of automatically generated documentation
 DOCLIB=		./lib/
 
@@ -61,9 +62,12 @@ REMOVE=			rm -rf
 
 
 all:
-	$(SCALAC)	$(UTILITIES)$(SOURCE)
-	$(SCALAC)	$(TEST)$(SOURCE)
-	$(SCALA)	$(EXECUTABLE)
+	#$(SCALAC)	$(PARENTDIR)$(UTILITIES)$(SOURCE)
+	#$(SCALAC)	$(PARENTDIR)$(TEST)$(SOURCE)
+	#$(SCALAC)	$(PARENTDIR)$(TEST)UtilitiesTester.scala
+	#$(SCALAC)	$(PARENTDIR)$(TEST)FrontendTester.scala
+	$(SCALAC)	$(PARENTDIR)$(TEST)$(MAIN)
+	$(SCALA)	$(TEST)$(EXECUTABLE)
 
 
 
@@ -78,6 +82,8 @@ clean:
 	$(REMOVE) $(HTML)
 	$(REMOVE) $(JAVASCRIPT)
 	$(REMOVE) $(DOCLIB)
+	#$(REMOVE) $(UTILITIES)
+	#$(REMOVE) $(TEST)
 
 
 

@@ -295,7 +295,11 @@ Since *Scala* runs on the *Java Virtual Machine* (*JVM*), and can
 	- Use the equal sign "=" as a separator between the method signature and
 		its body \cite[\S2, subsection on "Function without Parameter", pp. 20]{Layka2015}.
 	- We can omit parentheses of a single-line method body
-		\cite[\S2, subsection on "Function without Parameter", pp. 21]{Layka2015}. 
+		\cite[\S2, subsection on "Function without Parameter", pp. 21]{Layka2015}.
+	- Static methods do not exist in *Scala* \cite{ScalaCenterMembers2018c}
+		\cite[\S3, pp. 45]{Layka2015};
+		use a singleton **object** as a class with only one instance
+			\cite{ScalaCenterMembers2018c} \cite[\S3, pp. 45]{Layka2015}.
 + Collections
 	- Primary data structures for *Scala*: lists, sets, and maps
 		 \cite[\S5.3, pp. 155-156]{Tate2010}.

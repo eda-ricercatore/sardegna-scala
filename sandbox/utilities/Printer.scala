@@ -43,7 +43,9 @@
  *
  *
  */
-class Printer {
+package utilities
+
+object Printer {
 	// Indicator of permission to print to standard output stream.
 	private var toStdOutputEnable = false;
 	// Indicator of permission to print to standard error stream.
@@ -77,7 +79,7 @@ class Printer {
 	 *								toStdOutputEnable.
 	 * @return - Nothing.
 	 */
-	def setIndicatorPrintToStdOutput(indicatorOutput: Boolean) {
+	def setIndicatorPrintToStdOutput(indicatorOutput:Boolean) {
 		toStdOutputEnable = indicatorOutput;
 	}
 
@@ -87,7 +89,7 @@ class Printer {
 	 *								toStdErrorEnable.
 	 * @return - Nothing.
 	 */
-	def setIndicatorPrintToStdError(indicatorError: Boolean) {
+	def setIndicatorPrintToStdError(indicatorError:Boolean) {
 		toStdErrorEnable = indicatorError;
 	}
 
@@ -101,7 +103,7 @@ class Printer {
 	 *							stream.
 	 * @return - Nothing.
 	 */
-	def printToStdOutput(textMessage: String) {
+	def printToStdOutput(textMessage:String) {
 		if(toStdOutputEnable)
 			println(textMessage)			
 	}
@@ -112,7 +114,7 @@ class Printer {
 	 *							stream.
 	 * @return - Nothing.
 	 */
-	def printToStdError(errorMessage: String) {
+	def printToStdError(errorMessage:String) {
 		if(toStdErrorEnable)
 			println(errorMessage)			
 	}

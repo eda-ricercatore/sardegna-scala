@@ -68,7 +68,9 @@
  *	http://www.scala-lang.org/documentation/getting-started.html
  *	http://www.scala-lang.org/
  */
-
+package test
+// Import custom packages
+import utilities._
 
 object Tester {
 	// Start of main function...
@@ -79,6 +81,12 @@ object Tester {
 		println("Run the automated regression test suite...")
 		println("")
 		println("")
+/*
+		if(Printer.getIndicatorPrintToStdOutput)
+			println("	getIndicatorPrintToStdOutput has default false	: NO!!!")
+		else
+			println("	getIndicatorPrintToStdOutput has default false	: Yes.")
+*/
 		println("")
 		println("")
 		println("=============================================================")
