@@ -61,7 +61,8 @@ REMOVE=			rm -rf
 
 
 all:
-	$(SCALAC)	$(TEST)$(MAIN)
+	$(SCALAC)	$(UTILITIES)$(SOURCE)
+	$(SCALAC)	$(TEST)$(SOURCE)
 	$(SCALA)	$(EXECUTABLE)
 
 

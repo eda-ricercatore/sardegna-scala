@@ -55,7 +55,7 @@ class Printer {
 	 *								toStdOutputEnable.
 	 * @return - Nothing.
 	 */
-	def setIndicatorPrintToStdOutput(val indicatorOutput: Boolean) {
+	def setIndicatorPrintToStdOutput(indicatorOutput: Boolean) {
 		toStdOutputEnable = indicatorOutput;
 	}
 
@@ -65,16 +65,27 @@ class Printer {
 	 *								toStdErrorEnable.
 	 * @return - Nothing.
 	 */
-	def setIndicatorPrintToStdError(val indicatorError: Boolean) {
+	def setIndicatorPrintToStdError(indicatorError: Boolean) {
 		toStdErrorEnable = indicatorError;
 	}
 
 	/**
 	 * Method to get indicator to print to standard output stream.
 	 * @param - Nothing.
-	 * @return - Nothing.
+	 * @return toStdOutputEnable.
 	 */
-	def setIndicatorPrintToStdOutput() {
-		toStdOutputEnable = indicatorOutput;
+	def getIndicatorPrintToStdOutput {
+		toStdOutputEnable
 	}
+
+	/**
+	 * Method to get indicator to print to standard error stream.
+	 * @param - Nothing.
+	 * @return toStdErrorEnable.
+	 */
+	def getIndicatorPrintToStdError {
+		toStdErrorEnable
+	}
+
+	
 }
