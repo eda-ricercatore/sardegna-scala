@@ -70,7 +70,7 @@
  */
 package test
 // Import custom packages
-import utilities._
+//import ../utilities._
 
 object Tester {
 	// Start of main function...
